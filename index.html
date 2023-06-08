@@ -34,12 +34,12 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
+  <div class="w3-bar w3-dark-grey w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide">Jods</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#WeakAuras" class="w3-bar-item w3-button"><i class="fa fa-user"></i> WEAK AURAS</a>
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i>  ABOUT</a>
+      <a href="#WeakAuras" class="w3-bar-item w3-button"><img src="/images/wago.io.png" width="20" height="12" >  WEAK AURAS</a>
       <a href="#WoWAddons" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORLD OF WARCRAFT ADDONS</a>
       <a href="#ArkMod" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ARK Survival Evolved MOD</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
@@ -80,23 +80,24 @@ body, html {
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center w3-large">Key competences</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsive</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="w3-large">Programming Languages</p>
+      <p>Outside of the University study Languages (Java,C,C++,JavaScript,R) I also taught myself C# and lua which i used in multiple Projects</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <i class="fa-brands fa-git-alt w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Git</p>
+      <p>I use Github for most of my projects on a daily Basis check out <a href="https://github.com/Jodsderechte"target="_blank">my Public Repositorys</a></p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <img src="https://img.icons8.com/?size=512&id=34305&format=png" width="70" height="70" class="w3-margin-bottom w3-jumbo">
+      <p class="w3-large">Game Engines</p>
+      <p>I used UnrealEngine for a couple of Private Projects including a <a href="https://store.epicgames.com/en-US/p/ark--modkit"> modified version of Unreal 4.5.1 </a> for my <a href="#ArkMod"> ARK Survival Evolved MOD</a> aswell as Unreal 5.1 for a Standalone Survival-Game called <a href="https://github.com/Jodsderechte/Ateria" target="_blank">Ateria</a></p>
+      <p>I also previously worked with Unity on a not yet released Bicycle Simulator for <a href="https://www.nsoria.io/"target="_blank">N*soria</a> called N*soria/Shift</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
@@ -124,7 +125,8 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="WeakAuras">
   <h3 class="w3-center">WEAK AURAS</h3>
   <p class="w3-center w3-large"> <a href="https://wago.io/p/Jodsderechte"target="_blank">The stuff that Improves your WOW-UI</a></p>
-  <div class="w3-row-padding " style="margin-top:64px">
+  <h4 class="w3-center">CORE AURAS</h4>
+  <div class="w3-row-padding " style="margin-top:64px" id = "CoreAuras">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="/images/RaidAbilityTimeline.gif" alt="RaidAbilityTimeline" style="width:100%">
@@ -141,35 +143,16 @@ body, html {
         <img src="/images/InterruptTracker.JPG" alt="InterruptTracker" style="width:100%">
         <div class="w3-container">
           <h3>Mythic+ Interrupt Tracker</h3>
-          <p class="w3-opacity">Mythic + Dungeons</p>
+          <p class="w3-opacity" id="InterruptTrackerVersion" >Mythic + Dungeons</p>
           <p>Displays the cooldowns of group members disruptive spells, ensuring timely interruptions in battle.</p>
-          <p><button class="w3-button w3-dark-grey w3-block"><img src="/images/wago.io.png" width="50" height="30" ></i> Get it on wago</button></p>
+          <p><button onclick="window.location.href='https://wago.io/MInterruptTracker';" class="w3-button w3-dark-grey w3-block"><img src="/images/wago.io.png" width="50" height="30" ></i> Get it on wago</button></p>
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/images/WeakAuras.png" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Mike Ross</h3>
-          <p class="w3-opacity">Web Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-dark-grey w3-block"><img src="/images/wago.io.png" width="50" height="30" ></i> Get it on wago</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="/images/WeakAuras.png" alt="Dan" style="width:100%">
-        <div class="w3-container">
-          <h3>Dan Star</h3>
-          <p class="w3-opacity">Designer</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-dark-grey w3-block"><img src="H:/Github repositories/Jodsderechte.github.io/images/wago.io.png" width="50" height="30" ></i> Get it on wago</button></p>
-        </div>
-      </div>
-    </div>
+    
   </div>
+  <h4 class="w3-center">DUNGEON AURAS</h4>
+  <div class="w3-row-padding " style="margin-top:64px; overflow-x:auto; margin: auto;" id = "WeakAurasList"></div>
 </div>
 
 <!-- Promo Section "Statistics" -->
@@ -383,54 +366,134 @@ function w3_close() {
 }
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("EventListenerAdded");
-    if (document.querySelector('#WeakAuras')) {
-        console.log("WeakAuras exists");
-        function file_get_contents(filename,stuffToChange) {
-          console.log("printing: "+filename);
-            fetch(filename,{
-                method: 'get',
-                headers: {
-                    'Content-Type': 'text/html'
-                },
-                mode: 'no-cors',
-            }).then((resp) => resp.text()).then(data => {
-                // Optional, replace the H1 heading with nothing,
-                // as I do not need it on my static website
 
-                // Initialize the document parser
-                const parser = new DOMParser();
-                let doc = parser.parseFromString(data, 'text/html');
-                console.log(doc);
-                document.querySelector(stuffToChange).innerHTML =doc.innerHTML
-                // Get the <views> element content
-                //let views = doc.querySelector('md-subhead').innerHTML;
 
-                // Replace my empty element with the retrieved content
-                //document.querySelector(stuffToChange).innerHTML = views;
-            });
-        }
-
-        // Call the function and point it to my GitHub Pages page
-        file_get_contents('https://wago.io/RaidAbilityTimeline',"#RaidAbilityTimelineViews");
-    }
-});
-
-window.addEventListener('DOMContentLoaded', function() {
-      var markdownText = '...'; // Replace with the actual content of your Markdown file
-      var md = new Remarkable();
-      var html = md.render(markdownText);
-      document.getElementById('markdown-container').innerHTML = html;
-    });
+let WeakAurasTable = [
+{
+    "urlname": "DF-Dungeons",
+    "query" : "#DragonflightDungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "Dragonflight-Dungeons",
+    "expansion" : "Dragonflight",
+    "order" : 1,
+  },  
+{
+    "urlname": "SL-Dungeons",
+    "query" : "#ShadownlandsDungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "Shadowlands-Dungeons",
+    "expansion" : "Shadowlands",
+    "order" : 2,
+},
+{
+    "urlname": "BFA-Dungeons",
+    "query" : "#BattleForAzerothDungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "BFA-Dungeons",
+    "expansion" : "Battle for Azeroth",
+    "order" : 3,
+},
+{
+    "urlname": "Legion-Dungeons",
+    "query" : "#LegionDungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "Legion-Dungeons",
+    "expansion" : "Legion",
+    "order" : 4,
+},
+{
+    "urlname": "WOD-Dungeons",
+    "query" : "#WODDungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "WOD-Dungeons",
+    "expansion" : "Warlords of Draenor",
+    "order" : 5,
+},
+{
+    "urlname": "MOP-Dungeons",
+    "query" : "#MOPungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "MOP-Dungeons",
+    "expansion" : "Mists of Pandaria",
+    "order" : 6,
+},
+{
+    "urlname": "Cataclysm-Dungeons",
+    "query" : "#CataclysmDungeonsVersion",
+    "img" : "/images/DungeonAuras.JPG",
+    "name" : "Cataclysm-Dungeons",
+    "expansion" : "Cataclysm",
+    "order" : 7,
+},
+]
+let DungeonAurasDescriptionPrefix = "Displays relevant information to compete in High level "
+let DungeonAurasDescriptionSuffix = " Mythic + dungeons."
 
 $(document).ready(function(){
-  $.ajax({ url: "https://wago.io/RaidAbilityTimeline",
-  dataType: "text/html",
-  success: function( response ) {
-    console.log( response ); // server response
-}})
+  WeakAurasTable.forEach(element => {
+    $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids="+element.urlname,dataType: "json", success: function( response ) {
+      let ParentDiv = document.createElement("div")
+      ParentDiv.className="w3-col l3 m6 w3-margin-bottom"
+      ParentDiv.id = element.order
+
+      let cardDiv = document.createElement("div")
+      cardDiv.className="w3-card"
+      ParentDiv.appendChild(cardDiv)
+
+      let img = document.createElement("img")
+      img.src= element.img
+      img.style="width:100%"
+      cardDiv.appendChild(img)
+
+      let TextContainer = document.createElement("div")
+      TextContainer.className="w3-container"
+      cardDiv.appendChild(TextContainer)
+
+      let h3 = document.createElement("h3")
+      h3.innerHTML = element.name
+      TextContainer.appendChild(h3)
+
+      let pTitle = document.createElement("p")
+      pTitle.className="w3-opacity"
+      pTitle.innerHTML = response[0].versionString &&"Version: "+response[0].versionString || "Mtyhic + Dungeons"
+      pTitle.id = element.query
+      TextContainer.appendChild(pTitle)
+
+      let pDesc = document.createElement("p")
+      pDesc.innerHTML = DungeonAurasDescriptionPrefix+element.expansion+DungeonAurasDescriptionSuffix
+      TextContainer.appendChild(pDesc)
+
+      let pbutton = document.createElement("p")
+      let button = document.createElement("button")
+      let buttonImg = document.createElement("img")
+      pbutton.appendChild(button)
+      buttonImg.src="/images/wago.io.png"
+      buttonImg.width="50"
+      buttonImg.height="30"
+      button.appendChild(buttonImg)
+      button.innerHTML = button.innerHTML + " Get it on wago"
+      button.className="w3-button w3-dark-grey w3-block"
+      button.onclick = function(){window.location.href='https://wago.io/'+element.urlname;}
+      TextContainer.appendChild(pbutton)
+      
+      if (document.querySelector("#WeakAurasList").lastChild && document.querySelector("#WeakAurasList").lastChild.id > ParentDiv.id){
+        $('#WeakAurasList').find('div').each(function(index,element){
+          if (ParentDiv.id < element.id){
+            document.querySelector("#WeakAurasList").insertBefore(ParentDiv, element)
+            return false;
+          }
+        })
+      }else{
+        document.querySelector("#WeakAurasList").appendChild(ParentDiv)
+      }
+    }})
+  });
+
+  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=MInterruptTracker",dataType: "json", success: function( response ) {document.querySelector("#InterruptTrackerVersion").innerHTML = "Version: "+response[0].versionString;}})
+  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=RaidAbilityTimeline",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineViews").innerHTML = "Version: "+response[0].versionString;}})
 })
+
+
 </script>
 
 </body>
