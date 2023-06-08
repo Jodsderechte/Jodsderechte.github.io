@@ -31,5 +31,5 @@ jobs:
       - name: Converts Markdown to HTML
         uses: jaywcjlove/markdown-to-html-cli@main
         with:
-          source: CrossOriginStuff\DungeonAuraTools\README.md
-          output: CrossOriginStuff\DungeonAuraTools.html
+          source: CrossOriginStuff/DungeonAuraTools/README.md
+          output: CrossOriginStuff/DungeonAuraTools.html
