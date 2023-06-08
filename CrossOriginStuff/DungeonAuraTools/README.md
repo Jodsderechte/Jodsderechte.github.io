@@ -5,6 +5,8 @@
 [![Release][SVG-Release]][Release]
 
 # DungeonAuraTools
+test
+
 Dungeon Aura Tools dynamicly creates Dungeon WeakAuras based on user selections to indicate buffs, debuffs, casts and other relevant information.
 
 Supports all important spells for Trash/Bosses (some casts get spammed by mobs so those are not tracked since they would create too much disturbance even though they might be important) aswell as Dungeon/Covenant specific stuff and some M+ Affixes.
