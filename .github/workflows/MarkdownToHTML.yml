@@ -8,8 +8,6 @@ name: Convert Markdown to HTML
 # other branches or even pullrequests.
 on:
   push:
-     paths:
-     - 'CrossOriginStuff/**'
 
 # a workflow is built up as jobs, and within these jobs are steps
 jobs:
