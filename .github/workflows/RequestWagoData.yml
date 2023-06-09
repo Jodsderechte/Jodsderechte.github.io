@@ -26,7 +26,7 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.slug, ', ') }}    
+      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }}    
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -48,7 +48,7 @@ jobs:
                                                  # for your own token, the name cannot start with "GITHUB_"                                         
     strategy:
       matrix:
-        WeakAura: ${{ join( if fromJSON(needs.step1.outputs.wa_List).hits.*.slug!= "", ', ') }}
+        WeakAura: ${{ join(fromJSON(needs.step1.outputs.wa_List).hits.*.id", ', ') }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
