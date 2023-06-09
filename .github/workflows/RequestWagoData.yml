@@ -15,23 +15,18 @@ jobs:
   # "request" is a job, you can name it anything you want
   setup:
     runs-on: ubuntu-latest
+    outputs:
+      wa_List: ${{ env.fetch-api-data }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
       - name: Fetch user data from Wago
+        id: fetchData
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.slug, ', ') }}    
-          
-      - name: get nested property
-        id: format_script
-        uses: notiz-dev/github-action-json-property@release
-        with: 
-          path: fetch-api-data-action/WeakAurasList.json
-          prop_path: '*.hits.*.slug'
-      - run: echo ${{steps.format_script.outputs.prop}}
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -53,7 +48,7 @@ jobs:
                                                  # for your own token, the name cannot start with "GITHUB_"                                         
     strategy:
       matrix:
-        WeakAura: [RaidAbilityTimeline,MInterruptTracker]
+        WeakAura: ${{ join(fromJSON(needs.step1.outputs.wa_List).hits.*.slug, ', ') }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
