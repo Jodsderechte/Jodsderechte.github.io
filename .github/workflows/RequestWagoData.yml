@@ -23,13 +23,7 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - name: get nested property
-        id: format_script
-        uses: notiz-dev/github-action-json-property@release
-        with: 
-          path: fetch-api-data-action/WeakAurasList.json
-          prop_path: 'slug'
-      - run: echo ${{steps.format_script.outputs.prop}}
+      
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
