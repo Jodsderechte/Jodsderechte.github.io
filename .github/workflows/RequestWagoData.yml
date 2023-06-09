@@ -35,20 +35,8 @@ jobs:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
           save-name: RaidAbilityTimeline      
       - name: print result
-        run: "echo ${{steps.fetch-api-data.outputs.fetch-api-data}}"
+        run: "echo ${{toJSON(steps.fetch-api-data.outputs.fetch-api-data)}}"
         
-      - id: set_var
-        run: |
-          content=`cat ${{steps.fetch-api-data.outputs.fetch-api-data[0]}}`
-          # the following lines are only required for multi line json
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          content="${content//$'\r'/'%0D'}"
-          # end of optional handling for multi line json
-          echo "::set-output name=packageJson::$content"
-      - run: |
-          echo "${{fromJson(steps.set_var.outputs.packageJson).viewCount}}"
-          
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
