@@ -30,6 +30,6 @@ jobs:
         with:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
           configuration: '{ "method": "GET"}'
-      - name: RequestData
-        id: RequestData
+      - name: UseData
+        id: UseData
         run: .github/RequestData.js
