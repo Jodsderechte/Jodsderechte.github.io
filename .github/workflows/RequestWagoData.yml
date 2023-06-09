@@ -48,7 +48,7 @@ jobs:
                                                  # for your own token, the name cannot start with "GITHUB_"                                         
     strategy:
       matrix:
-        WeakAura: ${{ join(fromJSON(needs.step1.outputs.wa_List).hits.*.slug, ', ') }}
+        WeakAura: ${{ join( if fromJSON(needs.step1.outputs.wa_List).hits.*.slug!= "", ', ') }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
