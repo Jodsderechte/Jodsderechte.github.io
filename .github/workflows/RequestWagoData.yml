@@ -27,7 +27,11 @@ jobs:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh    
-      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }}    
+      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
+      - name: Create array from JSON
+        id: create-array
+        run: echo "::set-output name=array::${{ fromJSON(env.fetch-api-data).hits.*.id }}"
+        
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
