@@ -29,6 +29,9 @@ jobs:
 
     # "steps" holds a list of all the steps needed to package and release our AddOn
     steps:
-      - run: npm i markdown-to-html-cli -g
-      - run: markdown-to-html --source CrossOriginStuff/DungeonAuraTools/README.md --output CrossOriginStuff/DungeonAuraTools.html
+      - name: Converts Markdown to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+          source: CrossOriginStuff/DungeonAuraTools/README.md
+          output: CrossOriginStuff/DungeonAuraTools.html
       
