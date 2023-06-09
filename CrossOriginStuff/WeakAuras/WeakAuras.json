@@ -1,4 +1,4 @@
 {
-  RaidAbilityTimeline, 
-  MInterruptTracker,  
+  {id = "RaidAbilityTimeline"}, 
+  {id =MInterruptTracker},  
 }
