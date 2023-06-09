@@ -31,7 +31,7 @@ jobs:
       - name: Clone project
         uses: actions/checkout@v3
         
-      - name: fetchData RaidAbilityTimeline
+      - name: Fetch data from Wago
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: ${{env.WagoRequestLink}}${{matrix.WeakAura}}
@@ -39,6 +39,6 @@ jobs:
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-           branch: ${{matrix.WeakAura}} # Pushes the updates to the specified branch.
+           branch: main # Pushes the updates to the specified branch.
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
            target-folder: CrossOriginStuff/WeakAuras/ # Saves the data into the directory on the main branch.     
