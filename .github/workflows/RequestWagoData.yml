@@ -23,7 +23,7 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - run: echo ${{ join(fromJSON(toJSON(env.fetch-api-data)).hits.*.slug, ', ') }}    
+      - run: echo ${{ env.fetch-api-data }}    
           
       - name: get nested property
         id: format_script
