@@ -25,11 +25,10 @@ jobs:
 
     # "steps" holds a list of all the steps needed to package and release our AddOn
     steps:
-      - name: Fetch API Data 📦
+      - name: fetchData
         uses: JamesIves/fetch-api-data-action@v2
+        id: fetch-api-data
         with:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
-          configuration: '{ "method": "GET"}'
-      - name: UseData
-        id: UseData
-        run: .github/RequestData.js
+      - name: print result
+        run: echo ${{ steps.fetchData.outputs.fetch-api-data }}
