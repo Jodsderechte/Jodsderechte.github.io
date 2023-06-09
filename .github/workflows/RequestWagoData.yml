@@ -12,7 +12,7 @@ on:
 # a workflow is built up as jobs, and within these jobs are steps
 jobs:
 
-  # "convert" is a job, you can name it anything you want
+  # "request" is a job, you can name it anything you want
   Request:
 
     # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
@@ -23,7 +23,7 @@ jobs:
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
                                                  # for your own token, the name cannot start with "GITHUB_"
 
-    # "steps" holds a list of all the steps needed to package and release our AddOn
+    # "steps" holds a list of all the steps needed
     steps:
       - name: fetchData
         uses: JamesIves/fetch-api-data-action@v2
@@ -31,7 +31,14 @@ jobs:
         with:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
       - name: print result
-        run: echo ${{ steps.fetchData.outputs.fetch-api-data}}>> CrossOriginStuff/WeakAuras/RaidAbilityTimeline.json
+        run: echo ${{ steps.fetchData.outputs.fetch-api-data}}
+        
+      - name: Overwrite file
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: CrossOriginStuff/WeakAuras/RaidAbilityTimeline.json
+          write-mode: overwrite
+          contents: ${{ steps.fetchData.outputs.fetch-api-data}}
         
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
