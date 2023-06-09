@@ -35,11 +35,10 @@ jobs:
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: ${{env.WagoRequestLink}}${{matrix.WeakAura}}
-          save-name: ${{matrix.WeakAura}}
-          
+          save-name: ${{matrix.WeakAura}}       
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-           branch: main # Pushes the updates to the main branch.
+           branch: ${{matrix.WeakAura}} # Pushes the updates to the specified branch.
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
            target-folder: CrossOriginStuff/WeakAuras/ # Saves the data into the directory on the main branch.     
