@@ -34,8 +34,6 @@ jobs:
         with:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
           save-name: RaidAbilityTimeline      
-      - name: print result
-        run: echo ${{fromJson(steps.fetch-api-data.outputs)}})
         
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
