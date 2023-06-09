@@ -1,0 +1,30 @@
+# description of this workflow, can be anything you want
+name: RequestWagoData
+
+# we need to let GitHub know _when_ we want to release, typically only when we create a new tag.
+# this will target only tags, and not all pushes to the master branch.
+# this part can be heavily customized to your liking, like targeting only tags that match a certain word,
+# other branches or even pullrequests.
+on:
+  workflow_dispatch: 
+   
+
+# a workflow is built up as jobs, and within these jobs are steps
+jobs:
+
+  # "convert" is a job, you can name it anything you want
+  convert:
+
+    # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
+    runs-on: ubuntu-latest
+
+    # specify the environment variables used by the packager, matching the secrets from the project on GitHub
+    env:
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
+                                                 # for your own token, the name cannot start with "GITHUB_"
+
+    # "steps" holds a list of all the steps needed to package and release our AddOn
+    steps:
+      - name: RequestData
+        id: RequestData
+        run: .github/requestData.js
