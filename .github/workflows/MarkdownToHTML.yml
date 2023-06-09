@@ -9,7 +9,7 @@ name: Convert Markdown to HTML
 on:
   push:
      paths:
-     - 'CrossOriginStuff/**'
+     - 'Addons/DungeonAuraTools'
   workflow_dispatch: 
    
 
