@@ -3,7 +3,7 @@
 #!/bin/bash
 
 # Read and parse the JSON file into a variable
-json_data=$(jq -c '.' WeakAurasList.json)
+json_data=$(jq -c '.' CrossOriginStuff/WeakAurasList.json)
 
 # Extract the 'id' values using 'jq' command
 ids=$(echo "$json_data" | jq -r '.hits[].id')

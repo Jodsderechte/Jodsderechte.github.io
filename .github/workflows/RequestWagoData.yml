@@ -16,7 +16,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ env.fetch-api-data }}
+      wa_List: ${{ env.steps.create-array.outputs }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
@@ -27,7 +27,11 @@ jobs:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh    
-      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }}    
+      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
+      - name: Create array from JSON
+        id: create-array
+        run: echo "name=matrix::[$(echo "${{ join(fromJSON(env.fetch-api-data).hits.*.id, ',') }}" | sed 's/,/","/g')]"  >> $GITHUB_OUTPUT    
+      - run: echo "${{env.steps.create-array.outputs}}" 
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -49,7 +53,7 @@ jobs:
                                                  # for your own token, the name cannot start with "GITHUB_"                                         
     strategy:
       matrix:
-        WeakAura: ${{ toJSON(join(fromJSON(needs.step1.outputs.wa_List).hits.*.id, ', ')) }}
+        WeakAura: ${{ fromJson(needs.step1.outputs.wa_List) }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
