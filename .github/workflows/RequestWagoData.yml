@@ -31,4 +31,11 @@ jobs:
         with:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
       - name: print result
-        run: echo ${{ steps.fetchData.outputs.fetch-api-data.viewCount }}
+        run: echo ${{ steps.fetchData.outputs.fetch-api-data}}>> CrossOriginStuff/WeakAuras/RaidAbilityTimeline.json
+        
+      - name: Build and Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+           branch: main # Pushes the updates to the main branch.
+           folder: CrossOriginStuff/WeakAuras # The location of the data.json file saved by the Fetch API Data action.
+           target-folder: WeakAuras 
