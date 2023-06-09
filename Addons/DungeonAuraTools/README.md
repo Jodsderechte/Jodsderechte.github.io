@@ -6,7 +6,6 @@
 
 # DungeonAuraTools
 
-Test 
 
 Dungeon Aura Tools dynamicly creates Dungeon WeakAuras based on user selections to indicate buffs, debuffs, casts and other relevant information.
 
