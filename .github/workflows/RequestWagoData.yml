@@ -16,7 +16,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ env.fetch-api-data }}
+      wa_List: ${{ steps.create-array.outputs }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
@@ -30,8 +30,7 @@ jobs:
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
       - name: Create array from JSON
         id: create-array
-        run: echo "name=array::${{ fromJSON(env.fetch-api-data).hits.*.id }}" >> $GITHUB_OUTPUT
-      - run: echo ${{ steps.create-array.outputs}}   
+        run: echo "name=array::${{ fromJSON(env.fetch-api-data).hits.*.id }}" >> $GITHUB_OUTPUT  
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
