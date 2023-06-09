@@ -36,9 +36,7 @@ jobs:
         with:
           endpoint: ${{env.WagoRequestLink}}${{matrix.WeakAura}}
           save-name: ${{matrix.WeakAura}}
-  SaveData:    
-    runs-on: ubuntu-latest
-    steps:
+          
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
