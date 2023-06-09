@@ -16,7 +16,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ steps.create-array.outputs }}
+      wa_List: ${{ env.steps.create-array.outputs }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
