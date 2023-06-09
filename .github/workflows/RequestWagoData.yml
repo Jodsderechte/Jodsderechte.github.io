@@ -23,7 +23,7 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - run: echo ${{ join(fromJSON(toJSON(env.fetch-api-data)).*.hits.*.slug, ', ') }}    
+      - run: echo ${{ join(fromJSON(toJSON(env.fetch-api-data)).hits.*.slug, ', ') }}    
           
       - name: get nested property
         id: format_script
@@ -42,7 +42,7 @@ jobs:
            target-folder: CrossOriginStuff/
   
   Request:
-
+    needs: setup
     # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
     runs-on: ubuntu-latest
 
