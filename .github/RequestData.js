@@ -1,9 +1,9 @@
-fetch('https://data.wago.io/lookup/wago?id=RaidAbilityTimeline', {
+let url = 'https://data.wago.io/lookup/wago?id=RaidAbilityTimeline';
+fetch(url, {
 		method: 'get',
 		headers: {
 			'Content-type': 'application/json'
 		},
-		body: JSON.stringify(data)
 	})
 		.then(response => {
 			if (!response.ok) {
