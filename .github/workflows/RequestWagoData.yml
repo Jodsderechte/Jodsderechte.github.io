@@ -13,6 +13,22 @@ on:
 jobs:
 
   # "request" is a job, you can name it anything you want
+  setup:
+    runs-on: ubuntu-latest
+    steps:  
+      - name: Fetch user data from Wago
+        uses: JamesIves/fetch-api-data-action@v2
+        with:
+          endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
+          save-name: WeakAurasList
+      - name: get nested property
+        id: format_script
+        uses: notiz-dev/github-action-json-property@release
+        with: 
+          path: fetch-api-data-action/WeakAurasList.json
+          prop_path: 'slug'
+      - run: echo ${{steps.format_script.outputs.prop}}    
+  
   Request:
 
     # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
