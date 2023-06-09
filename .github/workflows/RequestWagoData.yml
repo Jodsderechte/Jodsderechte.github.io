@@ -20,21 +20,25 @@ jobs:
 
     # specify the environment variables used by the packager, matching the secrets from the project on GitHub
     env:
+      WagoRequestLink: "https://data.wago.io/lookup/wago?id="
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
-                                                 # for your own token, the name cannot start with "GITHUB_"
-
+                                                 # for your own token, the name cannot start with "GITHUB_"                                         
+    strategy:
+      matrix:
+        WeakAura: [RaidAbilityTimeline,MInterruptTracker]
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
         uses: actions/checkout@v3
         
-      - name: fetchData
+      - name: fetchData RaidAbilityTimeline
         uses: JamesIves/fetch-api-data-action@v2
-        id: fetch-api-data
         with:
-          endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
-          save-name: RaidAbilityTimeline      
-        
+          endpoint: ${{WagoRequestLink}}${{matrix.WeakAura}}
+          save-name: ${{matrix.WeakAura}}
+  SaveData:    
+    runs-on: ubuntu-latest
+    steps:
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
