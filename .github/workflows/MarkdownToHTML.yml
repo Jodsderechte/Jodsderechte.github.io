@@ -35,6 +35,8 @@ jobs:
       - name: Converts Markdown to HTML
         uses: jaywcjlove/markdown-to-html-cli@main
         with:
+          dark-mode: false
+          markdown-style-theme: dark
           source: CrossOriginStuff/DungeonAuraTools/README.md
           output: CrossOriginStuff/DungeonAuraTools.html
           
