@@ -38,7 +38,8 @@ jobs:
         with:
           path: CrossOriginStuff/WeakAuras/RaidAbilityTimeline.json
           write-mode: overwrite
-          contents: ${{ steps.fetchData.outputs.fetch-api-data}}
+          contents: |
+            ${{ steps.fetchData.outputs.fetch-api-data}}
         
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
