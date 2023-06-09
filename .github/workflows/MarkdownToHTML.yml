@@ -36,12 +36,12 @@ jobs:
         uses: jaywcjlove/markdown-to-html-cli@main
         with:
           source: CrossOriginStuff/DungeonAuraTools/README.md
-          output: CrossOriginStuff/data.html
+          output: CrossOriginStuff/DungeonAuraTools.html
           
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
            branch: main # Pushes the updates to the main branch.
            folder: CrossOriginStuff # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: CrossOriginStuff # Saves the data into the 'data' directory on the main branch.     
+           target-folder: Addons # Saves the data into the directory on the main branch.     
       
