@@ -36,7 +36,7 @@ body, html {
 }
 
 #WeakAurasList {
-   display: flex;
+  display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
@@ -45,7 +45,45 @@ body, html {
 #WeakAurasList::-webkit-scrollbar {
     position: absolute;
     right: 0;
+}
+
+#WeakAurasList::-webkit-scrollbar {
+            width: 10px;
+}
+        
+#WeakAurasList::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+        
+#WeakAurasList::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #d55959;
+}
+
+@media screen and (min-width: 50em) {
+  #CoreAuras{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   }
+  #CoreAuraCard{
+  min-width: 350px;
+  min-height: 320px;
+  }
+  #CoreAura{
+  flex: 0 1 350px;
+  }
+}
+.DungeonAurasCardText{
+  min-height: 200px;
+}
+.DungeonTitle{
+  min-height: 90px;
+}
+
+
 
 
 </style>
@@ -147,8 +185,8 @@ body, html {
   <p class="w3-center w3-large"> <a href="https://wago.io/p/Jodsderechte"target="_blank">The stuff that Improves your WOW-UI</a></p>
   <h4 class="w3-center">CORE AURAS</h4>
   <div class="w3-row-padding " style="margin-top:64px" id = "CoreAuras">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
+    <div class="w3-col l3 m6 w3-margin-bottom" id ="CoreAura">
+      <div class="w3-card" id = "CoreAuraCard">
         <img src="/images/RaidAbilityTimeline.gif" alt="RaidAbilityTimeline" style="width:100%">
         <div class="w3-container">
           <h3>Raid Ability Timeline</h3>
@@ -158,8 +196,8 @@ body, html {
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
+    <div class="w3-col l3 m6 w3-margin-bottom" id ="CoreAura">
+      <div class="w3-card" id = "CoreAuraCard">
         <img src="/images/InterruptTracker.JPG" alt="InterruptTracker" style="width:100%">
         <div class="w3-container">
           <h3>Mythic+ Interrupt Tracker</h3>
@@ -471,18 +509,23 @@ $(document).ready(function(){
       TextContainer.className="w3-container"
       cardDiv.appendChild(TextContainer)
 
+      let h3div = document.createElement("div")
+      h3div.className = "DungeonTitle"
+      TextContainer.appendChild(h3div)
+
       let h3 = document.createElement("h3")
       h3.innerHTML = element.name
-      TextContainer.appendChild(h3)
+      h3div.appendChild(h3)
 
-      let pTitle = document.createElement("p")
+      let pTitle = document.createElement("div")
       pTitle.className="w3-opacity"
       pTitle.innerHTML = response[0].versionString &&"Version: "+response[0].versionString || "Mtyhic + Dungeons"
       pTitle.id = element.query
       TextContainer.appendChild(pTitle)
 
-      let pDesc = document.createElement("p")
+      let pDesc = document.createElement("div")
       pDesc.innerHTML = DungeonAurasDescriptionPrefix+element.expansion+DungeonAurasDescriptionSuffix
+      pDesc.className = "DungeonAurasCardText"
       TextContainer.appendChild(pDesc)
 
       let pbutton = document.createElement("p")
