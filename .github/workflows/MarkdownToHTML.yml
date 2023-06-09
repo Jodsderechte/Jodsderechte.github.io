@@ -29,6 +29,9 @@ jobs:
 
     # "steps" holds a list of all the steps needed to package and release our AddOn
     steps:
+      - name: Clone project
+        uses: actions/checkout@v3
+        
       - name: Converts Markdown to HTML
         uses: jaywcjlove/markdown-to-html-cli@main
         with:
