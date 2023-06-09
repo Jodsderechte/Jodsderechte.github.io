@@ -31,7 +31,7 @@ jobs:
       - name: Create array from JSON
         id: create-array
         run: echo "name=array::[$(echo "${{ join(fromJSON(env.fetch-api-data).hits.*.id, ',') }}" | sed 's/,/","/g')]" >> $GITHUB_OUTPUT    
-      - run: echo "name=array::${{ toJSON(fromJSON(env.fetch-api-data).hits.*.id) }}" >> $GITHUB_OUTPUT 
+      - run: echo "name=array::${{ toJSON(fromJSON(env.fetch-api-data).hits.*.id) }}" 
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
