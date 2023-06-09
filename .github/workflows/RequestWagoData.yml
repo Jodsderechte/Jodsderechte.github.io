@@ -41,4 +41,4 @@ jobs:
         with:
            branch: main # Pushes the updates to the specified branch.
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: CrossOriginStuff/WeakAuras/ # Saves the data into the directory on the main branch.     
+           target-folder: CrossOriginStuff/WeakAuras/${{matrix.WeakAura}} # Saves the data into the directory on the main branch.     
