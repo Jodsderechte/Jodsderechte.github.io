@@ -35,11 +35,11 @@ jobs:
           endpoint: https://data.wago.io/lookup/wago?id=RaidAbilityTimeline
           save-name: RaidAbilityTimeline      
       - name: print result
-        run: "echo ${{fromJson(steps.fetch-api-data.outputs.fetch-api-data[0])}}"
+        run: "echo ${{steps.fetch-api-data.outputs.fetch-api-data)}}"
         
       - id: set_var
         run: |
-          content=`cat ${{steps.fetch-api-data.outputs.fetch-api-data}}`
+          content=`cat ${{steps.fetch-api-data.outputs.fetch-api-data[0]}}`
           # the following lines are only required for multi line json
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
