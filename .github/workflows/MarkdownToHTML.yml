@@ -15,7 +15,7 @@ on:
 jobs:
 
   # "convert" is a job, you can name it anything you want
-  conver:
+  convert:
 
     # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
     runs-on: ubuntu-latest
@@ -27,9 +27,6 @@ jobs:
 
     # "steps" holds a list of all the steps needed to package and release our AddOn
     steps:
-    
-      - name: Converts Markdown to HTML
-        uses: jaywcjlove/markdown-to-html-cli@main
-        with:
-          source: CrossOriginStuff/DungeonAuraTools/README.md
-          output: CrossOriginStuff/DungeonAuraTools.html
+      - run: npm i markdown-to-html-cli -g
+      - run: markdown-to-html --source CrossOriginStuff/DungeonAuraTools/README.md --output CrossOriginStuff/DungeonAuraTools.html
+      
