@@ -27,4 +27,4 @@ jobs:
     steps:
       - name: RequestData
         id: RequestData
-        run: .github/requestData.js
+        run: .github/RequestData.js
