@@ -41,7 +41,7 @@ jobs:
         with:
           dark-mode: false
           markdown-style-theme: dark
-          source: CrossOriginStuff/${{matrix.Addons}}/README.md
+          source: Addons/${{matrix.Addons}}/README.md
           output: Data/${{matrix.Addons}}.html
           
       - name: Build and Deploy 🚀
