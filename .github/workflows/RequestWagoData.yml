@@ -33,7 +33,8 @@ jobs:
         uses: jaywcjlove/github-action-read-file@main
         with:
           path: CrossOriginStuff/WaList_Converted.json
-      - run: echo "${{env.steps.readWaList.outputs}}"     
+      - run: echo "${{env.steps.readWaList.outputs}}"
+      - run: echo "jq -r '.hits[].id' " < "CrossOriginStuff/WeakAurasList.json" > "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
