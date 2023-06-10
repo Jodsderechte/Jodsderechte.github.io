@@ -232,20 +232,20 @@ body, html {
 <!-- Promo Section "Statistics" -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
   <div class="w3-quarter">
-    <span class="w3-xxlarge">14+</span>
-    <br>Partners
+    <span class="w3-xxlarge TotalWeakAuraViews"></span> <span class="w3-xxlarge ">+</span>
+    <br>Views
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">55+</span>
-    <br>Projects Done
+    <span class="w3-xxlarge TotalWeakAuraInstalls"></span> <span class="w3-xxlarge ">+</span>
+    <br>Installs
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">89+</span>
-    <br>Happy Clients
+    <span class="w3-xxlarge TotalWeakAuraFavorites"></span> <span class="w3-xxlarge ">+</span>
+    <br>Favorites
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">150+</span>
-    <br>Meetings
+    <span class="w3-xxlarge TotalWeakAuraComments"></span> <span class="w3-xxlarge ">+</span>
+    <br>Answered Comments
   </div>
 </div>
 
@@ -437,8 +437,26 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+const map = [
+    { suffix: 'M', threshold: 1e6 },
+    { suffix: 'K', threshold: 1e3 },
+    { suffix: '', threshold: 1 },
+  ];
+function kFormatter(num,precision) {
+  const found = map.find((x) => Math.abs(num) >= x.threshold);
+  if (found) {
+    if (found.suffix == 'M' || num < 99999){
+      const formatted = (num / found.threshold).toFixed(precision) + found.suffix;
+      return formatted;
+    }
+    else{
+      const formatted = (num / found.threshold).toFixed(0) + found.suffix;
+    return formatted;
+    }
+  }
 
-
+  return num;
+}
 
 
 let WeakAurasTable = [
@@ -499,9 +517,9 @@ let WeakAurasTable = [
     "order" : 7,
 },
 ]
-let DungeonAurasDescriptionPrefix = "Displays relevant information about what is happening around you to make it easier to compete in High level "
-let DungeonAurasDescriptionSuffix = " Mythic + dungeons."
-
+let DungeonAurasDescriptionPrefix = "Displays relevant information about what is happening around you to make it easier to compete in High level ";
+let DungeonAurasDescriptionSuffix = " Mythic + dungeons.";
+let WeakauraViews = WeakauraInstalls =WeakauraFavorites = WeakauraComments =0;
 $(document).ready(function(){
   WeakAurasTable.forEach(element => {
     $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids="+element.urlname,dataType: "json", success: function( response ) {
@@ -567,8 +585,27 @@ $(document).ready(function(){
     }})
   });
 
-  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=MInterruptTracker",dataType: "json", success: function( response ) {document.querySelector("#InterruptTrackerVersion").innerHTML = "Version: "+response[0].versionString;}})
-  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=RaidAbilityTimeline",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineViews").innerHTML = "Version: "+response[0].versionString;}})
+  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=f7Z1Te6hb",dataType: "json", success: function( response ) {document.querySelector("#InterruptTrackerVersion").innerHTML = "Version: "+response[0].versionString;}})
+  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=NyseKq1Xo",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineViews").innerHTML = "Version: "+response[0].versionString;}})
+  $.ajax({ url: "https://jods.me/CrossOriginStuff/WaList_Converted.json",dataType: "json", success: function( response ) { 
+    //WeakauraViews = WeakauraViews+response.viewCount; document.querySelector(".TotalWeakAuraViews").innerHTML = WeakauraViews;
+    console.log(response)
+    console.log(response.length)
+    for (let index = 0; index < response.length; index++) {
+      let element = response[index];
+      $.ajax({ url: "https://jods.me/CrossOriginStuff/WeakAuras/"+element+".json",dataType: "json", success: function( response ) {
+        WeakauraViews = WeakauraViews+response.viewCount; 
+        WeakauraInstalls = WeakauraInstalls+response.installCount;
+        WeakauraFavorites = WeakauraFavorites+response.favoriteCount
+        WeakauraComments = WeakauraComments+response.commentCount
+        document.querySelector(".TotalWeakAuraViews").innerHTML = kFormatter(WeakauraViews,2); 
+        document.querySelector(".TotalWeakAuraInstalls").innerHTML = kFormatter(WeakauraInstalls,2);
+        document.querySelector(".TotalWeakAuraFavorites").innerHTML = kFormatter(WeakauraFavorites,1);
+        document.querySelector(".TotalWeakAuraComments").innerHTML = kFormatter(WeakauraComments,1);
+      }})
+
+    }
+  }}) 
 })
 
 
