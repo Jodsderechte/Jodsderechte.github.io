@@ -9,7 +9,7 @@ name: Convert Markdown to HTML
 on:
   push:
      paths:
-     - 'Addons/DungeonAuraTools/**'
+     - 'Addons/**'
   workflow_dispatch: 
    
 
@@ -28,6 +28,10 @@ jobs:
                                                  # for your own token, the name cannot start with "GITHUB_"
 
     # "steps" holds a list of all the steps needed to package and release our AddOn
+    strategy:
+      max-parallel: 1
+      matrix:
+        Addons: [DungeonAuraTools,CustomNames]
     steps:
       - name: Clone project
         uses: actions/checkout@v3
@@ -37,8 +41,8 @@ jobs:
         with:
           dark-mode: false
           markdown-style-theme: dark
-          source: CrossOriginStuff/DungeonAuraTools/README.md
-          output: CrossOriginStuff/DungeonAuraTools.html
+          source: CrossOriginStuff/${{matrix.Addons}}/README.md
+          output: CrossOriginStuff/${{matrix.Addons}}.html
           
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
