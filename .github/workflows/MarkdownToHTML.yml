@@ -42,12 +42,14 @@ jobs:
           dark-mode: false
           markdown-style-theme: dark
           source: CrossOriginStuff/${{matrix.Addons}}/README.md
-          output: CrossOriginStuff/${{matrix.Addons}}.html
+          output: Data/${{matrix.Addons}}.html
           
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+           clean: false
+           force: false
            branch: main # Pushes the updates to the main branch.
-           folder: CrossOriginStuff # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: Addons # Saves the data into the directory on the main branch.     
+           folder: Data # The location of the data.json file saved by the Fetch API Data action.
+           target-folder: Data # Saves the data into the directory on the main branch.     
       
