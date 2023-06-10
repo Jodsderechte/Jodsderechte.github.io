@@ -252,15 +252,13 @@ body, html {
 <!-- WoWAddons Section -->
 <div class="w3-container" style="padding:128px 16px" id="WoWAddons">
   <h3 class="w3-center">My World of Warcraft addons</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
-
-  <div class="w3-row-padding CoreAuras" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <img src="/images/DungeonAuraTools.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Data/DungeonAuraTools.html">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Data/CustomNames.html">
-    </div>
+    <div class="w3-row-padding" style="margin-top:64px" id ="CoreAuras">
+      <div class="w3-col l3 m6" id = "CoreAuraCard">
+        <img src="/images/DungeonAuraTools.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Data/DungeonAuraTools.html">
+      </div>
+      <div class="w3-col l3 m6" id = "CoreAuraCard">
+        <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Data/CustomNames.html">
+      </div>
 </div>
 
 <!-- Modal for full size images on click-->
