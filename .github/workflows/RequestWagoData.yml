@@ -16,7 +16,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ env.steps.create-array.outputs }}
+      wa_List: ${{ env.steps.readWaList.outputs.content }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
@@ -28,10 +28,16 @@ jobs:
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh    
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
-      - name: Create array from JSON
-        id: create-array
-        run: echo "name=matrix::[$(echo "${{ join(fromJSON(env.fetch-api-data).hits.*.id, ',') }}" | sed 's/,/","/g')]"  >> $GITHUB_OUTPUT    
-      - run: echo "${{env.steps.create-array.outputs}}" 
+      - name: Read Walist
+        id: readWaList
+        uses: jaywcjlove/github-action-read-file@main
+        with:
+          path: CrossOriginStuff/WaList_Converted.json
+      - run: echo "${{env.steps.readWaList.outputs}}"
+      - name: createWaList
+        id: createWaList
+        run: jq -r '.hits[].id'  << CrossOriginStuff/WeakAurasList.json >> $GITHUB_OUTPUT
+      - run: echo "${{env.steps.createWaList.outputs}}"  
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -39,7 +45,7 @@ jobs:
            branch: main # Pushes the updates to the specified branch.
            force: false
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: CrossOriginStuff/
+           target-folder: CrossOriginStuff/  
   
   Request:
     needs: setup
@@ -52,8 +58,9 @@ jobs:
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
                                                  # for your own token, the name cannot start with "GITHUB_"                                         
     strategy:
+      max-parallel: 1
       matrix:
-        WeakAura: ${{ fromJson(needs.step1.outputs.wa_List) }}
+        WeakAura: ["NyseKq1Xo","f7Z1Te6hb","Ia62lAh6b","BAj0TgIBv","P1Zv_yAVq","dcaJOvkxa","qCEDDlaOf","MtdooRmR2","x4D57HonC","Hh6WwoTql","rwXBjf2YN","wQ11u_FTB","RVHzzkxqg","2gKRT_GRy","_Uzba4Y35","3iM4L5G22","CUBFiw6W3","wSMfkBXUx","-y14AGmDA","bY4UxnYE8","a9wjgsOv6","zskPcGkcC","1bO-_DuBg","kSVAcPzJj","UnmFz3mdB"]
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
