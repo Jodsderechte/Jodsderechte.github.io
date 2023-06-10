@@ -3,49 +3,42 @@
 [![Wago][SVG-Wago]][Wago]
 [![Translate][SVG-Translate]][Translate]
 [![Release][SVG-Release]][Release]
+[![Curseforge][SVG-Curseforge]][Curseforge]
 
 # DungeonAuraTools
+Dungeon Aura Tools dynamically creates Dungeon WeakAuras based on user selections to indicate buffs, debuffs, casts, and other relevant information.
 
-Dungeon Aura Tools dynamicly creates Dungeon WeakAuras based on user selections to indicate buffs, debuffs, casts and other relevant information.
+Supports all important Dungeon spells and some M+ Affixes.
 
-Supports all important spells for Trash/Bosses (some casts get spammed by mobs so those are not tracked since they would create too much disturbance even though they might be important) aswell as Dungeon/Covenant specific stuff and some M+ Affixes.
-
- 
-
-Quick Start:
+## Quick Start:
 To open the options window, type /jdt or /DungeonAuraTools into your chat and hit enter.
 
- 
-
-Options for Changing your Auras when they were generated:
+## Options for Changing your Auras when they were generated:
 
 * Icon width and height
-* showing Timers and hiding cooldown Spinners
+* Showing Timers and hiding cooldown Spinners
 * Choosing the fonts and text size
-* enable or disable sounds
-* X and Y- offset of the groups
+* Enable or disable sounds
+* X and Y-offset of the groups
 * Limit the amount of Auras showing at any given time
-* Grow directions and other grow related options
-* Anchroing Auras to the Affix group.
+* Grow directions and other grow-related options
+* Anchoring Auras to the Affix group
 
+Of course, you can always manually adjust the settings on a per Aura level via the normal WeakAuras options!
 
-Ofcourse you can always manually adjust the settings on  a per Aura level via the normal WeakAuras options!
- 
+## Other
 
- 
-
-
-If you want to have some sounds, use this addon: [Sharedmedia_causese](https://www.curseforge.com/wow/addons/sharedmedia_causese) 
+If you want to have some sounds, you can use this addon: [Sharedmedia_causese](https://www.curseforge.com/wow/addons/sharedmedia_causese) 
 
 If you've discovered something that's clearly wrong, or if you get an error, please open a ticket via Github Issues
-If you want to talk about the addon or just hang out please join my [Discord](https://discord.com/invite/v3gYmYamGJ).
+If you want to talk about the addon or just hang out, please join my [Discord](https://discord.com/invite/v3gYmYamGJ).
 
-Debuff/Interrupt highlight stolen from causese props to him
+Debuff/Interrupt highlight idea originally by Causese props to him
 
-If you like my work and want to support me you can [Donate](https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG)
+If you like my work and want to support me, you can [donate](https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG)
 
 ## Contributing
-Simply fork the repo and make any changes to the appropriate section, submit a pull request afterwards and if applicable mentioning the issue it fixes via [closing Statements](https://docs.github.com/en/issues/tracking-your-work-with-issues/closing-an-issue).
+Simply fork the repo and make any changes to the appropriate section, submit a pull request afterwards, and if applicable, mention the issue it fixes via [closing Statements](https://docs.github.com/en/issues/tracking-your-work-with-issues/closing-an-issue).
 
 
 [//]: # (Links)
@@ -55,10 +48,10 @@ Simply fork the repo and make any changes to the appropriate section, submit a p
 [Wago]: https://wago.io/p/Jodsderechte (Check out my Weakauras)
 [Release]: https://github.com/Jodsderechte/DungeonAuraTools/releases/latest (Latest release)
 [Translate]: https://legacy.curseforge.com/wow/addons/dungeon-aura-tools/localization (Help Translate)
-
+[Curseforge]: https://legacy.curseforge.com/wow/addons/dungeon-aura-tools
 
 [//]: # (Images)
-
+[SVG-Curseforge]: https://cf.way2muchnoise.eu/short_662863.svg
 [SVG-Discord]: https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=flat-square
 [SVG-PayPal]: https://custom-icon-badges.demolab.com/badge/-Donate-lightgrey?style=flat-square&logo=paypal&color=007CB1
 [SVG-Wago]: https://custom-icon-badges.demolab.com/badge/-WeakAuras-lightgrey?style=flat-square&logo=weakauras&color=22283D
