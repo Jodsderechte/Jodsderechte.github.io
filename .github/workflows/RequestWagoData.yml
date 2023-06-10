@@ -33,7 +33,7 @@ jobs:
         uses: jaywcjlove/github-action-read-file@main
         with:
           path: CrossOriginStuff/WaList_Converted.json
-      - run: echo "${{env.steps.readWaList.outputs.content}}"     
+      - run: echo "${{env.steps.readWaList.outputs}}"     
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
