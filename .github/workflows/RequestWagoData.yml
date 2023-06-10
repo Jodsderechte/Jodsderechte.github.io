@@ -32,7 +32,7 @@ jobs:
         id: readWaList
         uses: jaywcjlove/github-action-read-file@main
         with:
-          path: CrossOriginStuff/WaList_Converted.json
+          path: Data/WaList_Converted.json
       - run: echo "${{env.steps.readWaList.outputs}}"
       - name: createWaList
         id: createWaList
@@ -45,7 +45,7 @@ jobs:
            branch: main # Pushes the updates to the specified branch.
            force: false
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: CrossOriginStuff/  
+           target-folder: Data/  
   
   Request:
     needs: setup
@@ -78,4 +78,4 @@ jobs:
            branch: main # Pushes the updates to the specified branch.
            force: false
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: CrossOriginStuff/WeakAuras/ # Saves the data into the directory on the main branch.     
+           target-folder: Data/WeakAuras/ # Saves the data into the directory on the main branch.     
