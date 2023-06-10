@@ -28,10 +28,7 @@ jobs:
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh    
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
-      - name: Create array from JSON
-        id: create-array
-        run: echo jq -r '.hits[].id' < CrossOriginStuff/WeakAurasList.json >> $GITHUB_OUTPUT    
-      - run: echo "${{env.steps.create-array.outputs}}" 
+      
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
