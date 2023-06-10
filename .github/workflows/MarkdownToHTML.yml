@@ -51,5 +51,6 @@ jobs:
            force: false
            branch: main # Pushes the updates to the main branch.
            folder: Data # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: Data # Saves the data into the directory on the main branch.     
+           target-folder: Data # Saves the data into the directory on the main branch.
+           commit-message: "converted ${{matrix.Addons}} to html"    
       
