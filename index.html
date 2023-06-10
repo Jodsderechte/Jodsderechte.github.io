@@ -254,35 +254,13 @@ body, html {
   <h3 class="w3-center">My World of Warcraft addons</h3>
   <p class="w3-center w3-large">What we've done for people</p>
 
-  <div class="w3-row-padding" style="margin-top:64px">
+  <div class="w3-row-padding CoreAuras" style="margin-top:64px">
     <div class="w3-col l3 m6">
       <img src="/images/DungeonAuraTools.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Addons/DungeonAuraTools.html">
     </div>
     <div class="w3-col l3 m6">
       <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
-    </div>
-    <div class="w3-col l3 m6">
-      <img src="/images/WeakAuras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
-    </div>
-  </div>
 </div>
 
 <!-- Modal for full size images on click-->
@@ -587,13 +565,13 @@ $(document).ready(function(){
 
   $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=f7Z1Te6hb",dataType: "json", success: function( response ) {document.querySelector("#InterruptTrackerVersion").innerHTML = "Version: "+response[0].versionString;}})
   $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=NyseKq1Xo",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineViews").innerHTML = "Version: "+response[0].versionString;}})
-  $.ajax({ url: "/CrossOriginStuff/WaList_Converted.json",dataType: "json", success: function( response ) { 
+  $.ajax({ url: "https://jods.me/Data/WaList_Converted.json",dataType: "json", success: function( response ) { 
     //WeakauraViews = WeakauraViews+response.viewCount; document.querySelector(".TotalWeakAuraViews").innerHTML = WeakauraViews;
     console.log(response)
     console.log(response.length)
     for (let index = 0; index < response.length; index++) {
       let element = response[index];
-      $.ajax({ url: "/CrossOriginStuff/WeakAuras/"+element+".json",dataType: "json", success: function( response ) {
+      $.ajax({ url: "https://jods.me/Data/WeakAuras/"+element+".json",dataType: "json", success: function( response ) {
         WeakauraViews = WeakauraViews+response.viewCount; 
         WeakauraInstalls = WeakauraInstalls+response.installCount;
         WeakauraFavorites = WeakauraFavorites+response.favoriteCount
