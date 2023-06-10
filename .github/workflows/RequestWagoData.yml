@@ -33,6 +33,7 @@ jobs:
         id: readWaList
         with:
           path: CrossOriginStuff/WaList_Converted.json
+      - run: echo env.steps.readWaList.outputs     
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -54,7 +55,7 @@ jobs:
                                                  # for your own token, the name cannot start with "GITHUB_"                                         
     strategy:
       matrix:
-        WeakAura: ${{ fromJson(needs.step1.outputs.wa_List) }}
+        WeakAura: ${{ needs.step1.outputs.wa_List }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
