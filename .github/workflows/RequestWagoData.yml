@@ -16,7 +16,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ env.steps.create-array.outputs }}
+      wa_List: ${{ env.steps.readWaList.outputs }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
@@ -28,10 +28,11 @@ jobs:
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh    
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
-      - name: Create array from JSON
-        id: create-array
-        run: echo jq -r '.hits[].id' < CrossOriginStuff/WeakAurasList.json > CrossOriginStuff/WaList_Converted_2.json  
-      - run: echo "${{env.steps.create-array.outputs}}" 
+      - name: save converted List in variable
+        uses: pCYSl5EDgo/cat@master
+        id: readWaList
+        with:
+          path: CrossOriginStuff/WaList_Converted.json
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -39,7 +40,7 @@ jobs:
            branch: main # Pushes the updates to the specified branch.
            force: false
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
-           target-folder: CrossOriginStuff/
+           target-folder: CrossOriginStuff/  
   
   Request:
     needs: setup
