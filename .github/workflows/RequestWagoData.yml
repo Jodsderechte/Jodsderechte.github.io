@@ -30,7 +30,7 @@ jobs:
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
       - name: create variable stuff
         id: testing
-        run: jq -r '[.hits[].id]' < ${{env.fetch-api-data}} > $GITHUB_OUTPUT 
+        run: jq -r '[.hits[].id]' < ${{env.fetch-api-data}} > ${{$GITHUB_OUTPUT}} 
       - name: save converted List in variable
         uses: pCYSl5EDgo/cat@master
         id: readWaList
