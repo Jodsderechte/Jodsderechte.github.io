@@ -16,7 +16,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ env.steps.readWaList.outputs.text }}
+      wa_List: ${{ env.steps.readWaList.outputs }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
@@ -28,12 +28,12 @@ jobs:
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh    
       - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
-      - name: save converted List in variable
-        uses: pCYSl5EDgo/cat@master
+      - name: Read Walist
         id: readWaList
+        uses: jaywcjlove/github-action-read-file@main
         with:
           path: CrossOriginStuff/WaList_Converted.json
-      - run: echo ${{env.steps.readWaList.outputs.text}}     
+      - run: echo ${{env.steps.readWaList.outputs}}     
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
