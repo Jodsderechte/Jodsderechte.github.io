@@ -396,7 +396,7 @@ function onClick(element) {
   //document.getElementById("img01").src = element.src;
   var captionText = document.getElementById("modalIframe");
   captionText.src = element.alt;
-  document.getElementById("modal01").style.display = "block";
+  setTimeout(() => { document.getElementById("modal01").style.display = "block";} ,50);
 }
 
 
