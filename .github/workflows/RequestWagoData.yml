@@ -7,6 +7,8 @@ name: RequestWagoData
 # other branches or even pullrequests.
 on:
   workflow_dispatch: 
+  schedule:
+    - cron: "*0 0 * * *"
    
 
 # a workflow is built up as jobs, and within these jobs are steps
