@@ -69,6 +69,7 @@ body, html {
   gap: 20px;
   }
   #CoreAuraCard{
+  display: flex;
   min-width: 350px;
   min-height: 320px;
   }
@@ -81,7 +82,7 @@ body, html {
 }
 .DungeonTitle{
   min-height: 90px;
-  min-width: 200px;
+  min-width: 220px;
 }
 .modalIframe{
   width: 100%;
@@ -225,6 +226,7 @@ body, html {
     
   </div>
   <h4 class="w3-center">DUNGEON AURAS</h4>
+  <p class="w3-center"> Displays relevant information about what is happening around you to make it easier to compete in High level Mythic + dungeons.</p>
   <div id = "container">
     <div class="w3-row-padding" style="margin-top:64px;" id = "WeakAurasList"></div>
   </div>
@@ -441,7 +443,7 @@ let WeakAurasTable = [
     "urlname": "DF-Dungeons",
     "query" : "#DragonflightDungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "Dragonflight-Dungeons",
+    "name" : "Dragonflight",
     "expansion" : "Dragonflight",
     "order" : 1,
   },  
@@ -449,7 +451,7 @@ let WeakAurasTable = [
     "urlname": "SL-Dungeons",
     "query" : "#ShadownlandsDungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "Shadowlands-Dungeons",
+    "name" : "Shadowlands",
     "expansion" : "Shadowlands",
     "order" : 2,
 },
@@ -457,7 +459,7 @@ let WeakAurasTable = [
     "urlname": "BFA-Dungeons",
     "query" : "#BattleForAzerothDungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "BFA-Dungeons",
+    "name" : "BFA",
     "expansion" : "Battle for Azeroth",
     "order" : 3,
 },
@@ -465,7 +467,7 @@ let WeakAurasTable = [
     "urlname": "Legion-Dungeons",
     "query" : "#LegionDungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "Legion-Dungeons",
+    "name" : "Legion",
     "expansion" : "Legion",
     "order" : 4,
 },
@@ -473,7 +475,7 @@ let WeakAurasTable = [
     "urlname": "WOD-Dungeons",
     "query" : "#WODDungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "WOD-Dungeons",
+    "name" : "WOD",
     "expansion" : "Warlords of Draenor",
     "order" : 5,
 },
@@ -481,7 +483,7 @@ let WeakAurasTable = [
     "urlname": "MOP-Dungeons",
     "query" : "#MOPungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "MOP-Dungeons",
+    "name" : "MOP",
     "expansion" : "Mists of Pandaria",
     "order" : 6,
 },
@@ -489,13 +491,11 @@ let WeakAurasTable = [
     "urlname": "Cataclysm-Dungeons",
     "query" : "#CataclysmDungeonsVersion",
     "img" : "/images/DungeonAuras.JPG",
-    "name" : "Cataclysm-Dungeons",
+    "name" : "Cataclysm",
     "expansion" : "Cataclysm",
     "order" : 7,
 },
 ]
-let DungeonAurasDescriptionPrefix = "Displays relevant information about what is happening around you to make it easier to compete in High level ";
-let DungeonAurasDescriptionSuffix = " Mythic + dungeons.";
 let WeakauraViews = WeakauraInstalls =WeakauraFavorites = WeakauraComments =0;
 $(document).ready(function(){
   WeakAurasTable.forEach(element => {
@@ -530,11 +530,6 @@ $(document).ready(function(){
       pTitle.innerHTML = response[0].versionString &&"Version: "+response[0].versionString || "Mtyhic + Dungeons"
       pTitle.id = element.query
       TextContainer.appendChild(pTitle)
-
-      let pDesc = document.createElement("div")
-      pDesc.innerHTML = DungeonAurasDescriptionPrefix+element.expansion+DungeonAurasDescriptionSuffix
-      pDesc.className = "DungeonAurasCardText"
-      TextContainer.appendChild(pDesc)
 
       let pbutton = document.createElement("p")
       let button = document.createElement("button")
