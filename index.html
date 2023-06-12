@@ -98,7 +98,34 @@ body, html {
 .iframe-Dark {
   background-color: #0d1117;
 }
+.languagePicker{
+  padding:16px 16px;
+  float:left;
+  width:auto;
+  border:none;
+  display:block;
+  outline:0;
+  white-space:normal
+}
+#language-picker-select{
+  background-color: #616161;
+  color: white;
+  border: none;
+  border-radius: 10%;
+}
 
+.select-items {
+  position: absolute;
+  top: 100%;
+  left: 20;
+  right: 20;
+  z-index: 99;
+}
+
+
+.language-picker__form:hover #language-picker-select {
+  background-color: #9e9e9e;
+}
 
 
 </style>
@@ -109,6 +136,15 @@ body, html {
 <div class="w3-top">
   <div class="w3-bar w3-dark-grey w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide">Jods</a>
+    <div class="languagePicker">
+      <form action="" class="language-picker__form">    
+        <i class="fa fa-globe"></i>
+        <select name="language-picker-select" id="language-picker-select">
+          <option lang="enUS" value="english" selected class="select-items">English</option>
+          <option lang="deDE" value="deutsch" class="select-items">Deutsch</option>
+        </select>
+      </form>
+    </div>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i>  ABOUT</a>
@@ -140,8 +176,7 @@ body, html {
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Jods</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Jods</span><br>
-    <span class="w3-large">Gaming with Passion</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Find out More</a></p>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn More</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <a href="https://discord.com/invite/v3gYmYamGJ"target="_blank"><i class="fa-brands fa-discord w3-hover-opacity"></i></a> 
@@ -158,19 +193,19 @@ body, html {
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Programming Languages</p>
-      <p>Outside of the University study Languages (Java,C,C++,JavaScript,R) I also taught myself C# and lua which i used in multiple Projects</p>
+      <p class="w3-large" id = "ProgrammingLanguages" >Programming Languages</p>
+      <p id = "ProgrammingLanguagesDescription"> Programming Languages Description</p>
     </div>
     <div class="w3-quarter">
       <i class="fa-brands fa-git-alt w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Git</p>
-      <p>I use Github for most of my projects on a daily Basis check out <a href="https://github.com/Jodsderechte"target="_blank">my Public Repositorys</a></p>
+      <p class="w3-large" >Git</p>
+      <p id = "GitDescription"> Git Description <a href="https://github.com/Jodsderechte"target="_blank">my Public Repositorys</a> </p> 
     </div>
     <div class="w3-quarter">
       <img src="https://img.icons8.com/?size=512&id=34305&format=png" width="70" height="70" class="w3-margin-bottom w3-jumbo">
-      <p class="w3-large">Game Engines</p>
-      <p>I used UnrealEngine for a couple of Private Projects including a <a href="https://store.epicgames.com/en-US/p/ark--modkit"> modified version of Unreal 4.5.1 </a> for my <a href="#ArkMod"> ARK Survival Evolved MOD</a> aswell as Unreal 5.1 for a Standalone Survival-Game called <a href="https://github.com/Jodsderechte/Ateria" target="_blank">Ateria</a></p>
-      <p>I also previously worked with Unity on a not yet released Bicycle Simulator for <a href="https://www.nsoria.io/"target="_blank">N*soria</a> called N*soria/Shift</p>
+      <p class="w3-large" id = "GameEngines">Game Engine's</p>
+      <p id = "UnrealEngine"> UnrealEngineDescription</p>
+      <p id = "Unity"> UnityDescription</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
@@ -197,7 +232,7 @@ body, html {
 <!-- WeakAuras Section -->
 <div class="w3-container" style="padding:128px 16px" id="WeakAuras">
   <h3 class="w3-center">WEAK AURAS</h3>
-  <p class="w3-center w3-large"> <a href="https://wago.io/p/Jodsderechte"target="_blank">The stuff that Improves your WOW-UI</a></p>
+  <p class="w3-center w3-large"> <a href="https://wago.io/p/Jodsderechte"target="_blank" id="WeakauraHeader">WeakAurasHeaderDescription</a></p>
   <h4 class="w3-center">CORE AURAS</h4>
   <div class="w3-row-padding " style="margin-top:64px" id = "CoreAuras">
     <div class="w3-col l3 m6 w3-margin-bottom" id ="CoreAura">
@@ -205,8 +240,8 @@ body, html {
         <img src="/images/RaidAbilityTimeline.gif" alt="RaidAbilityTimeline" style="width:100%">
         <div class="w3-container">
           <h3>Raid Ability Timeline</h3>
-          <p class="w3-opacity" id="RaidAbilityTimelineViews">Multi Purpose</p>
-          <p>Turn your BossMod addon timers into a vertical stacked timeline, for those who prefer this display.</p>
+          <p class="w3-opacity" id="RaidAbilityTimelineVersion">Multi Purpose</p>
+          <p id = "RaidAbilityTimelineDescription">RaidAbilityTimelineDescription</p>
           <p><button onclick="window.location.href='https://wago.io/RaidAbilityTimeline';" class="w3-button w3-dark-grey w3-block"><img src="/images/wago.io.png" width="50" height="30" ></i> Get it on wago</button></p>
         </div>
       </div>
@@ -217,7 +252,7 @@ body, html {
         <div class="w3-container">
           <h3>Mythic+ Interrupt Tracker</h3>
           <p class="w3-opacity" id="InterruptTrackerVersion" >Mythic + Dungeons</p>
-          <p>Displays the cooldowns of group members disruptive spells, ensuring timely interruptions in battle.</p>
+          <p id = "InterruptTrackerDescription">InterruptTrackerDescription</p>
           <p><button onclick="window.location.href='https://wago.io/MInterruptTracker';" class="w3-button w3-dark-grey w3-block"><img src="/images/wago.io.png" width="50" height="30" ></i> Get it on wago</button></p>
         </div>
       </div>
@@ -225,7 +260,7 @@ body, html {
     
   </div>
   <h4 class="w3-center">DUNGEON AURAS</h4>
-  <p class="w3-center"> Provides valuable information about your surroundings, enhancing your ability to excel in high-level Mythic+ dungeons.</p>
+  <p class="w3-center" id = "DungeonAuraDescription"> DungeonAuraDescription</p>
   <div id = "container">
     <div class="w3-row-padding" style="margin-top:64px;" id = "WeakAurasList"></div>
   </div>
@@ -436,7 +471,33 @@ function kFormatter(num,precision) {
   return num;
 }
 
+//Language Picker
+let form = document.querySelector("#language-picker-select")
+ form.addEventListener("click", function(event){
+  handleLanguage(form.options[form.selectedIndex].lang);
+ })
+let languageConverter = {
+  "enUS":"english",
+  "deDE":"deutsch",
+}
+let currentLanguage
+function handleLanguage(language){
+  if(!currentLanguage || language!= currentLanguage){
+    console.log("changing language");
+    $.ajax({ url: "https://jods.me/Translations/"+language+".json",dataType: "json", success: function( response ) { 
+      console.log("Language changed to: " + language);
+      document.querySelector("#language-picker-select").value = languageConverter[language];
+      currentLanguage = language;
+      sessionStorage.setItem('language', language);
+      for (const key in response){
+        console.log(key)
+        document.querySelector("#"+key).innerHTML = response[key];
+      }
+  }})  
+  }
+}
 
+// Auto generation of Dungeon Aura Entries
 let WeakAurasTable = [
 {
     "urlname": "DF-Dungeons",
@@ -555,9 +616,9 @@ $(document).ready(function(){
       }
     }})
   });
-
+  // Requesting of Weakaura Data for CoreAuras and Views/Installs etc.
   $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=f7Z1Te6hb",dataType: "json", success: function( response ) {document.querySelector("#InterruptTrackerVersion").innerHTML = "Version: "+response[0].versionString;}})
-  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=NyseKq1Xo",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineViews").innerHTML = "Version: "+response[0].versionString;}})
+  $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=NyseKq1Xo",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineVersion").innerHTML = "Version: "+response[0].versionString;}})
   $.ajax({ url: "https://jods.me/Data/WaList_Converted.json",dataType: "json", success: function( response ) { 
     //WeakauraViews = WeakauraViews+response.viewCount; document.querySelector(".TotalWeakAuraViews").innerHTML = WeakauraViews;
     console.log(response)
@@ -576,7 +637,9 @@ $(document).ready(function(){
       }})
 
     }
-  }}) 
+  }})
+  let language = sessionStorage.getItem('language') || "enUS";
+  handleLanguage(language); //setting language
 })
 
 

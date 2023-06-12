@@ -1,3 +1,11 @@
 {
-  "DungeonAuraDescription":"Provides valuable information about your surroundings, enhancing your ability to excel in high-level Mythic+ dungeons."
+  "DungeonAuraDescription":"Provides valuable information about your surroundings, enhancing your ability to excel in high-level Mythic+ dungeons.",
+  "ProgrammingLanguages":"Programming Languages",
+  "ProgrammingLanguagesDescription":"In addition to studying languages (Java, C, C++, JavaScript, R) at university, I took it upon myself to learn C# and Lua, which I applied in various projects outside of academia.",
+  "GitDescription":"On a daily basis, I actively utilize GitHub as my primary platform for managing and sharing my projects. Feel free to explore my publicly accessible repositories by visiting <a href='https://github.com/Jodsderechte'target='_blank'>my Public Repositorys</a>",
+  "UnrealEngine": "I have employed Unreal Engine for several private projects, encompassing a <a href='https://store.epicgames.com/en-US/p/ark--modkit'> modified version of Unreal 4.5.1 </a> for my <a href='#ArkMod'> ARK Survival Evolved MOD</a>, as well as Unreal 5.1 for an independent survival game called <a href='https://github.com/Jodsderechte/Ateria'target='_blank'>Ateria</a>",
+  "Unity":"I have also had previous experience working with Unity on an unreleased bicycle simulator project for <a href='https://www.nsoria.io/' target='_blank'>Nsoria</a> known as Nsoria/Shift.",
+  "RaidAbilityTimelineDescription":"Turn your BossMod addon timers into a vertical stacked timeline, for those who prefer this display.",
+  "InterruptTrackerDescription":"Displays the cooldowns of group members disruptive spells, ensuring timely interruptions in battle.",
+  "WeakauraHeader":"Providing customizable visual and audio cues to enhance gameplay awareness and optimize performance."
 }
