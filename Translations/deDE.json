@@ -5,7 +5,7 @@
   "GitDescription":"Täglich nutze ich GitHub als meine Hauptplattform zur Verwaltung und Freigabe meiner Projekte. Schau doch auf <a href='https://github.com/Jodsderechte' target='_blank'>meinem GitHub-Profil</a> vorbei.",
   "UnrealEngine": "Für einige meiner privaten Projekte habe ich Unreal Engine verwendet, darunter eine <a href='https://store.epicgames.com/en-US/p/ark--modkit'> modifizierte Version von Unreal 4.5.1 </a>  für meine <a href='#ArkMod'> ARK Survival Evolved MOD</a>, sowie Unreal 5.1 für ein eigenständiges Survival-Spiel namen <a href='https://github.com/Jodsderechte/Ateria'target='_blank'>Ateria</a>",
   "Unity": "Zudem habe ich zuvor mit Unity gearbeitet an einem noch nicht veröffentlichten Fahrradsimulator für <a href='https://www.nsoria.io/' target='_blank'>Nsoria</a> namens Nsoria/Shift.",
-  "RaidAbilityTimelineDescription":"Verwandeln Sie die Timer Ihres BossMod-Addons in eine vertikale Zeitleiste.",
-  "InterruptTrackerDescription":"Zeigt die Abklingzeiten der Unterbrechungszauber der Gruppenmitglieder an um die Koordination im Kampf zu vereinfachen.", 
+  "RaidAbilityTimelineDescription":"Verwandelt die Timer der Boss Mod-Addons zur besseren Übersicht in eine vertikale Zeitleiste.",
+  "InterruptTrackerDescription":"Zeigt die Abklingzeiten der Gruppenmitglieder an um die Koordination im Kampf zu vereinfachen.", 
   "WeakauraHeader":"Bietet anpassbare visuelle und akustische Hinweise zur Steigerung des Spielbewusstseins"
 }
