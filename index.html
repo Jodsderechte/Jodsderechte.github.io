@@ -473,9 +473,11 @@ function kFormatter(num,precision) {
 
 //Language Picker
 let form = document.querySelector("#language-picker-select")
- form.addEventListener("click", function(event){
+
+form.addEventListener("change", function(event){
   handleLanguage(form.options[form.selectedIndex].lang);
  })
+
 let languageConverter = {
   "enUS":"english",
   "deDE":"deutsch",
