@@ -7,5 +7,17 @@
   "Unity": "Zudem habe ich zuvor mit Unity gearbeitet an einem noch nicht veröffentlichten Fahrradsimulator für <a href='https://www.nsoria.io/' target='_blank'>Nsoria</a> namens Nsoria/Shift.",
   "RaidAbilityTimelineDescription":"Verwandelt die Timer der Boss Mod-Addons zur besseren Übersicht in eine vertikale Zeitleiste.",
   "InterruptTrackerDescription":"Zeigt die Abklingzeiten der Gruppenmitglieder an um die Koordination im Kampf zu vereinfachen.", 
-  "WeakauraHeader":"Bietet anpassbare visuelle und akustische Hinweise zur Steigerung des Spielbewusstseins"
+  "WeakauraHeader":"Bietet anpassbare visuelle und akustische Hinweise zur Steigerung des Spielbewusstseins",
+  "SendMessage":"Senden",
+  "ContactMe":"Bleiben Sie in Kontakt",
+  "ContactMeDiscord": "Über Discord kontaktieren",
+  "Contact": "Kontakt",
+  "TotheTop": "Zurück nach oben",
+  "AnsweredComments": "Beantwortete Kommentare",
+  "Favorites": "Favoriten",
+  "Installs": "Installationen",
+  "About": "Über mich",
+  "LearnMore": "Erfahren Sie mehr",
+  "ViewMyWoWAddons": "Meine WoW Addons ansehen",
+  "MyWoWAddons": "Meine WoW Addons"
 }

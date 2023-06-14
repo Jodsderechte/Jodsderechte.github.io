@@ -7,5 +7,18 @@
   "Unity":"I have also had previous experience working with Unity on an unreleased bicycle simulator project for <a href='https://www.nsoria.io/' target='_blank'>Nsoria</a> known as Nsoria/Shift.",
   "RaidAbilityTimelineDescription":"Turn your BossMod addon timers into a vertical stacked timeline, for those who prefer this display.",
   "InterruptTrackerDescription":"Displays the cooldowns of group members disruptive spells, ensuring timely interruptions in battle.",
-  "WeakauraHeader":"Providing customizable visual and audio cues to enhance gameplay awareness and optimize performance."
+  "WeakauraHeader":"Providing customizable visual and audio cues to enhance gameplay awareness and optimize performance.",
+  "SendMessage":"Send message",
+  "ContactMe":"Let's get in touch! Send me a message and I will get back to you as soon as possible.",
+  "ContactMeDiscord": "Contact me on Discord",
+  "Contact": "Contact",
+  "TotheTop": "To the top",
+  "AnsweredComments": "Answered comments",
+  "Favorites": "Favorites",
+  "Installs": "Installs",
+  "About": "About me",
+  "LearnMore": "Learn more",
+  "ViewMyWoWAddons": "View my World of Warcraft addons",
+  "MyWoWAddons": "My World of Warcraft addons"
+
 }
