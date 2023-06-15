@@ -37,6 +37,7 @@ jobs:
         uses: jaywcjlove/github-action-read-file@main
         with:
           path: Data/WaList_Converted.json
+      - run: echo jq -c '.data[] | sub("\r\n"; " ") | sub("\n"; " ")'
       - run: echo ${{ steps.readWaList.outputs.content }}
       - name: createWaList
         id: createWaList
