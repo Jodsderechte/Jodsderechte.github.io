@@ -29,16 +29,9 @@ jobs:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh
-      - name: Read Walist
-        id: readWaList
-        uses: jaywcjlove/github-action-read-file@main
-        with:
-          path: Data/WaList_Converted.json
       - name: createList
         id: createList
-        run: echo "content=$(jq -r -c '[.hits[].id]' < ./WeakAurasList)" >> "$GITHUB_OUTPUT"
-      - run: echo "${{ env.steps.readWaList.outputs.content }}"   
-      - run: echo "${{ env.steps.createList.outputs }}"  
+        run: echo "content=$(jq -r -c '[.hits[].id]' < fetch-api-data-action/WeakAurasList)" >> "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
