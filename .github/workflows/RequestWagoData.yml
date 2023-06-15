@@ -33,7 +33,7 @@ jobs:
           save-name: WeakAurasList
       - run: CrossOriginStuff/ConvertWaList.sh
       - name: buildWalist
-        run: echo ${{env.OpeningBrackets}}${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }}${{env.ClosingBrackets}} >> $GITHUB_OUTPUT
+        run: echo ${{env.OpeningBrackets}}${{ join('"'fromJSON(env.fetch-api-data).hits.*.id'"', ', ') }}${{env.ClosingBrackets}} >> $GITHUB_OUTPUT
       - name: Read Walist
         id: readWaList
         uses: jaywcjlove/github-action-read-file@main
