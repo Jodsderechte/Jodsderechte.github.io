@@ -37,10 +37,7 @@ jobs:
         uses: jaywcjlove/github-action-read-file@main
         with:
           path: Data/WaList_Converted.json
-      - name: createWaList
-        id: createWaList
-        run: jq -r '[.hits[].id]' << fetch-api-data-action/WeakAurasList.json  >> $GITHUB_OUTPUT
-      - run: echo "${{env.steps.createWaList.outputs}}"  
+      - run: echo ${{ env.steps.readWaList.outputs.content }}     
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
