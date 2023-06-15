@@ -140,8 +140,8 @@ body, html {
       <form action="" class="language-picker__form">    
         <i class="fa fa-globe"></i>
         <select name="language-picker-select" id="language-picker-select">
-          <option lang="enUS" value="english" selected class="select-items">English</option>
-          <option lang="deDE" value="deutsch" class="select-items">Deutsch</option>
+          <option lang="en-US" value="english" selected class="select-items">English</option>
+          <option lang="de-DE" value="deutsch" class="select-items">Deutsch</option>
         </select>
       </form>
     </div>
@@ -478,8 +478,8 @@ form.addEventListener("change", function(event){
  })
 
 let languageConverter = {
-  "enUS":"english",
-  "deDE":"deutsch",
+  "en-US":"english",
+  "de-DE":"deutsch",
 }
 let currentLanguage
 function handleLanguage(language){
@@ -639,7 +639,7 @@ $(document).ready(function(){
 
     }
   }})
-  let language = sessionStorage.getItem('language') || "enUS";
+  let language = sessionStorage.getItem('language') || navigator.language || navigator.userLanguage || 'en-US';
   handleLanguage(language); //setting language
 })
 
