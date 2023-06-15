@@ -18,8 +18,6 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     env: 
-      OpeningBrackets: '["'
-      ClosingBrackets: '"]'
     outputs:
       wa_List: ${{ env.steps.readWaList.outputs.content }}
     steps:  
@@ -37,7 +35,7 @@ jobs:
         uses: jaywcjlove/github-action-read-file@main
         with:
           path: Data/WaList_Converted.json
-      - run: echo ${{ env.steps.readWaList.outputs.content }}     
+      - run: "echo ${{ env.steps.readWaList.outputs.content }}"     
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
