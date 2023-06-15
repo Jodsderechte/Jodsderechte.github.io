@@ -31,7 +31,7 @@ jobs:
       - run: CrossOriginStuff/ConvertWaList.sh
       - name: createList
         id: createList
-        run: echo "content=$(jq -r -c '[.hits[].id]' < ./WeakAurasList.json >> "$GITHUB_OUTPUT"
+        run: echo "content=$(jq -r -c '[.hits[].id]' < ./WeakAurasList.json) >> "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
