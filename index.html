@@ -640,6 +640,9 @@ $(document).ready(function(){
     }
   }})
   let language = sessionStorage.getItem('language') || navigator.language || navigator.userLanguage || 'en-US';
+  console.log(sessionStorage.getItem('language'))
+  console.log(navigator.language)
+  console.log(navigator.userLanguage)
   handleLanguage(language); //setting language
 })
 
