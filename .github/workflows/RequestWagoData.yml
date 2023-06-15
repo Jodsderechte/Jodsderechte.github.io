@@ -31,7 +31,7 @@ jobs:
       - run: CrossOriginStuff/ConvertWaList.sh
       - name: createList
         id: createList
-        run: echo "content=$(jq '[.hits[].id] | @json' <<< ${{env.fetch-api-data}})" >> "$GITHUB_OUTPUT"
+        run: echo "content=$(jq -c '[.hits[].id]' < "./fetch-api-data-action/WeakAurasList.json")" >> "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -55,7 +55,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        WeakAura: ${{fromJson(toJSON(fromJson(needs.setup.outputs.wa_List)))}}
+        WeakAura: ${{ fromJson(needs.setup.outputs.wa_list) }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
