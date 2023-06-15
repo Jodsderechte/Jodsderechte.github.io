@@ -17,6 +17,9 @@ jobs:
   # "request" is a job, you can name it anything you want
   setup:
     runs-on: ubuntu-latest
+    env: 
+      OpeningBrackets: '["'
+      ClosingBrackets: '"]'
     outputs:
       wa_List: ${{ env.steps.readWaList.outputs.content }}
     steps:  
@@ -28,8 +31,9 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - run: CrossOriginStuff/ConvertWaList.sh    
-      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
+      - run: CrossOriginStuff/ConvertWaList.sh
+      - name: buildWalist
+        run: echo ${{env.OpeningBrackets}}${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }}${{env.ClosingBrackets}} >> $GITHUB_OUTPUT
       - name: Read Walist
         id: readWaList
         uses: jaywcjlove/github-action-read-file@main
@@ -39,7 +43,7 @@ jobs:
       - name: createWaList
         id: createWaList
         run: jq -r '.hits[].id'  << CrossOriginStuff/WeakAurasList.json >> $GITHUB_OUTPUT
-      - run: echo "${{env.steps.createWaList.outputs}}"  
+      - run: echo "${{env.steps.buildWalist.outputs}}"  
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
