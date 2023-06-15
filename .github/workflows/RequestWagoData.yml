@@ -17,7 +17,6 @@ jobs:
   # "request" is a job, you can name it anything you want
   setup:
     runs-on: ubuntu-latest
-    env: 
     outputs:
       wa_List: ${{ env.steps.readWaList.outputs.content }}
     steps:  
