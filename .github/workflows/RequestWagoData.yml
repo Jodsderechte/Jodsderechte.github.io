@@ -18,7 +18,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      wa_List: ${{ env.steps.readWaList.outputs.content }}
+      wa_List: ${{ steps.createList.outputs.content }}
     steps:  
       - name: Clone project
         uses: actions/checkout@v3
@@ -28,18 +28,10 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - run: CrossOriginStuff/ConvertWaList.sh    
-      - run: echo ${{ join(fromJSON(env.fetch-api-data).hits.*.id, ', ') }} 
-      - name: Read Walist
-        id: readWaList
-        uses: jaywcjlove/github-action-read-file@main
-        with:
-          path: Data/WaList_Converted.json
-      - run: echo "${{env.steps.readWaList.outputs}}"
-      - name: createWaList
-        id: createWaList
-        run: jq -r '.hits[].id'  << CrossOriginStuff/WeakAurasList.json >> $GITHUB_OUTPUT
-      - run: echo "${{env.steps.createWaList.outputs}}"  
+      - run: CrossOriginStuff/ConvertWaList.sh
+      - name: createList
+        id: createList
+        run: echo "content=$(jq -c '[.hits[].id]' < "./fetch-api-data-action/WeakAurasList.json")" >> "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -63,7 +55,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        WeakAura: ["NyseKq1Xo","f7Z1Te6hb","Ia62lAh6b","BAj0TgIBv","P1Zv_yAVq","dcaJOvkxa","qCEDDlaOf","MtdooRmR2","x4D57HonC","Hh6WwoTql","rwXBjf2YN","wQ11u_FTB","RVHzzkxqg","2gKRT_GRy","_Uzba4Y35","3iM4L5G22","CUBFiw6W3","wSMfkBXUx","-y14AGmDA","bY4UxnYE8","a9wjgsOv6","zskPcGkcC","1bO-_DuBg","kSVAcPzJj","UnmFz3mdB"]
+        WeakAura: ${{ fromJson(needs.setup.outputs.wa_list) }}
     # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
