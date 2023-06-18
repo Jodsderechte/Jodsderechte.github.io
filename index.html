@@ -485,6 +485,9 @@ let currentLanguage
 function handleLanguage(language){
   if(!currentLanguage || language!= currentLanguage){
     console.log("changing language");
+    if(!languageConverter[language]){
+      language = "en-US";
+    }
     $.ajax({ url: "https://jods.me/Translations/"+language+".json",dataType: "json", success: function( response ) { 
       console.log("Language changed to: " + language);
       document.querySelector("#language-picker-select").value = languageConverter[language];
