@@ -508,7 +508,9 @@ function handleLanguage(language){
       localStorage.setItem('language', language);
       for (const key in response){
         console.log(key)
-        document.querySelector("#"+key).innerHTML = response[key];
+        if (document.querySelector("#"+key)) {
+          document.querySelector("#"+key).innerHTML = response[key];
+        }
       }
   }})  
   }

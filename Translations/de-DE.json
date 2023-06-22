@@ -18,7 +18,6 @@
   "Installs": "Installationen",
   "About": "Über mich",
   "LearnMore": "Erfahren Sie mehr",
-  "ViewMyWoWAddons": "Meine WoW Addons ansehen",
   "MyWoWAddons": "Meine WoW Addons",
   "VisualDataAnalysis": "Visual Data Analysis",
   "VisualDataAnalysisDescription":"Dieser Kurs konzentrierte sich auf die Visualisierung von Daten und darauf, Informationen effektiv durch den Einsatz visueller Darstellungen zu kommunizieren. Der Kurs behandelte die Grundlagen der Datenvisualisierung, einschließlich des Einsatzes von Farbe, Typografie und Layout. Außerdem wurden verschiedene Tools für die Datenvisualisierung in R behandelt, darunter ggplot und plotly. Das Git-Repository des Projekts finden Sie <a href='https://github.com/Jodsderechte/VisualDataAnalysis_VideoGameSales'>hier</a> sowie eine Online-einsehbare version <a href='https://jods.me/VisualDataAnalysis_VideoGameSales/VDAProjekt.html'> hier </a>.",
