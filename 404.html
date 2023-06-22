@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Jods who's that</title>
+<title>Oh no</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/5e9ecb2ecd.js" crossorigin="anonymous"></script>
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500');
@@ -73,24 +77,6 @@ html, body{
     
 }
 
-.custom-navbar{
-    padding-top: 15px;
-}
-
-.brand-logo{
-    margin-left: 25px;
-    margin-top: 5px;
-    display: inline-block;
-}
-
-.navbar-links{
-    display: inline-block;
-    float: right;
-    margin-right: 15px;
-    text-transform: uppercase;
-    
-    
-}
 
 ul {
     list-style-type: none;
@@ -141,8 +127,8 @@ li a:hover {
 
 .btn-go-home{
     position: relative;
+    margin: auto;
     z-index: 200;
-    margin: 50px auto;
     width: 300px;
     padding: 10px 15px;
     border: 1px solid #FFCB39;
@@ -273,8 +259,10 @@ h1{
     color: white;
     letter-spacing : 40px;
     font-size: 481px;
+    margin: auto;
 }
 h2{
+    margin: auto;
     font-weight: 400;
     color: white;
     letter-spacing : 2px;
@@ -303,9 +291,74 @@ h2{
     }
 }
 
+.languagePicker{
+  padding:16px 16px;
+  float:left;
+  width:auto;
+  border:none;
+  display:block;
+  outline:0;
+  white-space:normal;
+  font-family: "Raleway", sans-serif;
+}
+#language-picker-select{
+  background-color: #616161;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  font-family: "Raleway", sans-serif;
+}
+
+.select-items {
+  position: absolute;
+  top: 100%;
+  left: 20;
+  right: 20;
+  z-index: 99;
+  font-family: "Raleway", sans-serif;
+}
+
+
+.language-picker__form:hover #language-picker-select {
+  background-color: #9e9e9e;
+  font-family: "Raleway", sans-serif;
+}
+.w3-bar .w3-bar-item{
+  font-family: "Raleway", sans-serif;
+  padding-top: 16px;
+}
+
 </style>
 </head>
 <body class="bg-purple">
+  <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-dark-grey w3-card" id="myNavbar">
+      <a href="https://jods.me#home" class="w3-bar-item w3-button w3-wide">Jods</a>
+      <div class="languagePicker">
+        <form action="" class="language-picker__form">    
+          <i class="fa fa-globe"></i>
+          <select name="language-picker-select" id="language-picker-select">
+            <option lang="en-US" value="english" selected class="select-items">English</option>
+            <option lang="de-DE" value="deutsch" class="select-items">Deutsch</option>
+          </select>
+        </form>
+      </div>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="https://jods.me#about" class="w3-bar-item w3-button"><i class="fa fa-user"></i> <span id="About">About</span></a>
+        <a href="https://jods.me#WeakAuras" class="w3-bar-item w3-button"><img src="/images/wago.io.png" width="20" height="12" >  WEAK AURAS</a>
+        <a href="https://jods.me#WoWAddons" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORLD OF WARCRAFT ADDONS</a>
+        <a href="https://jods.me#ArkMod" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ARK Survival Evolved MOD</a>
+        <a href="https://jods.me#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> <span id="Contact">Contact</span></a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
         
   <div class="stars">
       <div class="central-body">
