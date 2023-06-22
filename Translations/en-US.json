@@ -2,7 +2,7 @@
   "DungeonAuraDescription":"Provides valuable information about your surroundings, enhancing your ability to excel in high-level Mythic+ dungeons.",
   "ProgrammingLanguages":"Programming Languages",
   "ProgrammingLanguagesDescription":"In addition to studying languages (Java, C, C++, JavaScript, R) at university, I took it upon myself to learn C# and Lua, which I applied in various projects outside of academia.",
-  "GitDescription":"On a daily basis, I actively utilize GitHub as my primary platform for managing and sharing my projects. Feel free to explore my publicly accessible repositories by visiting <a href='https://github.com/Jodsderechte'target='_blank'>my Public Repositorys</a>",
+  "GitDescription":"On a daily basis, I actively utilize GitHub as my primary platform for managing and sharing my projects. Feel free to explore my publicly accessible repositories by visiting <a href='https://github.com/Jodsderechte'target='_blank'>github</a>",
   "UnrealEngine": "I have employed Unreal Engine for several private projects, encompassing a <a href='https://store.epicgames.com/en-US/p/ark--modkit'> modified version of Unreal 4.5.1 </a> for my <a href='#ArkMod'> ARK Survival Evolved MOD</a>, as well as Unreal 5.1 for an independent survival game called <a href='https://github.com/Jodsderechte/Ateria'target='_blank'>Ateria</a>",
   "Unity":"I have also had previous experience working with Unity on an unreleased bicycle simulator project for <a href='https://www.nsoria.io/' target='_blank'>Nsoria</a> known as Nsoria/Shift.",
   "RaidAbilityTimelineDescription":"Turn your BossMod addon timers into a vertical stacked timeline, for those who prefer this display.",
@@ -19,6 +19,15 @@
   "About": "About me",
   "LearnMore": "Learn more",
   "ViewMyWoWAddons": "View my World of Warcraft addons",
-  "MyWoWAddons": "My World of Warcraft addons"
-
+  "MyWoWAddons": "My World of Warcraft addons",
+  "Additionals": "Additional courses",
+  "AdditionalDescription": "In addition to the required lectures I also took the following courses.",
+  "VisualDataAnalysis": "Visual Data Analysis",
+  "VisualDataAnalysisDescription": "This course focused on the visualization of data, and how to effectively communicate information through the use of visual representations. The course covered the fundamentals of data visualization, including the use of color, typography, and layout. The course also covered the use of various tools for data visualization in R, including ggplot and plotly. Feel free to check the Git Repository of the <a href='https://github.com/Jodsderechte/VisualDataAnalysis_VideoGameSales'> resulting project </a> or read the german version <a href='https://jods.me/VisualDataAnalysis_VideoGameSales/VDAProjekt.html'> directly </a>.",
+  "ConcurrencyProgramming": "Concurrency Programming",
+  "ConcurrencyProgrammingDescription": "Course participants are acquainted with the relevance and most important concepts of concurrent programming. They are familiar with the different types of synchronization, in addition to their use in algorithms and their conception in data structures. The most important design archetypes for concurrency are well-known to the participants; they can carry out assessments of runtime performance and can implement simple algorithms and data structures. Thus, participants are acquainted with a variety of methods on how concepts are implemented in practice.",
+  "AppDevelopment": "App Development",
+  "AppDevelopmentDescription": "This course focused on the App-Development in the Android universe. The course covered the fundamentals of Android development, including the use of Android Studio, Java, and XML. The course also covered the use of various tools for Android development, including the Android SDK and the Android Emulator. Feel free to check the Git Repository of the <a href='https://github.com/Jodsderechte/EAE_APP_BOOKSHELF> resulting Book Shelf App</a>.",
+  "BlockChain": "Crypto Currency, Blockchain and Smart Contracts",  
+  "BlockChainDescription": "Participants will understand the principles of Bitcoin and Blockchain, learn about mathematical and economic models, protocols, and algorithms. They are familiar with the cryptocurrencies including Bitcoin or Ethereum, understand how the Blockchain works as a distributed ledger, comprehend the principles and significance of decentralized consensus protocols and will be able to decide when to use these technologies. Participants will explore the economy of cryptocurrencies, and learn about prices, exchanges and wallets. They will identify applications and best investment practices as well as use cases in different industries."
 }
