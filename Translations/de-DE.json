@@ -6,7 +6,7 @@
   "UnrealEngine": "Für private Projekte verwendete ich Unreal Engine, beispielhaft: <a href='https://store.epicgames.com/en-US/p/ark--modkit'>, die modifizierte Version von Unreal 4.5.1 </a> für meine <a href='#ArkMod'> ARK Survival Evolved MOD</a>, sowie Unreal 5.1 für ein eigenentwickeltes Survival-Spiel namen <a href='https://github.com/Jodsderechte/Ateria'target='_blank'>Ateria</a>",
   "Unity": "Zudem habe ich zuvor mit Unity gearbeitet an einem noch nicht veröffentlichten Fahrradsimulator für <a href='https://www.nsoria.io/' target='_blank'>Nsoria</a> namens Nsoria/Shift.",
   "RaidAbilityTimelineDescription":"Verwandelt die Timer der Boss Mod-Addons zur besseren Übersichtlichkeit in eine vertikale Zeitleiste.",
-  "InterruptTrackerDescription":"Zeigt die Abklingzeiten der Unterbrechungszauber der Gruppenmitglieder, um die Koordination im Kampf zu vereinfachen.", 
+  "InterruptTrackerDescription":"Zeigt die Abklingzeiten der Gruppenmitglieder, um die Koordination im Kampf zu vereinfachen.", 
   "WeakauraHeader":"Bietet individualisierbare, visuelle und akustische Hinweise zur Verbesserung der Spielerperformance",
   "SendMessage":"Senden",
   "ContactMe":"Bleiben Sie in Kontakt",
