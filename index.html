@@ -380,7 +380,7 @@ body, html {
         <p>An item that can be crafted to give your dinosaur an extraordinary ability to cheat death.</p>
         <p> When faced with certain demise, this item activates, granting your beloved creature a remarkable second chance at life.</p>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Get it here</button>
+          <button onclick="window.location.href='https://github.com/Jods-GH/DinoCheatDeath';"class="w3-button w3-black w3-padding-large">Get it here</button>
         </li>
       </ul>
     </div>
@@ -388,22 +388,16 @@ body, html {
 </div>
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container w3-center w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center" id = "Contact">CONTACT</h3>
-  <p class="w3-center w3-large" id="ContactMe">ContactMe</p>
-  <div style="margin-top:48px">
-    <p><i class="fa-brands fa-discord fa-fw w3-xxlarge w3-margin-right"></i> <a href="https://discord.com/invite/v3gYmYamGJ" target="_blank" id = "ContactMeDiscord">ContactDiscord</a> </p> 
-    <br>
-    <form action="https://formspree.io/f/mlekqjkl" method="POST">
+  <p class="w3-center w3-large " id="ContactMe">ContactMe</p>
+  <div class = "w3-row-padding" id = "container">
+    <form class = "w3-third" action="https://formspree.io/f/mlekqjkl" method="POST">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> <p id ="SendMessage"> SendMessage</p>
-        </button>
-      </p>
+      <button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> <span id ="SendMessage"> SendMessage</span></button>
     </form>
   </div>
 </div>
