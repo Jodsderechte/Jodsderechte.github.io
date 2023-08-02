@@ -142,6 +142,14 @@ body, html {
 }
 
 
+.AdditionalStuff{
+  padding: 20px;
+  hyphens: auto; 
+	text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 </style>
 </head>
 <body>
@@ -205,53 +213,53 @@ body, html {
   <h3 class="w3-center"><span class="About">About</span></h3>
   <p class="w3-center w3-large"><span class="KeyCompetences">Key competences</span></p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large ProgrammingLanguages" >Programming Languages</p>
-      <p class = "ProgrammingLanguagesDescription"> Programming Languages Description</p>
+      <p class = "ProgrammingLanguagesDescription AdditionalStuff"> Programming Languages Description</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <i class="fa-brands fa-git-alt w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large" >Git</p>
-      <p class = "GitDescription"> Git Description <a href="https://github.com/Jodsderechte"target="_blank">github</a> </p> 
+      <p class = "GitDescription AdditionalStuff"> Git Description <a href="https://github.com/Jodsderechte"target="_blank">github</a> </p> 
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <img src="https://img.icons8.com/?size=512&id=34305&format=png" width="70" height="70" class="w3-margin-bottom w3-jumbo">
       <p class="w3-large">Unreal Engine</p>
-      <p class = "UnrealEngine"> UnrealEngineDescription</p>
+      <p class = "UnrealEngine AdditionalStuff"> UnrealEngineDescription</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <img src="https://img.icons8.com/?size=512&id=39848&format=png" width="70" height="70" class="w3-margin-bottom w3-jumbo">
       <p class="w3-large">Unity</p>
-      <p class = "Unity"> UnityDescription</p>
+      <p class = "Unity AdditionalStuff"> UnityDescription</p>
     </div>
   </div>
 </div>
 
 <!-- Additional Courses -->
-<div class="w3-container" style="padding:128px 16px" >
+<div class="w3-container w3-light-grey" style="padding:128px 16px" >
   <h3 class="w3-center"><span class="Additionals">Additionals</span></h3>
   <p class="w3-center w3-large AdditionalDescription">In addition to the required lectures I also took the following courses.</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <i class="fa fa-solid fa-magnifying-glass-chart w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large VisualDataAnalysis" >Visual Data Analysis</p>
-      <p class = "VisualDataAnalysisDescription"> Visual Data Analysis Description</p>
+      <p class = "VisualDataAnalysisDescription AdditionalStuff"> Visual Data Analysis Description</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <i class="fa-regular fa-clock w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large ConcurrencyProgramming" >Concurrency Programming</p>
-      <p class = "ConcurrencyProgrammingDescription">Concurrency Programming Description</p> 
+      <p class = "ConcurrencyProgrammingDescription AdditionalStuff">Concurrency Programming Description</p> 
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <i class="fa-solid fa-mobile-screen w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large AppDevelopment">App Development</p>
-      <p class = "AppDevelopmentDescription"> App Development Description</p>
+      <p class = "AppDevelopmentDescription AdditionalStuff"> App Development Description</p>
     </div>
-    <div class="w3-quarter">
+    <div class="w3-quarter AboutCard">
       <i class="fa-brands fa-ethereum w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large BlockChain">BlockChain and Crypto Concurrency</p>
-      <p class = "BlockChainDescription"> BlockChainDescription</p>
+      <p class = "BlockChainDescription AdditionalStuff"> BlockChainDescription</p>
     </div>
   </div>
 </div>
@@ -415,8 +423,8 @@ body, html {
     <form class = "w3-third" action="https://formspree.io/f/mlekqjkl" method="POST">
       <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Betreff" required name="Betreff"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Nachricht" required name="Nachricht"></p>
       <button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> <span class ="SendMessage"> SendMessage</span></button>
     </form>
   </div>
