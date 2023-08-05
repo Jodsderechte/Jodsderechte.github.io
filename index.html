@@ -523,7 +523,7 @@ function handleLanguage(language){
       document.querySelector("#language-picker-select").value = languageConverter[language];
       currentLanguage = language;
       localStorage.setItem('language', language);
-      document.documentElement.setAttribute("lang", languageCodeConverter[language]);
+      document.documentElement.setAttribute("lang", language.match(/(.*?)(?=-)/)[1]);
       for (const key in response){
         var elements = document.getElementsByClassName(key);
         for(var i = 0; i < elements.length; i++) {
