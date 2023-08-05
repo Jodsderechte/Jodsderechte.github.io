@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <title>Who am I</title>
 <meta charset="UTF-8">
@@ -15,6 +15,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
   height: 100%;
   line-height: 1.8;
+  hyphens: auto;
 }
 
 /* Full height image header */
@@ -506,6 +507,10 @@ let languageConverter = {
   "en-US":"english",
   "de-DE":"deutsch",
 }
+let languageCodeConverter ={
+  "english":"en",
+  "deutsch":"de",
+}
 let currentLanguage
 function handleLanguage(language){
   if(!currentLanguage || language!= currentLanguage){
@@ -518,6 +523,7 @@ function handleLanguage(language){
       document.querySelector("#language-picker-select").value = languageConverter[language];
       currentLanguage = language;
       localStorage.setItem('language', language);
+      document.documentElement.setAttribute("lang", languageCodeConverter[language]);
       for (const key in response){
         var elements = document.getElementsByClassName(key);
         for(var i = 0; i < elements.length; i++) {
