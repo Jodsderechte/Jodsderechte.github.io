@@ -1,4 +1,7 @@
 var mySidebar;
+let WebsiteUrl = "https://florian-reichle.de"
+
+
 window.onload = function(){
     let form = document.querySelector("#language-picker-select")
     form.addEventListener("change", function(event){
@@ -71,7 +74,7 @@ function onClick(element) {
       if(!languageConverter[language]){
         language = "en-US";
       }
-      $.ajax({ url: "https://jods.me/Translations/"+language+".json",dataType: "json", success: function( response ) { 
+      $.ajax({ url: WebsiteUrl+"/Translations/"+language+".json",dataType: "json", success: function( response ) { 
         console.log("Language changed to: " + language);
         document.querySelector("#language-picker-select").value = languageConverter[language];
         currentLanguage = language;
@@ -210,13 +213,13 @@ function onClick(element) {
     // Requesting of Weakaura Data for CoreAuras and Views/Installs etc.
     $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=f7Z1Te6hb",dataType: "json", success: function( response ) {document.querySelector("#InterruptTrackerVersion").innerHTML = "Version: "+response[0].versionString;}})
     $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=NyseKq1Xo",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineVersion").innerHTML = "Version: "+response[0].versionString;}})
-    $.ajax({ url: "https://jods.me/Data/WaList_Converted.json",dataType: "json", success: function( response ) { 
+    $.ajax({ url: WebsiteUrl+"/Data/WaList_Converted.json",dataType: "json", success: function( response ) { 
       //WeakauraViews = WeakauraViews+response.viewCount; document.querySelector(".TotalWeakAuraViews").innerHTML = WeakauraViews;
       console.log(response)
       console.log(response.length)
       for (let index = 0; index < response.length; index++) {
         let element = response[index];
-        $.ajax({ url: "https://jods.me/Data/WeakAuras/"+element+".json",dataType: "json", success: function( response ) {
+        $.ajax({ url: WebsiteUrl+"/Data/WeakAuras/"+element+".json",dataType: "json", success: function( response ) {
           WeakauraViews = WeakauraViews+response.viewCount; 
           WeakauraInstalls = WeakauraInstalls+response.installCount;
           WeakauraFavorites = WeakauraFavorites+response.favoriteCount
