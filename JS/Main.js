@@ -77,6 +77,7 @@ function onClick(element) {
         currentLanguage = language;
         localStorage.setItem('language', language);
         document.documentElement.setAttribute("lang", language.match(/(.*?)(?=-)/)[1]);
+        document.title = response["WhoAmI"];
         for (const key in response){
           var elements = document.getElementsByClassName(key);
           for(var i = 0; i < elements.length; i++) {
