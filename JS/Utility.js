@@ -1,4 +1,5 @@
 var mySidebar;
+var overlay;
 
 
 window.onload = function(){
@@ -7,6 +8,10 @@ window.onload = function(){
       handleLanguage(form.options[form.selectedIndex].lang);
      })
     mySidebar = document.getElementById("mySidebar");
+    overlay = document.getElementById("overlay");
+    overlay.addEventListener("click", function(event){
+      w3_close()
+    }, true);
     let language = localStorage.getItem('language') || navigator.language || navigator.userLanguage || 'en-US';
     handleLanguage(language); //setting language
 }
@@ -18,14 +23,18 @@ window.onload = function(){
   function w3_open() {
     if (mySidebar.style.display === 'block') {
       mySidebar.style.display = 'none';
+      overlay.style.display = "none";
     } else {
       mySidebar.style.display = 'block';
+      overlay.style.display = "block";
     }
   }
   
   // Close the sidebar with the close button
   function w3_close() {
+      console.log("close");
       mySidebar.style.display = "none";
+      overlay.style.display = "none";
   }
   
   //Language Picker
