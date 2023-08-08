@@ -67,6 +67,11 @@ body, html {
   flex: 0 1 350px;
   }
 }
+@media screen and (max-width: 50em) {
+  .hideOnMobile{
+    display: none;
+  } 
+}
 .DungeonAurasCardText{
   min-height: 130px;
 }
