@@ -1,5 +1,5 @@
 var mySidebar;
-let WebsiteUrl = "https://florian-reichle.de"
+
 
 window.onload = function(){
     let form = document.querySelector("#language-picker-select")
@@ -45,7 +45,7 @@ window.onload = function(){
       if(!languageConverter[language]){
         language = "en-US";
       }
-      $.ajax({ url: WebsiteUrl+"/Translations/"+language+".json",dataType: "json", success: function( response ) { 
+      $.ajax({ url: "https://florian-reichle.de/Translations/"+language+".json",dataType: "json", success: function( response ) { 
         console.log("Language changed to: " + language);
         document.querySelector("#language-picker-select").value = languageConverter[language];
         currentLanguage = language;
