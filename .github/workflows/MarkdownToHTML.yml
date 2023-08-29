@@ -1,33 +1,20 @@
-
-# description of this workflow, can be anything you want
+#Converts Markdown files to html
 name: Convert Markdown to HTML
-
-# we need to let GitHub know _when_ we want to release, typically only when we create a new tag.
-# this will target only tags, and not all pushes to the master branch.
-# this part can be heavily customized to your liking, like targeting only tags that match a certain word,
-# other branches or even pullrequests.
+# this should run whenever there is a push in the Addons folder which get's new Readmes from the Addons when they are updated
 on:
   push:
      paths:
      - 'Addons/**'
   workflow_dispatch: 
    
-
-# a workflow is built up as jobs, and within these jobs are steps
 jobs:
-
-  # "convert" is a job, you can name it anything you want
+# converts the file
   convert:
-
-    # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
     runs-on: ubuntu-latest
-
-    # specify the environment variables used by the packager, matching the secrets from the project on GitHub
     env:
-      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
-                                                 # for your own token, the name cannot start with "GITHUB_"
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  
 
-    # "steps" holds a list of all the steps needed to package and release our AddOn
+    # The matrix job should only run 1 at a time to not create Concurrency problems when writing 
     strategy:
       max-parallel: 1
       matrix:
