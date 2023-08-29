@@ -1,20 +1,14 @@
-# description of this workflow, can be anything you want
+# requests Data from wago and saves them as JSON files to later access them via Javascript
 name: RequestWagoData
-
-# we need to let GitHub know _when_ we want to release, typically only when we create a new tag.
-# this will target only tags, and not all pushes to the master branch.
-# this part can be heavily customized to your liking, like targeting only tags that match a certain word,
-# other branches or even pullrequests.
+# Runs daylie at 8 Am UTC 
 on:
   workflow_dispatch: 
   schedule:
     - cron: "0 8 * * *"
    
 
-# a workflow is built up as jobs, and within these jobs are steps
 jobs:
-
-  # "request" is a job, you can name it anything you want
+  # we need to setup the matrix job by creating the JSON array of possible WA urls
   setup:
     runs-on: ubuntu-latest
     outputs:
@@ -43,20 +37,16 @@ jobs:
            target-folder: Data/  
   
   Request:
-    needs: setup
-    # we can run our steps on pretty much anything, but the "ubuntu-latest" image is a safe bet
+    needs: setup #the job should wait for the setup job to finish before starting
     runs-on: ubuntu-latest
-
     # specify the environment variables used by the packager, matching the secrets from the project on GitHub
     env:
       WagoRequestLink: "https://data.wago.io/lookup/wago?id="
-      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
-                                                 # for your own token, the name cannot start with "GITHUB_"                                         
-    strategy:
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}                                          
+    strategy: # we want to setup the matrix job to specifically only run one at a time so we don't get timed out
       max-parallel: 1
       matrix:
         WeakAura: ${{ fromJson(needs.setup.outputs.wa_list) }}
-    # "steps" holds a list of all the steps needed
     steps:
       - name: Clone project
         uses: actions/checkout@v3
