@@ -18,7 +18,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        Addons: [DungeonAuraTools,CustomNames]
+        Addons: [DungeonAuraTools,CustomNames,AutoDoors,CheatDeath]
     steps:
       - name: Clone project
         uses: actions/checkout@v3
