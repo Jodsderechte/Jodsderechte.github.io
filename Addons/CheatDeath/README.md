@@ -39,9 +39,9 @@ I would like to extend my special thanks to the Ark modding community on Discord
 
 [Discord]: https://discord.com/invite/v3gYmYamGJ (Join the Discord)
 [PayPal]: https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG (Donate via PayPal)
-[Curseforge]: https://www.curseforge.com/ark-survival-ascended/mods/autodoors
+[Curseforge]: https://www.curseforge.com/ark-survival-ascended/mods/cheat-death
 
 [//]: # (Images)
-[SVG-Curseforge]: https://cf.way2muchnoise.eu/short_931047.svg
+[SVG-Curseforge]: https://cf.way2muchnoise.eu/short_928506.svg
 [SVG-Discord]: https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=flat-square
 [SVG-PayPal]: https://custom-icon-badges.demolab.com/badge/-Donate-lightgrey?style=flat-square&logo=paypal&color=007CB1
