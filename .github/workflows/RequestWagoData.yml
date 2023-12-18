@@ -32,6 +32,7 @@ jobs:
            clean: false
            branch: main # Pushes the updates to the specified branch.
            force: false
+           git-config-name: "WagoDataRequest"
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
            commit-message: Updated WeakAurasLists
            target-folder: Data/  
@@ -62,6 +63,7 @@ jobs:
            clean: false
            branch: main # Pushes the updates to the specified branch.
            force: false
+           git-config-name: "WagoDataRequest"
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
            target-folder: Data/WeakAuras/ # Saves the data into the directory on the main branch.     
            commit-message: "fetched ${{matrix.WeakAura}} from wago"
