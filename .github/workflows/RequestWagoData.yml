@@ -22,6 +22,15 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
+
+      - name: get version
+        id: version
+        uses: notiz-dev/github-action-json-property@release
+        with: 
+          path: './fetch-api-data-action/WeakAurasList.json'
+          prop_path: "[.hits[].id]"
+      - run: echo ${{steps.version.outputs.prop}} 
+          
       - run: CrossOriginStuff/ConvertWaList.sh    
       - name: createList
         id: createList
