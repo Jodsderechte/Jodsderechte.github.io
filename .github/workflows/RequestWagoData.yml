@@ -15,7 +15,7 @@ jobs:
       wa_List: ${{ steps.createList.outputs.content }}
     steps:  
       - name: Clone project
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Fetch user data from Wago
         id: fetchData
         uses: JamesIves/fetch-api-data-action@v2
