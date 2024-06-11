@@ -51,7 +51,7 @@ jobs:
         WeakAura: ${{ fromJson(needs.setup.outputs.wa_list) }}
     steps:
       - name: Clone project
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         
       - name: Fetch data from Wago
         uses: JamesIves/fetch-api-data-action@v2
