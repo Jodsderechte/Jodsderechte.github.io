@@ -8,20 +8,18 @@ on:
    
 
 jobs:
-  # we need to setup the matrix job by creating the JSON array of possible WA urls
-  fetchdata:
+  # we need to setup the matrix job by creating the JSON array of possible WA urls   
+  setup:
     runs-on: ubuntu-latest
     outputs:
       wa_List: ${{ steps.createList.outputs.content }}
     steps:  
       - name: Clone project
-        uses: actions/checkout@v4
-      - name: Fetch user data from Wago
-        id: fetchData
-        uses: JamesIves/fetch-api-data-action@v2
-        with:
-          endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
-          save-name: WeakAurasList
+        uses: actions/checkout@v4  
+      - run: CrossOriginStuff/ConvertWaList.sh    
+      - name: createList
+        id: createList
+        run: curl -s 'https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=' | jq -cr '"content=\([.hits[].id])"' >> "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -32,19 +30,7 @@ jobs:
            git-config-email: "noreply@example.com"
            folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
            commit-message: Updated WeakAurasLists
-           target-folder: Data/      
-  setup:
-    needs: fetchdata
-    runs-on: ubuntu-latest
-    outputs:
-      wa_List: ${{ steps.createList.outputs.content }}
-    steps:  
-      - name: Clone project
-        uses: actions/checkout@v4  
-      - run: CrossOriginStuff/ConvertWaList.sh    
-      - name: createList
-        id: createList
-        run: jq -cr '"content=\([.hits[].id])"' fetch-api-data-action/WeakAurasList.json >> "$GITHUB_OUTPUT"
+           target-folder: Data/ 
   
   Request:
     needs: setup #the job should wait for the setup job to finish before starting
