@@ -6,6 +6,12 @@
   min-height: 100%;
 }
 
+.star-rating {
+  display: flex;
+  justify-content: space-between; /* Evenly spaces stars across the width */
+  color: gold;
+  font-size: 24px;
+}
 
 #container {
   display: flex;
@@ -38,6 +44,14 @@
     border-radius: 8px;
     background-color: #d55959;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.githubSkillContainer{
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (min-width: 50em) {
   #CoreAuras{
@@ -58,6 +72,19 @@
     display: none;
   } 
 }
+
+@media (max-width: 600px) {
+  .star-rating {
+    font-size: 20px; /* Smaller font size on mobile */
+  }
+}
+
+@media (max-width: 400px) {
+  .star-rating {
+    font-size: 16px; /* Even smaller font size on very small screens */
+  }
+}
+
 .DungeonAurasCardText{
   min-height: 130px;
 }
