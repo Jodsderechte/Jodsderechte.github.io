@@ -22,6 +22,17 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
+      - name: Build and Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+           clean: false
+           branch: main # Pushes the updates to the specified branch.
+           force: false
+           git-config-name: "WagoDataRequest"
+           git-config-email: "noreply@example.com"
+           folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
+           commit-message: Updated WeakAurasLists
+           target-folder: Data/      
   setup:
     needs: fetchdata
     runs-on: ubuntu-latest
@@ -34,17 +45,6 @@ jobs:
       - name: createList
         id: createList
         run: jq -cr '"content=\([.hits[].id])"' fetch-api-data-action/WeakAurasList.json >> "$GITHUB_OUTPUT"
-      - name: Build and Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-           clean: false
-           branch: main # Pushes the updates to the specified branch.
-           force: false
-           git-config-name: "WagoDataRequest"
-           git-config-email: "noreply@example.com"
-           folder: fetch-api-data-action/ # The location of the data.json file saved by the Fetch API Data action.
-           commit-message: Updated WeakAurasLists
-           target-folder: Data/  
   
   Request:
     needs: setup #the job should wait for the setup job to finish before starting
