@@ -9,7 +9,7 @@ on:
 
 jobs:
   # we need to setup the matrix job by creating the JSON array of possible WA urls
-  setup:
+  fetchdata:
     runs-on: ubuntu-latest
     outputs:
       wa_List: ${{ steps.createList.outputs.content }}
@@ -22,11 +22,18 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
-      - run: echo "fetchApiData=" >> $GITHUB_ENV    
+  setup:
+    needs: fetchdata
+    runs-on: ubuntu-latest
+    outputs:
+      wa_List: ${{ steps.createList.outputs.content }}
+    steps:  
+      - name: Clone project
+        uses: actions/checkout@v4  
       - run: CrossOriginStuff/ConvertWaList.sh    
       - name: createList
         id: createList
-        run: echo "content=$(jq -c '[.hits[].id]' < "./fetch-api-data-action/WeakAurasList.json")" >> "$GITHUB_OUTPUT"
+        run: jq -cr '"content=\([.hits[].id])"' fetch-api-data-action/WeakAurasList.json >> "$GITHUB_OUTPUT"
       - name: Build and Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
