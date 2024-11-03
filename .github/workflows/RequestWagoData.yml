@@ -22,6 +22,7 @@ jobs:
         with:
           endpoint: https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&page=0&sort=
           save-name: WeakAurasList
+      - run: echo "fetchApiData=" >> $GITHUB_ENV    
       - run: CrossOriginStuff/ConvertWaList.sh    
       - name: createList
         id: createList
