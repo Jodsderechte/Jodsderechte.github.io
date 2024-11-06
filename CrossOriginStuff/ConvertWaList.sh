@@ -20,7 +20,7 @@ echo "Checking for a total of: $total_pages pages"
 
 # Initialize empty JSON array to hold the results
 results="[]"
-
+echo "[]" > "$output_file"
 # Loop through each page and append the results
 for ((page=0; page<total_pages; page++)); do
   echo "Checking page: $page with url ${url}page=$page"
@@ -36,5 +36,5 @@ unique_results=$(echo "$results" | jq 'unique')
 echo "Unique results: $unique_results"
 
 # Set the unique results as an environment variable
-echo "content=$(echo "$unique_results" | jq -cr .)" >> "$output_file"
+echo "$(echo "$unique_results" | jq -cr .)" >> "$output_file"
 echo "Data written to $output_file"
