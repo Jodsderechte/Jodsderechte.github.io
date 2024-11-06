@@ -42,7 +42,7 @@ jobs:
 
           # Loop through each page and append the results
           for ((page=0; page<total_pages; page++)); do
-            echo "Checking page: $page with url ${url}page=$page" | jq -c '[.hits[].id]'"
+            echo "Checking page: $page with url ${url}page=$page"
             page_results=$(curl -s "${url}page=$page" | jq -c '[.hits[].id]')
             # Merge the page results into the results array
             results=$(echo "$results" | jq -s 'add + '"$page_results")
