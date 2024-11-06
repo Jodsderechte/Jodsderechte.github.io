@@ -40,5 +40,5 @@ unique_results=$(echo "$results" | jq 'unique')
 # Debugging: Output the raw JSON to make sure it's correct
 echo "Unique results: $unique_results"
 
-echo unique_results > "$output_file"
+echo "$unique_results" > "$output_file"
 echo "Data written to $output_file"
