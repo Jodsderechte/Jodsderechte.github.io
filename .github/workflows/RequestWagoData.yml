@@ -26,6 +26,12 @@ jobs:
           # Get total number of results
           total_results=$(curl -s "$url&page=0" | jq '.total')
 
+          # If total_results is empty, abort
+          if [ -z "$total_results" ]; then
+            echo "Error: Total results not found or invalid response"
+            exit 1
+          fi
+
           # Calculate total pages
           total_pages=$(( (total_results + page_size - 1) / page_size )) # This rounds up
 
@@ -39,8 +45,11 @@ jobs:
             results=$(echo "$results" | jq -s 'add + '"$page_results")
           done
 
-          # Filter out duplicates and set the final list as output
+          # Filter out duplicates and make the list unique
           unique_results=$(echo "$results" | jq 'unique')
+
+          # Debugging: Output the raw JSON to make sure it's correct
+          echo "Unique results: $unique_results"
 
           # Set the unique results as an environment variable
           echo "content=$(echo "$unique_results" | jq -cr .)" >> $GITHUB_ENV
