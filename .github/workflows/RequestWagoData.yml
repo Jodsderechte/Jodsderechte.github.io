@@ -55,7 +55,7 @@ jobs:
           echo "Unique results: $unique_results"
 
           # Set the unique results as an environment variable
-          echo "content=$(echo "$unique_results" | jq -cr .)" >> $GITHUB_ENV
+          echo "content=$(echo "$unique_results" | jq -cr .)" >> "$GITHUB_OUTPUT"
       - name: commit results
         run: | 
             git config --local user.name "WagoDataRequest"
