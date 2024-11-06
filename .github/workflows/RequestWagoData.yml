@@ -20,7 +20,7 @@ jobs:
       - name: createList
         id: createList
         run: |
-         url="https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&sort="
+          url="https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&sort="
           page_size=25
           
           # Get total number of results
@@ -39,8 +39,11 @@ jobs:
             results=$(echo "$results" | jq -s 'add + '"$page_results")
           done
 
-          # Set the final list as output
-          echo "content=$(echo "$results" | jq -cr .)" >> "$GITHUB_OUTPUT"
+          # Filter out duplicates and set the final list as output
+          unique_results=$(echo "$results" | jq 'unique')
+
+          # Set the unique results as an environment variable
+          echo "content=$(echo "$unique_results" | jq -cr .)" >> $GITHUB_ENV
       - name: commit results
         run: | 
             git config --local user.name "WagoDataRequest"
