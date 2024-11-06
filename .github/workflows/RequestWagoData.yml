@@ -20,7 +20,7 @@ jobs:
       - name: createList
         id: createList
         run: |
-          url="https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&sort="
+          url="https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&"
           page_size=25
           
           # Get total number of results

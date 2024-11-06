@@ -1,6 +1,6 @@
 #!/bin/bash
 
-url="https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow&sort="
+url="https://data.wago.io/search/es?q=User%3A%22Jodsderechte%22&mode=wow"
 page_size=25
 output_file="Data/WaList_Converted.json"
 
