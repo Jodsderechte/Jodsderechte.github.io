@@ -35,12 +35,28 @@ function onClick(element) {
   // Auto generation of Dungeon Aura Entries
   let WeakAurasTable = [
   {
+      "urlname": "Current-Dungeons",
+      "query" : "#CurrentDungeonsVersion",
+      "img" : "/images/CurrentDungeons.PNG",
+      "name" : "Current Season",
+      "expansion" : "Current Season",
+      "order" : 1,
+  },  
+  {
+      "urlname": "TWW-Dungeons",
+      "query" : "#WarWithinDungeonsVersion",
+      "img" : "/images/WarWithinDungeons.PNG",
+      "name" : "The War Within",
+      "expansion" : "The War Within",
+      "order" : 2,
+  },   
+  {
       "urlname": "DF-Dungeons",
       "query" : "#DragonflightDungeonsVersion",
       "img" : "/images/DragonflightDungeons.JPG",
       "name" : "Dragonflight",
       "expansion" : "Dragonflight",
-      "order" : 1,
+      "order" : 3,
     },  
   {
       "urlname": "SL-Dungeons",
@@ -48,7 +64,7 @@ function onClick(element) {
       "img" : "/images/ShadowlandsDungeons.JPG",
       "name" : "Shadowlands",
       "expansion" : "Shadowlands",
-      "order" : 2,
+      "order" : 4,
   },
   {
       "urlname": "BFA-Dungeons",
@@ -56,7 +72,7 @@ function onClick(element) {
       "img" : "/images/BattleForAzerothDungeons.JPG",
       "name" : "Battle for Azeroth",
       "expansion" : "Battle for Azeroth",
-      "order" : 3,
+      "order" : 5,
   },
   {
       "urlname": "Legion-Dungeons",
@@ -64,7 +80,7 @@ function onClick(element) {
       "img" : "/images/LegionDungeons.JPG",
       "name" : "Legion",
       "expansion" : "Legion",
-      "order" : 4,
+      "order" : 6,
   },
   {
       "urlname": "WOD-Dungeons",
@@ -72,7 +88,7 @@ function onClick(element) {
       "img" : "/images/DraenorDungeons.JPG",
       "name" : "Draenor",
       "expansion" : "Warlords of Draenor",
-      "order" : 5,
+      "order" : 7,
   },
   {
       "urlname": "MOP-Dungeons",
@@ -80,7 +96,7 @@ function onClick(element) {
       "img" : "/images/PandariaDungeons.JPG",
       "name" : "Pandaria",
       "expansion" : "Mists of Pandaria",
-      "order" : 6,
+      "order" : 8,
   },
   {
       "urlname": "Cataclysm-Dungeons",
@@ -88,7 +104,7 @@ function onClick(element) {
       "img" : "/images/CataclysmDungeons.JPG",
       "name" : "Cataclysm",
       "expansion" : "Cataclysm",
-      "order" : 7,
+      "order" : 9,
   },
   ]
   let WeakauraViews = WeakauraInstalls =WeakauraFavorites = WeakauraComments =0;
