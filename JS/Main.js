@@ -172,8 +172,6 @@ function onClick(element) {
     $.ajax({ url: "https://data.wago.io/api/check/weakauras?ids=NyseKq1Xo",dataType: "json", success: function( response ) {document.querySelector("#RaidAbilityTimelineVersion").innerHTML = "Version: "+response[0].versionString;}})
     $.ajax({ url: "https://florian-reichle.de/Data/WaList_Converted.json",dataType: "json", success: function( response ) { 
       //WeakauraViews = WeakauraViews+response.viewCount; document.querySelector(".TotalWeakAuraViews").innerHTML = WeakauraViews;
-      console.log(response)
-      console.log(response.length)
       for (let index = 0; index < response.length; index++) {
         let element = response[index];
         $.ajax({ url: "https://florian-reichle.de/Data/WeakAuras/"+element+".json",dataType: "json", success: function( response ) {
