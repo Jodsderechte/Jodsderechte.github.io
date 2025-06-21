@@ -45,7 +45,7 @@ function onClick(element) {
   {
       "urlname": "TWW-Dungeons",
       "query" : "#WarWithinDungeonsVersion",
-      "img" : "/images/WarWithinDungeons.PNG",
+      "img" : "/images/WarWithinDungeons.png",
       "name" : "The War Within",
       "expansion" : "The War Within",
       "order" : 2,
