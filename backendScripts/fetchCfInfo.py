@@ -2,6 +2,7 @@ import os
 import requests
 import json
 from pathlib import Path
+LOGOS_DIR = Path('logos')
 
 def fetch_mod_info(project_id: int, api_key: str) -> dict:
     """
@@ -56,14 +57,13 @@ def main():
 
     # Prepare output
     output = []
-    logos_dir = Path('logos')
 
     for pid in project_ids:
         try:
             info = fetch_mod_info(pid, api_key)
             logo_path = None
             if info.get('logoPath'):
-                logo_path = download_logo(info['logoPath'], logos_dir, pid)
+                logo_path = download_logo(info['logoPath'], LOGOS_DIR, pid)
                 info['logoPath'] = str(logo_path)
 
             output.append({
