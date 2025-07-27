@@ -1,0 +1,56 @@
+[
+  {
+    "id": 931047,
+    "name": "AutoDoors",
+    "downloadCount": 2185274,
+    "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+"
+  },
+  {
+    "id": 928506,
+    "name": "Cheat Death (Homing Pigeon reloaded)",
+    "downloadCount": 76059,
+    "summary": "This mod can save your precious Dinos from certain Death"
+  },
+  {
+    "id": 867373,
+    "name": "CustomNames",
+    "downloadCount": 3117,
+    "summary": "A simple lib adding the option for Name Variations to addons"
+  },
+  {
+    "id": 1116103,
+    "name": "CustomName_Guild",
+    "downloadCount": 220,
+    "summary": "Adds Guild support for Customnames"
+  },
+  {
+    "id": 1073608,
+    "name": "CustomNames_Chat",
+    "downloadCount": 492,
+    "summary": "Adds Chat support for Customnames"
+  },
+  {
+    "id": 876916,
+    "name": "CustomNames_ElvUI",
+    "downloadCount": 1689,
+    "summary": "Adds ElvUI Tags for CustomNames."
+  },
+  {
+    "id": 881888,
+    "name": "CustomNames_MRT",
+    "downloadCount": 1213,
+    "summary": "Adds MRT support for CustomNames."
+  },
+  {
+    "id": 662863,
+    "name": "Dungeon Aura Tools",
+    "downloadCount": 221238,
+    "summary": "Dynamic Weakauras creation tool for all the Dungeon needs"
+  },
+  {
+    "id": 1066197,
+    "name": "GroupFinderRio",
+    "downloadCount": 165056,
+    "summary": "Adds Rio Score display to the GroupFinder frame"
+  }
+]
