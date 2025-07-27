@@ -78,7 +78,7 @@ def main():
             print(f"Failed to fetch project {pid}: {e}")
 
     # Save collected metadata to a JSON file
-    with open(os.path.join('data', 'mods_metadata.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join('Data', 'mods_metadata.json'), 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print("All done. Metadata written to mods_metadata.json and logos saved in 'logos/' directory.")
