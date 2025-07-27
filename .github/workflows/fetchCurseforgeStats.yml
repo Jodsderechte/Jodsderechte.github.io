@@ -26,7 +26,7 @@ jobs:
       - name: Run fetcher script
         env:
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-          CURSEFORGE_PROJECT_IDS: [931047, 928506, 867373, 1116103, 1073608, 876916, 881888, 662863, 1066197]  # needs manual updating cf search doesn't work
+          CURSEFORGE_PROJECT_IDS: "[931047, 928506, 867373, 1116103, 1073608, 876916, 881888, 662863, 1066197]"  # needs manual updating cf search doesn't work
         run: |
           python backendScripts/fetchCfInfo.py
 
