@@ -32,7 +32,7 @@ jobs:
       
       - name: Run fetcher script
         env:
-          WAGO_USER_ENV: "Jodsderechte"
+          WAGO_USER: "Jodsderechte"
         run: |
           python backendScripts/fetchWagoInfo.py
 
