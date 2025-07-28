@@ -16,14 +16,33 @@ def fetch_mod_info(project_id: int, api_key: str) -> dict:
     }
     response = requests.get(url, headers=headers)
     response.raise_for_status()
+
     data = response.json().get('data', {})
+    main_file_id = data.get('mainFileId')
+    latest_files = data.get('latestFiles', [])
+
+    # find the file entry matching mainFileId
+    main_file = next(
+        (f for f in latest_files if f.get('id') == main_file_id),
+        None
+    )
+
+    # extract the fields or fall back to None
+    latest_version     = main_file.get('displayName') if main_file else None
+    latest_release_date= main_file.get('fileDate')    if main_file else None
+    installs           = main_file.get('downloadCount') if main_file else None
+    stars = data.get('ratingDetails', {}).get('positiveRatings', 0)
 
     return {
-        'id': data.get('id'),
-        'name': data.get('name'),
-        'downloadCount': data.get('downloadCount'),
-        'summary': data.get('summary'),
-        'logoPath': data.get('logo', {}).get('url')
+        'id':                data.get('id'),
+        'name':              data.get('name'),
+        'downloadCount':     data.get('downloadCount'),
+        'summary':           data.get('summary'),
+        'latestVersion':     latest_version,
+        'latestReleaseDate': latest_release_date,
+        'installs':          installs,
+        'logoUrl':           data.get('logo', {}).get('url'),
+        'stars':             stars
     }
 
 
@@ -67,10 +86,14 @@ def main():
                 info['logoPath'] = str(logo_path)
 
             output.append({
-                'id': info['id'],
-                'name': info['name'],
-                'downloadCount': info['downloadCount'],
-                'summary': info['summary']
+                'id':                info['id'],
+                'name':              info['name'],
+                'downloadCount':     info['downloadCount'],
+                'summary':           info['summary'],
+                'latestVersion':     info['latestVersion'],
+                'latestReleaseDate': info['latestReleaseDate'],
+                'installs':          info['installs'],
+                'stars':             info['stars'],
             })
             print(f"Fetched and saved data for project {pid}")
 
