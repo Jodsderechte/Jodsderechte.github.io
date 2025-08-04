@@ -2,27 +2,27 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2186488,
+    "downloadCount": 2194863,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 62.zip",
     "latestReleaseDate": "2025-07-12T23:26:53.433Z",
     "installs": 1,
-    "stars": 4768
+    "stars": 4832
   },
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 76086,
+    "downloadCount": 76233,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "latestReleaseDate": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 216
+    "stars": 218
   },
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3123,
+    "downloadCount": 3142,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.21",
     "latestReleaseDate": "2025-06-18T06:44:41.643Z",
@@ -32,7 +32,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 222,
+    "downloadCount": 226,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.5",
     "latestReleaseDate": "2025-06-18T06:45:54.203Z",
@@ -42,7 +42,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 493,
+    "downloadCount": 498,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.7",
     "latestReleaseDate": "2025-06-18T06:46:11.593Z",
@@ -52,7 +52,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 1691,
+    "downloadCount": 1701,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.6",
     "latestReleaseDate": "2025-06-18T06:45:42.657Z",
@@ -62,7 +62,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1215,
+    "downloadCount": 1221,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.2",
     "latestReleaseDate": "2025-06-18T06:45:19.853Z",
@@ -72,7 +72,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 221250,
+    "downloadCount": 221343,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.3.6",
     "latestReleaseDate": "2025-06-18T06:53:14.007Z",
@@ -82,7 +82,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 165098,
+    "downloadCount": 165361,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.3.3",
     "latestReleaseDate": "2025-06-18T06:46:22.423Z",
