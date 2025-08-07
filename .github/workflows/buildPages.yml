@@ -3,6 +3,7 @@ name: Build and Deploy Pages
 on:
   push:
     paths:
+      - '.github/workflows/buildPages.yml'
       - 'data/**'
       - 'templates/**'
       - 'backendScripts/**'
@@ -39,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jinja2 polib
+          pip install jinja2 polib dateutil babel
 
       - name: Generate index HTML page
         run: |
