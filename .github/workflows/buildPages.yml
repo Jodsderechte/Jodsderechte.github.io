@@ -76,7 +76,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Updated Spec Pages"
+            git commit -m "Built Pages"
           fi
       
           # Pull latest changes, fail only on actual errors
