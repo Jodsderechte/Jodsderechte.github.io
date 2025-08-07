@@ -45,7 +45,7 @@ jobs:
         env:
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
         run: |
-          python backendScripts/fetchLinkedInInfo.py
+          python backendScripts/fetchLinkedinInfo.py
 
       - uses: lowlighter/metrics@latest
         with:
