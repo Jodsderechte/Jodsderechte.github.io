@@ -1,0 +1,5516 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wago.io\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. image: deathknight.png  color: #C41F3B
+msgid "cl6"
+msgstr "Todesritter"
+
+#. image: deathknight.png  color: #C41F3B
+msgid "cl6-1"
+msgstr "Blut"
+
+#. image: deathknight.png  color: #C41F3B
+msgid "cl6-2"
+msgstr "Frost"
+
+#. image: deathknight.png  color: #C41F3B
+msgid "cl6-3"
+msgstr "Unheilig"
+
+#. image: demonhunter.png  color: #A330C9
+msgid "cl12"
+msgstr "Dämonenjäger"
+
+#. image: demonhunter.png  color: #A330C9
+msgid "cl12-1"
+msgstr "Verwüstung"
+
+#. image: demonhunter.png  color: #A330C9
+msgid "cl12-2"
+msgstr "Rachsucht"
+
+#. image: druid.png  color: #FF7D0A
+msgid "cl11"
+msgstr "Druide"
+
+#. image: druid.png  color: #FF7D0A
+msgid "cl11-1"
+msgstr "Gleichgewicht"
+
+#. image: druid.png  color: #FF7D0A
+msgid "cl11-2"
+msgstr "Wildheit"
+
+#. image: druid.png  color: #FF7D0A
+msgid "cl11-3"
+msgstr "Wächter"
+
+#. image: druid.png  color: #FF7D0A
+msgid "cl11-4"
+msgstr "Wiederherstellung"
+
+#. image: evoker.png  color: #33937F
+msgid "cl13"
+msgstr "Rufer"
+
+#. image: evoker.png  color: #33937F
+msgid "cl13-1"
+msgstr "Verheerung"
+
+#. image: evoker.png  color: #33937F
+msgid "cl13-2"
+msgstr "Bewahrung"
+
+#. image: evoker.png  color: #33937F
+msgid "cl13-3"
+msgstr "Verstärkung"
+
+#. image: hunter.png  color: #ABD473
+msgid "cl3"
+msgstr "Jäger"
+
+#. image: hunter.png  color: #ABD473
+msgid "cl3-1"
+msgstr "Tierherrschaft"
+
+#. image: hunter.png  color: #ABD473
+msgid "cl3-2"
+msgstr "Treffsicherheit"
+
+#. image: hunter.png  color: #ABD473
+msgid "cl3-3"
+msgstr "Überleben"
+
+#. image: mage.png  color: #69CCF0
+msgid "cl8"
+msgstr "Magier"
+
+#. image: mage.png  color: #69CCF0
+msgid "cl8-1"
+msgstr "Arkan"
+
+#. image: mage.png  color: #69CCF0
+msgid "cl8-2"
+msgstr "Feuer"
+
+#. image: mage.png  color: #69CCF0
+msgid "cl8-3"
+msgstr "Frost"
+
+#. image: monk.png  color: #00FF96
+msgid "cl10"
+msgstr "Mönch"
+
+#. image: monk.png  color: #00FF96
+msgid "cl10-1"
+msgstr "Braumeister"
+
+#. image: monk.png  color: #00FF96
+msgid "cl10-2"
+msgstr "Nebelwirker"
+
+#. image: monk.png  color: #00FF96
+msgid "cl10-3"
+msgstr "Windläufer"
+
+#. image: paladin.png  color: #F58CBA
+msgid "cl2"
+msgstr "Paladin"
+
+#. image: paladin.png  color: #F58CBA
+msgid "cl2-1"
+msgstr "Heilig"
+
+#. image: paladin.png  color: #F58CBA
+msgid "cl2-2"
+msgstr "Schutz"
+
+#. image: paladin.png  color: #F58CBA
+msgid "cl2-3"
+msgstr "Vergeltung"
+
+#. image: priest.png  color: #FFFFFF
+msgid "cl5"
+msgstr "Priester"
+
+#. image: priest.png  color: #FFFFFF
+msgid "cl5-1"
+msgstr "Disziplin"
+
+#. image: priest.png  color: #FFFFFF
+msgid "cl5-2"
+msgstr "Heilig"
+
+#. image: priest.png  color: #FFFFFF
+msgid "cl5-3"
+msgstr "Schatten"
+
+#. image: rogue.png  color: #FFF569
+msgid "cl4"
+msgstr "Schurke"
+
+#. image: rogue.png  color: #FFF569
+msgid "cl4-1"
+msgstr "Meucheln"
+
+#. image: rogue.png  color: #FFF569
+msgid "cl4-2"
+msgstr "Gesetzlosigkeit"
+
+#. image: rogue.png  color: #FFF569
+msgid "cl4-2c"
+msgstr ""
+
+#. image: rogue.png  color: #FFF569
+msgid "cl4-3"
+msgstr "Täuschung"
+
+#. image: shaman.png  color: #0070DE
+msgid "cl7"
+msgstr "Schamane"
+
+#. image: shaman.png  color: #0070DE
+msgid "cl7-1"
+msgstr "Elementar"
+
+#. image: shaman.png  color: #0070DE
+msgid "cl7-2"
+msgstr "Verstärkung"
+
+#. image: shaman.png  color: #0070DE
+msgid "cl7-3"
+msgstr "Wiederherstellung"
+
+#. image: warlock.png  color: #9482C9
+msgid "cl9"
+msgstr "Hexenmeister"
+
+#. image: warlock.png  color: #9482C9
+msgid "cl9-1"
+msgstr "Gebrechen"
+
+#. image: warlock.png  color: #9482C9
+msgid "cl9-2"
+msgstr "Dämonologie"
+
+#. image: warlock.png  color: #9482C9
+msgid "cl9-3"
+msgstr "Zerstörung"
+
+#. image: warrior.png  color: #C79C6E
+msgid "cl1"
+msgstr "Krieger"
+
+#. image: warrior.png  color: #C79C6E
+msgid "cl1-1"
+msgstr "Waffen"
+
+#. image: warrior.png  color: #C79C6E
+msgid "cl1-2"
+msgstr "Furor"
+
+#. image: warrior.png  color: #C79C6E
+msgid "cl1-3"
+msgstr "Schutz"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen0"
+msgstr "General"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen7"
+msgstr "Achievements"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen2"
+msgstr "Questing"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen6"
+msgstr "Non-Combat"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen9"
+msgstr "Currency"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen10"
+msgstr "Reputation"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen11"
+msgstr "Collectibles"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen12"
+msgstr "World Events"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen13"
+msgstr "Darkmoon Faire"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen14"
+msgstr "Brawler\\"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen15"
+msgstr "Pet Battles"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen16"
+msgstr "Warfronts"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen17"
+msgstr "Island Expeditions"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen18"
+msgstr "Covenants"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen19"
+msgstr "Dragon Riding"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen20"
+msgstr "Delves"
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "gen21"
+msgstr "Horrific Visions"
+
+#. image: equipment.png  color: #7ED321
+msgid "equip"
+msgstr "Equipment"
+
+#. image: equipment.png  color: #7ED321
+msgid "legen"
+msgstr "Legendaries"
+
+#. image: equipment.png  color: #7ED321
+msgid "equip1"
+msgstr "Trinkets"
+
+#. image: equipment.png  color: #7ED321
+msgid "equip2"
+msgstr "Item Enhancements"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech"
+msgstr "Combat Mechanics"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech1"
+msgstr "Battle Resurrection"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech2"
+msgstr "Interrupts"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech3"
+msgstr "Theorycrafting"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech4"
+msgstr "Vehicles"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech5"
+msgstr "Consumables"
+
+#. image: mechanics.png  color: #F55F37
+msgid "mech6"
+msgstr "Group Buffs"
+
+#. image: roles.png  color: #BED0C1
+msgid "role0"
+msgstr "Group Roles"
+
+#. image: roles.png  color: #BED0C1
+msgid "role4"
+msgstr "Raid Leading"
+
+#. image: roles.png  color: #BED0C1
+msgid "role1"
+msgstr "Damage Dealing"
+
+#. image: roles.png  color: #BED0C1
+msgid "role2"
+msgstr "Healing"
+
+#. image: roles.png  color: #BED0C1
+msgid "role3"
+msgstr "Tanking"
+
+#. image: accessibility.png  color: #BD10E0
+msgid "accessibility"
+msgstr "Accessibility"
+
+#. image: accessibility.png  color: #BD10E0
+msgid "accessibility1"
+msgstr "Audible"
+
+#. image: accessibility.png  color: #BD10E0
+msgid "accessibility2"
+msgstr "Visual"
+
+#. image: accessibility.png  color: #BD10E0
+msgid "accessibility3"
+msgstr "Controls"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil"
+msgstr "Amirdrassil, Hoffnung des Traums"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil1"
+msgstr "Knorrenwurzel"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil2"
+msgstr "Igira die Grausame"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil3"
+msgstr "Volcoross"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil4"
+msgstr "Larodar, Bewahrer der Flamme"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil5"
+msgstr "Rat der Träume"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil6"
+msgstr "Nymue, Weberin des Kreises"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil7"
+msgstr "Glimmeron"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil8"
+msgstr "Tindral Raschweise, Seher der Flamme"
+
+#. image: amirdrassil.png  color: #3EC16A
+msgid "raidamirdrassil9"
+msgstr "Fyrakk der Lodernde"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus"
+msgstr "Aberrus, Schmelztiegel der Schatten"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus1"
+msgstr "Kazzara, die Höllengeschmiedete"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus2"
+msgstr "Die Verschmelzungskammer"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus3"
+msgstr "Die vergessenen Experimente"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus4"
+msgstr "Die Ältesten der Zaqali"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus5"
+msgstr "Ältester Rashok"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus6"
+msgstr "Der aufmerksame Verwalter, Zskarn"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus7"
+msgstr "Magmorax"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus8"
+msgstr "Echo von Neltharion"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidaberrus9"
+msgstr "Schuppenkommandant Sarkareth"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates"
+msgstr "Gewölbe der Inkarnationen"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates1"
+msgstr "Eranog"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates2"
+msgstr "Sennarth, der kalte Atem"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates3"
+msgstr "Der Primalistenrat"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates4"
+msgstr "Kurog Grimmtotem"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates5"
+msgstr "Bruthüterin Diurna"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates6"
+msgstr "Raszageth die Sturmfresserin"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates7"
+msgstr "Terros"
+
+#. image: vaultincarnates.png  color: #3192F4
+msgid "raidvaultincarnates8"
+msgstr "Dathea, die Aufgestiegene"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace"
+msgstr "Palast der Nerub'ar"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace1"
+msgstr "Ulgrax der Verschlinger"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace2"
+msgstr "Der blutgebundene Schrecken"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace3"
+msgstr "Sikran, Hauptmann der Sureki"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace4"
+msgstr "Rasha'nan"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace5"
+msgstr "Brutverderber Ovi'nax"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace6"
+msgstr "Nexusprinzessin Ky'veza"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace7"
+msgstr "Der Seidenhof"
+
+#. image: nerubpalace.png  color: #E0108B
+msgid "raidnerubarpalace8"
+msgstr "Königin Ansurek"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine"
+msgstr "Befreiung von Lorenhall"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine1"
+msgstr "Strolch und die Gangzwinger"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine2"
+msgstr "Kessel des Gemetzels"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine3"
+msgstr "Rik Resonanz"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine4"
+msgstr "Stix Kojenschrotter"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine5"
+msgstr "Ritzelkrämer Lockenstock"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine6"
+msgstr "Der Einarmige Bandit"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine7"
+msgstr "Mug'Zee, Wachleitung"
+
+#. image: liberationofundermine.png  color: #DEC400
+msgid "liberationofundermine8"
+msgstr "Chromkönig Gallywix"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega"
+msgstr "Manaschmiede Omega"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega1"
+msgstr "Plexuswache"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega2"
+msgstr "Loom'ithar"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega3"
+msgstr "Seelenbinderin Naazindhri"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega4"
+msgstr "Schmiedeweber Araz"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega5"
+msgstr "Der Leerenjäger"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega6"
+msgstr "Fraktillus"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega7"
+msgstr "Nexuskönig Salhadaar"
+
+#. image: manaforgeomega.png  color: #1BC5E9
+msgid "manaforgeomega8"
+msgstr "Dimensius der alles Verschlingende"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon"
+msgstr "Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon-s3"
+msgstr "Season 3 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon6"
+msgstr "Ara-Kara, Stadt der Echos"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon5"
+msgstr "Die Morgenbringer"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon9"
+msgstr "Operation: Schleuse"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon2"
+msgstr "Priorat der Heiligen Flamme"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons3-1"
+msgstr "Hallen der Sühne"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons3-2"
+msgstr "Tazavesh: Wundersame Straßen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons3-3"
+msgstr "Tazavesh: So'leahs Schachzug"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons3-4"
+msgstr "Biokuppel Al'dani"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon-s2"
+msgstr "Season 2 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon7"
+msgstr "Metbrauerei Glutbräu"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon1"
+msgstr "Dunkelflammenspalt"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon3"
+msgstr "Die Brutstätte"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons2-1"
+msgstr "Das RIESENFLÖZ!!"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons2-2"
+msgstr "Theater der Schmerzen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons2-3"
+msgstr "Operation: Mechagon - Werkstatt"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon-s1"
+msgstr "Season 1 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon8"
+msgstr "Stadt der Fäden"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon4"
+msgstr "Das Steingewölbe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons1-1"
+msgstr "Die Nebel von Tirna Scithe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons1-2"
+msgstr "Die Nekrotische Schneise"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons1-3"
+msgstr "Die Belagerung von Boralus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeons1-4"
+msgstr "Grim Batol"
+
+#. image: dungeon.png  color: #F5A623
+msgid "twwdungeon-other"
+msgstr "Other Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1"
+msgstr "Season 1 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-1"
+msgstr "Ara-Kara, Stadt der Echos"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-2"
+msgstr "Stadt der Fäden"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-3"
+msgstr "Grim Batol"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-4"
+msgstr "Die Morgenbringer"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-5"
+msgstr "Das Steingewölbe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-6"
+msgstr "Die Belagerung von Boralus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-7"
+msgstr "Die Nebel von Tirna Scithe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s1-8"
+msgstr "Die Nekrotische Schneise"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2"
+msgstr "Season 2 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-1"
+msgstr "Metbrauerei Glutbräu"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-2"
+msgstr "Dunkelflammenspalt"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-3"
+msgstr "Die Brutstätte"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-4"
+msgstr "Priorat der Heiligen Flamme"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-5"
+msgstr "Operation: Schleuse"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-6"
+msgstr "Das RIESENFLÖZ!!"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-7"
+msgstr "Theater der Schmerzen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s2-8"
+msgstr "Operation: Mechagon - Werkstatt"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3"
+msgstr "Season 3 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-1"
+msgstr "Ara-Kara, Stadt der Echos"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-2"
+msgstr "Die Morgenbringer"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-3"
+msgstr "Operation: Schleuse"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-4"
+msgstr "Priorat der Heiligen Flamme"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-5"
+msgstr "Hallen der Sühne"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-6"
+msgstr "Tazavesh: Wundersame Straßen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-7"
+msgstr "Tazavesh: So'leahs Schachzug"
+
+#. image: dungeon.png  color: #F5A623
+msgid "tww-mdt-s3-8"
+msgstr "Biokuppel Al'dani"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon"
+msgstr "Dragonflight Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon-s4"
+msgstr "Season 4 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon1"
+msgstr "Brackenfellhöhle"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon2"
+msgstr "Uldaman: Vermächtnis von Tyr"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon4"
+msgstr "Neltharus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon8"
+msgstr "Hallen der Infusion"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon5"
+msgstr "Akademie von Algeth'ar"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon6"
+msgstr "Rubinlebensbecken"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon7"
+msgstr "Das Azurblaue Gewölbe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon3"
+msgstr "Der Angriff der Nokhud"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon-s3"
+msgstr "Season 3 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon9"
+msgstr "Dämmerung des Ewigen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons3-1"
+msgstr "Das Kronsteiganwesen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons3-2"
+msgstr "Das Finsterherzdickicht"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons3-3"
+msgstr "Atal'Dazar"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons3-4"
+msgstr "Die Rabenwehr"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons3-5"
+msgstr "Der Immergrüne Flor"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons3-6"
+msgstr "Thron der Gezeiten"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3"
+msgstr "Season 3 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-1"
+msgstr "Das Kronsteiganwesen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-2"
+msgstr "Das Finsterherzdickicht"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-3"
+msgstr "Atal'Dazar"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-4"
+msgstr "Die Rabenwehr"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-5"
+msgstr "Der Immergrüne Flor"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-6"
+msgstr "Thron der Gezeiten"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-7"
+msgstr "Dämmerung des Ewigen: Galakronds Sturz"
+
+#. image: dungeon.png  color: #F5A623
+msgid "df-mdt-s3-8"
+msgstr "Dämmerung des Ewigen: Murozonds Erhebung"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon-s2"
+msgstr "Season 2 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons2-1"
+msgstr "Neltharions Hort"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons2-2"
+msgstr "Freihafen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons2-3"
+msgstr "Der Tiefenpfuhl"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons2-4"
+msgstr "Der Vortexgipfel"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeon-s1"
+msgstr "Season 1 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons1-1"
+msgstr "Der Hof der Sterne"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons1-2"
+msgstr "Die Hallen der Tapferkeit"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons1-3"
+msgstr "Schattenmondgrabstätte"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dfdungeons1-4"
+msgstr "Tempel der Jadeschlange"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst"
+msgstr "Mausoleum der Ersten"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst1"
+msgstr "Aufmerksamer Wächter"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst2"
+msgstr "Dausegne, das gefallene Orakel"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst3"
+msgstr "Konstrukteur Xy'mox"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst4"
+msgstr "Prototypenpantheon"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst5"
+msgstr "Skolex, der unersättliche Räuber"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst6"
+msgstr "Halondrus der Rückgewinner"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst7"
+msgstr "Lihuvim, der oberste Architekt"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst8"
+msgstr "Anduin Wrynn"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst9"
+msgstr "Lords des Schreckens"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst10"
+msgstr "Rygelon"
+
+#. image: sepulcherfirst.png  color: #50FFEA
+msgid "raidsepulcherfirst11"
+msgstr "Der Kerkermeister"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom"
+msgstr "Sanktum der Herrschaft"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom1"
+msgstr "Der Tarragrue"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom2"
+msgstr "Das Auge des Kerkermeisters"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom3"
+msgstr "Die Neun"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom4"
+msgstr "Überrest von Ner'zhul"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom5"
+msgstr "Seelenfetzer Dormazain"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom6"
+msgstr "Leidensschmied Raznal"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom7"
+msgstr "Wächter der Ersten"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom8"
+msgstr "Schicksalsschreiber Roh-Kalo"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom9"
+msgstr "Kel'Thuzad"
+
+#. image: sanctumofdom.png  color: #5CE000
+msgid "raidsantumdom10"
+msgstr "Sylvanas Windläufer"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria"
+msgstr "Schloss Nathria"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria1"
+msgstr "Schrillschwinge"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria10"
+msgstr "Jäger Altimor"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria2"
+msgstr "Hungernder Zerstörer"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria4"
+msgstr "Konstrukteur Xy'mox"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria3"
+msgstr "Rettung des Sonnenkönigs"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria5"
+msgstr "Lady Inerva Dunkelader"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria6"
+msgstr "Der Rat des Blutes"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria7"
+msgstr "Schlickfaust"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria8"
+msgstr "Generäle der Steinlegion"
+
+#. image: nathria.png  color: #9693BD
+msgid "raidnathria9"
+msgstr "Graf Denathrius"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon"
+msgstr "Shadowlands Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon-s4a"
+msgstr "Season 4 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon9"
+msgstr "Tazavesh, der Verhüllte Markt"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon10"
+msgstr "Operation: Mechagon"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon11"
+msgstr "Rückkehr nach Karazhan"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon12"
+msgstr "Grimmgleisdepot"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon13"
+msgstr "Eisendocks"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon0s4b"
+msgstr "Other Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon1"
+msgstr "Die Nekrotische Schneise"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon2"
+msgstr "Seuchensturz"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon3"
+msgstr "Die Nebel von Tirna Scithe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon4"
+msgstr "Hallen der Sühne"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon5"
+msgstr "Theater der Schmerzen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon6"
+msgstr "Die Andre Seite"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon7"
+msgstr "Die Spitzen des Aufstiegs"
+
+#. image: dungeon.png  color: #F5A623
+msgid "sldungeon8"
+msgstr "Die Blutigen Tiefen"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking"
+msgstr "Timewalking"
+
+#. image: -  color: -
+msgid "sltimewalking10"
+msgstr "BFA Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking6"
+msgstr "Legion Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking9"
+msgstr "Mage Tower"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking5"
+msgstr "Warlords of Draenor Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking4"
+msgstr "Mists of Pandaria Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking3"
+msgstr "Cataclysm Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking2"
+msgstr "Lich King Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking8"
+msgstr "Ulduar"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking1"
+msgstr "Burning Crusade Dungeons"
+
+#. image: timewalking.png  color: #CD47FF
+msgid "sltimewalking7"
+msgstr "Der Schwarze Tempel"
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha"
+msgstr "Ny'alotha, die Erwachte Stadt"
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha1"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha2"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha3"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha4"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha5"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha6"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha7"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha8"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha9"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha10"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha11"
+msgstr ""
+
+#. image: nyalotha.png  color: #5EE1A6
+msgid "raidnyalotha12"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace"
+msgstr "Der Ewige Palast"
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace1"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace2"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace3"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace4"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace5"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace6"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace7"
+msgstr ""
+
+#. image: eternalpalace.png  color: #FF98EC
+msgid "raideternalpalace8"
+msgstr ""
+
+#. image: cruciblestorms.png  color: #3329b3
+msgid "raidcrucible"
+msgstr "Tiegel der Stürme"
+
+#. image: cruciblestorms.png  color: #3329b3
+msgid "raidcrucible1"
+msgstr ""
+
+#. image: cruciblestorms.png  color: #3329b3
+msgid "raidcrucible2"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar"
+msgstr "Schlacht von Dazar'alor"
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar1"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar1b"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar2"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar2b"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar3"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar3b"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar4"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar4b"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar5"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar6"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar7"
+msgstr ""
+
+#. image: zuldazar.png  color: #4BB21F
+msgid "raidzuldazar8"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir"
+msgstr "Uldir"
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir1"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir2"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir3"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir4"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir5"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir6"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir7"
+msgstr ""
+
+#. image: uldir.png  color: #D42D20
+msgid "raiduldir8"
+msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon"
+msgstr "BFA Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon1"
+msgstr "Atal'Dazar"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon2"
+msgstr "Freihafen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon3"
+msgstr "Die Königsruh"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon4"
+msgstr "Der Schrein des Sturms"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon5"
+msgstr "Die Belagerung von Boralus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon6"
+msgstr "Der Tempel von Sethraliss"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon7"
+msgstr "Das RIESENFLÖZ!!"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon8"
+msgstr "Der Tiefenpfuhl"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon9"
+msgstr "Tol Dagor"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon10"
+msgstr "Das Kronsteiganwesen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "bfadungeon11"
+msgstr "Operation: Mechagon"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus"
+msgstr "Antorus, der Brennende Thron"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus1"
+msgstr "Weltenbrecher der Garothi"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus2"
+msgstr "Teufelshunde des Sargeras"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus3"
+msgstr "Antorisches Oberkommando"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus4"
+msgstr "Portalhüterin Hasabel"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus5"
+msgstr "Eonar die Lebensbinderin"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus6"
+msgstr "Imonar der Seelenjäger"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus7"
+msgstr "Kin'garoth"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus8"
+msgstr "Varimathras"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus9"
+msgstr "Der Zirkel der Shivarra"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus10"
+msgstr "Aggramar"
+
+#. image: antorus.png  color: #1978aa
+msgid "raidantorus11"
+msgstr "Argus der Zerrütter"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb"
+msgstr "Das Grabmal des Sargeras"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb1"
+msgstr "Goroth"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb2"
+msgstr "Dämonische Inquisition"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb3"
+msgstr "Harjatan"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb4"
+msgstr "Herrin Sassz'ine"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb5"
+msgstr "Schwestern des Mondes"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb6"
+msgstr "Die trostlose Heerschar"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb7"
+msgstr "Wachsame Maid"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb8"
+msgstr "Gefallener Avatar"
+
+#. image: tombofsarg.png  color: #006d35
+msgid "raidtomb9"
+msgstr "Kil'jaeden"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh"
+msgstr "Die Nachtfestung"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh1"
+msgstr "Skorpyron"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh2"
+msgstr "Chronomatische Anomalie"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh3"
+msgstr "Trilliax"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh4"
+msgstr "Aluriel die Zauberklinge"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh5"
+msgstr "Tichondrius"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh6"
+msgstr "Krosus"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh7"
+msgstr "Hochbotaniker Tel'arn"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh8"
+msgstr "Sterndeuter Etraeus"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh9"
+msgstr "Großmagistrix Elisande"
+
+#. image: nighthold.png  color: #cb02b7
+msgid "raidnh10"
+msgstr "Gul'dan"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden"
+msgstr "Der Smaragdgrüne Alptraum"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden1"
+msgstr "Nythendra"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden2"
+msgstr "Il'gynoth das Herz der Verderbnis"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden4"
+msgstr "Elerethe Renferal"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden5"
+msgstr "Ursoc"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden6"
+msgstr "Drachen des Alptraums"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden7"
+msgstr "Cenarius"
+
+#. image: emeraldnightmare.png  color: #6b2100
+msgid "raiden8"
+msgstr "Xavius"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon"
+msgstr "Legion Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon3"
+msgstr "Der Arkus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon1"
+msgstr "Sturm auf die Violette Festung"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon4"
+msgstr "Die Rabenwehr"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon12"
+msgstr "Die Kathedrale der Ewigen Nacht"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon2"
+msgstr "Der Hof der Sterne"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon5"
+msgstr "Das Finsterherzdickicht"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon6"
+msgstr "Das Auge Azsharas"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon7"
+msgstr "Die Hallen der Tapferkeit"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon8"
+msgstr "Der Seelenschlund"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon9"
+msgstr "Neltharions Hort"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon11"
+msgstr "Rückkehr nach Karazhan"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon13"
+msgstr "Sitz des Triumvirats"
+
+#. image: dungeon.png  color: #F5A623
+msgid "dungeon10"
+msgstr "Das Verlies der Wächterinnen"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc"
+msgstr "Höllenfeuerzitadelle"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc1"
+msgstr "Höllenfeuerangriff"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc2"
+msgstr "Eiserner Häscher"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc3"
+msgstr "Kormrok"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc4"
+msgstr "Kilrogg Totauge"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc5"
+msgstr "Hoher Rat des Höllenfeuers"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc6"
+msgstr "Blutschatten"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc7"
+msgstr "Schattenfürst Iskar"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc8"
+msgstr "Socrethar der Ewige"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc9"
+msgstr "Tyrannin Velhari"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc10"
+msgstr "Teufelslord Zakuun"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc11"
+msgstr "Xhul'horac"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc12"
+msgstr "Mannoroth"
+
+#. image: hellfirecitadel.png  color: #689E12
+msgid "raidhfc13"
+msgstr "Archimonde"
+
+#. image: trialofvalor.png  color: #8F0995
+msgid "raidtov"
+msgstr "Die Prüfung der Tapferkeit"
+
+#. image: trialofvalor.png  color: #8F0995
+msgid "raidtov1"
+msgstr "Odyn"
+
+#. image: trialofvalor.png  color: #8F0995
+msgid "raidtov2"
+msgstr "Guarm"
+
+#. image: trialofvalor.png  color: #8F0995
+msgid "raidtov3"
+msgstr "Odyn"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar"
+msgstr "Ulduar"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar1"
+msgstr "Flammenleviathan"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar2"
+msgstr "Ignis, Meister des Eisenwerks"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar3"
+msgstr "Klingenschuppe"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar4"
+msgstr "XT-002 Dekonstruktor"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar5"
+msgstr "Die Versammlung des Eisens"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar6"
+msgstr "Kologarn"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar7"
+msgstr "Auriaya"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar8"
+msgstr "Hodir"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar9"
+msgstr "Thorim"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar10"
+msgstr "Freya"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar11"
+msgstr "Mimiron"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar12"
+msgstr "General Vezax"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar13"
+msgstr "Yogg-Saron"
+
+#. image: ulduar.png  color: #0ED39F
+msgid "raidulduar14"
+msgstr "Algalon der Beobachter"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc"
+msgstr "Prüfung des Kreuzfahrers"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc1"
+msgstr "Die Bestien von Nordend"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc2"
+msgstr "Lord Jaraxxus"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc3"
+msgstr "Champions der Allianz"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc4"
+msgstr "Champions der Horde"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc5"
+msgstr "Zwillingsval'kyr"
+
+#. image: toc.png  color: #D9D124
+msgid "raidtoc6"
+msgstr "Anub'arak"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc"
+msgstr "Die Eiskronenzitadelle"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc1"
+msgstr "Lord Mark'gar"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc2"
+msgstr "Lady Todeswisper"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc3"
+msgstr "Kanonenschiffsschlacht von Eiskrone"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc4"
+msgstr "Todesbringer Saurfang"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc5"
+msgstr "Fauldarm"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc6"
+msgstr "Modermiene"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc7"
+msgstr "Professor Seuchenmord"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc8"
+msgstr "Rat der Blutprinzen"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc9"
+msgstr "Blutkönigin Lana'thel"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc10"
+msgstr "Valithria Traumwandler"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc11"
+msgstr "Sindragosa"
+
+#. image: icc.png  color: #7EBEF1
+msgid "raidicc12"
+msgstr "Der Lichkönig"
+
+#. image: archavon.png  color: #A94ED9
+msgid "raidvoa"
+msgstr "Archavons Kammer"
+
+#. image: archavon.png  color: #A94ED9
+msgid "raidvoa1"
+msgstr "Archavon der Steinwächter"
+
+#. image: archavon.png  color: #A94ED9
+msgid "raidvoa2"
+msgstr "Emalon der Sturmwächter"
+
+#. image: archavon.png  color: #A94ED9
+msgid "raidvoa3"
+msgstr "Koralon der Flammenwächter"
+
+#. image: archavon.png  color: #A94ED9
+msgid "raidvoa4"
+msgstr "Toravon der Eiswächter"
+
+#. image: sarth.png  color: #B57204
+msgid "raidsarth"
+msgstr "Das Obsidiansanktum"
+
+#. image: sarth.png  color: #B57204
+msgid "raidsarth1"
+msgstr "Sartharion"
+
+#. image: malygos.png  color: #6D5DFA
+msgid "raidmalygos"
+msgstr "Das Auge der Ewigkeit"
+
+#. image: malygos.png  color: #6D5DFA
+msgid "raidmalygos1"
+msgstr "Malygos"
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidonyxia"
+msgstr "Onyxias Hort"
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidonyxia1"
+msgstr "Onyxia"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidhalion"
+msgstr "Das Rubinsanktum"
+
+#. image: halion.png  color: #FA5D60
+msgid "raidhalion1"
+msgstr "Halion"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon"
+msgstr "WotLK Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon1"
+msgstr "Ahn'kahet: Das Alte Königreich"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon2"
+msgstr "Azjol-Nerub"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon3"
+msgstr "Feste Drak'Tharon"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon4"
+msgstr "Gundrak"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon5"
+msgstr "Hallen der Blitze"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon6"
+msgstr "Hallen des Steins"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon7"
+msgstr "Das Ausmerzen von Stratholme"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon8"
+msgstr "Der Nexus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon9"
+msgstr "Das Oculus"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon10"
+msgstr "Die Violette Festung"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon11"
+msgstr "Burg Utgarde"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon12"
+msgstr "Turm Utgarde"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon13"
+msgstr "Prüfung des Champions"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon14"
+msgstr "Die Seelenschmiede"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon15"
+msgstr "Grube von Saron"
+
+#. image: dungeon.png  color: #F5A623
+msgid "wotlkdungeon16"
+msgstr "Hallen der Reflexion"
+
+#. image: tower-fall.png  color: #BFDD2D
+msgid "raidbaradinhold"
+msgstr "Baradinfestung"
+
+#. image: tower-fall.png  color: #BFDD2D
+msgid "raidbaradinhold1"
+msgstr "Argaloth"
+
+#. image: tower-fall.png  color: #BFDD2D
+msgid "raidbaradinhold2"
+msgstr "Occu'thar"
+
+#. image: tower-fall.png  color: #BFDD2D
+msgid "raidbaradinhold3"
+msgstr "Alizabal, Herrin des Hasses"
+
+#. image: egg-eye.png  color: #DB2DDD
+msgid "raidbastiontwilight"
+msgstr "Die Bastion des Zwielichts"
+
+#. image: egg-eye.png  color: #DB2DDD
+msgid "raidbastiontwilight1"
+msgstr "Halfus Wyrmbrecher"
+
+#. image: egg-eye.png  color: #DB2DDD
+msgid "raidbastiontwilight2"
+msgstr "Theralion und Valiona"
+
+#. image: egg-eye.png  color: #DB2DDD
+msgid "raidbastiontwilight3"
+msgstr "Rat der Aszendenten"
+
+#. image: egg-eye.png  color: #DB2DDD
+msgid "raidbastiontwilight4"
+msgstr "Cho'gall"
+
+#. image: egg-eye.png  color: #DB2DDD
+msgid "raidbastiontwilight5"
+msgstr "Sinestra"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent"
+msgstr "Pechschwingenabstieg"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent1"
+msgstr "Magmaul"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent2"
+msgstr "Omnotron-Verteidigungssystem"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent3"
+msgstr "Maloriak"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent4"
+msgstr "Atramedes"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent5"
+msgstr "Schimaeron"
+
+#. image: dragon-head.png  color: #007AEE
+msgid "raidblackwingdescent6"
+msgstr "Nefarians Ende"
+
+#. image: tornado.png  color: #2DC4DD
+msgid "raidfourwinds"
+msgstr "Thron der Vier Winde"
+
+#. image: tornado.png  color: #2DC4DD
+msgid "raidfourwinds1"
+msgstr "Das Konklave des Windes"
+
+#. image: tornado.png  color: #2DC4DD
+msgid "raidfourwinds2"
+msgstr "Al'Akir"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands"
+msgstr "Feuerlande"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands1"
+msgstr "Shannox"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands2"
+msgstr "Lord Rhyolith"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands3"
+msgstr "Beth'tilac"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands4"
+msgstr "Alysrazar"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands5"
+msgstr "Baloroc, der Torwächter"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands6"
+msgstr "Majordomus Hirschhaupt"
+
+#. image: burning-embers.png  color: #D34A4C
+msgid "raidfirelands7"
+msgstr "Ragnaros"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul"
+msgstr "Drachenseele"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul1"
+msgstr "Morchok"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul2"
+msgstr "Kriegsherr Zon'ozz"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul3"
+msgstr "Yor'sahj der Unermüdliche"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul4"
+msgstr "Hagara die Sturmbinderin"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul5"
+msgstr "Ultraxion"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul6"
+msgstr "Kriegsmeister Schwarzhorn"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul7"
+msgstr "Todesschwinges Rückgrat"
+
+#. image: interlaced-tentacles.png  color: #624EFC
+msgid "raiddragonsoul8"
+msgstr "Todesschwinges Wahnsinn"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon"
+msgstr "Cataclysm Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon1"
+msgstr "Thron der Gezeiten"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon2"
+msgstr "Grim Batol"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon3"
+msgstr "Die Verlorene Stadt der Tol'vir"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon4"
+msgstr "Der Vortexgipfel"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon5"
+msgstr "Schwarzfelshöhlen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon6"
+msgstr "Der Steinerne Kern"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon7"
+msgstr "Hallen des Ursprungs"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon8"
+msgstr "Todesminen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon9"
+msgstr "Burg Schattenfang"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon10"
+msgstr "Zul'Gurub"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon11"
+msgstr "Zul'Aman"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon12"
+msgstr "Brunnen der Ewigkeit"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon13"
+msgstr "Die Stunde des Zwielichts"
+
+#. image: dungeon.png  color: #F5A623
+msgid "catadungeon14"
+msgstr "Endzeit"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults"
+msgstr "Mogu'shangewölbe"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults1"
+msgstr "Die Steinwache"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults2"
+msgstr "Feng der Verfluchte"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults3"
+msgstr "Gara'jal der Geisterbinder"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults4"
+msgstr "Die Geisterkönige"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults5"
+msgstr "Elegon"
+
+#. image: mogushanvaults.png  color: #68F7C7
+msgid "raidmogushanvaults6"
+msgstr "Der Wille des Kaisers"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear"
+msgstr "Das Herz der Angst"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear1"
+msgstr "Kaiserlicher Wesir Zor'lok"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear2"
+msgstr "Klingenfürst Ta'yak"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear3"
+msgstr "Garalon"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear4"
+msgstr "Windfürst Mel'jarak"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear5"
+msgstr "Bernformer Un'sok"
+
+#. image: heartoffear.png  color: #DB5052
+msgid "raidheartoffear6"
+msgstr "Großkaiserin Shek'zeer"
+
+#. image: terraceofendlessspring.png  color: #BD7FCC
+msgid "raidterraceofendlessspring"
+msgstr "Terrasse d. Endlosen Frühlings"
+
+#. image: terraceofendlessspring.png  color: #BD7FCC
+msgid "raidterraceofendlessspring1"
+msgstr "Beschützer des Endlosen"
+
+#. image: terraceofendlessspring.png  color: #BD7FCC
+msgid "raidterraceofendlessspring2"
+msgstr "Tsulong"
+
+#. image: terraceofendlessspring.png  color: #BD7FCC
+msgid "raidterraceofendlessspring3"
+msgstr "Lei Shi"
+
+#. image: terraceofendlessspring.png  color: #BD7FCC
+msgid "raidterraceofendlessspring4"
+msgstr "Sha der Angst"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder"
+msgstr "Thron des Donners"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder1"
+msgstr "Jin'rokh der Zerstörer"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder2"
+msgstr "Horridon"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder3"
+msgstr "Rat der Ältesten"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder4"
+msgstr "Tortos"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder5"
+msgstr "Megaera"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder6"
+msgstr "Ji-Kun"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder7"
+msgstr "Durumu der Vergessene"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder8"
+msgstr "Primordius"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder9"
+msgstr "Dunkler Animus"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder10"
+msgstr "Der eiserne Qon"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder11"
+msgstr "Zwillingsempyreanerinnen"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder12"
+msgstr "Lei Shen"
+
+#. image: throneofthunder.png  color: #5459F7
+msgid "raidthroneofthunder13"
+msgstr "Ra-den"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar"
+msgstr "Schlacht um Orgrimmar"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar1"
+msgstr "Immerseus"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar2"
+msgstr "Die gefallenen Beschützer"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar3"
+msgstr "Norushen"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar4"
+msgstr "Sha des Stolzes"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar5"
+msgstr "Galakras"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar6"
+msgstr "Eiserner Koloss"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar7"
+msgstr "Dunkelschamanen der Kor'kron"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar8"
+msgstr "General Nazgrim"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar9"
+msgstr "Malkorok"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar10"
+msgstr "Die Schätze Pandarias"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar11"
+msgstr "Thok der Blutrünstige"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar12"
+msgstr "Belagerungsingenieur Rußschmied"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar13"
+msgstr "Die Getreuen der Klaxxi"
+
+#. image: siegeoforgrimmar.png  color: #E65B26
+msgid "raidsiegeoforgrimmar14"
+msgstr "Garrosh Höllschrei"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon"
+msgstr "Mists of Pandaria Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon1"
+msgstr "Tor der Untergehenden Sonne"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon2"
+msgstr "Mogu'shanpalast"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon3"
+msgstr "Scharlachrote Hallen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon4"
+msgstr "Das Scharlachrote Kloster"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon5"
+msgstr "Scholomance"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon6"
+msgstr "Das Shado-Pan-Kloster"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon7"
+msgstr "Belagerung des Niuzaotempels"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon8"
+msgstr "Die Brauerei Sturmbräu"
+
+#. image: dungeon.png  color: #F5A623
+msgid "mopdungeon9"
+msgstr "Tempel der Jadeschlange"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw"
+msgstr "Sonnenbrunnenplateau"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw1"
+msgstr "Kalecgos"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw2"
+msgstr "Brutallus"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw3"
+msgstr "Teufelsruch"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw4"
+msgstr "Die Eredarzwillinge"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw5"
+msgstr "M'uru"
+
+#. image: sunwell.png  color: #02FFEA
+msgid "raidsw6"
+msgstr "Kil'jaeden"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt"
+msgstr "Der Schwarze Tempel"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt1"
+msgstr "Oberster Kriegsfürst Naj'entus"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt2"
+msgstr "Supremus"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt3"
+msgstr "Akamas Schemen"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt4"
+msgstr "Teron Blutschatten"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt5"
+msgstr "Gurtogg Siedeblut"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt6"
+msgstr "Reliquiar der Seelen"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt7"
+msgstr "Mutter Shahraz"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt8"
+msgstr "Der Rat der Illidari"
+
+#. image: blacktemple.png  color: #09AD02
+msgid "raidbt9"
+msgstr "Illidan Sturmgrimm"
+
+#. image: mthyjal.png  color: #FF492D
+msgid "raidmthyjal"
+msgstr "Die Schlacht um den Hyjal"
+
+#. image: mthyjal.png  color: #FF492D
+msgid "raidmthyjal1"
+msgstr "Furor Winterfrost"
+
+#. image: mthyjal.png  color: #FF492D
+msgid "raidmthyjal2"
+msgstr "Anetheron"
+
+#. image: mthyjal.png  color: #FF492D
+msgid "raidmthyjal3"
+msgstr "Kaz'rogal"
+
+#. image: mthyjal.png  color: #FF492D
+msgid "raidmthyjal4"
+msgstr "Azgalor"
+
+#. image: mthyjal.png  color: #FF492D
+msgid "raidmthyjal5"
+msgstr "Archimonde"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman"
+msgstr "Zul'Aman"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman1"
+msgstr "Akil'zon"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman2"
+msgstr "Nalorakk"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman3"
+msgstr "Jan'alai"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman4"
+msgstr "Halazzi"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman5"
+msgstr "Hexlord Malacrass"
+
+#. image: zulaman.png  color: #DEA57D
+msgid "raidzulaman6"
+msgstr "Daakara"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc"
+msgstr "Höhle des Schlangenschreins"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc1"
+msgstr "Hydross der Unstete"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc2"
+msgstr "Das Grauen aus der Tiefe"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc3"
+msgstr "Leotheras der Blinde"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc4"
+msgstr "Tiefenlord Karathress"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc5"
+msgstr "Morogrim Gezeitenwandler"
+
+#. image: serpentshrine.png  color: #48FF98
+msgid "raidssc6"
+msgstr "Lady Vashj"
+
+#. image: tempestkeep.png  color: #FF2DC8
+msgid "raidtk"
+msgstr "Das Auge"
+
+#. image: tempestkeep.png  color: #FF2DC8
+msgid "raidtk2"
+msgstr "Al'ar"
+
+#. image: tempestkeep.png  color: #FF2DC8
+msgid "raidtk1"
+msgstr "Leerhäscher"
+
+#. image: tempestkeep.png  color: #FF2DC8
+msgid "raidtk3"
+msgstr "Hochastromantin Solarian"
+
+#. image: tempestkeep.png  color: #FF2DC8
+msgid "raidtk4"
+msgstr "Kael'thas Sonnenwanderer"
+
+#. image: gruul.png  color: #FF8748
+msgid "raidgruul"
+msgstr ""
+
+#. image: gruul.png  color: #FF8748
+msgid "raidgruul1"
+msgstr "Hochkönig Maulgar"
+
+#. image: gruul.png  color: #FF8748
+msgid "raidgruul2"
+msgstr "Gruul der Drachenschlächter"
+
+#. image: gruul.png  color: #FF8748
+msgid "raidgruul3"
+msgstr "Magtheridon"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan"
+msgstr "Karazhan"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan1"
+msgstr "Attumen der Jäger"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan2"
+msgstr "Moroes"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan3"
+msgstr "Tugendhafte Maid"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan4a"
+msgstr ""
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan4b"
+msgstr ""
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan4c"
+msgstr ""
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan5"
+msgstr "Der Kurator"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan6"
+msgstr "Das Schachspiel"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan7"
+msgstr "Terestian Siechhuf"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan8"
+msgstr "Arans Schemen"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan9"
+msgstr "Nethergroll"
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan10"
+msgstr ""
+
+#. image: karazhan.png  color: #48BAFF
+msgid "raidkarazhan11"
+msgstr "Prinz Malchezaar"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon"
+msgstr "TBC Dungeons"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon1"
+msgstr "Höllenfeuerbollwerk"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon2"
+msgstr "Der Blutkessel"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon3"
+msgstr "Die Zerschmetterten Hallen"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon4"
+msgstr "Die Sklavenunterkünfte"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon5"
+msgstr "Der Tiefensumpf"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon6"
+msgstr "Die Dampfkammer"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon7"
+msgstr "Managruft"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon8"
+msgstr "Auchenaikrypta"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon9"
+msgstr "Sethekkhallen"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon10"
+msgstr "Schattenlabyrinth"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon11"
+msgstr "Die Mechanar"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon12"
+msgstr "Die Botanika"
+
+#. image: dungeontbc.png  color: #F5A623
+msgid "tbcdungeon13"
+msgstr "Terrasse der Magister"
+
+#. image: sod.png  color: #50E3C2
+msgid "sod"
+msgstr "Season of Discovery"
+
+#. image: sod.png  color: #50E3C2
+msgid "sod-scarletenclave"
+msgstr "Scarlet Enclave"
+
+#. image: sod.png  color: #50E3C2
+msgid "sod-runeengraving"
+msgstr "Rune Engraving"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas"
+msgstr "Naxxramas"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas1"
+msgstr "Anub'Rekhan"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas2"
+msgstr "Großwitwe Faerlina"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas3"
+msgstr "Maexxna"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas4"
+msgstr "Noth der Seuchenfürst"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas5"
+msgstr "Heigan der Unreine"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas6"
+msgstr "Loatheb"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas7"
+msgstr "Flickwerk"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas8"
+msgstr "Grobbulus"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas9"
+msgstr "Gluth"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas10"
+msgstr "Thaddius"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas11"
+msgstr "Instrukteur Razuvious"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas12"
+msgstr "Gothik der Ernter"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas13"
+msgstr "Die Vier Reiter"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas14"
+msgstr "Saphiron"
+
+#. image: naxxramas.png  color: #B3ACAC
+msgid "raidnaxxramas15"
+msgstr "Kel'Thuzad"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq"
+msgstr "Tempel von Ahn'Qiraj"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq1"
+msgstr "Der Prophet Skeram"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq2"
+msgstr "Adel der Silithiden"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq3"
+msgstr "Schlachtwache Sartura"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq4"
+msgstr "Fankriss der Unnachgiebige"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq5"
+msgstr "Viscidus"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq6"
+msgstr "Prinzessin Huhuran"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq7"
+msgstr "Die Zwillingsimperatoren"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq8"
+msgstr "Ouro"
+
+#. image: aq40.png  color: #DF86B2
+msgid "raidtempleaq9"
+msgstr "C'Thun"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq"
+msgstr "Ruinen von Ahn'Qiraj"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq1"
+msgstr "Kurinnaxx"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq2"
+msgstr "General Rajaxx"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq3"
+msgstr "Moam"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq4"
+msgstr "Buru der Verschlinger"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq5"
+msgstr "Ayamiss die Jägerin"
+
+#. image: aq20.png  color: #00EE7A
+msgid "raidruinsaq6"
+msgstr "Ossirian der Narbenlose"
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub"
+msgstr "Zul'Gurub"
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub2"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub1"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub3"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub6"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub7"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub4"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub8"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub5"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub9"
+msgstr ""
+
+#. image: zulgurub.png  color: #B8FF25
+msgid "raidzulgurub10"
+msgstr ""
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair"
+msgstr "Pechschwingenhort"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair1"
+msgstr "Feuerkralle der Ungezähmte"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair2"
+msgstr "Vaelastrasz der Verdorbene"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair3"
+msgstr "Brutwächter Dreschbringer"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair4"
+msgstr "Feuerschwinge"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair5"
+msgstr "Schattenschwinge"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair6"
+msgstr "Flammenmaul"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair7"
+msgstr "Chromaggus"
+
+#. image: blackwinglair.png  color: #007AEE
+msgid "raidblackwinglair8"
+msgstr "Nefarian"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore"
+msgstr "Der Geschmolzene Kern"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore1"
+msgstr "Lucifron"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore2"
+msgstr "Magmadar"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore3"
+msgstr "Gehennas"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore4"
+msgstr "Garr"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore5"
+msgstr "Shazzrah"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore6"
+msgstr "Baron Geddon"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore7"
+msgstr "Golemagg der Verbrenner"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore8"
+msgstr "Sulfuronherold"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore9"
+msgstr "Majordomus Exekutus"
+
+#. image: moltencore.png  color: #F6921A
+msgid "raidmoltencore10"
+msgstr "Ragnaros"
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld"
+msgstr "Single Bosses"
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld1"
+msgstr "Onyxia"
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld2"
+msgstr ""
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld3"
+msgstr ""
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld4"
+msgstr ""
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld5"
+msgstr ""
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld6"
+msgstr ""
+
+#. image: worldboss.png  color: #CC0DBC
+msgid "raidworld7"
+msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon"
+msgstr "Classic Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon1"
+msgstr "Der Flammenschlund"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon2"
+msgstr "Höhlen des Wehklagens"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon3"
+msgstr "Todesminen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon4"
+msgstr "Burg Schattenfang"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon5"
+msgstr "Tiefschwarze Grotte"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon6"
+msgstr "Das Verlies"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon7"
+msgstr "Gnomeregan"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon8"
+msgstr "Kral der Klingenhauer"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon9"
+msgstr "Das Scharlachrote Kloster"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon10"
+msgstr "Hügel der Klingenhauer"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon11"
+msgstr "Uldaman"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon12"
+msgstr "Zul'Farrak"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon13"
+msgstr "Maraudon"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon14"
+msgstr "Der Tempel von Atal'Hakkar"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon15"
+msgstr "Schwarzfelstiefen"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon16"
+msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon17"
+msgstr "Düsterbruch - Hauptstadtgärten"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon18"
+msgstr "Stratholme - Haupttor"
+
+#. image: dungeon.png  color: #F5A623
+msgid "classicdungeon19"
+msgstr "Scholomance"
+
+#. image: torghast.png  color: #D80143
+msgid "torghast"
+msgstr ""
+
+#. image: torghast.png  color: #D80143
+msgid "torghast1"
+msgstr "Encounters"
+
+#. image: torghast.png  color: #D80143
+msgid "torghast2"
+msgstr "Anima"
+
+#. image: pvp.png  color: #ed1b24
+msgid "pvp"
+msgstr "PvP"
+
+#. image: pvp.png  color: #ed1b24
+msgid "arena"
+msgstr "Arena"
+
+#. image: pvp.png  color: #ed1b24
+msgid "bg"
+msgstr "Battlegrounds"
+
+#. image: pvp.png  color: #ed1b24
+msgid "wpvp"
+msgstr "World PvP"
+
+#. image: pvp.png  color: #ed1b24
+msgid "wpvp1"
+msgstr "Duels"
+
+#. image: pvp.png  color: #ed1b24
+msgid "wintergrasp"
+msgstr "Wintergrasp"
+
+#. image: pvp.png  color: #ed1b24
+msgid "tolbarad"
+msgstr "Tol Barad"
+
+#. image: gathering.png  color: #5E63B8
+msgid "prof1"
+msgstr "Gathering Professions"
+
+#. image: gathering.png  color: #5E63B8
+msgid "prof2"
+msgstr "Kräuterkunde"
+
+#. image: gathering.png  color: #5E63B8
+msgid "prof3"
+msgstr "Bergbau"
+
+#. image: gathering.png  color: #5E63B8
+msgid "prof4"
+msgstr "Kürschnerei"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof5"
+msgstr "Crafting Professions"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof6"
+msgstr "Alchemie"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof7"
+msgstr "Schmiedekunst"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof8"
+msgstr "Verzauberkunst"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof9"
+msgstr "Ingenieurskunst"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof10"
+msgstr "Inschriftenkunde"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof11"
+msgstr "Juwelierskunst"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof12"
+msgstr "Lederverarbeitung"
+
+#. image: crafting.png  color: #B85E5F
+msgid "prof13"
+msgstr "Schneiderei"
+
+#. image: secondaryprof.png  color: #C4C4C4
+msgid "prof14"
+msgstr "Secondary Professions"
+
+#. image: secondaryprof.png  color: #C4C4C4
+msgid "prof15"
+msgstr "Archäologie"
+
+#. image: secondaryprof.png  color: #C4C4C4
+msgid "prof16"
+msgstr "Kochkunst"
+
+#. image: secondaryprof.png  color: #C4C4C4
+msgid "prof17"
+msgstr "Erste Hilfe"
+
+#. image: secondaryprof.png  color: #C4C4C4
+msgid "prof18"
+msgstr "Angeln"
+
+#. image: development.png  color: #D27B61
+msgid "gen5"
+msgstr "Development"
+
+#. image: -  color: -
+msgid "gen3"
+msgstr "Testing"
+
+#. image: -  color: -
+msgid "gen4"
+msgstr "WA Training"
+
+#. image: -  color: -
+msgid "mdtdun15"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun16"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun16-crew2"
+msgstr "Bilge Rats Crew"
+
+#. image: -  color: -
+msgid "mdtdun16-crew1"
+msgstr "Blacktooth Crew"
+
+#. image: -  color: -
+msgid "mdtdun16-crew3"
+msgstr "Cutwater Crew"
+
+#. image: -  color: -
+msgid "mdtdun17"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun18"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun19"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun19-faction2"
+msgstr "Alliance"
+
+#. image: -  color: -
+msgid "mdtdun19-faction1"
+msgstr "Horde"
+
+#. image: -  color: -
+msgid "mdtdun20"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun21"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun22"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun23"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun24"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun25"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdtdun26"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun29"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun30"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun31"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun32"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun33"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun34"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun35"
+msgstr ""
+
+#. image: -  color: -
+msgid "mdt-sldun36"
+msgstr ""
+
+#. image: affixes.png  color: #ef2254
+msgid "mdtaffix"
+msgstr "Affixes"
+
+#. image: -  color: -
+msgid "mdtaffix3"
+msgstr "Vulkanisch"
+
+#. image: -  color: -
+msgid "mdtaffix6"
+msgstr "Wütend"
+
+#. image: -  color: -
+msgid "mdtaffix7"
+msgstr "Anstachelnd"
+
+#. image: -  color: -
+msgid "mdtaffix8"
+msgstr "Blutig"
+
+#. image: -  color: -
+msgid "mdtaffix9"
+msgstr "Tyrannisch"
+
+#. image: -  color: -
+msgid "mdtaffix10"
+msgstr "Fortified"
+
+#. image: -  color: -
+msgid "mdtaffix11"
+msgstr "Platzend"
+
+#. image: -  color: -
+msgid "mdtaffix134"
+msgstr "Umschlingend"
+
+#. image: -  color: -
+msgid "mdtaffix136"
+msgstr "Unkörperlich"
+
+#. image: -  color: -
+msgid "mdtaffix123"
+msgstr "Boshaft"
+
+#. image: -  color: -
+msgid "mdtaffix124"
+msgstr "Stürmisch"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w1"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w2"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w3"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w4"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w5"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w6"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w7"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w8"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w9"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w10"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w11"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix-df-s3-w12"
+msgstr "[-affix1-], [-affix2-], [-affix3-]"
+
+#. image: -  color: -
+msgid "mdtaffix2"
+msgstr "Skittish"
+
+#. image: -  color: -
+msgid "mdtaffix4"
+msgstr "Necrotic"
+
+#. image: -  color: -
+msgid "mdtaffix5"
+msgstr "Teeming"
+
+#. image: -  color: -
+msgid "mdtaffix12"
+msgstr "Grievous"
+
+#. image: -  color: -
+msgid "mdtaffix13"
+msgstr "Explosive"
+
+#. image: -  color: -
+msgid "mdtaffix14"
+msgstr "Quaking"
+
+#. image: -  color: -
+msgid "mdtaffix16"
+msgstr "Infested"
+
+#. image: -  color: -
+msgid "mdtaffix117"
+msgstr "Reaping"
+
+#. image: -  color: -
+msgid "mdtaffix119"
+msgstr "Beguiling"
+
+#. image: -  color: -
+msgid "mdtaffix120"
+msgstr "Awakened"
+
+#. image: -  color: -
+msgid "mdtaffix121"
+msgstr "Prideful"
+
+#. image: -  color: -
+msgid "mdtaffix122"
+msgstr "Inspiring"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w1"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w2"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w3"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w4"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w5"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w6"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w7"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w8"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w9"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w10"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w11"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s1-w12"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w1"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w2"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w3"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w4"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w5"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w6"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w7"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w8"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w9"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w10"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w11"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s2-w12"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w1"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w2"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w3"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w4"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w5"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w6"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w7"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w8"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w9"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w10"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w11"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s3-w12"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w1"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w2"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w3"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w4"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w5"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w6"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w7"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w8"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w9"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w10"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w11"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-bfa-s4-w12"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w1"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w2"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w3"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w4"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w5"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w6"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w7"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w8"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w9"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w10"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w11"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: -  color: -
+msgid "mdtaffix-sl-s1-w12"
+msgstr "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+
+#. image: speed.png  color: #42bce4
+msgid "mdtspeed"
+msgstr "Speed"
+
+#. image: -  color: -
+msgid "mdtspeed1"
+msgstr "Easy Going"
+
+#. image: -  color: -
+msgid "mdtspeed2"
+msgstr "Gotta Go Fast"
+
+#. image: -  color: -
+msgid "mdtspeed3"
+msgstr "Racing for #1"
+
+#. image: -  color: #123456
+msgid "mdtcl6"
+msgstr "Todesritter"
+
+#. image: -  color: #123456
+msgid "mdtcl6-1"
+msgstr "Blut"
+
+#. image: -  color: #123456
+msgid "mdtcl6-2"
+msgstr "Frost"
+
+#. image: -  color: #123456
+msgid "mdtcl6-3"
+msgstr "Unheilig"
+
+#. image: -  color: #123456
+msgid "mdtcl12"
+msgstr "Dämonenjäger"
+
+#. image: -  color: #123456
+msgid "mdtcl12-1"
+msgstr "Verwüstung"
+
+#. image: -  color: #123456
+msgid "mdtcl12-2"
+msgstr "Rachsucht"
+
+#. image: -  color: #123456
+msgid "mdtcl11"
+msgstr "Druide"
+
+#. image: -  color: #123456
+msgid "mdtcl11-1"
+msgstr "Gleichgewicht"
+
+#. image: -  color: #123456
+msgid "mdtcl11-2"
+msgstr "Wildheit"
+
+#. image: -  color: #123456
+msgid "mdtcl11-3"
+msgstr "Wächter"
+
+#. image: -  color: #123456
+msgid "mdtcl11-4"
+msgstr "Wiederherstellung"
+
+#. image: -  color: #123456
+msgid "mdtcl3"
+msgstr "Jäger"
+
+#. image: -  color: #123456
+msgid "mdtcl3-1"
+msgstr "Tierherrschaft"
+
+#. image: -  color: #123456
+msgid "mdtcl3-2"
+msgstr "Treffsicherheit"
+
+#. image: -  color: #123456
+msgid "mdtcl3-3"
+msgstr "Überleben"
+
+#. image: -  color: #123456
+msgid "mdtcl8"
+msgstr "Magier"
+
+#. image: -  color: #123456
+msgid "mdtcl8-1"
+msgstr "Arkan"
+
+#. image: -  color: #123456
+msgid "mdtcl8-2"
+msgstr "Feuer"
+
+#. image: -  color: #123456
+msgid "mdtcl8-3"
+msgstr "Frost"
+
+#. image: -  color: #123456
+msgid "mdtcl10"
+msgstr "Mönch"
+
+#. image: -  color: #123456
+msgid "mdtcl10-1"
+msgstr "Braumeister"
+
+#. image: -  color: #123456
+msgid "mdtcl10-2"
+msgstr "Nebelwirker"
+
+#. image: -  color: #123456
+msgid "mdtcl10-3"
+msgstr "Windläufer"
+
+#. image: -  color: #123456
+msgid "mdtcl2"
+msgstr "Paladin"
+
+#. image: -  color: #123456
+msgid "mdtcl2-1"
+msgstr "Heilig"
+
+#. image: -  color: #123456
+msgid "mdtcl2-2"
+msgstr "Schutz"
+
+#. image: -  color: #123456
+msgid "mdtcl2-3"
+msgstr "Vergeltung"
+
+#. image: -  color: #123456
+msgid "mdtcl5"
+msgstr "Priester"
+
+#. image: -  color: #123456
+msgid "mdtcl5-1"
+msgstr "Disziplin"
+
+#. image: -  color: #123456
+msgid "mdtcl5-2"
+msgstr "Heilig"
+
+#. image: -  color: #123456
+msgid "mdtcl5-3"
+msgstr "Schatten"
+
+#. image: -  color: #123456
+msgid "mdtcl4"
+msgstr "Schurke"
+
+#. image: -  color: #123456
+msgid "mdtcl4-1"
+msgstr "Meucheln"
+
+#. image: -  color: #123456
+msgid "mdtcl4-2"
+msgstr "Gesetzlosigkeit"
+
+#. image: -  color: #123456
+msgid "mdtcl4-3"
+msgstr "Täuschung"
+
+#. image: -  color: #123456
+msgid "mdtcl7"
+msgstr "Schamane"
+
+#. image: -  color: #123456
+msgid "mdtcl7-1"
+msgstr "Elementar"
+
+#. image: -  color: #123456
+msgid "mdtcl7-2"
+msgstr "Verstärkung"
+
+#. image: -  color: #123456
+msgid "mdtcl7-3"
+msgstr "Wiederherstellung"
+
+#. image: -  color: #123456
+msgid "mdtcl9"
+msgstr "Hexenmeister"
+
+#. image: -  color: #123456
+msgid "mdtcl9-1"
+msgstr "Gebrechen"
+
+#. image: -  color: #123456
+msgid "mdtcl9-2"
+msgstr "Dämonologie"
+
+#. image: -  color: #123456
+msgid "mdtcl9-3"
+msgstr "Zerstörung"
+
+#. image: -  color: #123456
+msgid "mdtcl1"
+msgstr "Krieger"
+
+#. image: -  color: #123456
+msgid "mdtcl1-1"
+msgstr "Waffen"
+
+#. image: -  color: #123456
+msgid "mdtcl1-2"
+msgstr "Furor"
+
+#. image: -  color: #123456
+msgid "mdtcl1-3"
+msgstr "Schutz"
+
+#. image: snippets.png  color: #d18cf3
+msgid "snip0"
+msgstr "Code Snippets"
+
+#. image: snippets.png  color: #d18cf3
+msgid "snip1"
+msgstr "Libraries"
+
+#. image: snippets.png  color: #d18cf3
+msgid "snip2"
+msgstr "Tutorials"
+
+#. image: opie.png  color: #2595E6
+msgid "opie1"
+msgstr "Group Buffs"
+
+#. image: opie.png  color: #2595E6
+msgid "opie2"
+msgstr "Consumables"
+
+#. image: opie.png  color: #2595E6
+msgid "opie3"
+msgstr "Vehicles"
+
+#. image: opie.png  color: #2595E6
+msgid "opie4"
+msgstr "Equipment"
+
+#. image: opie.png  color: #2595E6
+msgid "opie5"
+msgstr "Trinkets"
+
+#. image: opie.png  color: #2595E6
+msgid "opie6"
+msgstr "Utility"
+
+#. image: macro.png  color: #BA25BF
+msgid "macro0"
+msgstr "Utility"
+
+#. image: macro.png  color: #BA25BF
+msgid "macro1"
+msgstr "Consumables"
+
+#. image: macro.png  color: #BA25BF
+msgid "macro2"
+msgstr "Vehicles"
+
+#. image: macro.png  color: #BA25BF
+msgid "macro3"
+msgstr "Equipment"
+
+#. image: crosshair.png  color: #E0EAB9
+msgid "macro4"
+msgstr "Targeting"
+
+#. image: crosshair.png  color: #E0EAB9
+msgid "macro5"
+msgstr "Raids"
+
+#. image: crosshair.png  color: #E0EAB9
+msgid "macro6"
+msgstr "Dungeons"
+
+#. image: plater.png  color: #FFC972
+msgid "plater1"
+msgstr "Plater Profiles"
+
+#. image: plater.png  color: #FFC972
+msgid "plater2"
+msgstr "Plater Scripts"
+
+#. image: plater.png  color: #FFC972
+msgid "plater3"
+msgstr "Plater Mods"
+
+#. image: plater.png  color: #FFC972
+msgid "plater4"
+msgstr "Plater Animations"
+
+#. image: plater.png  color: #FFC972
+msgid "plater5"
+msgstr "Plater NPC Colors"
+
+#. image: plater.png  color: #FFC972
+msgid "plater6"
+msgstr "Plater Cast Sounds"
+
+#. image: plater.png  color: #FFC972
+msgid "plater7"
+msgstr "Plater Cast Colors"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerutilities"
+msgstr "Utilities"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerdungeons"
+msgstr "Dungeons"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerraids"
+msgstr "Raids"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerpvp"
+msgstr "PvP"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platertorghast"
+msgstr ""
+
+#. image: snippets.png  color: #d18cf3
+msgid "platernathria"
+msgstr "Schloss Nathria"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platersanctumdominion"
+msgstr "Sanktum der Herrschaft"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerraidzuldazar"
+msgstr "Schlacht von Dazar'alor"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerraidcrucible"
+msgstr "Tiegel der Stürme"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerraiduldir"
+msgstr "Uldir"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerraideternalpalace"
+msgstr "Der Ewige Palast"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platerraidnyalotha"
+msgstr "Ny'alotha, die Erwachte Stadt"
+
+#. image: trpcamp.png  color: #C3793A
+msgid "totalrp1"
+msgstr "Campaigns"
+
+#. image: trpcamp.png  color: #C3793A
+msgid "totalrp2"
+msgstr "Alliance Campaigns"
+
+#. image: trpcamp.png  color: #C3793A
+msgid "totalrp3"
+msgstr "Horde Campaigns"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp4"
+msgstr "Items"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp6"
+msgstr "Containers"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp7"
+msgstr "Documents"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp8"
+msgstr "Equipment"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp9"
+msgstr "Expert Mode"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp10"
+msgstr "Normal Mode"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp11"
+msgstr "Miscellaneous"
+
+#. image: equipment.png  color: #7ED321
+msgid "totalrp12"
+msgstr "Toys"
+
+#. image: lang.png  color: #269C7D
+msgid "rplang1"
+msgstr "English"
+
+#. image: lang.png  color: #269C7D
+msgid "rplang2"
+msgstr "French"
+
+#. image: lang.png  color: #269C7D
+msgid "rplang3"
+msgstr "Spanish"
+
+#. image: lang.png  color: #269C7D
+msgid "rplang4"
+msgstr "German"
+
+#. image: vuhdo.png  color: #6BB85E
+msgid "vuhdo1"
+msgstr "Vuhdo Profiles"
+
+#. image: vuhdo.png  color: #6BB85E
+msgid "vuhdo2"
+msgstr "Vuhdo Bouquets"
+
+#. image: vuhdo.png  color: #6BB85E
+msgid "vuhdo3"
+msgstr "Vuhdo Key Layouts"
+
+#. image: cell.png  color: #56E93E
+msgid "cell1"
+msgstr "Cell Profiles"
+
+#. image: cell.png  color: #56E93E
+msgid "cell2"
+msgstr "Cell Layouts"
+
+#. image: cell.png  color: #56E93E
+msgid "cell3"
+msgstr "Cell Indicators"
+
+#. image: cell.png  color: #56E93E
+msgid "cell4"
+msgstr "Click Castings"
+
+#. image: cell.png  color: #56E93E
+msgid "cell5"
+msgstr "Debuffs"
+
+#. image: cell.png  color: #56E93E
+msgid "cell6"
+msgstr "Quick Assist"
+
+#. image: gse.png  color: #00CCCC
+msgid "gse1"
+msgstr "GSE Sequences"
+
+#. image: gse.png  color: #00CCCC
+msgid "gse2"
+msgstr "GSE Macros"
+
+#. image: gse.png  color: #00CCCC
+msgid "gse3"
+msgstr "GSE Variables"
+
+#. image: gse.png  color: #00CCCC
+msgid "gse4"
+msgstr "GSE Collections"
+
+#. image: equipment.png  color: #7ED321
+msgid "job-tank"
+msgstr ""
+
+#. image: ffxiv/PLD.svg  color: #a8d2e6
+msgid "job-pld"
+msgstr ""
+
+#. image: ffxiv/WAR.svg  color: #cf2621
+msgid "job-war"
+msgstr ""
+
+#. image: ffxiv/DRK.svg  color: #d126cc
+msgid "job-drk"
+msgstr ""
+
+#. image: ffxiv/GNB.svg  color: #998d50
+msgid "job-gnb"
+msgstr ""
+
+#. image: priest.png  color: #FFFFFF
+msgid "job-healer"
+msgstr ""
+
+#. image: ffxiv/SCH.svg  color: #8657ff
+msgid "job-sch"
+msgstr ""
+
+#. image: ffxiv/WHM.svg  color: #fff0dc
+msgid "job-whm"
+msgstr ""
+
+#. image: ffxiv/AST.svg  color: #ffe74a
+msgid "job-ast"
+msgstr ""
+
+#. image: ffxiv/SGE.png  color: #80a0f0
+msgid "job-sge"
+msgstr ""
+
+#. image: warrior.png  color: #C79C6E
+msgid "job-melee"
+msgstr "Melee DPS"
+
+#. image: ffxiv/MNK.svg  color: #d69c00
+msgid "job-mnk"
+msgstr ""
+
+#. image: ffxiv/DRG.svg  color: #4164cd
+msgid "job-drg"
+msgstr ""
+
+#. image: ffxiv/NIN.svg  color: #af1964
+msgid "job-nin"
+msgstr ""
+
+#. image: ffxiv/SAM.svg  color: #e46d04
+msgid "job-sam"
+msgstr ""
+
+#. image: ffxiv/RPR.png  color: #965a90
+msgid "job-rpr"
+msgstr ""
+
+#. image: mage.png  color: #69CCF0
+msgid "job-magic"
+msgstr "Ranged Magical DPS"
+
+#. image: ffxiv/BLM.svg  color: #a579d6
+msgid "job-blm"
+msgstr ""
+
+#. image: ffxiv/SMN.svg  color: #2d9b78
+msgid "job-smn"
+msgstr ""
+
+#. image: ffxiv/RDM.svg  color: #e87b7b
+msgid "job-rdm"
+msgstr ""
+
+#. image: ffxiv/BLU.svg  color: #2459ff
+msgid "job-blu"
+msgstr ""
+
+#. image: hunter.png  color: #ABD473
+msgid "job-ranged"
+msgstr "Ranged Physical DPS"
+
+#. image: ffxiv/BRD.svg  color: #91ba5e
+msgid "job-brd"
+msgstr ""
+
+#. image: ffxiv/MCH.svg  color: #6ee1d6
+msgid "job-mch"
+msgstr ""
+
+#. image: ffxiv/DNC.svg  color: #e2b0af
+msgid "job-dnc"
+msgstr ""
+
+#. image: crafting.png  color: #B85E5F
+msgid "job-craft"
+msgstr "Crafting"
+
+#. image: ffxiv/ALC.svg  color: #AF6F9E
+msgid "job-alc"
+msgstr ""
+
+#. image: ffxiv/ARM.svg  color: #AD8A56
+msgid "job-arm"
+msgstr ""
+
+#. image: ffxiv/BSM.svg  color: #475673
+msgid "job-bsm"
+msgstr ""
+
+#. image: ffxiv/CRP.svg  color: #E8CF8C
+msgid "job-crp"
+msgstr ""
+
+#. image: ffxiv/CUL.svg  color: #677135
+msgid "job-cul"
+msgstr ""
+
+#. image: ffxiv/GSM.svg  color: #D5B23D
+msgid "job-gsm"
+msgstr ""
+
+#. image: ffxiv/LTW.svg  color: #3165A2
+msgid "job-ltw"
+msgstr ""
+
+#. image: ffxiv/WVR.svg  color: #C7420C
+msgid "job-wvr"
+msgstr ""
+
+#. image: gathering.png  color: #5E63B8
+msgid "job-gather"
+msgstr "Gathering"
+
+#. image: ffxiv/BTN.svg  color: #EAF7D4
+msgid "job-btn"
+msgstr ""
+
+#. image: ffxiv/FSH.svg  color: #49D3E7
+msgid "job-fsh"
+msgstr ""
+
+#. image: ffxiv/MIN.svg  color: #AF1964
+msgid "job-min"
+msgstr ""
+
+#. image: miscellaneous.png  color: #D0B58B
+msgid "xiv-misc"
+msgstr "Miscellaneous"
+
+#. image: trpcamp.png  color: #C3793A
+msgid "xiv-rp"
+msgstr "Roleplaying"
+
+#. image: ffxiv/delvui.png  color: #FDFDFD
+msgid "delvui1"
+msgstr "DelvUI Profile"
+
+#. image: ffxiv/delvui.png  color: #FDFDFD
+msgid "delvui2"
+msgstr "Single Config"
+
+msgid "weekday.Monday"
+msgstr "Montag"
+
+msgid "weekday.Tuesday"
+msgstr "Dienstag"
+
+msgid "weekday.Wednesday"
+msgstr "Mittwoch"
+
+msgid "weekday.Thursday"
+msgstr "Donnerstag"
+
+msgid "weekday.Friday"
+msgstr "Freitag"
+
+msgid "weekday.Saturday"
+msgstr "Samstag"
+
+msgid "weekday.Sunday"
+msgstr "Sonntag"
+
+msgid "month.January"
+msgstr "Januar"
+
+msgid "month.February"
+msgstr "Februar"
+
+msgid "month.March"
+msgstr "März"
+
+msgid "month.April"
+msgstr "April"
+
+msgid "month.May"
+msgstr "Mai"
+
+msgid "month.June"
+msgstr "Juni"
+
+msgid "month.July"
+msgstr "Juli"
+
+msgid "month.August"
+msgstr "August"
+
+msgid "month.September"
+msgstr "September"
+
+msgid "month.October"
+msgstr "Oktober"
+
+msgid "month.November"
+msgstr "November"
+
+msgid "month.December"
+msgstr "Dezember"
+
+msgid "the"
+msgstr "den"
+
+msgid "SkillsDescription"
+msgstr ""
+"Während meines Studiums und in meiner Freizeit habe ich mich intensiv mit "
+"verschiedenen Programmiersprachen und anderen relevanten Themen im Bereich "
+"der Softwareentwicklung beschäftigt. So habe ich Kenntnisse in Sprachen wie "
+"Lua und Java, die es mir ermöglichen, diverse Algorithmen zu implementieren "
+"und Anwendungen mit unterschiedlichen Funktionalitäten zu entwickeln. "
+"Darüber hinaus habe ich HTML, CSS und JavaScript erlernt, um interaktive und"
+" visuell ansprechende Websites zu erstellen. <br><br> Zusätzlich habe ich "
+"mich mit grundlegenden Werkzeugen wie Git vertraut gemacht, um "
+"Versionskontrolle und gemeinsame Programmierung durchzuführen. Die dabei "
+"gemachten Erfahrungen haben mir die Bedeutung von Teamarbeit in "
+"Softwareprojekten und die Wichtigkeit eines gut organisierten und "
+"effizienten Codebestands verdeutlicht. Neben der Versionskontrolle nutze ich"
+" meine vertieften Kenntnisse in SQL zum Verständnis der Grundlagen von "
+"Datenbankdesign und -Verwaltung. Damit ist es mir möglich, dynamische "
+"Anwendungen zu entwickeln, die mit Datenbanken interagieren, um "
+"Informationen zu speichern und abzurufen. <br><br> Insgesamt hat mich meine "
+"Leidenschaft für die Programmierung dazu motiviert, mein Wissen in diesem "
+"Bereich kontinuierlich zu erweitern. Durch eine formale Ausbildung und "
+"eigenständiges Lernen habe ich mir eine solide Grundlage in verschiedenen "
+"Programmiersprachen und relevanten Werkzeugen geschaffen, die es mir "
+"ermöglichen, komplexe Softwareprojekte anzugehen und eigene Beiträge zu "
+"entwickeln. Eine Auswahl findest du folgend."
+
+msgid "Skills"
+msgstr "Fähigkeiten"
+
+msgid "Frontend"
+msgstr "Frontend"
+
+msgid "Backend"
+msgstr "Backend"
+
+msgid "DataScienceAndMachineLearning"
+msgstr "Data Science & Machine Learning"
+
+msgid "Technology"
+msgstr "Technologien"
+
+msgid "Home"
+msgstr "Übersicht"
+
+msgid "About"
+msgstr "Auf einen Blick"
+
+msgid "Resume"
+msgstr "Lebenslauf"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Services"
+msgstr "Angebote"
+
+msgid "Downloads"
+msgstr "Downloads"
+
+msgid "Installs"
+msgstr "Nutzende"
+
+msgid "PositiveReviews"
+msgstr "Positive Bewertungen"
+
+msgid "AnsweredComments"
+msgstr "Beantwortete Kommentare"
+
+msgid "JoinedGitHubYearsAgo"
+msgstr "Seit {years} Jahren Teil von Github"
+
+msgid "CreatedGitHubRepositories"
+msgstr "Hat {amount} Repositories erstellt"
+
+msgid "GitHubFollowedBy"
+msgstr "Gefolgt von {amount} Personen"
+
+msgid "RecentContributions"
+msgstr "Neueste Aktivität"
+
+msgid "ImA"
+msgstr "Ich bin ein"
+
+msgid "ImATexts"
+msgstr ""
+"Master-Student, Software-Entwickler, Modder, Addon-Entwickler, Gamer, "
+"Schlagzeuger"
+
+msgid "Tooling"
+msgstr "Tooling"
+
+msgid "Other"
+msgstr "Sonstiges"
+
+msgid "VideoEditing"
+msgstr "Video Bearbeitung"
+
+msgid "Hochschule Kaiserslautern"
+msgstr "Hochschule Kaiserslautern"
+
+msgid "Software Development"
+msgstr "Software Entwicklung"
+
+msgid "Master of Science - MS"
+msgstr "Master of Science - MS"
+
+msgid "Bachelor of Science - BS"
+msgstr "Bachelor of Science - BS"
+
+msgid "Modder"
+msgstr "Modder"
+
+msgid "Now"
+msgstr "Jetzt"
+
+msgid "Creating UI improvements for the Videogame World of Warcraft using LUA"
+msgstr ""
+"Erstellung von UI Verbesserungen für das Videospiel World of Warcraft "
+"mithilfe von LUA"
+
+msgid "Creating Webapps for the Videogame World of Warcraft"
+msgstr "Erstellung von Webapps für das Videospiel World of Warcraft"
+
+msgid "Creating Modifications for the VIdeogame Ark using Unreal Engine"
+msgstr ""
+"Erstellung von Modifikationen für das Videospiel Ark mit hilfe von Unreal "
+"Engine"
+
+msgid "Bachelor Thesis Software Development"
+msgstr "Bachelorarbeit im Bereich Software-Entwicklung"
+
+msgid "Kaiserslautern, Rhineland-Palatinate, Germany"
+msgstr "Kaiserslautern, Rheinland-Pfalz, Deutschland"
+
+msgid ""
+"Implementation of a configuration interface for creating dashboard widgets "
+"in Servity."
+msgstr ""
+"Umsetzung einer Konfigurationsoberfläche für die Erstellung von Dashboard-"
+"Widgets in Servity."
+
+msgid "Student Internship"
+msgstr "Praxissemester"
+
+msgid ""
+"Evaluation and prototyping of a configuration interface for creating "
+"dashboard widgets in Servity."
+msgstr ""
+"Evaluation und Erstellung eines Prototyps einer Konfigurationsoberfläche zur"
+" Erstellung von Dashboard-Widgets in Servity."
+
+msgid "Student Assistant"
+msgstr "Hilfswissenschaftler"
+
+msgid "Student Assistant for Ui/Ux development for N-soria/shift"
+msgstr "Hiwi für Ui/Ux development for N-soria/shift"
+
+msgid "ResumeGatheringExplanation"
+msgstr ""
+"Die Lebenslauf Informationen werden automatisch von Linkedin importiert und "
+"wurden zuletzt {timestamp} geupdated."
+
+msgid "CreatedGitHubCommits"
+msgstr "{amount} erstellte Commits."
+
+msgid "MergedPullRequests"
+msgstr "{amount} gemergte pull requests."
+
+msgid "CreatedReleases"
+msgstr "{amount} erstellte Releases."
+
+msgid "PreferredLicense"
+msgstr "Bevorzugt die {license} Lizenz."
+
+msgid "GithubStats"
+msgstr "Github Stats"
+
+msgid "Education"
+msgstr "Bildung"
+
+msgid "ProfessionalExperience"
+msgstr "Berufserfahrung"
+
+msgid "LearnMore"
+msgstr "Mehr hier"
+
+msgid "UnrealEngineWorkshopLinkText"
+msgstr "Link zu dem Workshop"
+
+msgid "UnrealEngineDesc"
+msgstr ""
+"Ich habe Unreal Engine für mehrere Ark mods sowie einige Standalone Game "
+"Projekte benutzt. Desweiteren wurde im Rahmen eines Hochschulprojekts eine "
+"Sprachgesteuerter LLM basierter NPC in ein Unreal Projekt eingebunden. "
+"Zusätzlich habe ich im Rahmen des Studiums einen Interaktiven Workshop "
+"erstellt welcher die Grundlagen von Unreal-Engine Blueprints erläutert."
+
+msgid "AutoDoorsCurseforgeLinkText"
+msgstr "AutoDoors Ark Mod"
+
+msgid "CheatDeathCurseforgeLinkText"
+msgstr "Dino Cheat Death Ark Mod"
+
+msgid "AteriaGitHubLinkText"
+msgstr "Ateria Standalone Game"
+
+msgid "SQLDesc"
+msgstr ""
+"Für meine World of Warcraft Statistik Webseite habe ich eine MySQL Datenbank"
+" verwendet und musste extensive queries schreiben um die Daten für die "
+"Frontend anzeige zu aggregieren."
+
+msgid "SQLMythiStoneGitHubLinkText"
+msgstr "Link zum Webseiten Repository"
+
+msgid "AndroidDesc"
+msgstr ""
+"Für ein Hochschulprojekt habe ich eine einfach Bücherregal CRUD App "
+"erstellt. Nach der Feststellung einer Lebensmittelunverträglichkeit habe ich"
+" eine einfache Android App erstellt welche es Nutzenden erlaubt Barcodes von"
+" Lebensmittelverpackungen zu scannen und diese über unverträglichkeiten zu "
+"warnen."
+
+msgid "IngredientsTrafficLightGitHubLinkText"
+msgstr "Link zum Lebensmittelunverträglichkeit App Repository"
+
+msgid "BookshelfGitHubLinkText"
+msgstr "Link zum Bücherregal Repository"
+
+msgid "UnityDesc"
+msgstr ""
+"Während meines HiWi jobs sowie für mein Studienprojekt habe ich Unity im "
+"Rahmen meiner Arbeit an einem Fahradsimulator verwendet bei dem ich "
+"hauptsächlich an Ui und Ux features gearbeitet habe."
+
+msgid "NsoriaUnityPlaylistLinkText"
+msgstr "Link zu einigen Trailer Videos des Fahradsimulators"
+
+msgid "TakeMeAlongLinkText"
+msgstr "Link zum Webapp Repository"
+
+msgid "JavaDesc"
+msgstr ""
+"Java ist die primäre Programmiersprache, die ich während meines Studiums für"
+" alle Projekte verwendet habe. Insbesondere habe ich im Rahmen eines Kurses "
+"mit Java eine Mitfahr-Webanwendung erstellt. Darüber hinaus habe ich Java "
+"während meines Pflichtpraktikums und meiner Bachelorarbeit bei DCON "
+"eingesetzt, wo ich die Backend‑ und Frontend‑Architektur für eine "
+"Konfigurationsoberfläche zum Erstellen von Dashboard‑Widgets für deren "
+"Software Servity entwickelt habe."
+
+msgid "DiscordQueryBotLinkText"
+msgstr "Link zum Bot‑Repository"
+
+msgid "CSharpDesc"
+msgstr ""
+"Während meiner Tätigkeit als studentische Hilfskraft an der Hochschule habe "
+"ich neben Unity auch C# für die Arbeit am Fahrradsimulator verwendet. "
+"Zusätzlich habe ich mit C# einen Discord‑Bot entwickelt, der SteamA2S und "
+"gamedig nutzt, um Spielserver‑Status als Embeds anzuzeigen."
+
+msgid "CppLinkText"
+msgstr "Link zu den Kursinformationen"
+
+msgid "CppDesc"
+msgstr ""
+"Eine der Vorlesungen im Studium behandelte den Einsatz von C++. »Die "
+"Kursteilnehmenden sind mit der Programmiersprache C++ vertraut und verstehen"
+" eine kompetente Anwendung der Sprache.« Außerdem habe ich C++ bei der "
+"Entwicklung des Netzwerk‑ und Servercodes für ein Unreal‑Engine‑Spiel "
+"eingesetzt, an dem ich gemeinsam mit einem Freund arbeite."
+
+msgid "CLinkText"
+msgstr "Link zu den Kursinformationen"
+
+msgid "CDesc"
+msgstr ""
+"Eine der Vorlesungen im Studium beschäftigte sich mit Betriebssystemen, die "
+"stark auf C‑Code basieren."
+
+msgid "CustomNamesLinkText"
+msgstr "Link zum Repository des API‑Addons"
+
+msgid "RaidAbilityTimelineLinkText"
+msgstr "Link zur Download‑Seite für die Timeline‑WeakAura"
+
+msgid "LuaDesc"
+msgstr ""
+"Ich bin  in der Modding‑Szene von World of Warcraft sehr aktiv und habe "
+"dabei stark auf LUA gesetzt. Ich habe mehrere Addons geschrieben und "
+"WeakAuren, ein Framework, mit dem im Spiel anpassbare Grafiken angezeigt "
+"werden können, erstellt. Ein Beispiel für ein Addon ist CustomNames, eine "
+"API, mit der Spieler die Ingame‑Namen anderer anpassen können, um diese "
+"leichter zu identifizieren. Eine der beliebtesten WeakAuras, die ich "
+"erstellt habe, ist RaidAbilityTimeline, die Boss‑Mod‑Addon‑Timer in eine "
+"vertikale, animierte Zeitleiste umwandelt."
+
+msgid "JavaScriptDesc"
+msgstr ""
+"Ich habe JavaScript in einigen Software‑Engineering‑Kursen eingesetzt und "
+"außerdem Webanwendungen damit erstellt. Ein Beispiel ist meine World of "
+"Warcraft Mythic Plus Statistik‑Webseite, die JavaScript für die "
+"clientseitige Suche nutzt, da GitHub Pages statisches Hosting ist und kein "
+"Serverside‑Code ausgeführt werden kann. Zudem habe ich während meines "
+"Praktikums und meiner Bachelorarbeit bei DCON Erfahrungen mit Chart.js und "
+"React gesammelt."
+
+msgid "JavaScriptLinkText"
+msgstr "Link zum Such‑Tool auf der Webseite"
+
+msgid "HTMLLinkText"
+msgstr "Link zur Statistik‑Webseite"
+
+msgid "HTMLDesc"
+msgstr ""
+"Ich habe HTML verwendet, um das Layout für die von mir erstellten "
+"Webanwendungen zu gestalten. Ein Beispiel ist meine World of Warcraft Mythic"
+" Plus Statistik‑Webseite, die Jinja2‑Templates nutzt, um statische "
+"HTML‑Seiten zu erstellen, die dann bereitgestellt werden. Auch der Text, den"
+" du gerade liest, wird von Bootstrap und dem gleichen Jinja‑Workflow mit "
+"i18n für die Lokalisierung bereitgestellt."
+
+msgid "CSSDesc"
+msgstr ""
+"Für die verschiedenen Webanwendungen, die ich erstellt habe, habe ich reines"
+" CSS sowie Bootstrap für das Styling verwendet. Ein Beispiel ist meine World"
+" of Warcraft Mythic Plus Statistik‑Webseite und diese Portfolioseite, auf "
+"dem du dich gerade befindest."
+
+msgid "CSSLinkText"
+msgstr "Link zur Statistik‑Webseite"
+
+msgid "MarkdownLinkText"
+msgstr "Link zu einem Beispiel‑Repository mit Markdown"
+
+msgid "MarkdownDesc"
+msgstr ""
+"Die meisten meiner öffentlichen GitHub‑Repositories verwenden YML zur "
+"Definition von GitHub Actions Workflows (GitHubs CI/CD‑Pipeline) sowie "
+"Markdown für benutzerseitige Beschreibungen."
+
+msgid "GithubLinkText"
+msgstr "Link zu meiner GitHub‑Seite"
+
+msgid "GithubDesc"
+msgstr ""
+"Für die Versionskontrolle meiner Projekte verwende ich Git. Die meisten "
+"dieser Projekte werden auf GitHub gehostet und sind öffentlich einsehbar."
+
+msgid "CICDDesc"
+msgstr ""
+"Meine Projekte nutzen mehrere CI/CD‑Toolchains, um sie zu betreiben – vom "
+"Abrufen von Daten über die Überprüfung der Codekorrektheit und den Bau "
+"statischer HTML‑Seiten bis hin zu vollautomatisierten Releases."
+
+msgid "CICDLinkText"
+msgstr "Link zu meiner GitHub‑Seite"
+
+msgid "DockerLinkText"
+msgstr "Link zu meinem Docker Hub"
+
+msgid "DockerDesc"
+msgstr ""
+"Im Rahmen mehrerer Universitätskurse haben wir Docker verwendet, um "
+"verschiedene Dienste wie Datenbanken und Webserver zu deployen. Außerdem "
+"habe ich eigene Docker‑Images erstellt, um Serverdateien für eines der "
+"Standalone‑Spiele, die ich entwickelt habe, auszuführen."
+
+msgid "PythonLinkText"
+msgstr "Link zur Stat‑Tracking‑Webapp"
+
+msgid "PythonDesc"
+msgstr ""
+"Im Rahmen meines Computervisions‑Kurses habe ich Python sowie TensorFlow "
+"verwendet, um Machine‑Learning‑Modelle zu trainieren. Außerdem habe ich "
+"Python für meine World of Warcraft Mythic Plus Statistik‑Webseite "
+"eingesetzt, sowohl für das Abrufen und Aggregieren von Daten als auch für "
+"die Erstellung statischer HTML‑Seiten mit Jinja2. Dieser Jinja2‑Workflow "
+"wird auch zum Erstellen und Bereitstellen dieser Portfolioseite verwendet."
+
+msgid "RLinkText"
+msgstr "Link zur online einsehbaren Analyse (auf Deutsch)"
+
+msgid "RDesc"
+msgstr ""
+"Im Kurs zur visuellen Datenanalyse habe ich R verwendet, um einen Datensatz "
+"zu Game‑Releases zu analysieren. Zudem habe ich im Data‑Science‑Kurs ein "
+"RandomForest‑Modell genutzt, um die Erfolgsrate von NFL‑Spielzügen "
+"vorherzusagen."
+
+msgid "WeakAurasTutorialLinkText"
+msgstr "Link zum WeakAuras‑Tutorial"
+
+msgid "MontageLinkText"
+msgstr "Link zu einer der Montagen"
+
+msgid "VideoEditingDesc"
+msgstr ""
+"Ich habe Premiere Pro und After Effects umfangreich zur Content‑Produktion "
+"genutzt. Zum Beispiel habe ich damit sowohl Anleitungsvideos als auch "
+"verschiedene Highlight zusammenschnitte erstellt."
+
+msgid "AboutText"
+msgstr "Hi, ich bin Florian ein {headline}. Freut mich dich Kennen zu lernen!"
+
+msgid "Gaming and Software development enthusiast"
+msgstr "Videospiel und Softwareentwicklungs enthusiast"
+
+msgid "Software Development Student, Gaming Enthusiast and full-time nerd"
+msgstr "Softwareentwicklungsstudent, Videospiel Enthusiast und Vollzeit Nerd"
+
+msgid "Age"
+msgstr "Alter"
+
+msgid "Location"
+msgstr "Ort"
+
+msgid "ZweibrÃ¼cken, Rhineland-Palatinate, Germany"
+msgstr "Zweibrücken, Rheinland-Pfalz Deutschland"
+
+msgid "Degree"
+msgstr "Abschluss"
+
+msgid "DegreeValue"
+msgstr "Aktuell im Masterstudium"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "A simple lib adding the option for Name Variations to addons"
+msgstr ""
+"Eine einfache Bibiliothek die es erlaubt Namensvariationen zu Addons "
+"hinzuzufügen"
+
+msgid "Dynamic Weakauras creation tool for all the Dungeon needs"
+msgstr "Ein tool zur dynamisches Dungeon WeakAuras Erstellung"
+
+msgid "Adds Rio Score display to the GroupFinder frame"
+msgstr ""
+"Fügt dem Gruppenfinder den Raider.io Score sowie andere informationen hinzu."
+
+msgid ""
+"Adds the beloved automatic doors that we all got used to in AsE when using "
+"S+"
+msgstr ""
+"Fügt die aus Ark Survivel Evolved beliebten automatischen Türen zu Ark "
+"Survival Ascended hinzu."
+
+msgid "This mod can save your precious Dinos from certain Death"
+msgstr "Diese Mod kann die Wertvollen Dinos vor dem Tod beschützen."
+
+msgid "Adds ElvUI Tags for CustomNames."
+msgstr "Fügt ElvUI Tags für CustomNames hinzu"
+
+msgid "Adds MRT support for CustomNames."
+msgstr "Fügt MRT support für CustomNames hinzu."
+
+msgid "Adds Chat support for Customnames"
+msgstr "Fügt Chat support für CustomNames hinzu."
+
+msgid "Adds Guild support for Customnames"
+msgstr "Fügt Gilden support für CustomNames hinzu."
+
+msgid "latestVersion"
+msgstr "Letzte Version"
+
+msgid "dateModified"
+msgstr "Letztes Update"
+
+msgid "url"
+msgstr "Link"
+
+msgid "descriptionExplanation"
+msgstr ""
+"Beschreibung und Änderungsprotokoll sind direkt vom Projekt importiert und "
+"daher nur in Englisch verfügbar."
+
+msgid "categories"
+msgstr "Kategorien"
+
+msgid "boss-encounters"
+msgstr "Boss‑Begegnung"
+
+msgid "buffs-debuffs"
+msgstr "Buffs & Debuffs"
+
+msgid "miscellaneous"
+msgstr "Sonstiges"
+
+msgid "combat"
+msgstr "Kampf"
+
+msgid "chat-communication"
+msgstr "Chat & Kommunikation"
+
+msgid "libraries"
+msgstr "Bibliotheken"
+
+msgid "unit-frames"
+msgstr "Einheiten‑Fenster"
+
+msgid "guild"
+msgstr "Gilde"
+
+msgid "structures"
+msgstr "Strukturen"
+
+msgid "general"
+msgstr "Allgemein"
+
+msgid "creatures"
+msgstr "Kreaturen"
+
+msgid "rebalancing"
+msgstr "Neuausbalancierung"
+
+msgid "views"
+msgstr "Ansichten"
+
+msgid "installs"
+msgstr "Aktive Nutzer"
+
+msgid "downloadCount"
+msgstr "Downloads"
+
+msgid "stars"
+msgstr "Positive Bewertungen"
+
+msgid "commentCount"
+msgstr "Kommentare"
+
+msgid "addon"
+msgstr "Addon"
+
+msgid "mod"
+msgstr "Mod"
+
+msgid "weakaura"
+msgstr "WeakAura"
+
+msgid "ScrollDown"
+msgstr "Mehr Info"
+
+msgid "PortfolioDesc"
+msgstr ""
+"Während meines Studiums habe ich viel Zeit in private Projekte investiert, "
+"die sich überwiegend auf die Videospiele World of Warcraft und Ark "
+"konzentrieren. Einige meiner beliebtesten Projekte findest du unten."
+
+msgid "datascience"
+msgstr "Datascience"
+
+msgid "description"
+msgstr "Beschreibung"
+
+msgid "MythistoneDesc"
+msgstr ""
+"Mythistone ist eine Webplattform, die statistische Analysen nutzt, um "
+"personalisierte Optimierungsempfehlungen zu liefern. Sie hilft Nutzenden, "
+"komplexe Leistungsdaten in klare, umsetzbare Erkenntnisse zu verwandeln und "
+"sie so auf dem Weg zu ihren Zielen zu unterstützen."
+
+msgid "RivalsstatsDesc"
+msgstr ""
+"RivalsStats ist eine webbasierte Analyseplattform, die historische "
+"Leistungsdaten zu Figuren, Ranglisten und Teamzusammenstellungen "
+"konsolidiert. Mithilfe statistischer Modelle und interaktiver Dashboards "
+"werden komplexe Spielmetriken in intuitive, umsetzbare Erkenntnisse "
+"verwandelt, damit Nutzer fundierte Entscheidungen treffen können."
+
+msgid "WACreatorDesc"
+msgstr ""
+"WeakAurasCreator ist eine Webanwendung, mit der Nutzer über eine intuitive "
+"Oberfläche benutzerdefinierte Echtzeit-Benachrichtigungs-Widgets entwerfen "
+"und generieren können. Komplexe Skriptlogik wird in einfache Formularfelder "
+"überführt, und es werden gebrauchsfertige Snippets erstellt, die nahtlos in "
+"interaktive Umgebungen integriert werden können."
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "ContactText"
+msgstr "Du hast Fragen? Nutze das Kontaktformular"
+
+msgid "LinkedInLink"
+msgstr "Kontaktiere mich durch Linkedin"
+
+msgid "DiscordLink"
+msgstr "Kontaktiere mich durch Discord"
+
+msgid "AdditionalCoursesDesc"
+msgstr ""
+"Zusätzlich zu den Pflichtkursen im Rahmen meines Studiums belegte ich "
+"folgende Vertiefungsfächer."
+
+msgid "master"
+msgstr "Master"
+
+msgid "ComputerVision"
+msgstr "Computer Vision"
+
+msgid "ComputerVisionDesc"
+msgstr ""
+"Die Studierenden verstehen den Vorgang der Bilderzeugung durch "
+"Digitalkameras und können eine Kamerakalibrierung durchführen. Sie sind in "
+"der Lage geeignete Algorithmen zur Verbesserung der Bildqualität auszuwählen"
+" und anzuwenden. Sie kennen Verfahren zur Mustererkennung in Bildern und "
+"können diese anwenden. Sie haben ein Verständnis für klassische und KI-"
+"basierte Bildsegmentierung erarbeitet und können passende Verfahren "
+"auswählen und benutzen, um konkrete Computer Vision Probleme zu lösen."
+
+msgid "ComputerVisionContent"
+msgstr ""
+"Die Vorlesung vermittelt die Grundlagen der Computer Vision:\n"
+"- Bilderzeugung und Optik- Kameramodell und -kalibrierung\n"
+"- Fourier- und Wavelet-Transformation\n"
+"- Bildkompression\n"
+"- Faltung und Mustererkennung\n"
+"- Filterfunktionen\n"
+"- Bildsegmentierung\n"
+"- Industrielle Anwendung des Maschinellen Sehens\n"
+
+msgid "FTCG"
+msgstr "Fortgeschrittene Themen der Computergrafik"
+
+msgid "FTCGDesc"
+msgstr ""
+"Die Teilnehmenden kennen fortgeschrittene Techniken der Computergrafik und "
+"verstehen die Software-Umsetzung der dargestellten Theorie. Sie kennen die "
+"theoretischen und mathematischen Grundlagen der globaler Beleuchtung, "
+"insbesondere die Rendering Equation und können diese Theorie in Software "
+"umsetzen.Die Teilnehmenden kennen die Grundlagen der Implementierung eines "
+"Monte-Carlo Ray-Tracers und die Lösung der Rendering Equation mit Hilfe von "
+"Techniken wie Photon-Mapping und können diese mit Hilfe von "
+"Programmiersprachen wie Java in Software umsetzen.Sie kennen die "
+"Anwendungsgebiete der betrachteten Theorie und können das vermittelte Wissen"
+" in die Praxis umsetzen.Die Teilnehmer kennen den State-of-the-Art und "
+"können Originalveröffentlichungen nachvollziehen."
+
+msgid "FTCGContent"
+msgstr ""
+"Diese Lehrveranstaltung betrachtet fortgeschrittene Themen der Computergrafik:\n"
+"- Mathematische und physikalische Grundlagen der globalen Beleuchtung\n"
+"- Beleuchtungsgesetze für Reflektion und Refraktion\n"
+"- Die Rendering Equation\n"
+"- Ray Tracing\n"
+
+msgid "SSE"
+msgstr "Secure Software-Engineering"
+
+msgid "SSEDesc"
+msgstr ""
+"Ziel der Veranstaltung ist es, dass die Teilnehmenden ein fundiertes "
+"Verständnis der wichtigsten Aspekte des angriffssicheren "
+"Software-/Systementwurfs erhalten und diese in der Praxis auf die "
+"unterschiedlichsten Systeme übertragen können.Die Lerninhalte der Vorlesung "
+"decken den kompletten Lebenszyklus von Systemen ab und umfassen unter "
+"anderem die interaktive Vermittlung von Schwachstellen, das Identifizieren "
+"und Modellieren von Bedrohungen, die Anwendung von Architekturprinzipien "
+"sowie die zielgerichtete Anwendung der Verifikation."
+
+msgid "SSEContent"
+msgstr ""
+"- Informationssicherheit und Softwaresicherheit\n"
+"- Schwachstellen und Angriffsmethoden\n"
+"- Sicherheit im Softwareentwicklungsprozess\n"
+"- Sicherheitsanforderungen\n"
+"- Bedrohungsanalyse\n"
+"- Sicherheit bei Entwicklung und Architektur\n"
+"- Sicherheit bei der Implementierung\n"
+"- Qualitätssicherung\n"
+"- Prozessmodelle und Sicherheit\n"
+"- Benutzerschnittstelle und Sicherheit\n"
+
+msgid "FUI"
+msgstr "Frameworkbasierte UI-Entwicklung"
+
+msgid "FUIDesc"
+msgstr ""
+"Die Teilnehmer verstehen wichtige Grundlagen und Konzepte zur Entwicklung "
+"von modernen Benutzerschnittstellen.Neben theoretischem Wissen sind den "
+"Teilnehmern aktuelle Architekturen und Frameworks zur Erstellung von "
+"Benutzerschnittstellen bekannt.Anhand von ausgewählten Beispielen sollen Sie"
+" geeignete Frameworks grundlegend praktisch angewandt haben.Nach Teilnahme "
+"an den Modulveranstaltungen sollen die Teilnehmer in der Lage sein, in "
+"diesem Gebiet aktuelle Themen zu recherchieren, zu analysieren und eigene "
+"knappe, wissenschaftlich geprägte Artikel zu verfassen beziehungsweise ihr "
+"erworbenes Wissen praktisch anzuwenden."
+
+msgid "FUIContent"
+msgstr ""
+"- Historische Entwicklung der Benutzerschnittstellen\n"
+"- Grundlagen der Benutzerschnittstellen\n"
+"- Anforderungen und Normen\n"
+"- Technische Aspekte\n"
+"  - Technologien\n"
+"  - Interaktionstechniken\n"
+"- Entwicklungsmethoden\n"
+"- Architekturen und Konzepte interaktiver Anwendungen\n"
+"  - Konzepte: WIMP, MVC, MVP, u.a.\n"
+"  - Beschreibungssprachen\n"
+"- Frameworks und Toolkits zu Benutzerschnittstellen\n"
+"  - Historie, Klassifizierung, Beispiele\n"
+"- Testen von Benutzerschnittstellen\n"
+
+msgid "Philo"
+msgstr "Philosophie für Informatiker und Ingenieure"
+
+msgid "PhiloDesc"
+msgstr ""
+"Die Betrachtung der Informatik als 'Ingenieurwissensachaft des Geistes' (Karl Ganzhorn) lässt auf natürliche Weise Schnittstellen zwischen der Informatik und der Philosophie erkennbar werden.Ziel der Vorlesung ist das selbständige Herausarbeiten und Identifizieren solcher Schnittstellen.Ausgehend von den vier klassischen Fragen Kants, nämlich:\n"
+"1. Was soll ich tun?\n"
+"2. Was darf ich hoffen?\n"
+"3. Was kann ich wissen?\n"
+"4. Was ist der Mensch?\n"
+"sollen Antworten gefunden werden, die sich der Werkzeuge 'experimenteller Pilosophie' bedienen.Darin enthalten sind die Methoden der Spieltheorie, der Evolutionsspiele, Quantentheorie, und die Analyse der Stellung des Menschen 'im Fadenkreuz der Naturgesetze'.Die Teilnehmer erhalten die Kompetenz, eigene Antworten auf die gestellten fargen zu entwickeln und begründet zu verteidigen, ohne sie verabsolutieren zu müssen."
+
+msgid "PhiloContent"
+msgstr ""
+"1. Evolution der Ethik. Ist Ethik die Fortsetzung von Mutation und Selektion mit anderen Mitteln?\n"
+"2. Ethik und Spieltheorie.\n"
+"3. 'Das Böse zerstört sich letztlich selbst.'\n"
+"4. Abfall vom Glauben - Abfall von der Moral?\n"
+"5. Wie sicher ist unser Wissen?\n"
+"6. Kant auf dem physikalischen Prüfstand.\n"
+"7. Der Paltz des Menschen im Universum.\n"
+"8. Existenzialismus, oder ist 'Wurzellosigkeit der neue Humanismus?'\n"
+
+msgid "VDA"
+msgstr "Visual Data Analysis\n"
+
+msgid "VDADesc"
+msgstr ""
+"Der Kurs konzentrierte sich auf die Visualisierung von Daten und die "
+"effektive Kommunikation von Informationen durch den Einsatz visueller "
+"Darstellungen.Die Grundlagen der Datenvisualisierung, einschließlich des "
+"Einsatzes von Farbe, Typografie und Layout wurden vermittelt.Darüber hinaus "
+"wurden verschiedene Tools für die Datenvisualisierung in der "
+"Programmiersprache R behandelt; darunter ggplot und plotly."
+
+msgid "VDAContent"
+msgstr ""
+"- Information Visualization - was ist das und warum beschäftigen wir uns damit?\n"
+"- Maschinelles Lernen - was ist das und warum beschäftigen wir uns damit?\n"
+"- Visual Data Analysis (Visual Analytics) - die Verbindung von Information Visualization und Machine Learning\n"
+"- Best practices\n"
+"- Einführung in R, RStudio  und Tableau\n"
+"- Interaktive Dashboards und Story Telling mit R und Tableau\n"
+"- Fallstudien\n"
+
+msgid "EAE"
+msgstr "Einführung in die App-Enwicklung"
+
+msgid "EAEDesc"
+msgstr ""
+"Beschreibung der Veranstaltung:Ziel ist es, Studierenden die Grundlagen in "
+"der Entwicklung von mobilen Applikationen näher zu bringen.Durch die "
+"Teilnahme an den Veranstaltungen sind die Studierenden in der Lage, "
+"eigenständig einfache Applikationen für Smartphones zu realisieren.Sie "
+"verstehen die Architektur und haben Hintergrundwissen über das "
+"Betriebssystem Android.Sie kennen und verstehen Methoden und Konzepte zur "
+"Entwicklung von Apps für Android und können diese auch anwenden.Sie "
+"beherrschen verschiedene Entwicklungswerkzeuge. Die Auszeichnungssprache XML"
+" ist ihnen grundlegend bekannt."
+
+msgid "EAEContent"
+msgstr ""
+"- Android Prozess-Modell, Intends, Activities\n"
+"- Android GUI-Elemente, GUIs mit dem Android Studio, Layout Techniken\n"
+"- Frame based animation in Android\n"
+"- Web-Apps\n"
+"- Rest Client-Server-Anbindung mit Android\n"
+
+msgid "NPROG"
+msgstr "Nebenläufige Programmierung: Konzepte und Anwendungen"
+
+msgid "NPROGDesc"
+msgstr ""
+"Zertifikat:Teilnehmende kennen die Bedeutung und wichtigsten Konzepte der "
+"nebenläufigen Programmierung.Sie erlernten die unterschiedlichen "
+"Synchronisierungsarten und deren Verwendung bei Algorithmen und den Entwurf "
+"von Datenstrukturen.Die wichtigsten Entwurfsmuster für Nebenläufigkeit sind "
+"bekannt - einfache Abschätzungen für Laufzeitverhalten können durchgeführt "
+"und einfache Algorithmen und Datenstrukturen umgesetzt werden.Die "
+"Teilnehmenden kennen die wichtigsten Software-Pakete, die in der Praxis "
+"eingesetzt werden, und können mit diesen Werkzeugen eigene Anwendungen "
+"erstellen."
+
+msgid "NPROGContent"
+msgstr ""
+"- Architekturen für die nebenläufige Programmierung\n"
+"- Basiskonzepte der nebenläufigen Programmierung\n"
+"- Performance-Betrachtungen\n"
+"- Design Patterns\n"
+"- Thread-Programmiermodell\n"
+"- Synchronisationskonzepte\n"
+"- Parallele Datenstrukturen\n"
+"- Parallele Algorithmen\n"
+
+msgid "Crypto"
+msgstr "Bitcoin, Blockchain and Smart Contracts"
+
+msgid "CryptoDesc"
+msgstr ""
+"Beschreibung der Veranstaltung:Teilnehmende verstehen die Prinzipien von "
+"Bitcoin und Blockchain, erlernten die mathematischen Modelle, Protokolle und"
+" Algorithmen.Sie sind vertraut mit Kryptowährungen, wie Bitcoin und "
+"Ethereum, verstehen, wie die Blockchain als Distributed Ledger funktioniert,"
+" und begreifen die Prinzipien und Signifikanz dezentralisierter Konsensus- "
+"Protokolle, um zu entscheiden, wann diese Technologien optimal eingesetzt "
+"werden können.Teilnehmende erforschten die Ökonomie der Währungen und "
+"lernten Preismodelle, Börsen und Wallets kennen.Sie kennen die "
+"entsprechenden White Papers, technischen Artikel und die Spezifikationen der"
+" Protokolle, um diese entsprechend zu verstehen und einzusetzen.Weiter sind "
+"sie in der Lage, Anwendungsszenarien, Investmentpraktiken und Einsatzgebiete"
+" in unterschiedlichen Industrien zu identifizieren."
+
+msgid "CryptoContent"
+msgstr ""
+"- Bitcoin, Einführung, Protokoll\n"
+"- Blockchain, Distributed Ledger\n"
+"- Mathematische Modelle / Protokolle / Verbesserungsansätze\n"
+"- Cryptocurrency Mining / Bitcoin Mining Profitability\n"
+"- Ethereum / Smart Contracts and Decentralized Applications\n"
+"- Investing into Bitcoin / Alt Currencies / Economy / Exchanges / Wallets\n"
+"- Legal Aspects and Taxation\n"
+"- Risks / Regulation / Volatility / Theft\n"
+"- ICO / Initial Coin Offerings / History\n"
+"- Blockchain Based Services / Advances / Use cases\n"
+"- Blockchain in Healthcare and Fitness / Vital Data Brokerage\n"
+
+msgid "bachelor"
+msgstr "Bachelor"
+
+msgid "Courses"
+msgstr "Kurse"
+
+msgid "AdditionalCourses"
+msgstr "Vertiefungsfächer"
+
+msgid "courseInformation"
+msgstr "Kursinformation"
+
+msgid "learningMethod"
+msgstr "Lernmethode"
+
+msgid "LectureIntegratedPractice"
+msgstr "Vorlesung mit Praxisanteil"
+
+msgid "examForm"
+msgstr "Prüfungsform"
+
+msgid "Oral"
+msgstr "Mündlich"
+
+msgid "professor"
+msgstr "Professor"
+
+msgid "workload"
+msgstr "Arbeitsaufwand"
+
+msgid "Attendance"
+msgstr "Präsenzzeit"
+
+msgid "SelfStudy"
+msgstr "Selbststudium"
+
+msgid "Practical"
+msgstr "Praktisch"
+
+msgid "Project"
+msgstr "Projekt"
+
+msgid "Lecture"
+msgstr "Vorlesung"
+
+msgid "Presentation"
+msgstr "Präsentation"
+
+msgid "SeminarPaper"
+msgstr "Seminararbeit"
+
+msgid "Block"
+msgstr "Geblockte Vorlesung"
+
+msgid "practicalExam"
+msgstr "Praktische Klausur"
+
+msgid "hours"
+msgstr "Stunden"
+
+msgid "content"
+msgstr "Inhalt"
+
+msgid "grade"
+msgstr "Note"
+
+msgid "Zweibrücken, Rhineland-Palatinate, Germany"
+msgstr "Zweibrücken, Rheinland-Pfalz Deutschland"
+
+msgid "switchToEng"
+msgstr "Switch to English"
+
+msgid "switchToGer"
+msgstr "Auf Deutsch Wechseln"
+
+msgid "gradeHint"
+msgstr ""
+"In German Universities Grades are awarded from 1.0 to 4.0. 1.0 is the best "
+"possible grade while 4.0 is the worst. A non official Conversion to gpa "
+"score can be found here: <a target= '_blank' href='https://www.uni-"
+"frankfurt.de/116555505.pdf'>uni-frankfurt.de</a>"
+
+msgid "project"
+msgstr "Benotetes Projekt"
+
+msgid "FTCGProject"
+msgstr "Erstellung eines Raytracers"
+
+msgid "ProjectGermanNotice"
+msgstr ""
+
+msgid "SSEProject"
+msgstr ""
+"Generative KI: Large Language Models in Softwareentwicklung und "
+"Softwaresicherheit"
+
+msgid "FUIProject"
+msgstr "Neues vom FAIRD"
+
+msgid "VDAProject"
+msgstr "Analyse: Videospiel Verkäufe"
+
+msgid "EAEProject"
+msgstr "CRUD: Buchregal-App"
+
+msgid "VDAProjectDesc"
+msgstr ""
+"Folgende Thesen bzw. Fragestellungen wurden analysiert:\n"
+"- In welchen Jahren wurden die meisten Spiele veröffentlicht und verkauft?\n"
+"- Wie unterscheiden sich die Veröffentlichungs- und Verkaufszahlen zwischen 1980 und heute?\n"
+"- Welches waren die besten Verkaufsjahre bezogen auf die Zahl der Verkäufe pro Spiel? Werden die jeweils neueren Spiele dabei häufiger gekauft?\n"
+"- Welche Plattform hat die besten Verkaufszahlen? Welche die meisten Releases?\n"
+"- Haben etablierte, ältere Plattformen ein größeres Spielangebot und mehr Verkäufe als Plattformen, die neu auf den Markt kommen?\n"
+"- Gibt es regionale Unterschiede im Nutzerverhalten bei Plattformen? Verkaufen die regionalen Plattformen regelmäßig auch mehr Spiele?\n"
+"- Wie Entwickeln sich die Verkäufe pro Platform im laufe der Jahre? Entsteht bei Verkäufen kurz nach dem Release jeweils der größte “Hype” mit den höchsten Verkaufszahlen?\n"
+"- Gibt es Häufungen bei Zahl der Spiele und der Verkäufe bei bestimmten Publisher (z.B. Nintendo, EA, Activision Blizzard)?\n"
+"- Gibt es regionale Unterschiede im Nutzerverhalten bei Publishern? Werden regionale Publisher favoritisiert?\n"
+"- Wie ist die Verteilung der Genres der Spiele? Gibt es Häufungen bestimmter Genres bei Zahl und Verkaufszahlen? Welche Genres haben die besten/schlechtesten Verkaufszahlen?\n"
+"- Gibt es regionale Unterschiede bei den Genres? (Gibt es regionale Unterschiede im Nutzer- oder Konsumverhalten bei spezifischen Genres?)\n"
+"- Wie haben sich die Genres über die Jahre entwickelt?\n"
+"- Gibt es Genres, die nach großem Interesse nun bedeutungslos sind?\n"
+"- Gibt es Publisher, die bestimmte Genres bevorzugt anbieten, und/oder Publisher, die hohe Verkaufszahlen von Games eines bestimmten Genres verzeichnen?\n"
+
+msgid "FTCGProjectDesc"
+msgstr ""
+"Im Verlauf des Kurses wurde ein Raytracer von Grund auf entworfen und "
+"implementiert. Anschließend wurde er um die Fähigkeit erweitert, fertige "
+".obj-Dateien einzulesen und zu rendern."
+
+msgid "EAEProjectDesc"
+msgstr ""
+"Im Rahmen des Kurses wurde eine CRUD-App (Create, Read, Update, Delete) "
+"entwickelt. Diese App ermöglicht es Nutzenden, Bücher zu einer Liste "
+"hinzuzufügen und sie als gelesen zu markieren. Sie nutzt die Open Library "
+"API, um nach Büchern anhand von Titel und Autor zu suchen, und lädt Daten "
+"wie das Cover, um diese anzuzeigen."
+
+msgid "CryptoProject"
+msgstr "Crypto ETF"
+
+msgid "CryptoProjectDesc"
+msgstr ""
+"Das Abschlussprojekt des Kurses bestand darin, die Machbarkeit eines "
+"Riester-konformen Crypto-ETFs zu prüfen und zu realisieren. Das Endergebnis "
+"war ein vollwertiger ETF, umgesetzt als Wikifolio (eine Online-Plattform, "
+"auf der jeder ETF-ähnliche Portfolios erstellen und von anderen folgen "
+"lassen kann)."
+
+msgid "Applied Informatics"
+msgstr "Angewandte Informatik"
+
+msgid "Fachoberschule Nierstein"
+msgstr "Fachoberschule Nierstein"
+
+msgid "Technical diploma"
+msgstr "Fachabi"
+
+msgid "Intern"
+msgstr "Praktikant"
+
+msgid "Quality Assurance"
+msgstr "Quality Assurance"
+
+msgid "Wiesbaden, Hesse, Germany"
+msgstr "Wiesbaden, Hessen, Deutschland"
+
+msgid "Creating Modifications for the Videogame Ark using Unreal Engine"
+msgstr ""
+"Erstellung von Modifikationen für das Videospiel Ark mit hilfe von Unreal "
+"Engine"
+
+msgid "keywords"
+msgstr "Softwareentwickler, Student, Jods"
+
+msgid "ShowDetails"
+msgstr "Details Anzeigen"
+
+msgid "ScrollToTop"
+msgstr "Zurück nach oben"
+
+msgid "credits"
+msgstr "Anerkennungen"
+
+msgid "CourseImagesDesignedBy"
+msgstr "Kurs Bilder designed von"
+
+msgid "ApplicantIconsCreatedByProsymbolsPremium"
+msgstr "Favicon erstellt von Prosymbols Premium"
+
+msgid "creditsDescription"
+msgstr ""
+"Für die Erstellung dieser Webseite wurden einige Kostenlose Resourcen "
+"verwendet. Namentlich sind dies die folgenden:"
+
+msgid "WebsiteTemplate"
+msgstr "Webseiten Vorlage"
+
+msgid "HomeImage"
+msgstr "Übersicht Bild von"
+
+msgid "imprint"
+msgstr "Impressum"
+
+msgid "MythistoneLongDesc"
+msgstr ""
+"Mythistone zeigt die vorteilhaftesten Dinge, die Spieler nutzen können, um ihren Erfolg im Videospiel World of Warcraft – speziell in Mythic+ – zu garantieren.\n"
+"\n"
+"Was ist ein Videospiel?\n"
+"Ein Videospiel ist eine interaktive Software-„Welt“, in der ein Nutzer eine Figur oder ein Avatar steuert, Herausforderungen meistert und durch das Entwickeln von Fähigkeiten und das Sammeln virtueller Gegenstände voranschreitet.\n"
+"Man kann es sich wie eine Simulation vorstellen, bei der der Erfolg sowohl von Strategie als auch von Entscheidungen in Echtzeit abhängt – ähnlich wie beim Leiten eines Live-Projekts oder dem Verhandeln unter Zeitdruck.\n"
+"\n"
+"Was ist World of Warcraft?\n"
+"- Genre & Umfang: WoW ist ein massives Online-Rollenspiel (MMORPG), in dem sich Hunderttausende von Spielern gleichzeitig verbinden.\n"
+"- Charakterentwicklung: Jeder Spieler erstellt einen „Charakter“ (Avatar), der durch das Sammeln von Erfahrungspunkten, das Erlernen neuer Fähigkeiten und das Finden besserer Ausrüstung aufsteigt.\n"
+"- Zusammenarbeit & Wettbewerb: Spieler schließen sich zusammen, um schwierige Herausforderungen zu bewältigen, oder treten gegeneinander an – vergleichbar mit interdisziplinären Teams, die an komplexen Projekten arbeiten.\n"
+"\n"
+"Was ist Mythic+?\n"
+"- Dungeon-Herausforderungen: „Dungeons“ sind instanzierte, mehrstufige Herausforderungen. Man kann sie sich wie zeitlich begrenzte Hackathons oder Projektsprints mit wachsendem Schwierigkeitsgrad vorstellen.\n"
+"- Skalierender Schwierigkeitsgrad: Mythic+ wendet einen Schwierigkeits-„Multiplikator“ auf jeden Dungeon an, wodurch Teams schneller koordinieren und jede Fähigkeit optimieren müssen, um enge Zeitlimits einzuhalten.\n"
+"- Bestenlisten & Leistungsmetriken: Läufe werden getimed und bewertet. Höhere Punktzahlen spiegeln bessere Teamarbeit, Strategie und individuelle Leistung wider.\n"
+"\n"
+"Was ist Mythistone?\n"
+"Zweck: Mythistone ist eine webbasierte Analyseplattform für WoW-Spieler. Sie sammelt Leistungsdaten aus Tausenden von Mythic+-Läufen und präsentiert diese in klaren, umsetzbaren Formaten.\n"
+"\n"
+"Hauptfunktionen:\n"
+"- Build-Empfehlungen: Welche Fähigkeiten („Talente“) und Skill-Verteilungen liefern die besten Ergebnisse für eine bestimmte Rolle? Vergleichbar mit der Empfehlung optimaler Fähigkeiten für eine bestimmte Stelle.\n"
+"- Ausrüstungsoptimierung: Welche Ausrüstungsgegenstände bringen den größten Leistungszuwachs? Vergleichbar mit dem Rat zu Zertifizierungen oder Tools, die die Produktivität am Arbeitsplatz steigern.\n"
+"- Talentprofile & Berichte: Visuelle Zusammenfassungen der Entscheidungen von Top-Spielern. Wie Benchmark-Berichte, die Best Practices der Branche zeigen.\n"
+"\n"
+"Wie wurde es entwickelt:\n"
+"1. Datenquelle:\n"
+"   Blizzard stellt eine offizielle API zur Verfügung, die Mythic+-Bestenlisten und Charakterprofile (Ausrüstung, Talente, Leistung) bereitstellt.\n"
+"\n"
+"2. Datenerfassung:\n"
+"   - Ein Python-Skript („Runner“) läuft kontinuierlich auf einem Windows-Server und fragt regelmäßig die Blizzard-API nach aktuellen Bestenlisten- und Charakterdaten ab.\n"
+"   - Die abgerufenen Daten werden in eine MySQL-Datenbank auf einem Ubuntu-Server eingefügt.\n"
+"\n"
+"3. Seitengenerierung:\n"
+"   - GitHub-Actions-Workflows lösen Python-Jobs aus, die aktuelle Daten aus der MySQL-Datenbank ziehen.\n"
+"   - Mithilfe von Jinja-Templates rendern diese Jobs vollständig statische HTML-Seiten (Builds, Ausrüstungs-Guides, Bestenlisten).\n"
+"\n"
+"4. Bereitstellung:\n"
+"   - Die statischen Seiten werden in einen GitHub-Pages-Branch gepusht und veröffentlichen die aktualisierte Website sofort und ohne Downtime."
+
+msgid "RivalsstatsLongDesc"
+msgstr "RivalsstatsLongDesc"
+
+msgid "WACreatorLongDesc"
+msgstr "WACreatorLongDesc"
+
+msgid "changelog"
+msgstr "Änderungsprotokoll der letzten version"
+
+msgid "goHome"
+msgstr "Zurück"
+
+msgid "wrongTurn"
+msgstr "Sieht aus als wärst du falsch abgebogen"
+
+msgid "pageNotFound"
+msgstr "Seite nicht gefunden"
+
+msgid "404Page"
+msgstr "404 Seiten Design von"
+
+msgid "YourMessageSent"
+msgstr "Deine Nachricht wurde gesendet. Vielen Dank!"
+
+msgid "SendMessage"
+msgstr "Nachricht senden"
+
+msgid "Message"
+msgstr "Nachricht"
+
+msgid "Subject"
+msgstr "Betreff"
+
+msgid "YourEmail"
+msgstr "Deine Email"
+
+msgid "YourName"
+msgstr "Dein Name"
+
+msgid "Loading"
+msgstr "Laden..."
+
+msgid "StatsDescription"
+msgstr ""
+"Im laufe der Jahre habe ich viele verscheidene Projekte erstellt. Einige "
+"Daten zu meinen Öffentlichen Projekten findest du unten."
+
+msgid "ImageBy"
+msgstr "Bild bereitgestellt von"

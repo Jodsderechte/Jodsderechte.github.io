@@ -1,0 +1,508 @@
+[
+    {
+        "type": "master",
+        "courses": [
+            {
+                "title": "ComputerVision",
+                "description": "ComputerVisionDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_21205.pdf?modulid=21205&stgid=638&sp=",
+                "grade": "TBA",
+                "icon": "bi-eye",
+                "content_md": "ComputerVisionContent",
+                "LearningMethod": "LectureIntegratedPractice",
+                "ExamForm": "Oral",
+                "imgpath": "/images/courses/cv.jpg",
+                "img_attribution": {
+                    "title": "Freepik",
+                    "url": "https://www.freepik.com/free-photo/retinal-biometrics-technology-with-man-s-eye-digital-remix_16016568.htm#fromView=search&page=1&position=0&uuid=2e028ca4-90f3-4443-8fc3-53ad262454d7&query=Computer+Vision"
+                },
+                "professor": [{
+                    "name": "Dr. rer. nat Felix Wick",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/felix-wick"
+                }],
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 132
+                    }
+                ]
+            },
+            {
+                "title": "FTCG",
+                "description": "FTCGDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_20605.pdf?modulid=20605&stgid=638&sp=",
+                "grade": 1.0,
+                "icon": "bi-pc-display-horizontal",
+                "content": "FTCGContent",
+                "LearningMethod": "Practical",
+                "ExamForm": "Project",
+                "imgpath": "/images/courses/ftcg.jpg",
+                "img_attribution": {
+                    "title": "Freepik",
+                    "url": "https://www.freepik.com/free-photo/bearded-engineer-sitting-his-desk-home-office-working-turbine_19768108.htm#fromView=search&page=1&position=22&uuid=b8450926-390f-4826-9c47-c06fa6f6aa7a&query=Computer+Graphics"
+                },
+                "professor": [{
+                    "name": "Prof. Dr. Michael Bender",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/michael-bender"
+                    }
+                ],
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 132
+                    }
+                ],
+                "project": {
+                    "title": "FTCGProject",
+                    "url": "https://github.com/Jodsderechte/ComputerGrafik",
+                    "description": "FTCGProjectDesc",
+                    "domain": "Github",
+                    "screens": [
+                    {
+                        "path": "FTCGProject1.PNG"
+                    },
+                    {
+                        "path": "FTCGProject2.PNG"
+                    },
+                    {
+                        "path": "FTCGProject3.PNG"
+                    },
+                    {
+                        "path": "FTCGProject4.PNG"
+                    }
+                    ]
+                }
+            },
+            {
+                "title": "SSE",
+                "description": "SSEDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_20612.pdf?modulid=20612&stgid=638&sp=",
+                "grade": 1.7,
+                "icon": "bi-shield-shaded",
+                "content_md": "SSEContent",
+                "LearningMethod": "Lecture",
+                "ExamForm": "Presentation",
+                "imgpath": "/images/courses/sse.jpg",
+                "img_attribution": {
+                    "title": "Freepik",
+                    "url": "https://www.freepik.com/free-photo/retinal-biometrics-technology-with-man-s-eye-digital-remix_16016568.htm#fromView=search&page=1&position=0&uuid=11a915d1-0318-4f55-bb17-50dced03dcba&query=Computer+Vision"
+                },
+                "professor": [{
+                    "name": "Dr.-Ing. Kai Simon",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/kai-simon"
+                }],
+                "project": {
+                    "title": "SSEProject",
+                    "embed": "/embeds/Large_Language_Modelle_in_der_Softwareenetwicklung.pdf",
+                    "germanNotice": "ProjectGermanNotice",
+                    "screens": [
+                    {
+                        "path": "SSEProject1.png"
+                    },
+                    {
+                        "path": "SSEProject2.png"
+                    },
+                    {
+                        "path": "SSEProject3.png"
+                    },
+                    {
+                        "path": "SSEProject4.png"
+                    },
+                    {
+                        "path": "SSEProject5.png"
+                    },
+                    {
+                        "path": "SSEProject6.png"
+                    },
+                    {
+                        "path": "SSEProject7.png"
+                    },
+                    {
+                        "path": "SSEProject8.png"
+                    },
+                    {
+                        "path": "SSEProject9.png"
+                    },
+                    {
+                        "path": "SSEProject10.png"
+                    },
+                    {
+                        "path": "SSEProject11.png"
+                    },
+                    {
+                        "path": "SSEProject12.png"
+                    },
+                    {
+                        "path": "SSEProject13.png"
+                    },
+                    {
+                        "path": "SSEProject14.png"
+                    },
+                    {
+                        "path": "SSEProject15.png"
+                    },
+                    {
+                        "path": "SSEProject16.png"
+                    },
+                    {
+                        "path": "SSEProject17.png"
+                    },
+                    {
+                        "path": "SSEProject18.png"
+                    },
+                    {
+                        "path": "SSEProject19.png"
+                    },
+                    {
+                        "path": "SSEProject20.png"
+                    },
+                    {
+                        "path": "SSEProject21.png"
+                    },
+                    {
+                        "path": "SSEProject22.png"
+                    },
+                    {
+                        "path": "SSEProject23.png"
+                    }
+                    ]
+                },
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 132
+                    }
+                ]
+            },
+            {
+                "title": "FUI",
+                "description": "FUIDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_13814.pdf?modulid=13814&stgid=482&sp=",
+                "grade": "TBA",
+                "icon": "bi-layout-text-window",
+                "content_md": "FUIContent",
+                "LearningMethod": "Lecture",
+                "ExamForm": "Project",
+                "imgpath": "/images/courses/fui.jpg",
+                "img_attribution": {
+                    "title": "Freepik",
+                    "url": "https://www.freepik.com/free-photo/representations-user-experience-interface-design_37153464.htm#fromView=search&page=1&position=5&uuid=b3db5627-b9f7-4e04-9ec3-fe497919c39d&query=Ui+Framework"
+                },
+                "professor": [{
+                    "name": "Prof. Dr.-Ing. Jan Conrad",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/jan-conrad"
+                }],
+                "project": {
+                    "title": "FUIProject",
+                    "embed": "/embeds/FUI.pdf",
+                    "germanNotice": "ProjectGermanNotice",
+                    "screens": [
+                    {
+                        "path": "FUIProject1.png"
+                    },
+                    {
+                        "path": "FUIProject2.png"
+                    }
+                    ]
+                },
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 72
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 108
+                    }
+                ]
+            },
+            {
+                "title": "Philo",
+                "description_md": "PhiloDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_16316.pdf?modulid=16316&stgid=482&sp=",
+                "grade": 1.3,
+                "icon": "bi-lightbulb",
+                "content_md": "PhiloContent",
+                "LearningMethod": "Lecture",
+                "ExamForm": "SeminarPaper",
+                "imgpath": "/images/courses/philo.jpg",
+                "professor": [{
+                    "name": "Prof. Dr. Hans-Jürgen Steffens",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/hans-juergen-steffens"
+                }],
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 24
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 126
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "bachelor",
+        "courses": [
+            {
+                "title": "VDA",
+                "description": "VDADesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_12841.pdf?modulid=12841&stgid=460&sp=",
+                "grade": 1.0,
+                "icon": "bi-bar-chart-line",
+                "content_md": "VDAContent",
+                "LearningMethod": "Practical",
+                "ExamForm": "Project",
+                "imgpath": "/images/courses/vda.jpg",
+                "professor": [
+                    {
+                        "name": "Prof. Dr. Manfred Brill",
+                        "url": ""
+                    }
+                ],
+                "project": {
+                    "title": "VDAProject",
+                    "description": "VDAProjectDesc",
+                    "url": "https://florian-reichle.de/VisualDataAnalysis_VideoGameSales/VDAProjekt",
+                    "domain": "Website",
+                    "germanNotice": "ProjectGermanNotice",
+                    "screens": [
+                    {
+                        "path": "VDAProject1.png"
+                    },
+                    {
+                        "path": "VDAProject2.png"
+                    },
+                    {
+                        "path": "VDAProject3.png"
+                    },
+                    {
+                        "path": "VDAProject4.png"
+                    },
+                    {
+                        "path": "VDAProject5.png"
+                    }
+                    ]
+                },
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 102
+                    }
+                ]
+            },
+            {
+                "title": "EAE",
+                "description": "EAEDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_16637.pdf?modulid=16637&stgid=460&sp=",
+                "grade": 1.3,
+                "icon": "bi-phone",
+                "content_md": "EAEContent",
+                "LearningMethod": "Block",
+                "ExamForm": "Project",
+                "imgpath": "/images/courses/eae.jpg",
+                "professor": [
+                    {
+                    "name": "Prof. Dr. Michael Bender",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/michael-bender"
+                },
+                {
+                    "name": "Prof. Dr.-Ing. Jan Conrad",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/jan-conrad"
+                },
+                {
+                    "name": "Prof. Dr.-Ing. Uwe Tronnier",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/uwe-tronnier"
+                }
+                ],
+                "project": {
+                    "title": "EAEProject",
+                    "description": "EAEProjectDesc",
+                    "url": "https://github.com/Jodsderechte/EAE_APP_BOOKSHELF",
+                    "domain": "Github",
+                    "germanNotice": "ProjectGermanNotice",
+                    "screens": [
+                    {
+                        "path": "EAEProject1.jpg"
+                    },
+                    {
+                        "path": "EAEProject2.jpg"
+                    },
+                    {
+                        "path": "EAEProject3.jpg"
+                    },
+                    {
+                        "path": "EAEProject4.jpg"
+                    },
+                    {
+                        "path": "EAEProject5.jpg"
+                    },
+                    {
+                        "path": "EAEProject6.jpg"
+                    },
+                    {
+                        "path": "EAEProject7.jpg"
+                    },
+                    {
+                        "path": "EAEProject8.jpg"
+                    },
+                    {
+                        "path": "EAEProject9.jpg"
+                    }
+                    ]
+                },
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 102
+                    }
+                ]
+            },
+            {
+                "title": "NPROG",
+                "description": "NPROGDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_13097.pdf?modulid=13097&stgid=460&sp=",
+                "grade": 1.0,
+                "icon": "bi-diagram-3",
+                "content_md": "NPROGContent",
+                "LearningMethod": "LectureIntegratedPractice",
+                "ExamForm": "practicalExam",
+                "imgpath": "/images/courses/nprog.png",
+                "professor": [
+                    {
+                    "name": "Prof. Dr. Jörg Hettel",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/joerg-hettel"
+                }
+                ],
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 102
+                    }
+                ]
+            },            
+            {
+                "title": "Crypto",
+                "description": "CryptoDesc",
+                "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_16549.pdf?modulid=16549&stgid=460&sp=",
+                "grade": 1.0,
+                "icon": "bi-currency-bitcoin",
+                "content_md": "CryptoContent",
+                "LearningMethod": "Lecture",
+                "ExamForm": "Portfolio",
+                "imgpath": "/images/courses/crypto.jpg",
+                "projectUrl": "https://www.wikifolio.com/de/de/w/wfcrypt000",
+                "professor": [
+                    {
+                    "name": "Prof. Hendrik Speck",
+                    "url": "https://www.hs-kl.de/hochschule/profil/personenverzeichnis/detailanzeige-personen/person/hendrik-speck"
+                }
+                ],
+                "project": {
+                    "title": "CryptoProject",
+                    "description": "CryptoProjectDesc",
+                    "url": "https://www.wikifolio.com/de/de/w/wfcrypt000",
+                    "domain": "Wikifolio",
+                    "germanNotice": "ProjectGermanNotice",
+                    "screens": [
+                    {
+                        "path": "CryptoProject1.jpg"
+                    },
+                    {
+                        "path": "CryptoProject2.jpg"
+                    },
+                    {
+                        "path": "CryptoProject3.jpg"
+                    },
+                    {
+                        "path": "CryptoProject4.jpg"
+                    },
+                    {
+                        "path": "CryptoProject5.jpg"
+                    },
+                    {
+                        "path": "CryptoProject6.jpg"
+                    },
+                    {
+                        "path": "CryptoProject7.jpg"
+                    },
+                    {
+                        "path": "CryptoProject8.jpg"
+                    },
+                    {
+                        "path": "CryptoProject9.jpg"
+                    },
+                    {
+                        "path": "CryptoProject10.jpg"
+                    },
+                    {
+                        "path": "CryptoProject11.jpg"
+                    },
+                    {
+                        "path": "CryptoProject12.jpg"
+                    },
+                    {
+                        "path": "CryptoProject13.jpg"
+                    },
+                    {
+                        "path": "CryptoProject14.jpg"
+                    },
+                    {
+                        "path": "CryptoProject15.jpg"
+                    },
+                    {
+                        "path": "CryptoProject16.jpg"
+                    },
+                    {
+                        "path": "CryptoProject17.jpg"
+                    },
+                    {
+                        "path": "CryptoProject18.jpg"
+                    },
+                    {
+                        "path": "CryptoProject19.jpg"
+                    }
+                    ]
+                },
+                "workload": [
+                    {
+                        "type": "Attendance",
+                        "hours": 48
+                    },
+                    {
+                        "type": "SelfStudy",
+                        "hours": 102
+                    }
+                ]
+            }
+        ]
+    }
+
+    
+]

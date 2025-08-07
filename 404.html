@@ -1,93 +1,332 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Oh no</title>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="Css/404.css" rel="stylesheet">
-<link href="Css/Style.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="https://kit.fontawesome.com/5e9ecb2ecd.js" crossorigin="anonymous"></script>
-<script src="JS/Utility.js"></script>
-<script src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=2f28b8ec-3d03-11ee-8379-dbbc4723fc57"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Florian Reichle - 404</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Florian Reichle" />
+  <link rel="manifest" href="/images/site.webmanifest" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <link href="/assets/css/404.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body class="bg-purple">
-  <!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar w3-dark-grey w3-card" id="myNavbar">
-      <a href="https://florian-reichle.de/" class="w3-bar-item w3-button w3-wide">Florian Reichle</a>
-      <div class="languagePicker">
-        <form action="" class="language-picker__form">    
-          <i class="fa fa-globe"></i>
-          <select name="language-picker-select" id="language-picker-select">
-            <option lang="en-US" value="english" selected class="select-items">English</option>
-            <option lang="de-DE" value="deutsch" class="select-items">Deutsch</option>
-          </select>
-        </form>
-      </div>
-      <!-- Right-sided navbar links -->
-      <div class="w3-right w3-hide-small">
-        <a href="https://florian-reichle.de/#about" class="w3-bar-item w3-button"><i class="fa fa-user" style="margin-right: 5px"></i> <span class="About">About</span></a>
-        <a href="https://florian-reichle.de/#WeakAuras" class="w3-bar-item w3-button"><img src="/images/wago.io.png" width="20" height="12"style="margin-bottom: 3px; margin-right: 5px">  WeakAuras</a>
-        <a href="https://florian-reichle.de/#WoWAddons" class="w3-bar-item w3-button"><img src="https://img.icons8.com/?size=512&id=SmZQEPEk3iZP&format=png" width="15" height="15" style="margin-bottom: 3px; margin-right: 5px">  WoW Addons</a>
-        <a href="https://florian-reichle.de/#ArkMod" class="w3-bar-item w3-button"><img src="https://img.icons8.com/?size=512&id=rLJtBvI9A7KS&format=png" width="15" height="15" style="margin-bottom: 3px; margin-right: 5px"> ARK Mod</a>
-        <a href="https://florian-reichle.de/#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope" style="margin-right: 5px"></i> <span class="Contact">Contact</span></a>
-      </div>
-      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-  
-      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-        <i class="fa fa-bars"></i>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="/images/Background.jpg" alt="" class="img-fluid rounded-circle object-fit-cover">
+    </div>
+
+    <a href="" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Florian Reichle</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/florian-reichle/" class="linkedin" target="_blank"
+        title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/Jodsderechte" class="github" target="_blank" title="GitHub"><i
+          class="bi bi-github"></i></a>
+      <a href="https://discord.com/invite/v3gYmYamGJ" class="discord" target="_blank" title="Discord"><i
+          class="bi bi-discord"></i></a>
+      <a href="https://www.youtube.com/Jodsderechte" class="youtube" target="_blank" title="YouTube"><i
+          class="bi bi-youtube"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu flex-grow-1 overflow-auto">
+      <ul>
+        <li><a href="/#hero" class="active"><i class="bi bi-house navicon"></i>Übersicht</a></li>
+        <li><a href="/#about"><i class="bi bi-person navicon"></i> Auf einen Blick</a></li>
+        <li><a href="/#skills"><i class="bi bi-code-slash navicon"></i> Fähigkeiten</a></li>
+        <li><a href="/#resume"><i class="bi bi-file-earmark-text navicon"></i> Lebenslauf</a></li>
+        <li class="dropdown"><a href="/#portfolio"><i class="bi bi-images navicon"></i> <span>Portfolio</span>
+            <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li class="dropdown"><a href="/#portfolio"><span>WoW Addons</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              
+              <ul>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/dungeon-aura-tools">Dungeon Aura...</a></li>
+                
+                
+                
+                <li><a href="/portfolio/groupfinderrio">GroupFinderRio</a></li>
+                
+                
+                
+                <li><a href="/portfolio/customnames">CustomNames</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/customnames_elvui">CustomNames_...</a></li>
+                
+                
+                
+                <li><a href="/portfolio/customnames_mrt">CustomNames_MRT</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/customnames_chat">CustomNames_...</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/customname_guild">CustomName_G...</a></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown"><a href="/#portfolio"><span>Ark Mods</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                
+                
+                
+                <li><a href="/portfolio/autodoors">AutoDoors</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/cheat-death-(homing-pigeon-reloaded)">Cheat Death ...</a></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown"><a href="/#portfolio"><span>WeakAuras</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/sl-dungeons">Shadowlands-...</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/raidabilitytimeline">Ability Time...</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/minterrupttracker">Mythic+ Inte...</a></li>
+                
+                
+                
+                <li><a href="/portfolio/legion-dungeons">Legion-Dungeons</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/runicbrandhelper">HOV - Runic ...</a></li>
+                
+                
+                
+                <li><a href="/portfolio/wod-dungeons">WOD-Dungeons</a></li>
+                
+                
+                
+                <li><a href="/portfolio/bfa-dungeons">BFA-Dungeons</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/df-dungeons">Dragonflight...</a></li>
+                
+                
+                
+                <li><a href="/portfolio/prideful">Prideful</a></li>
+                
+                
+                
+                
+                
+                <li><a href="/portfolio/affixhelper">M+ affix hel...</a></li>
+                
+              </ul>
+            </li>
+            
+            <li class="dropdown"><a href="/#portfolio"><span>datascience</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                
+                <li><a href="/portfolio/mythistone">Mythistone</a></li>
+                
+                <li><a href="/portfolio/rivalsstats">Rivalsstats</a></li>
+                
+              </ul>
+            </li>
+            
+            <li class="dropdown"><a href="/#portfolio"><span>Other</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                
+                <li><a href="/portfolio/wacreator">WACreator</a></li>
+                
+              </ul>
+            </li>
+            
+          </ul>
+        </li>
+        <li><a href="/#additional-courses"><i class="bi bi-hdd-stack navicon"></i>
+            Vertiefungsfächer</a>
+        </li>
+        <li><a href="/#contact"><i class="bi bi-envelope navicon"></i> Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="position-sticky bottom-0 w-100 px-3 py-2" style="z-index: 10;"
+      aria-label="Language switcher">
+      
+
+      <a href="/en_US/index" class="btn btn-outline-secondary btn-sm w-100 text-white">
+        Zurück
       </a>
     </div>
-  </div>
-  
-  <!-- Sidebar on small screens when clicking the menu icon -->
-  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <a href="https://florian-reichle.de/#about" onclick="w3_close()" class="w3-bar-item w3-button"><span id="About">About</span></a>
-    <a href="https://florian-reichle.de/#WeakAuras" onclick="w3_close()" class="w3-bar-item w3-button">WEAK AURAS</a>
-    <a href="https://florian-reichle.de/#WoWAddons" onclick="w3_close()" class="w3-bar-item w3-button">WORLD OF WARCRAFT ADDON</a>
-    <a href="https://florian-reichle.de/#ArkMod" onclick="w3_close()" class="w3-bar-item w3-button">ARK Survival Evolved Mod</a>
-    <a href="https://florian-reichle.de/#contact" onclick="w3_close()" class="w3-bar-item w3-button"><span id="Contact">Contact</span></a>
-  </nav>
-        
-  <div class="stars">
-      <div class="central-body">
-          <h1>404</h1>
-          <h2>Looks like you took a wrong turn</h2>
-          <a href="https://florian-reichle.de/" class="btn-go-home">GO BACK HOME</a>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Seite nicht gefunden</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="/">Übersicht</a></li>
+            <li class="current">Seite nicht gefunden</li>
+          </ol>
+        </nav>
       </div>
-      <div class="objects">
-          <img class="object_rocket" src="https://salehriaz.com/404Page/img/rocket.svg" width="40px">
+    </div><!-- End Page Title -->
+
+    <!-- Starter Section Section -->
+    <section id="starter-section" class="starter-section section bg-purple">
+
+      <!-- Section Title -->
+      <div class="stars">
+        <div class="central-body">
+          <h1 class="missing-error-code">404</h1>
+          <h2 class="missing-wrong-turn">Sieht aus als wärst du falsch abgebogen</h2>
+          <a href="https://florian-reichle.de/" class="btn-go-home capitalized">Zurück</a>
+        </div>
+        <div class="objects">
+          <img class="object_rocket" src="/images/404/rocket.svg" width="40px">
           <div class="earth-moon">
-              <img class="object_earth" src="https://salehriaz.com/404Page/img/earth.svg" width="100px">
-              <img class="object_moon" src="https://salehriaz.com/404Page/img/moon.svg" width="80px">
+            <img class="object_earth" src="/images/404/earth.svg" width="100px">
+            <img class="object_moon" src="/images/404/moon.svg" width="80px">
           </div>
           <div class="box_astronaut">
-              <img class="object_astronaut" src="https://salehriaz.com/404Page/img/astronaut.svg" width="140px">
+            <img class="object_astronaut" src="/images/404/astronaut.svg" width="140px">
           </div>
-      </div>
-      <div class="glowing_stars">
+        </div>
+        <div class="glowing_stars">
           <div class="star"></div>
           <div class="star"></div>
           <div class="star"></div>
           <div class="star"></div>
           <div class="star"></div>
 
+        </div>
+
       </div>
 
-  </div>
-  <!-- Footer -->
-<footer class="w3-center w3-padding-64">
-    <div class="w3-xlarge w3-section">
-      <a href="https://discord.com/invite/v3gYmYamGJ"target="_blank"><i class="fa fa-brands fa-discord w3-hover-opacity"></i></a> 
-      <a href="https://github.com/Jodsderechte/"target="_blank"><i class="fa fa-brands fa-github w3-hover-opacity"></i></a> 
-      <a href="https://www.youtube.com/user/Jodsderechte"target="_blank"><i class="fa fa-brands fa-youtube w3-hover-opacity"></i></a> 
+    </section><!-- /Starter Section Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <a href="/imprint" title="Impressum" class="w3-hover-text-green">Impressum</a>
+      </div>
+      <div class="credits">
+        <a href="/credits">Anerkennungen</a>
+      </div>
+
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-    <a href="/Impressum" title="impressum" class="w3-hover-text-green">Impressum</a>
+
   </footer>
-  <div class="overlay" id = "overlay" onclick="w3_close()"></div>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
 </body>
+
 </html>

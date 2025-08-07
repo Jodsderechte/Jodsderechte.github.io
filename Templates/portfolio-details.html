@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+{%- if lang_code == 'en_US' -%}
+{% set lang = 'en' %}
+{%- else -%}
+{% set lang = 'de' %}
+{%- endif %}
+<html lang={{lang}}>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Florian Reichle - {{ item.name }}</title>
+  <meta content="{{ item.name }}" name="description">
+  <meta content="Florian Reichle, {{ item.name }}, {{_('ImATexts')}}" name="keywords">
+
+  <!-- Favicons -->
+ <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Florian Reichle" />
+  <link rel="manifest" href="/images/site.webmanifest" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/highlight-js-theme.min.css" />
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    {%- if lang_code == 'en_US' -%}
+    {% set path = '/en_US' %}
+    {%- else -%}
+    {% set path = '' %}
+    {%- endif %}
+    <div class="profile-img">
+      <img src="/images/Background.jpg" alt="" class="img-fluid rounded-circle object-fit-cover">
+    </div>
+
+    <a href="{{path}}" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Florian Reichle</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/florian-reichle/" class="linkedin" target="_blank"><i
+          class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/Jodsderechte" class="github" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://discord.com/invite/v3gYmYamGJ" class="discord" target="_blank"><i class="bi bi-discord"></i></a>
+      <a href="https://www.youtube.com/Jodsderechte" class="youtube" target="_blank"><i class="bi bi-youtube"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu flex-grow-1 overflow-auto">
+      <ul>
+        <li><a href="{{ path }}/#hero" class="active"><i class="bi bi-house navicon"></i>{{ _('Home') }}</a></li>
+        <li><a href="{{ path }}/#about"><i class="bi bi-person navicon"></i> {{ _('About') }}</a></li>
+        <li><a href="{{ path }}/#skills"><i class="bi bi-code-slash navicon"></i> {{ _('Skills') }}</a></li>
+        <li><a href="{{ path }}/#resume"><i class="bi bi-file-earmark-text navicon"></i> {{ _('Resume') }}</a></li>
+        <li class="dropdown"><a href="{{ path }}/#portfolio"><i class="bi bi-images navicon"></i> <span>{{
+              _('Portfolio') }}</span>
+            <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>WoW Addons</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              {% set maxlen = 15 %}
+              <ul>
+                {% for addon in topAddons %}
+                {% set name = addon.name %}
+                {% if name|length > maxlen %}
+                {% set name = name[:maxlen-3] ~ '...' %}
+                {% endif %}
+                <li><a href="{{ path }}/portfolio/{{ addon.file_name }}">{{ name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>Ark Mods</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for mod in topMods %}
+                {% set name = mod.name %}
+                {% if name|length > maxlen %}
+                {% set name = name[:maxlen-3] ~ '...' %}
+                {% endif %}
+                <li><a href="{{ path }}/portfolio/{{ mod.file_name }}">{{ name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>WeakAuras</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for weakAura in topWeakAuras %}
+                {% set name = weakAura.name %}
+                {% if name|length > maxlen %}
+                {% set name = name[:maxlen-3] ~ '...' %}
+                {% endif %}
+                <li><a href="{{ path }}/portfolio/{{ weakAura.file_name }}">{{ name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% for category in other_projects_data %}
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>{{ category.title }}</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for project in category.projects %}
+                <li><a href="{{ path }}/portfolio/{{ project.file_name }}">{{ project.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="{{ path }}/#additional-courses"><i class="bi bi-hdd-stack navicon"></i>
+            {{_('AdditionalCourses')}}</a>
+        </li>
+        <li><a href="{{ path }}/#contact"><i class="bi bi-envelope navicon"></i> {{_('Contact')}}</a></li>
+      </ul>
+    </nav>
+
+    <div class="position-sticky bottom-0 w-100 px-3 py-2" style="z-index: 10;"
+      aria-label="Language switcher">
+      {%- if lang_code == 'en_US' -%}
+      {% set switch_to_lang = '' %}
+      {% set switch_label = 'switchToGer' %}
+      {%- else -%}
+      {% set switch_to_lang = '/en_US' %}
+      {% set switch_label = 'switchToEng' %}
+      {%- endif %}
+
+      {% set switch_to = switch_to_lang ~ '/portfolio/' ~ item.file_name %}
+
+      <a href="{{ switch_to }}" class="btn btn-outline-light btn-sm w-100">
+        {{ _(switch_label) }}
+      </a>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">{{ item.name }}</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{{ path }}/">{{ _('Home') }}</a></li>
+            <li><a href="{{ path }}/portfolio">{{ _('Portfolio') }}</a></li>
+            <li>{{ _(item['type']) }}</li>
+            <li class="current">{{ item.name }}</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                {% for screenshot in item.screens %}
+                <div class="swiper-slide">
+
+                  <img src="{{ screenshot.path }}" style="max-height: 45vh; object-fit: contain;"
+                    alt="{{ screenshot.path }}">
+                </div>
+                {% endfor %}
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                {% macro metric_counter(value, label, min_display=0, animate_threshold=1000) -%}
+                {%- if value is not none and value >= min_display -%}
+                <li>
+                  <strong>{{ label }}</strong>:&nbsp;
+                  {%- if value >= animate_threshold -%}
+                  <span data-purecounter-start="0" data-purecounter-end="{{ value }}" data-purecounter-duration="1"
+                    class="purecounter">
+                  </span>
+                  {%- else -%}
+                  {{ value }}
+                  {%- endif -%}
+                </li>
+                {%- endif -%}
+                {%- endmacro %}
+
+                {{ metric_counter(item.get('views'), _('views')) }}
+                {{ metric_counter(item.get('stars'), _('stars')) }}
+                {{ metric_counter(item.get('installs'), _('installs'), min_display=2) }}
+                {{ metric_counter(item.get('downloadCount'), _('downloadCount')) }}
+                {{ metric_counter(item.get('commentCount'), _('commentCount')) }}
+
+
+                {% if item.get('latestVersion') %}
+                <li><strong>{{ _('latestVersion') }}</strong>: {{ item.latestVersion }}</li>
+                {% endif %}
+                {% if item.get('dateModified') %}
+                {% set time_tag = (
+                '<time class="timeago" '
+                  ~ ' datetime="'    ~ item.dateModified            ~ '" '
+                  ~ ' data-locale="' ~ lang_code[:2]     ~ '" '
+                  ~ ' title="'       ~ item.dateModified            ~ '">'
+                  ~ item.dateModified
+                  ~ '</time>'
+                ) | safe %}
+                <li><strong>{{ _('dateModified') }}</strong>: {{ time_tag }}</li>
+                {% endif %}
+                {% if item.get('shortDesc') %}
+                <li><strong>{{ _('description') }}</strong>: {{ _(item.shortDesc) }}</li>
+                {% endif %}
+                {% if item.get('url') %}
+                <li><strong>{{ _('url') }}</strong>: <a href="{{ item.url }}" target="_blank">{{ item.domain }}</a></li>
+                {% endif %}
+
+                {% if item.get('categories') %}
+                <li><strong>{{ _('categories') }}</strong>:
+                  <div>
+                    {% for category in item.categories %}
+                    {% set meta = category_lookup.get(category) %}
+                    {% if meta %}
+                    {# build your style #}
+                    {% set style_attr = meta.color and 'style="color:' ~ meta.color ~'"' or '' %}
+                    <span class="badge bg-dark" {{ style_attr|safe }}>
+                      {# ← here’s the real <img> tag, not a string #}
+                      {% if meta.image %}
+                      <img src="/images/categories/{{ meta.image }}" alt="{{ _(category) }}">
+                      {% endif %}
+                      {{ _(category) }}
+                    </span>
+                    {% else %}
+                    <span class="badge bg-dark">{{ _(category) }}</span>
+                    {% endif %}
+                    {% endfor %}
+                  </div>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="row gy-4">
+          <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+            {% if not item.get('skipAutoImportExplanation') %}
+            <h2>{{ _('descriptionExplanation') }}</h2>
+            <p><strong>{{ _('changelog') }}:</strong> </p>
+            <p><em>{{item.changelog | safe }}</em></p>
+            <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
+            <p><strong>{{ _('description') }}:</strong></p>
+            {{ item.description| strip_ads | safe }}
+            {% elif item.get('description_md') %}
+              {% set md_path = "./data/project_details/" ~ lang_code ~ "/" ~ item.description_md ~ ".md" %}
+              {{  load_text(md_path) | markdown | safe }}
+            {% else %}
+              {{_(item.description)}}
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <a href="{{ path }}/imprint" title="{{ _('imprint') }}" class="w3-hover-text-green">{{ _('imprint') }}</a>
+      </div>
+      <div class="credits">
+        <a href="{{ path }}/credits">{{ _('credits') }}</a>
+      </div>
+
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/timeago/timeago.min.js"></script>
+  <script src="/assets/vendor/highlight-js/highlight.min.js"></script>
+  <script>
+    // setup timeago for the time tags
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll("pre code").forEach((block) => {
+        hljs.highlightElement(block);
+      });
+      {%if lang_code[: 2] == 'de' %}
+      const localeFunc = (number, index, totalSec) => {
+        return [
+          ['gerade eben', 'vor einer Weile'],
+          ['vor %s Sekunden', 'in %s Sekunden'],
+          ['vor einer Minute', 'in einer Minute'],
+          ['vor %s Minuten', 'in %s Minuten'],
+          ['vor einer Stunde', 'in einer Stunde'],
+          ['vor %s Stunden', 'in %s Stunden'],
+          ['vor einem Tag', 'in einem Tag'],
+          ['vor %s Tagen', 'in %s Tagen'],
+          ['vor einer Woche', 'in einer Woche'],
+          ['vor %s Wochen', 'in %s Wochen'],
+          ['vor einem Monat', 'in einem Monat'],
+          ['vor %s Monaten', 'in %s Monaten'],
+          ['vor einem Jahr', 'in einem Jahr'],
+          ['vor %s Jahren', 'in %s Jahren'],
+        ][index];
+      };
+
+      timeago.register('de', localeFunc);
+      {% endif %}
+      document.querySelectorAll('time.timeago').forEach((el) => {
+        const iso = el.getAttribute('datetime');
+        const locale = el.dataset.locale || navigator.language || 'en';
+        const then = new Date(iso);
+        el.title = `am ${then.toLocaleString(locale, {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: false
+        })}`;
+      });
+      if (document.querySelectorAll('time.timeago') && document.querySelectorAll('time.timeago').length > 0) {
+        timeago.render(document.querySelectorAll('time.timeago'), '{{ lang_code[:2] }}');
+      }
+    });
+  </script>
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+
+</body>
+
+</html>

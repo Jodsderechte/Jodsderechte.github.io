@@ -1,0 +1,88 @@
+{
+    "positions": [
+        {
+            "Finished On": "",
+            "Title": "Modder",
+            "Company Name": "Freelance",
+            "Description": "- Creating UI improvements for the Videogame World of Warcraft using LUA  - Creating Webapps for the Videogame World of Warcraft  - Creating Modifications for the Videogame Ark using Unreal Engine",
+            "Location": "",
+            "Started On": "Mar 2020"
+        },
+        {
+            "Finished On": "Jul 2024",
+            "Title": "Bachelor Thesis Software Development",
+            "Company Name": "DCON Software & Service AG",
+            "Description": "Implementation of a configuration interface for creating dashboard widgets in Servity.",
+            "Location": "Kaiserslautern, Rhineland-Palatinate, Germany",
+            "Started On": "May 2024"
+        },
+        {
+            "Finished On": "Apr 2024",
+            "Title": "Student Internship",
+            "Company Name": "DCON Software & Service AG",
+            "Description": "Evaluation and prototyping of a configuration interface for creating dashboard widgets in Servity.",
+            "Location": "Kaiserslautern, Rhineland-Palatinate, Germany",
+            "Started On": "Nov 2023"
+        },
+        {
+            "Finished On": "Mar 2023",
+            "Title": "Student Assistant",
+            "Company Name": "Hochschule Kaiserslautern",
+            "Description": "Student Assistant for Ui/Ux development for N-soria/shift",
+            "Location": "",
+            "Started On": "Nov 2022"
+        },
+        {
+            "Finished On": "Jun 2016",
+            "Title": "Intern",
+            "Company Name": "R+V Versicherung",
+            "Description": "Quality Assurance",
+            "Location": "Wiesbaden, Hesse, Germany",
+            "Started On": "Sep 2015"
+        }
+    ],
+    "education": [
+        {
+            "Activities": "Software Development",
+            "Degree Name": "Master of Science - MS",
+            "Start Date": "Sep 2024",
+            "School Name": "Hochschule Kaiserslautern",
+            "End Date": "2026",
+            "Notes": ""
+        },
+        {
+            "Activities": "",
+            "Degree Name": "Bachelor of Science - BS",
+            "Start Date": "2017",
+            "School Name": "Hochschule Kaiserslautern",
+            "End Date": "2024",
+            "Notes": "Applied Informatics"
+        },
+        {
+            "Activities": "",
+            "Degree Name": "Technical diploma",
+            "Start Date": "Sep 2015",
+            "School Name": "Fachoberschule Nierstein",
+            "End Date": "Jun 2017",
+            "Notes": ""
+        }
+    ],
+    "profile": {
+        "Websites": "[PERSONAL:https://florian-reichle.de/]",
+        "Address": "",
+        "Maiden Name": "",
+        "Instant Messengers": "",
+        "First Name": "Florian",
+        "Geo Location": "Zweibrücken, Rhineland-Palatinate, Germany",
+        "Twitter Handles": "",
+        "Industry": "Software Development",
+        "Zip Code": "66482",
+        "Headline": "Software Development Student, Gaming Enthusiast and full-time nerd",
+        "Summary": "Gaming and Software development enthusiast",
+        "Birth Date": "Jun 5",
+        "Last Name": "Reichle"
+    },
+    "last_updated": {
+        "timestamp": "2025-08-04T15:08:05.484384+00:00"
+    }
+}

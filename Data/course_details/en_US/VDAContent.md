@@ -1,0 +1,6 @@
+- **Visualization pipeline** and realizing the pipeline on the computer  
+- **Games-with-a-Purpose**  
+- **Examples for data sets and visualizations** – best practices  
+- **Short introduction in R, Tableau, ParaView, …**  
+- **Projects for interactive visualization**  
+- **Case studies**  

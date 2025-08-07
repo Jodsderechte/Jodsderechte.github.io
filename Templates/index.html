@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+{%- if lang_code == 'en_US' -%}
+{% set lang = 'en' %}
+{%- else -%}
+{% set lang = 'de' %}
+{%- endif %}
+<html lang={{lang}}>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Florian Reichle</title>
+  <meta content="{{ _('AboutText').format(headline=_(linkedin_snapshot.profile.Headline) ) }}" name="description">
+  <meta content="Florian Reichle, {{_('keywords')}}" name="keywords">
+
+  <!-- Favicons -->
+ <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Florian Reichle" />
+  <link rel="manifest" href="/images/site.webmanifest" />
+
+  <!-- Cookie Bar -->
+  <script
+    src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=2f28b8ec-3d03-11ee-8379-dbbc4723fc57"></script>
+
+  <!-- Fonts -->
+  <link ez-cb-cat="functional" href="https://fonts.googleapis.com" rel="preconnect">
+  <link ez-cb-cat="functional" href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link ez-cb-cat="functional"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/assets/css/github-stats.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    {%- if lang_code == 'en_US' -%}
+    {% set path = '/en_US' %}
+    {%- else -%}
+    {% set path = '' %}
+    {%- endif %}
+    <div class="profile-img">
+      <img src="/images/Background.jpg" alt="" class="img-fluid rounded-circle object-fit-cover">
+    </div>
+
+    <a href="{{path}}" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Florian Reichle</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/florian-reichle/" class="linkedin" target="_blank"
+        title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/Jodsderechte" class="github" target="_blank" title="GitHub"><i
+          class="bi bi-github"></i></a>
+      <a href="https://discord.com/invite/v3gYmYamGJ" class="discord" target="_blank" title="Discord"><i
+          class="bi bi-discord"></i></a>
+      <a href="https://www.youtube.com/Jodsderechte" class="youtube" target="_blank" title="YouTube"><i
+          class="bi bi-youtube"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu flex-grow-1 overflow-auto">
+      <ul>
+        <li><a href="{{ path }}/#hero" class="active"><i class="bi bi-house navicon"></i>{{ _('Home') }}</a></li>
+        <li><a href="{{ path }}/#about"><i class="bi bi-person navicon"></i> {{ _('About') }}</a></li>
+        <li><a href="{{ path }}/#skills"><i class="bi bi-code-slash navicon"></i> {{ _('Skills') }}</a></li>
+        <li><a href="{{ path }}/#resume"><i class="bi bi-file-earmark-text navicon"></i> {{ _('Resume') }}</a></li>
+        <li class="dropdown"><a href="{{ path }}/#portfolio"><i class="bi bi-images navicon"></i> <span>{{
+              _('Portfolio') }}</span>
+            <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>WoW Addons</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              {% set maxlen = 15 %}
+              <ul>
+                {% for addon in topAddons %}
+                {% set name = addon.name %}
+                {% if name|length > maxlen %}
+                {% set name = name[:maxlen-3] ~ '...' %}
+                {% endif %}
+                <li><a href="{{ path }}/portfolio/{{ addon.file_name }}">{{ name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>Ark Mods</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for mod in topMods %}
+                {% set name = mod.name %}
+                {% if name|length > maxlen %}
+                {% set name = name[:maxlen-3] ~ '...' %}
+                {% endif %}
+                <li><a href="{{ path }}/portfolio/{{ mod.file_name }}">{{ name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>WeakAuras</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for weakAura in topWeakAuras %}
+                {% set name = weakAura.name %}
+                {% if name|length > maxlen %}
+                {% set name = name[:maxlen-3] ~ '...' %}
+                {% endif %}
+                <li><a href="{{ path }}/portfolio/{{ weakAura.file_name }}">{{ name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% for category in other_projects_data %}
+            <li class="dropdown"><a href="{{ path }}/#portfolio"><span>{{ category.title }}</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for project in category.projects %}
+                <li><a href="{{ path }}/portfolio/{{ project.file_name }}">{{ project.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="{{ path }}/#additional-courses"><i class="bi bi-hdd-stack navicon"></i>
+            {{_('AdditionalCourses')}}</a>
+        </li>
+        <li><a href="{{ path }}/#contact"><i class="bi bi-envelope navicon"></i> {{_('Contact')}}</a></li>
+      </ul>
+    </nav>
+
+    <div class="position-sticky bottom-0 w-100 px-3 py-2" style="z-index: 10;"
+      aria-label="Language switcher">
+      {%- if lang_code == 'en_US' -%}
+      {% set switch_to = '/' %}
+      {% set switch_label = 'switchToGer' %}
+      {%- else -%}
+      {% set switch_to = '/en_US/index' %}
+      {% set switch_label = 'switchToEng' %}
+      {%- endif %}
+
+      <a href="{{ switch_to }}" class="btn btn-outline-secondary btn-sm w-100 text-white">
+        {{ _(switch_label) }}
+      </a>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="/images/Background.jpg" alt="" data-aos="fade-in" class="">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Florian Reichle</h2>
+        <p><span class="typed" data-typed-items="{{ _('ImATexts') }}"></span><span
+            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+      <div class="scroll-down">
+        <a href="#about">
+          <span class="scroll-text">{{ _('ScrollDown') }}</span>
+          <span class="arrow"></span>
+        </a>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{ _('About') }}</h2>
+        <p>{{ _('AboutText').format(headline=_(linkedin_snapshot.profile.Headline) ) }}</p>
+      </div><!-- End Section Title -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="/images/Background.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Florian Reichle</h2>
+            <p class="fst-italic py-3">
+              {{ _(linkedin_snapshot.profile.Summary) }}
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>{{ _('Age') }}:</strong> <span>{{ "1997-06-05" |
+                      age("%Y-%m-%d") }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>{{ _('Location') }}:</strong> <span>{{
+                      _(linkedin_snapshot.profile['Geo Location']) }}</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>{{ _('Degree') }}:</strong> <span>{{ _('DegreeValue')
+                      }}</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>{{ _('Email') }}:</strong>
+                    <span>Portfolio(at)florian-reichle.de</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <em>{{ _('StatsDescription') }}</em>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-download"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{ total_downloads }}"
+                data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{ _('Downloads') }}</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-hdd-stack"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{ total_installs }}" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>{{ _('Installs') }}</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{ total_stars }}" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>{{ _('PositiveReviews') }}</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="{{ total_comments }}" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>{{ _('AnsweredComments') }}</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{ _('Skills') }}</h2>
+        <p>{{ _('SkillsDescription') }}</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+          {% set skill_categories = [
+          {
+          'title': 'Backend',
+          'section': 'backend',
+          'skills': [
+          { 'name': 'Java', 'pct': 95,
+          'links': [
+          {
+          'link': 'https://github.com/Jodsderechte/TakeMeAlong',
+          'linktext': _('TakeMeAlongLinkText'),
+          },
+          ],
+          'desc': _('JavaDesc')
+          },
+          { 'name': 'C#', 'pct': 65,
+          'links': [
+          {
+          'link': 'https://github.com/Jods-GH/DiscordQueryBot',
+          'linktext': _('DiscordQueryBotLinkText'),
+          },
+          {
+          'link': 'https://www.youtube.com/playlist?list=PL1FJOq9LteCVwMU3BJenzULSi-3_jDmWS',
+          'linktext': _('NsoriaUnityPlaylistLinkText'),
+          },
+          ],
+          'desc': _('CSharpDesc')
+          },
+          { 'name': 'C++',
+          'pct': 20,
+          'links': [
+          {
+          'link': 'https://campusboard.hs-kl.de/portalapps/sv/Modul_12910.pdf?modulid=12910&stgid=460&sp={{
+          lang_code[:2] }}',
+          'linktext': _('CppLinkText'),
+          },
+          ],
+          'desc': _('CppDesc')
+          },
+          { 'name': 'C',
+          'pct': 10,
+          'links': [
+          {
+          'link': 'https://campusboard.hs-kl.de/portalapps/sv/Modul_12816.pdf?modulid=12816&stgid=460&sp={{
+          lang_code[:2] }}',
+          'linktext': _('CLinkText'),
+          },
+          ],
+          'desc': _('CDesc')
+
+          }
+          ]
+          },
+          {
+          'title': 'Frontend',
+          'section': 'frontend',
+          'skills': [
+          { 'name': 'Lua',
+          'pct': 85
+          ,
+          'links': [
+          {
+          'link': 'https://github.com/Jods-GH/CustomNames',
+          'linktext': _('CustomNamesLinkText'),
+          },
+          {
+          'link': 'https://wago.io/RaidAbilityTimeline',
+          'linktext': _('RaidAbilityTimelineLinkText'),
+          },
+          ],
+          'desc': _('LuaDesc')
+          },
+          { 'name': 'JavaScript',
+          'pct': 70,
+          'links': [
+          {
+          'link': 'https://mythistone.github.io/pages/routes',
+          'linktext': _('JavaScriptLinkText'),
+          },
+          ],
+          'desc': _('JavaScriptDesc')
+          },
+          { 'name': 'HTML', 'pct': 50,
+          'links': [
+          {
+          'link': 'https://mythistone.github.io/classes/Dps/Balance_Druid',
+          'linktext': _('HTMLLinkText'),
+          },
+          ],
+          'desc': _('HTMLDesc')
+          },
+          {
+          'name': 'CSS', 'pct': 30,
+          'links': [
+          {
+          'link': 'https://mythistone.github.io/classes/Dps/Balance_Druid',
+          'linktext': _('CSSLinkText'),
+          },
+          ],
+          'desc': _('CSSDesc')
+          }
+          ]
+          },
+          {
+          'title': 'Technology',
+          'section': 'technology',
+          'skills': [
+          {
+          'name':
+          'Unreal Engine',
+          'pct': 60,
+          'links': [
+          {
+          'link': 'https://florian-reichle.de/SocialSkills_UnrealEngine/WebSource/Project.html',
+          'linktext': _('UnrealEngineWorkshopLinkText'),
+          },
+          {
+          'link': 'https://www.curseforge.com/ark-survival-ascended/mods/autodoors',
+          'linktext': _('AutoDoorsCurseforgeLinkText'),
+          },
+          {
+          'link': 'https://www.curseforge.com/ark-survival-ascended/mods/cheat-death',
+          'linktext': _('CheatDeathCurseforgeLinkText'),
+          },
+          {
+          'link': 'https://github.com/Jods-GH/Ateria',
+          'linktext': _('AteriaGitHubLinkText'),
+          }
+          ],
+          'desc': _('UnrealEngineDesc')
+          },
+          {
+          'name': 'SQL',
+          'pct': 50,
+          'links': [
+          {
+          'link': 'https://github.com/MythiStone/mythistone.github.io/',
+          'linktext': _('SQLMythiStoneGitHubLinkText'),
+          }
+          ],
+          'desc': _('SQLDesc')
+          },
+          {
+          'name': 'Android',
+          'pct': 45,
+          'links': [
+          {
+          'link': 'https://github.com/Jods-GH/IngredientsTrafficLight',
+          'linktext': _('IngredientsTrafficLightGitHubLinkText'),
+          },
+          {
+          'link': 'https://github.com/Jodsderechte/EAE_APP_BOOKSHELF',
+          'linktext': _('BookshelfGitHubLinkText'),
+          }
+          ],
+          'desc': _('AndroidDesc')
+          },
+          { 'name': 'Unity', 'pct': 40,
+          'links': [
+          {
+          'link': 'https://www.youtube.com/playlist?list=PL1FJOq9LteCVwMU3BJenzULSi-3_jDmWS',
+          'linktext': _('NsoriaUnityPlaylistLinkText'),
+          },
+          ],
+          'desc': _('UnityDesc')
+          }
+          ]
+          },
+          {
+          'title': 'Tooling',
+          'section': 'tooling',
+          'skills': [
+          { 'name': 'Markdown (YML/MD)',
+          'pct': 75,
+          'links': [
+          {
+          'link': 'https://github.com/Jods-GH/CustomNames/blob/main/README.md',
+          'linktext': _('MarkdownLinkText'),
+          },
+          ],
+          'desc': _('MarkdownDesc')
+          },
+          {
+          'name': 'Git',
+          'pct': 70,
+          'links': [
+          {
+          'link': 'https://github.com/Jodsderechte',
+          'linktext': _('GithubLinkText'),
+          },
+          ],
+          'desc': _('GithubDesc')
+
+          },
+          {
+          'name': 'CI/CD',
+          'pct': 65,
+          'links': [
+          {
+          'link': 'https://github.com/Jodsderechte',
+          'linktext': _('CICDLinkText'),
+          },
+          ],
+          'desc': _('CICDDesc')
+          },
+          { 'name': 'Docker', 'pct': 35,
+          'links': [
+          {
+          'link': 'https://hub.docker.com/repositories/jodsderechte',
+          'linktext': _('DockerLinkText'),
+          },
+          ],
+          'desc': _('DockerDesc')
+          }
+          ]
+          },
+          {
+          'title': 'DataScienceAndMachineLearning',
+          'section': 'dataml',
+          'skills': [
+          { 'name': 'Python',
+          'pct': 55,
+          'links': [
+          {
+          'link': 'https://github.com/MythiStone/mythistone.github.io',
+          'linktext': _('PythonLinkText'),
+          },
+          ],
+          'desc': _('PythonDesc')
+          },
+          {
+          'name': 'R',
+          'pct': 35,
+          'links': [
+          {
+          'link': 'https://florian-reichle.de/VisualDataAnalysis_VideoGameSales/VDAProjekt.html',
+          'linktext': _('RLinkText'),
+          },
+          ],
+          'desc': _('RDesc')
+          }
+          ]
+          },
+          {
+          'title': 'Other',
+          'section': 'other',
+          'skills': [
+          {
+          'name': _('VideoEditing'),
+          'pct': 80,
+          'links': [
+          {
+          'link': 'https://www.youtube.com/watch?v=-aqseo5WIa0&t=1s&ab_channel=Jods',
+          'linktext': _('WeakAurasTutorialLinkText'),
+          },
+          {
+          'link': 'https://www.youtube.com/watch?v=-aqseo5WIa0&t=1s&ab_channel=Jods',
+          'linktext': _('MontageLinkText'),
+          },
+          ],
+          'desc': _('VideoEditingDesc')
+          }
+          ]
+          }
+          ] %}
+          {% for cat in skill_categories %}
+          <div class="col-lg-6 mb-4">
+            <h4>{{ _(cat.title) }}</h4>
+            {% for skill in cat.skills %}
+            <div class="progress section-{{ cat.section }}">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <span class="skill">
+                  {{ skill.name }}
+                </span>
+                <div class="d-flex align-items-center gap-2">
+                  {% if skill.get('desc') or skill.get('link') %}
+                  <button class="btn btn-sm btn-link p-0 m-0" data-bs-toggle="collapse"
+                    data-bs-target="#detail-{{cat.section}}-{{ loop.index }}" aria-expanded="false"
+                    aria-controls="detail-{{cat.section}}-{{ loop.index }}"
+                    title="{{ _('ShowDetails') }} - {{ skill.name }}">
+                    <i class="bi bi-info-circle"></i>
+                  </button>
+                  {% endif %}
+                  <span class="val">{{ skill.pct }}%</span>
+                </div>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="{{ skill.pct }}" aria-valuemin="0"
+                  aria-valuemax="100" aria-label="{{ skill.name }}- {{ skill.pct }}%">
+                </div>
+              </div>
+            </div>
+            {% if skill.get('desc') or skill.get('link') %}
+            <div class="collapse my-2" id="detail-{{cat.section}}-{{ loop.index }}">
+              <div class="card card-body py-2">
+                {% if skill.get('desc') %}
+                {{ skill.desc }}
+                {% endif %}
+                {% if skill.get('links') %}
+                {% set links = skill.links %}
+                {% if links|length > 1 %}
+                <ul>
+                  {% for link in links %}
+                  <li>
+                    <a target="_blank" href="{{ link.link }}" class="ms-2">
+                      {% if link.linktext %}
+                      {{ link.linktext }}
+                      {% else %}
+                      {{ _("LearnMore") }}
+                      {% endif %}
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+                {% else %}
+                {# exactly one link: render anchor only #}
+                {% set link = links[0] %}
+                <a target="_blank" href="{{ link.link }}" class="ms-2">
+                  {% if link.linktext %}
+                  {{ link.linktext }}
+                  {% else %}
+                  {{ _("LearnMore") }}
+                  {% endif %}
+                </a>
+                {% endif %}
+                {% endif %}
+
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{ _("Resume")}}</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        {% set iso_ts = linkedin_snapshot.last_updated.timestamp %}
+        {% set time_tag = (
+        '<time class="timeago" '
+          ~ ' datetime="'    ~ iso_ts            ~ '" '
+          ~ ' data-locale="' ~ lang_code[:2]     ~ '" '
+          ~ ' title="'       ~ iso_ts            ~ '">'
+          ~ iso_ts
+          ~ '</time>'
+        ) | safe %}
+        {{ _("ResumeGatheringExplanation").format(timestamp=time_tag) | safe }}
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title"><a href="https://github.com/Jodsderechte">{{ _("GithubStats")}}</a></h3>
+
+            <div class="resume-item pb-0">
+              <h4>{{ _("JoinedGitHubYearsAgo").format(years=(github_metrics.computed.registered.years | round(0) | int))
+                }}</h4>
+              <p>
+                <em>{{ _("CreatedGitHubRepositories").format(amount=github_metrics.user.repositories.totalCount )
+                  }}</em>
+                <br>
+                <em>{{ _("GitHubFollowedBy").format(amount=github_metrics.user.followers.totalCount ) }}</em>
+              </p>
+              <ul>
+                <li>{{ _("CreatedGitHubCommits").format(amount=github_metrics.computed.commits) }}</li>
+                <li>{{ _("MergedPullRequests").format(amount=github_metrics.computed.repositories.pr_merged) }}</li>
+                <li>{{ _("CreatedReleases").format(amount=github_metrics.computed.repositories.releases) }}</li>
+                <li>
+                  {% set fav = github_metrics.computed.licenses.favorite[0] %}
+                  {% set fullname = github_metrics.computed.licenses.about[fav].name %}
+
+                  {% set license_html = '<abbr title="' ~ fullname ~ '">' ~ fav ~ '</abbr>' %}
+                  {% set license_html = license_html | safe %}
+
+                  {{ _("PreferredLicense").format(license=license_html) }}
+                </li>
+                <li>
+                  <p>{{ _('RecentContributions') }}:</p>
+                  <div class="contrib-calendar">
+                    {% for week in github_metrics.user.calendar.contributionCalendar.weeks %}
+                    <div class="week">
+                      {% for day in week.contributionDays %}
+                      <div class="day" style="background-color: {{ day.color }};"
+                        title="{{ _('weekday.'~day.weekday) }} {{ _('the') }} {{ day.day}}. {{ _('month.'~day.month)}}">
+                      </div>
+                      {% endfor %}
+                    </div>
+                    {% endfor %}
+                  </div>
+                </li>
+
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">{{ _("Education")}}</h3>
+            {% for entry in linkedin_snapshot.education %}
+            <div class="resume-item">
+              {# Degree Name (translate only if non‑empty) #}
+              {% if entry['Degree Name'] %}
+              <h4>{{ _(entry['Degree Name']) }}</h4>
+              {% endif %}
+
+              {# Dates (no translation needed) #}
+              <h5>{{ entry['Start Date'] | month_year }} - {{ entry['End Date'] | month_year if entry['End Date'] else
+                _('Now') }}</h5>
+
+              {# School Name #}
+              {% if entry['School Name'] %}
+              <p><em>{{ _(entry['School Name']) }}</em></p>
+              {% endif %}
+
+              {# Activities #}
+              {% if entry['Activities'] %}
+              <p>{{ _(entry['Activities']) }}</p>
+              {% endif %}
+
+              {# Notes #}
+              {% if entry['Notes'] %}
+              <p>{{ _(entry['Notes']) }}</p>
+              {% endif %}
+            </div><!-- End Resume Item -->
+            {% endfor %}
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">{{ _("ProfessionalExperience")}}</h3>
+
+            {% for entry in linkedin_snapshot.positions %}
+            <div class="resume-item">
+              {% if entry['Title'] %}
+              <h4>{{ _(entry['Title']) }}</h4>
+              {% endif %}
+              <h5>{{ entry['Started On'] | month_year }} - {{ entry['Finished On'] | month_year if entry['Finished On']
+                else _('Now') }}</h5>
+              {% if entry['Location'] or entry['Company Name'] %}
+              <p><em>{% if entry['Company Name'] %} {{ entry['Company Name'] }}{%endif%}{% if entry['Location'] and
+                  entry['Company Name'] %} - {%endif%}{% if entry['Location'] %}{{ _(entry['Location']) }}{% endif
+                  %}</em></p>
+              {% endif %}
+              {% if entry['Description'] %}
+              <ul>
+                {% for line in entry['Description'].split('- ') %}
+                {% set line = line.lstrip('- ').strip() %}
+                {% if line %}
+                <li>{{ _(line) }}</li>
+                {% endif %}
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div><!-- Edn Resume Item -->
+            {% endfor %}
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{ _('Portfolio') }}</h2>
+        <p>{{ _('PortfolioDesc') }}</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-Addon">Addons</li>
+            <li data-filter=".filter-ark-mod">Ark Mods</li>
+            <li data-filter=".filter-weak-aura">WeakAuras</li>
+            {% for category in other_projects_data %}
+            <li data-filter=".filter-{{ category.title}}">{{ _(category.title) }}</li>
+            {% endfor %}
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            {% for addon in top3Addons %}
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Addon">
+              <div class="portfolio-content h-100">
+                <img src="/logos/{{ addon.id }}.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{addon.name }}</h4>
+                  <p>{{ _(addon.summary) }}</p>
+                  <a href="/logos/{{ addon.id }}.png" title="{{ addon.name }}" data-gallery="portfolio-gallery-Addon"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="/portfolio/{{ addon.file_name }}" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            {% endfor %}
+            {% for mod in top3Mods %}
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ark-mod">
+              <div class="portfolio-content h-100">
+                <img src="/logos/{{ mod.id }}.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ mod.name }}</h4>
+                  <p>{{ _(mod.summary) }}</p>
+                  <a href="/logos/{{ mod.id }}.png" title="{{ mod.name }}" data-gallery="portfolio-gallery-ark-mod"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="/portfolio/{{ mod.file_name }}" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            {% endfor %}
+
+            {% for weakAura in top3WeakAuras %}
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-weak-aura">
+              <div class="portfolio-content h-100">
+                <img src="/logos/{{ weakAura.slug }}.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ weakAura.name }}</h4>
+                  <a href="/logos/{{ weakAura.slug }}.png" title="{{ weakAura.name }}"
+                    data-gallery="portfolio-gallery-weak-aura" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="/portfolio/{{ weakAura.file_name }}" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            {% endfor %}
+            {% for category in other_projects_data %}
+
+            {% for project in category.projects %}
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-{{category.title}}">
+              <div class="portfolio-content h-100">
+                <img src="{{project.thumbnail}}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ project.name }}</h4>
+                  <a href="{{project.thumbnail}}" title="{{ project.name }}"
+                    data-gallery="portfolio-gallery-{{category.title}}" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="/portfolio/{{ project.file_name }}" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
+            {% endfor %}
+            <!-- Example Product Item 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="/assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="/assets/img/portfolio/product-1.jpg" title="Product 1"
+                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="/portfolio-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div> -->
+            <!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- {{_('AdditionalCourses')}} Section -->
+    <section id="additional-courses" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{_("AdditionalCourses")}}</h2>
+        <p>{{_("AdditionalCoursesDesc")}}</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        {%- if lang_code == 'en_US' -%}
+        {% set courses_path = '/en_US/courses/' %}
+        {%- else -%}
+        {% set courses_path = '/courses/' %}
+        {%- endif %}
+        {% set delay = 0 %}
+        {% for course_class in additional_courses %}
+        <div class="row gy-4">
+          <h4 class="text-center mb-4">{{ _(course_class.type) }}</h4>
+          {% for course in course_class.courses %}
+          {% set delay = delay + 100 %}
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="{{ delay }}">
+            <div class="icon flex-shrink-0"><a href="{{ courses_path }}{{ course.title }}"
+                aria-label="{{ _('ShowDetails') }} - {{ _(course.title) }}"><i class="bi {{ course.icon }}"></i></a>
+            </div>
+            <div>
+              <div class="position-relative">
+                <h4 class="title"><a href="{{ courses_path }}{{ course.title }}"
+                    aria-label="{{ _('ShowDetails') }} - {{ _(course.title) }}" class="stretched-link">{{
+                    _(course.title) }}</a></h4>
+                <p><strong>{{ _('grade') }}</strong>: {{course.grade}}</p>
+              </div>
+              {% if course.get('project') %}
+              <p><strong>{{ _('project') }}</strong>: <a href="{{ path }}/projects/{{ course.title |lower }}"
+                  aria-label="{{ _('ShowDetails') }} - {{ _(course.project.title) }}">{{_(course.project.title)}}</a>
+              </p>
+              {% endif %}
+            </div>
+          </div>
+          <!-- End Service Item -->
+          {% endfor %}
+
+        </div>
+        {% endfor %}
+
+      </div>
+      {% if lang_code != 'de_DE' %}
+      <em>{{_('gradeHint')}}</em>
+      {% endif %}
+
+    </section><!-- /{{_('AdditionalCourses')}} Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>{{_('Contact')}}</h2>
+        <p>{{_('ContactText')}}</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>{{ _('Email') }}</h3>
+                  <p>Portfolio(at)florian-reichle.de</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-linkedin flex-shrink-0"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/florian-reichle/" target="_blank">{{_('LinkedInLink')}}</a>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-discord flex-shrink-0"></i>
+                <div>
+                  <h3>Discord</h3>
+                  <a href="https://discord.com/invite/v3gYmYamGJ" target="_blank">{{_('DiscordLink')}}</a>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+          <div class="col-lg-7" ez-cb-cat="marketing">
+            <form action="https://formspree.io/f/mlekqjkl" ez-cb-cat="marketing" method="POST" class="php-email-form"
+              data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">{{ _('YourName') }}</label>
+                  <input type="text" name="Name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">{{ _('YourEmail') }}</label>
+                  <input type="email" class="form-control" name="Email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">{{ _('Subject') }}</label>
+                  <input type="text" class="form-control" name="Betreff" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">{{ _('Message') }}</label>
+                  <textarea class="form-control" name="Nachricht" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">{{ _('Loading') }}</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">{{ _('YourMessageSent') }}</div>
+
+                  <button type="submit">{{ _('SendMessage') }}</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <a href="{{ path }}/imprint" title="{{ _('imprint') }}" class="w3-hover-text-green">{{ _('imprint') }}</a>
+      </div>
+      <div class="credits">
+        <a href="{{ path }}/credits">{{_('credits')}}</a>
+      </div>
+
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"
+    aria-label="{{ _('ScrollToTop') }}"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/timeago/timeago.min.js"></script>
+  <script>
+    // setup timeago for the time tags
+    document.addEventListener('DOMContentLoaded', () => {
+      {%if lang_code[: 2] == 'de' %}
+      const localeFunc = (number, index, totalSec) => {
+        return [
+          ['gerade eben', 'vor einer Weile'],
+          ['vor %s Sekunden', 'in %s Sekunden'],
+          ['vor einer Minute', 'in einer Minute'],
+          ['vor %s Minuten', 'in %s Minuten'],
+          ['vor einer Stunde', 'in einer Stunde'],
+          ['vor %s Stunden', 'in %s Stunden'],
+          ['vor einem Tag', 'in einem Tag'],
+          ['vor %s Tagen', 'in %s Tagen'],
+          ['vor einer Woche', 'in einer Woche'],
+          ['vor %s Wochen', 'in %s Wochen'],
+          ['vor einem Monat', 'in einem Monat'],
+          ['vor %s Monaten', 'in %s Monaten'],
+          ['vor einem Jahr', 'in einem Jahr'],
+          ['vor %s Jahren', 'in %s Jahren'],
+        ][index];
+      };
+
+      timeago.register('de', localeFunc);
+      {% endif %}
+      document.querySelectorAll('time.timeago').forEach((el) => {
+        const iso = el.getAttribute('datetime');
+        const locale = el.dataset.locale || navigator.language || 'en';
+        const then = new Date(iso);
+        el.title = `am ${then.toLocaleString(locale, {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: false
+        })}`;
+      });
+      timeago.render(document.querySelectorAll('time.timeago'), '{{ lang_code[:2] }}');
+    });
+  </script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

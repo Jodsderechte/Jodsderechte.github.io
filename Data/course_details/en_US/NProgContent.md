@@ -1,0 +1,8 @@
+- **Architectures for Concurrent Programming**
+- **Basic Concepts of Concurrent Programming**
+- **Performance Considerations**
+- **Design Patterns**
+- **Parallel Data Structures**
+- **Parallel Algorithms**
+- **Synchronization Concepts**
+- **Java Concurrency API**

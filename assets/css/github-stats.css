@@ -1,0 +1,30 @@
+.contrib-calendar {
+  display: inline-flex;       
+  flex-direction: column;    
+  background-color: rgba(0,0,0,0.3);
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+    
+.week {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.week:last-child {
+  margin-bottom: 0;
+}
+
+.day {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  transition: transform .1s;
+}
+.day:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+

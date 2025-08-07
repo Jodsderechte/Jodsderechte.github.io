@@ -1,0 +1,8650 @@
+{
+  "cl6": {
+    "image": "deathknight.png",
+    "color": "#C41F3B",
+    "label": {
+      "en-US": "Death Knight",
+      "de-DE": "Todesritter"
+    }
+  },
+  "cl6-1": {
+    "image": "deathknight.png",
+    "color": "#C41F3B",
+    "label": {
+      "en-US": "Blood",
+      "de-DE": "Blut"
+    }
+  },
+  "cl6-2": {
+    "image": "deathknight.png",
+    "color": "#C41F3B",
+    "label": {
+      "en-US": "Frost",
+      "de-DE": "Frost"
+    }
+  },
+  "cl6-3": {
+    "image": "deathknight.png",
+    "color": "#C41F3B",
+    "label": {
+      "en-US": "Unholy",
+      "de-DE": "Unheilig"
+    }
+  },
+  "cl12": {
+    "image": "demonhunter.png",
+    "color": "#A330C9",
+    "label": {
+      "en-US": "Demon Hunter",
+      "de-DE": "Dämonenjäger"
+    }
+  },
+  "cl12-1": {
+    "image": "demonhunter.png",
+    "color": "#A330C9",
+    "label": {
+      "en-US": "Havoc",
+      "de-DE": "Verwüstung"
+    }
+  },
+  "cl12-2": {
+    "image": "demonhunter.png",
+    "color": "#A330C9",
+    "label": {
+      "en-US": "Vengeance",
+      "de-DE": "Rachsucht"
+    }
+  },
+  "cl11": {
+    "image": "druid.png",
+    "color": "#FF7D0A",
+    "label": {
+      "en-US": "Druid",
+      "de-DE": "Druide"
+    }
+  },
+  "cl11-1": {
+    "image": "druid.png",
+    "color": "#FF7D0A",
+    "label": {
+      "en-US": "Balance",
+      "de-DE": "Gleichgewicht"
+    }
+  },
+  "cl11-2": {
+    "image": "druid.png",
+    "color": "#FF7D0A",
+    "label": {
+      "en-US": "Feral",
+      "de-DE": "Wildheit"
+    }
+  },
+  "cl11-3": {
+    "image": "druid.png",
+    "color": "#FF7D0A",
+    "label": {
+      "en-US": "Guardian",
+      "de-DE": "Wächter"
+    }
+  },
+  "cl11-4": {
+    "image": "druid.png",
+    "color": "#FF7D0A",
+    "label": {
+      "en-US": "Restoration",
+      "de-DE": "Wiederherstellung"
+    }
+  },
+  "cl13": {
+    "image": "evoker.png",
+    "color": "#33937F",
+    "label": {
+      "en-US": "Evoker",
+      "de-DE": "Rufer"
+    }
+  },
+  "cl13-1": {
+    "image": "evoker.png",
+    "color": "#33937F",
+    "label": {
+      "en-US": "Devastation",
+      "de-DE": "Verheerung"
+    }
+  },
+  "cl13-2": {
+    "image": "evoker.png",
+    "color": "#33937F",
+    "label": {
+      "en-US": "Preservation",
+      "de-DE": "Bewahrung"
+    }
+  },
+  "cl13-3": {
+    "image": "evoker.png",
+    "color": "#33937F",
+    "label": {
+      "en-US": "Augmentation",
+      "de-DE": "Verstärkung"
+    }
+  },
+  "cl3": {
+    "image": "hunter.png",
+    "color": "#ABD473",
+    "label": {
+      "en-US": "Hunter",
+      "de-DE": "Jäger"
+    }
+  },
+  "cl3-1": {
+    "image": "hunter.png",
+    "color": "#ABD473",
+    "label": {
+      "en-US": "Beast Mastery",
+      "de-DE": "Tierherrschaft"
+    }
+  },
+  "cl3-2": {
+    "image": "hunter.png",
+    "color": "#ABD473",
+    "label": {
+      "en-US": "Marksmanship",
+      "de-DE": "Treffsicherheit"
+    }
+  },
+  "cl3-3": {
+    "image": "hunter.png",
+    "color": "#ABD473",
+    "label": {
+      "en-US": "Survival",
+      "de-DE": "Überleben"
+    }
+  },
+  "cl8": {
+    "image": "mage.png",
+    "color": "#69CCF0",
+    "label": {
+      "en-US": "Mage",
+      "de-DE": "Magier"
+    }
+  },
+  "cl8-1": {
+    "image": "mage.png",
+    "color": "#69CCF0",
+    "label": {
+      "en-US": "Arcane",
+      "de-DE": "Arkan"
+    }
+  },
+  "cl8-2": {
+    "image": "mage.png",
+    "color": "#69CCF0",
+    "label": {
+      "en-US": "Fire",
+      "de-DE": "Feuer"
+    }
+  },
+  "cl8-3": {
+    "image": "mage.png",
+    "color": "#69CCF0",
+    "label": {
+      "en-US": "Frost",
+      "de-DE": "Frost"
+    }
+  },
+  "cl10": {
+    "image": "monk.png",
+    "color": "#00FF96",
+    "label": {
+      "en-US": "Monk",
+      "de-DE": "Mönch"
+    }
+  },
+  "cl10-1": {
+    "image": "monk.png",
+    "color": "#00FF96",
+    "label": {
+      "en-US": "Brewmaster",
+      "de-DE": "Braumeister"
+    }
+  },
+  "cl10-2": {
+    "image": "monk.png",
+    "color": "#00FF96",
+    "label": {
+      "en-US": "Mistweaver",
+      "de-DE": "Nebelwirker"
+    }
+  },
+  "cl10-3": {
+    "image": "monk.png",
+    "color": "#00FF96",
+    "label": {
+      "en-US": "Windwalker",
+      "de-DE": "Windläufer"
+    }
+  },
+  "cl2": {
+    "image": "paladin.png",
+    "color": "#F58CBA",
+    "label": {
+      "en-US": "Paladin",
+      "de-DE": "Paladin"
+    }
+  },
+  "cl2-1": {
+    "image": "paladin.png",
+    "color": "#F58CBA",
+    "label": {
+      "en-US": "Holy",
+      "de-DE": "Heilig"
+    }
+  },
+  "cl2-2": {
+    "image": "paladin.png",
+    "color": "#F58CBA",
+    "label": {
+      "en-US": "Protection",
+      "de-DE": "Schutz"
+    }
+  },
+  "cl2-3": {
+    "image": "paladin.png",
+    "color": "#F58CBA",
+    "label": {
+      "en-US": "Retribution",
+      "de-DE": "Vergeltung"
+    }
+  },
+  "cl5": {
+    "image": "priest.png",
+    "color": "#FFFFFF",
+    "label": {
+      "en-US": "Priest",
+      "de-DE": "Priester"
+    }
+  },
+  "cl5-1": {
+    "image": "priest.png",
+    "color": "#FFFFFF",
+    "label": {
+      "en-US": "Discipline",
+      "de-DE": "Disziplin"
+    }
+  },
+  "cl5-2": {
+    "image": "priest.png",
+    "color": "#FFFFFF",
+    "label": {
+      "en-US": "Holy",
+      "de-DE": "Heilig"
+    }
+  },
+  "cl5-3": {
+    "image": "priest.png",
+    "color": "#FFFFFF",
+    "label": {
+      "en-US": "Shadow",
+      "de-DE": "Schatten"
+    }
+  },
+  "cl4": {
+    "image": "rogue.png",
+    "color": "#FFF569",
+    "label": {
+      "en-US": "Rogue",
+      "de-DE": "Schurke"
+    }
+  },
+  "cl4-1": {
+    "image": "rogue.png",
+    "color": "#FFF569",
+    "label": {
+      "en-US": "Assassination",
+      "de-DE": "Meucheln"
+    }
+  },
+  "cl4-2": {
+    "image": "rogue.png",
+    "color": "#FFF569",
+    "label": {
+      "en-US": "Outlaw",
+      "de-DE": "Gesetzlosigkeit"
+    }
+  },
+  "cl4-2c": {
+    "image": "rogue.png",
+    "color": "#FFF569",
+    "label": {
+      "en-US": "Combat",
+      "de-DE": null
+    }
+  },
+  "cl4-3": {
+    "image": "rogue.png",
+    "color": "#FFF569",
+    "label": {
+      "en-US": "Subtlety",
+      "de-DE": "Täuschung"
+    }
+  },
+  "cl7": {
+    "image": "shaman.png",
+    "color": "#0070DE",
+    "label": {
+      "en-US": "Shaman",
+      "de-DE": "Schamane"
+    }
+  },
+  "cl7-1": {
+    "image": "shaman.png",
+    "color": "#0070DE",
+    "label": {
+      "en-US": "Elemental",
+      "de-DE": "Elementar"
+    }
+  },
+  "cl7-2": {
+    "image": "shaman.png",
+    "color": "#0070DE",
+    "label": {
+      "en-US": "Enhancement",
+      "de-DE": "Verstärkung"
+    }
+  },
+  "cl7-3": {
+    "image": "shaman.png",
+    "color": "#0070DE",
+    "label": {
+      "en-US": "Restoration",
+      "de-DE": "Wiederherstellung"
+    }
+  },
+  "cl9": {
+    "image": "warlock.png",
+    "color": "#9482C9",
+    "label": {
+      "en-US": "Warlock",
+      "de-DE": "Hexenmeister"
+    }
+  },
+  "cl9-1": {
+    "image": "warlock.png",
+    "color": "#9482C9",
+    "label": {
+      "en-US": "Affliction",
+      "de-DE": "Gebrechen"
+    }
+  },
+  "cl9-2": {
+    "image": "warlock.png",
+    "color": "#9482C9",
+    "label": {
+      "en-US": "Demonology",
+      "de-DE": "Dämonologie"
+    }
+  },
+  "cl9-3": {
+    "image": "warlock.png",
+    "color": "#9482C9",
+    "label": {
+      "en-US": "Destruction",
+      "de-DE": "Zerstörung"
+    }
+  },
+  "cl1": {
+    "image": "warrior.png",
+    "color": "#C79C6E",
+    "label": {
+      "en-US": "Warrior",
+      "de-DE": "Krieger"
+    }
+  },
+  "cl1-1": {
+    "image": "warrior.png",
+    "color": "#C79C6E",
+    "label": {
+      "en-US": "Arms",
+      "de-DE": "Waffen"
+    }
+  },
+  "cl1-2": {
+    "image": "warrior.png",
+    "color": "#C79C6E",
+    "label": {
+      "en-US": "Fury",
+      "de-DE": "Furor"
+    }
+  },
+  "cl1-3": {
+    "image": "warrior.png",
+    "color": "#C79C6E",
+    "label": {
+      "en-US": "Protection",
+      "de-DE": "Schutz"
+    }
+  },
+  "gen0": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "General",
+      "de-DE": "General"
+    }
+  },
+  "gen7": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Achievements",
+      "de-DE": "Achievements"
+    }
+  },
+  "gen2": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Questing",
+      "de-DE": "Questing"
+    }
+  },
+  "gen6": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Non-Combat",
+      "de-DE": "Non-Combat"
+    }
+  },
+  "gen9": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Currency",
+      "de-DE": "Currency"
+    }
+  },
+  "gen10": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Reputation",
+      "de-DE": "Reputation"
+    }
+  },
+  "gen11": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Collectibles",
+      "de-DE": "Collectibles"
+    }
+  },
+  "gen12": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "World Events",
+      "de-DE": "World Events"
+    }
+  },
+  "gen13": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Darkmoon Faire",
+      "de-DE": "Darkmoon Faire"
+    }
+  },
+  "gen14": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Brawler\\",
+      "de-DE": "Brawler\\"
+    }
+  },
+  "gen15": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Pet Battles",
+      "de-DE": "Pet Battles"
+    }
+  },
+  "gen16": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Warfronts",
+      "de-DE": "Warfronts"
+    }
+  },
+  "gen17": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Island Expeditions",
+      "de-DE": "Island Expeditions"
+    }
+  },
+  "gen18": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Covenants",
+      "de-DE": "Covenants"
+    }
+  },
+  "gen19": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Dragon Riding",
+      "de-DE": "Dragon Riding"
+    }
+  },
+  "gen20": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Delves",
+      "de-DE": "Delves"
+    }
+  },
+  "gen21": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Horrific Visions",
+      "de-DE": "Horrific Visions"
+    }
+  },
+  "equip": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Equipment",
+      "de-DE": "Equipment"
+    }
+  },
+  "legen": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Legendaries",
+      "de-DE": "Legendaries"
+    }
+  },
+  "equip1": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Trinkets",
+      "de-DE": "Trinkets"
+    }
+  },
+  "equip2": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Item Enhancements",
+      "de-DE": "Item Enhancements"
+    }
+  },
+  "mech": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Combat Mechanics",
+      "de-DE": "Combat Mechanics"
+    }
+  },
+  "mech1": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Battle Resurrection",
+      "de-DE": "Battle Resurrection"
+    }
+  },
+  "mech2": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Interrupts",
+      "de-DE": "Interrupts"
+    }
+  },
+  "mech3": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Theorycrafting",
+      "de-DE": "Theorycrafting"
+    }
+  },
+  "mech4": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Vehicles",
+      "de-DE": "Vehicles"
+    }
+  },
+  "mech5": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Consumables",
+      "de-DE": "Consumables"
+    }
+  },
+  "mech6": {
+    "image": "mechanics.png",
+    "color": "#F55F37",
+    "label": {
+      "en-US": "Group Buffs",
+      "de-DE": "Group Buffs"
+    }
+  },
+  "role0": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Group Roles",
+      "de-DE": "Group Roles"
+    }
+  },
+  "role4": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Raid Leading",
+      "de-DE": "Raid Leading"
+    }
+  },
+  "role1": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Damage Dealing",
+      "de-DE": "Damage Dealing"
+    }
+  },
+  "role2": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Healing",
+      "de-DE": "Healing"
+    }
+  },
+  "role3": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Tanking",
+      "de-DE": "Tanking"
+    }
+  },
+  "accessibility": {
+    "image": "accessibility.png",
+    "color": "#BD10E0",
+    "label": {
+      "en-US": "Accessibility",
+      "de-DE": "Accessibility"
+    }
+  },
+  "accessibility1": {
+    "image": "accessibility.png",
+    "color": "#BD10E0",
+    "label": {
+      "en-US": "Audible",
+      "de-DE": "Audible"
+    }
+  },
+  "accessibility2": {
+    "image": "accessibility.png",
+    "color": "#BD10E0",
+    "label": {
+      "en-US": "Visual",
+      "de-DE": "Visual"
+    }
+  },
+  "accessibility3": {
+    "image": "accessibility.png",
+    "color": "#BD10E0",
+    "label": {
+      "en-US": "Controls",
+      "de-DE": "Controls"
+    }
+  },
+  "raidamirdrassil": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Amirdrassil, the Dream's Hope",
+      "de-DE": "Amirdrassil, Hoffnung des Traums"
+    }
+  },
+  "raidamirdrassil1": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Gnarlroot",
+      "de-DE": "Knorrenwurzel"
+    }
+  },
+  "raidamirdrassil2": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Igira the Cruel",
+      "de-DE": "Igira die Grausame"
+    }
+  },
+  "raidamirdrassil3": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Volcoross",
+      "de-DE": "Volcoross"
+    }
+  },
+  "raidamirdrassil4": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Larodar, Keeper of the Flame",
+      "de-DE": "Larodar, Bewahrer der Flamme"
+    }
+  },
+  "raidamirdrassil5": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Council of Dreams",
+      "de-DE": "Rat der Träume"
+    }
+  },
+  "raidamirdrassil6": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Nymue, Weaver of the Cycle",
+      "de-DE": "Nymue, Weberin des Kreises"
+    }
+  },
+  "raidamirdrassil7": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Smolderon",
+      "de-DE": "Glimmeron"
+    }
+  },
+  "raidamirdrassil8": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Tindral Sageswift, Seer of the Flame",
+      "de-DE": "Tindral Raschweise, Seher der Flamme"
+    }
+  },
+  "raidamirdrassil9": {
+    "image": "amirdrassil.png",
+    "color": "#3EC16A",
+    "label": {
+      "en-US": "Fyrakk the Blazing",
+      "de-DE": "Fyrakk der Lodernde"
+    }
+  },
+  "raidaberrus": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Aberrus, the Shadowed Crucible",
+      "de-DE": "Aberrus, Schmelztiegel der Schatten"
+    }
+  },
+  "raidaberrus1": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Kazzara, the Hellforged",
+      "de-DE": "Kazzara, die Höllengeschmiedete"
+    }
+  },
+  "raidaberrus2": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "The Amalgamation Chamber",
+      "de-DE": "Die Verschmelzungskammer"
+    }
+  },
+  "raidaberrus3": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "The Forgotten Experiments",
+      "de-DE": "Die vergessenen Experimente"
+    }
+  },
+  "raidaberrus4": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "The Zaqali Elders",
+      "de-DE": "Die Ältesten der Zaqali"
+    }
+  },
+  "raidaberrus5": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Rashok, the Elder",
+      "de-DE": "Ältester Rashok"
+    }
+  },
+  "raidaberrus6": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "The Vigilant Steward, Zskarn",
+      "de-DE": "Der aufmerksame Verwalter, Zskarn"
+    }
+  },
+  "raidaberrus7": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Magmorax",
+      "de-DE": "Magmorax"
+    }
+  },
+  "raidaberrus8": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Echo of Neltharion",
+      "de-DE": "Echo von Neltharion"
+    }
+  },
+  "raidaberrus9": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Scalecommander Sarkareth",
+      "de-DE": "Schuppenkommandant Sarkareth"
+    }
+  },
+  "raidvaultincarnates": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Vault of the Incarnates",
+      "de-DE": "Gewölbe der Inkarnationen"
+    }
+  },
+  "raidvaultincarnates1": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Eranog",
+      "de-DE": "Eranog"
+    }
+  },
+  "raidvaultincarnates2": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Sennarth, the Cold Breath",
+      "de-DE": "Sennarth, der kalte Atem"
+    }
+  },
+  "raidvaultincarnates3": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "The Primal Council",
+      "de-DE": "Der Primalistenrat"
+    }
+  },
+  "raidvaultincarnates4": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Kurog Grimtotem",
+      "de-DE": "Kurog Grimmtotem"
+    }
+  },
+  "raidvaultincarnates5": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Broodkeeper Diurna",
+      "de-DE": "Bruthüterin Diurna"
+    }
+  },
+  "raidvaultincarnates6": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Raszageth the Storm-Eater",
+      "de-DE": "Raszageth die Sturmfresserin"
+    }
+  },
+  "raidvaultincarnates7": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Terros",
+      "de-DE": "Terros"
+    }
+  },
+  "raidvaultincarnates8": {
+    "image": "vaultincarnates.png",
+    "color": "#3192F4",
+    "label": {
+      "en-US": "Dathea, Ascended",
+      "de-DE": "Dathea, die Aufgestiegene"
+    }
+  },
+  "raidnerubarpalace": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Nerub-ar Palace",
+      "de-DE": "Palast der Nerub'ar"
+    }
+  },
+  "raidnerubarpalace1": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Ulgrax the Devourer",
+      "de-DE": "Ulgrax der Verschlinger"
+    }
+  },
+  "raidnerubarpalace2": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "The Bloodbound Horror",
+      "de-DE": "Der blutgebundene Schrecken"
+    }
+  },
+  "raidnerubarpalace3": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Sikran, Captain of the Sureki",
+      "de-DE": "Sikran, Hauptmann der Sureki"
+    }
+  },
+  "raidnerubarpalace4": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Rasha'nan",
+      "de-DE": "Rasha'nan"
+    }
+  },
+  "raidnerubarpalace5": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Broodtwister Ovi'nax",
+      "de-DE": "Brutverderber Ovi'nax"
+    }
+  },
+  "raidnerubarpalace6": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Nexus-Princess Ky'veza",
+      "de-DE": "Nexusprinzessin Ky'veza"
+    }
+  },
+  "raidnerubarpalace7": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "The Silken Court",
+      "de-DE": "Der Seidenhof"
+    }
+  },
+  "raidnerubarpalace8": {
+    "image": "nerubpalace.png",
+    "color": "#E0108B",
+    "label": {
+      "en-US": "Queen Ansurek",
+      "de-DE": "Königin Ansurek"
+    }
+  },
+  "liberationofundermine": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Liberation of Undermine",
+      "de-DE": "Befreiung von Lorenhall"
+    }
+  },
+  "liberationofundermine1": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Vexie and the Geargrinders",
+      "de-DE": "Strolch und die Gangzwinger"
+    }
+  },
+  "liberationofundermine2": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Cauldron of Carnage",
+      "de-DE": "Kessel des Gemetzels"
+    }
+  },
+  "liberationofundermine3": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Rik Reverb",
+      "de-DE": "Rik Resonanz"
+    }
+  },
+  "liberationofundermine4": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Stix Bunkjunker",
+      "de-DE": "Stix Kojenschrotter"
+    }
+  },
+  "liberationofundermine5": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Sprocketmonger Lockenstock",
+      "de-DE": "Ritzelkrämer Lockenstock"
+    }
+  },
+  "liberationofundermine6": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "The One-Armed Bandit",
+      "de-DE": "Der Einarmige Bandit"
+    }
+  },
+  "liberationofundermine7": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Mug'Zee, Heads of Security",
+      "de-DE": "Mug'Zee, Wachleitung"
+    }
+  },
+  "liberationofundermine8": {
+    "image": "liberationofundermine.png",
+    "color": "#DEC400",
+    "label": {
+      "en-US": "Chrome King Gallywix",
+      "de-DE": "Chromkönig Gallywix"
+    }
+  },
+  "manaforgeomega": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Manaforge Omega",
+      "de-DE": "Manaschmiede Omega"
+    }
+  },
+  "manaforgeomega1": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Plexus Sentinel",
+      "de-DE": "Plexuswache"
+    }
+  },
+  "manaforgeomega2": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Loom'ithar",
+      "de-DE": "Loom'ithar"
+    }
+  },
+  "manaforgeomega3": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Soulbinder Naazindhri",
+      "de-DE": "Seelenbinderin Naazindhri"
+    }
+  },
+  "manaforgeomega4": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Forgeweaver Araz",
+      "de-DE": "Schmiedeweber Araz"
+    }
+  },
+  "manaforgeomega5": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "The Soul Hunters",
+      "de-DE": "Der Leerenjäger"
+    }
+  },
+  "manaforgeomega6": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Fractillus",
+      "de-DE": "Fraktillus"
+    }
+  },
+  "manaforgeomega7": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Nexus-King Salhadaar",
+      "de-DE": "Nexuskönig Salhadaar"
+    }
+  },
+  "manaforgeomega8": {
+    "image": "manaforgeomega.png",
+    "color": "#1BC5E9",
+    "label": {
+      "en-US": "Dimensius, the All-Devouring",
+      "de-DE": "Dimensius der alles Verschlingende"
+    }
+  },
+  "twwdungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Dungeons",
+      "de-DE": "Dungeons"
+    }
+  },
+  "twwdungeon-s3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 3 Dungeons",
+      "de-DE": "Season 3 Dungeons"
+    }
+  },
+  "twwdungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ara-Kara, City of Echoes",
+      "de-DE": "Ara-Kara, Stadt der Echos"
+    }
+  },
+  "twwdungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Dawnbreaker",
+      "de-DE": "Die Morgenbringer"
+    }
+  },
+  "twwdungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Floodgate",
+      "de-DE": "Operation: Schleuse"
+    }
+  },
+  "twwdungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Priory of the Sacred Flame",
+      "de-DE": "Priorat der Heiligen Flamme"
+    }
+  },
+  "twwdungeons3-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Atonement",
+      "de-DE": "Hallen der Sühne"
+    }
+  },
+  "twwdungeons3-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Tazavesh: Streets of Wonder",
+      "de-DE": "Tazavesh: Wundersame Straßen"
+    }
+  },
+  "twwdungeons3-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Tazavesh: So'leah's Gambit",
+      "de-DE": "Tazavesh: So'leahs Schachzug"
+    }
+  },
+  "twwdungeons3-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Eco-Dome Al'dani",
+      "de-DE": "Biokuppel Al'dani"
+    }
+  },
+  "twwdungeon-s2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 2 Dungeons",
+      "de-DE": "Season 2 Dungeons"
+    }
+  },
+  "twwdungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Cinderbrew Meadery",
+      "de-DE": "Metbrauerei Glutbräu"
+    }
+  },
+  "twwdungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Darkflame Cleft",
+      "de-DE": "Dunkelflammenspalt"
+    }
+  },
+  "twwdungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Rookery",
+      "de-DE": "Die Brutstätte"
+    }
+  },
+  "twwdungeons2-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The MOTHERLODE!!",
+      "de-DE": "Das RIESENFLÖZ!!"
+    }
+  },
+  "twwdungeons2-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Theater of Pain",
+      "de-DE": "Theater der Schmerzen"
+    }
+  },
+  "twwdungeons2-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Mechagon - Workshop",
+      "de-DE": "Operation: Mechagon - Werkstatt"
+    }
+  },
+  "twwdungeon-s1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 1 Dungeons",
+      "de-DE": "Season 1 Dungeons"
+    }
+  },
+  "twwdungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "City of Threads",
+      "de-DE": "Stadt der Fäden"
+    }
+  },
+  "twwdungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Stonevault",
+      "de-DE": "Das Steingewölbe"
+    }
+  },
+  "twwdungeons1-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Mists of Tirna Scithe",
+      "de-DE": "Die Nebel von Tirna Scithe"
+    }
+  },
+  "twwdungeons1-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Necrotic Wake",
+      "de-DE": "Die Nekrotische Schneise"
+    }
+  },
+  "twwdungeons1-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Siege of Boralus",
+      "de-DE": "Die Belagerung von Boralus"
+    }
+  },
+  "twwdungeons1-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Grim Batol",
+      "de-DE": "Grim Batol"
+    }
+  },
+  "twwdungeon-other": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Other Dungeons",
+      "de-DE": "Other Dungeons"
+    }
+  },
+  "tww-mdt-s1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 1 Dungeons",
+      "de-DE": "Season 1 Dungeons"
+    }
+  },
+  "tww-mdt-s1-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ara-Kara, City of Echoes",
+      "de-DE": "Ara-Kara, Stadt der Echos"
+    }
+  },
+  "tww-mdt-s1-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "City of Threads",
+      "de-DE": "Stadt der Fäden"
+    }
+  },
+  "tww-mdt-s1-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Grim Batol",
+      "de-DE": "Grim Batol"
+    }
+  },
+  "tww-mdt-s1-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Dawnbreaker",
+      "de-DE": "Die Morgenbringer"
+    }
+  },
+  "tww-mdt-s1-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Stonevault",
+      "de-DE": "Das Steingewölbe"
+    }
+  },
+  "tww-mdt-s1-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Siege of Boralus",
+      "de-DE": "Die Belagerung von Boralus"
+    }
+  },
+  "tww-mdt-s1-7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Mists of Tirna Scithe",
+      "de-DE": "Die Nebel von Tirna Scithe"
+    }
+  },
+  "tww-mdt-s1-8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Necrotic Wake",
+      "de-DE": "Die Nekrotische Schneise"
+    }
+  },
+  "tww-mdt-s2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 2 Dungeons",
+      "de-DE": "Season 2 Dungeons"
+    }
+  },
+  "tww-mdt-s2-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Cinderbrew Meadery",
+      "de-DE": "Metbrauerei Glutbräu"
+    }
+  },
+  "tww-mdt-s2-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Darkflame Cleft",
+      "de-DE": "Dunkelflammenspalt"
+    }
+  },
+  "tww-mdt-s2-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Rookery",
+      "de-DE": "Die Brutstätte"
+    }
+  },
+  "tww-mdt-s2-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Priory of the Sacred Flame",
+      "de-DE": "Priorat der Heiligen Flamme"
+    }
+  },
+  "tww-mdt-s2-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Floodgate",
+      "de-DE": "Operation: Schleuse"
+    }
+  },
+  "tww-mdt-s2-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The MOTHERLODE!!",
+      "de-DE": "Das RIESENFLÖZ!!"
+    }
+  },
+  "tww-mdt-s2-7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Theater of Pain",
+      "de-DE": "Theater der Schmerzen"
+    }
+  },
+  "tww-mdt-s2-8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Mechagon - Workshop",
+      "de-DE": "Operation: Mechagon - Werkstatt"
+    }
+  },
+  "tww-mdt-s3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 3 Dungeons",
+      "de-DE": "Season 3 Dungeons"
+    }
+  },
+  "tww-mdt-s3-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ara-Kara, City of Echoes",
+      "de-DE": "Ara-Kara, Stadt der Echos"
+    }
+  },
+  "tww-mdt-s3-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Dawnbreaker",
+      "de-DE": "Die Morgenbringer"
+    }
+  },
+  "tww-mdt-s3-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Floodgate",
+      "de-DE": "Operation: Schleuse"
+    }
+  },
+  "tww-mdt-s3-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Priory of the Sacred Flame",
+      "de-DE": "Priorat der Heiligen Flamme"
+    }
+  },
+  "tww-mdt-s3-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Atonement",
+      "de-DE": "Hallen der Sühne"
+    }
+  },
+  "tww-mdt-s3-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Tazavesh: Streets of Wonder",
+      "de-DE": "Tazavesh: Wundersame Straßen"
+    }
+  },
+  "tww-mdt-s3-7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Tazavesh: So'leah's Gambit",
+      "de-DE": "Tazavesh: So'leahs Schachzug"
+    }
+  },
+  "tww-mdt-s3-8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Eco-Dome Al'dani",
+      "de-DE": "Biokuppel Al'dani"
+    }
+  },
+  "dfdungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Dragonflight Dungeons",
+      "de-DE": "Dragonflight Dungeons"
+    }
+  },
+  "dfdungeon-s4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 4 Dungeons",
+      "de-DE": "Season 4 Dungeons"
+    }
+  },
+  "dfdungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Brackenhide Hollow",
+      "de-DE": "Brackenfellhöhle"
+    }
+  },
+  "dfdungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Uldaman: Legacy of Tyr",
+      "de-DE": "Uldaman: Vermächtnis von Tyr"
+    }
+  },
+  "dfdungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Neltharus",
+      "de-DE": "Neltharus"
+    }
+  },
+  "dfdungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Infusion",
+      "de-DE": "Hallen der Infusion"
+    }
+  },
+  "dfdungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Algeth'ar Academy",
+      "de-DE": "Akademie von Algeth'ar"
+    }
+  },
+  "dfdungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ruby Life Pools",
+      "de-DE": "Rubinlebensbecken"
+    }
+  },
+  "dfdungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Azure Vault",
+      "de-DE": "Das Azurblaue Gewölbe"
+    }
+  },
+  "dfdungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Nokhud Offensive",
+      "de-DE": "Der Angriff der Nokhud"
+    }
+  },
+  "dfdungeon-s3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 3 Dungeons",
+      "de-DE": "Season 3 Dungeons"
+    }
+  },
+  "dfdungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Dawn of the Infinite",
+      "de-DE": "Dämmerung des Ewigen"
+    }
+  },
+  "dfdungeons3-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Waycrest Manor",
+      "de-DE": "Das Kronsteiganwesen"
+    }
+  },
+  "dfdungeons3-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Darkheart Thicket",
+      "de-DE": "Das Finsterherzdickicht"
+    }
+  },
+  "dfdungeons3-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Atal'Dazar",
+      "de-DE": "Atal'Dazar"
+    }
+  },
+  "dfdungeons3-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Black Rook Hold",
+      "de-DE": "Die Rabenwehr"
+    }
+  },
+  "dfdungeons3-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Everbloom",
+      "de-DE": "Der Immergrüne Flor"
+    }
+  },
+  "dfdungeons3-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Throne of the Tides",
+      "de-DE": "Thron der Gezeiten"
+    }
+  },
+  "df-mdt-s3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 3 Dungeons",
+      "de-DE": "Season 3 Dungeons"
+    }
+  },
+  "df-mdt-s3-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Waycrest Manor",
+      "de-DE": "Das Kronsteiganwesen"
+    }
+  },
+  "df-mdt-s3-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Darkheart Thicket",
+      "de-DE": "Das Finsterherzdickicht"
+    }
+  },
+  "df-mdt-s3-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Atal'Dazar",
+      "de-DE": "Atal'Dazar"
+    }
+  },
+  "df-mdt-s3-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Black Rook Hold",
+      "de-DE": "Die Rabenwehr"
+    }
+  },
+  "df-mdt-s3-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Everbloom",
+      "de-DE": "Der Immergrüne Flor"
+    }
+  },
+  "df-mdt-s3-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Throne of the Tides",
+      "de-DE": "Thron der Gezeiten"
+    }
+  },
+  "df-mdt-s3-7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Dawn of the Infinite: Galakrond's Fall",
+      "de-DE": "Dämmerung des Ewigen: Galakronds Sturz"
+    }
+  },
+  "df-mdt-s3-8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Dawn of the Infinite: Murozond's Rise",
+      "de-DE": "Dämmerung des Ewigen: Murozonds Erhebung"
+    }
+  },
+  "dfdungeon-s2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 2 Dungeons",
+      "de-DE": "Season 2 Dungeons"
+    }
+  },
+  "dfdungeons2-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Neltharion's Lair",
+      "de-DE": "Neltharions Hort"
+    }
+  },
+  "dfdungeons2-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Freehold",
+      "de-DE": "Freihafen"
+    }
+  },
+  "dfdungeons2-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Underrot",
+      "de-DE": "Der Tiefenpfuhl"
+    }
+  },
+  "dfdungeons2-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Vortex Pinnacle",
+      "de-DE": "Der Vortexgipfel"
+    }
+  },
+  "dfdungeon-s1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 1 Dungeons",
+      "de-DE": "Season 1 Dungeons"
+    }
+  },
+  "dfdungeons1-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Court of Stars",
+      "de-DE": "Der Hof der Sterne"
+    }
+  },
+  "dfdungeons1-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Valor",
+      "de-DE": "Die Hallen der Tapferkeit"
+    }
+  },
+  "dfdungeons1-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shadowmoon Burial Grounds",
+      "de-DE": "Schattenmondgrabstätte"
+    }
+  },
+  "dfdungeons1-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Temple of the Jade Serpent",
+      "de-DE": "Tempel der Jadeschlange"
+    }
+  },
+  "raidsepulcherfirst": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Sepulcher of the First Ones",
+      "de-DE": "Mausoleum der Ersten"
+    }
+  },
+  "raidsepulcherfirst1": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Vigilant Guardian",
+      "de-DE": "Aufmerksamer Wächter"
+    }
+  },
+  "raidsepulcherfirst2": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Dausegne, the Fallen Oracle",
+      "de-DE": "Dausegne, das gefallene Orakel"
+    }
+  },
+  "raidsepulcherfirst3": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Artificer Xy'mox",
+      "de-DE": "Konstrukteur Xy'mox"
+    }
+  },
+  "raidsepulcherfirst4": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Prototype Pantheon",
+      "de-DE": "Prototypenpantheon"
+    }
+  },
+  "raidsepulcherfirst5": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Skolex, the Insatiable Ravener",
+      "de-DE": "Skolex, der unersättliche Räuber"
+    }
+  },
+  "raidsepulcherfirst6": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Halondrus the Reclaimer",
+      "de-DE": "Halondrus der Rückgewinner"
+    }
+  },
+  "raidsepulcherfirst7": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Lihuvim, Principal Architect",
+      "de-DE": "Lihuvim, der oberste Architekt"
+    }
+  },
+  "raidsepulcherfirst8": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Anduin Wrynn",
+      "de-DE": "Anduin Wrynn"
+    }
+  },
+  "raidsepulcherfirst9": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Lords of Dread",
+      "de-DE": "Lords des Schreckens"
+    }
+  },
+  "raidsepulcherfirst10": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "Rygelon",
+      "de-DE": "Rygelon"
+    }
+  },
+  "raidsepulcherfirst11": {
+    "image": "sepulcherfirst.png",
+    "color": "#50FFEA",
+    "label": {
+      "en-US": "The Jailer",
+      "de-DE": "Der Kerkermeister"
+    }
+  },
+  "raidsantumdom": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Sanctum of Domination",
+      "de-DE": "Sanktum der Herrschaft"
+    }
+  },
+  "raidsantumdom1": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "The Tarragrue",
+      "de-DE": "Der Tarragrue"
+    }
+  },
+  "raidsantumdom2": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "The Eye of the Jailer",
+      "de-DE": "Das Auge des Kerkermeisters"
+    }
+  },
+  "raidsantumdom3": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "The Nine",
+      "de-DE": "Die Neun"
+    }
+  },
+  "raidsantumdom4": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Remnant of Ner'zhul",
+      "de-DE": "Überrest von Ner'zhul"
+    }
+  },
+  "raidsantumdom5": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Soulrender Dormazain",
+      "de-DE": "Seelenfetzer Dormazain"
+    }
+  },
+  "raidsantumdom6": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Painsmith Raznal",
+      "de-DE": "Leidensschmied Raznal"
+    }
+  },
+  "raidsantumdom7": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Guardian of the First Ones",
+      "de-DE": "Wächter der Ersten"
+    }
+  },
+  "raidsantumdom8": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Fatescribe Roh-Kalo",
+      "de-DE": "Schicksalsschreiber Roh-Kalo"
+    }
+  },
+  "raidsantumdom9": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Kel'Thuzad",
+      "de-DE": "Kel'Thuzad"
+    }
+  },
+  "raidsantumdom10": {
+    "image": "sanctumofdom.png",
+    "color": "#5CE000",
+    "label": {
+      "en-US": "Sylvanas Windrunner",
+      "de-DE": "Sylvanas Windläufer"
+    }
+  },
+  "raidnathria": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Castle Nathria",
+      "de-DE": "Schloss Nathria"
+    }
+  },
+  "raidnathria1": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Shriekwing",
+      "de-DE": "Schrillschwinge"
+    }
+  },
+  "raidnathria10": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Huntsman Altimor",
+      "de-DE": "Jäger Altimor"
+    }
+  },
+  "raidnathria2": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Hungering Destroyer",
+      "de-DE": "Hungernder Zerstörer"
+    }
+  },
+  "raidnathria4": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Artificer Xy'mox",
+      "de-DE": "Konstrukteur Xy'mox"
+    }
+  },
+  "raidnathria3": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Sun King's Salvation",
+      "de-DE": "Rettung des Sonnenkönigs"
+    }
+  },
+  "raidnathria5": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Lady Inerva Darkvein",
+      "de-DE": "Lady Inerva Dunkelader"
+    }
+  },
+  "raidnathria6": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "The Council of Blood",
+      "de-DE": "Der Rat des Blutes"
+    }
+  },
+  "raidnathria7": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Sludgefist",
+      "de-DE": "Schlickfaust"
+    }
+  },
+  "raidnathria8": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Stone Legion Generals",
+      "de-DE": "Generäle der Steinlegion"
+    }
+  },
+  "raidnathria9": {
+    "image": "nathria.png",
+    "color": "#9693BD",
+    "label": {
+      "en-US": "Sire Denathrius",
+      "de-DE": "Graf Denathrius"
+    }
+  },
+  "sldungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shadowlands Dungeons",
+      "de-DE": "Shadowlands Dungeons"
+    }
+  },
+  "sldungeon-s4a": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 4 Dungeons",
+      "de-DE": "Season 4 Dungeons"
+    }
+  },
+  "sldungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Tazavesh, the Veiled Market",
+      "de-DE": "Tazavesh, der Verhüllte Markt"
+    }
+  },
+  "sldungeon10": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Mechagon",
+      "de-DE": "Operation: Mechagon"
+    }
+  },
+  "sldungeon11": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Return to Karazhan",
+      "de-DE": "Rückkehr nach Karazhan"
+    }
+  },
+  "sldungeon12": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Grimrail Depot",
+      "de-DE": "Grimmgleisdepot"
+    }
+  },
+  "sldungeon13": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Iron Docks",
+      "de-DE": "Eisendocks"
+    }
+  },
+  "sldungeon0s4b": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Other Dungeons",
+      "de-DE": "Other Dungeons"
+    }
+  },
+  "sldungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Necrotic Wake",
+      "de-DE": "Die Nekrotische Schneise"
+    }
+  },
+  "sldungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Plaguefall",
+      "de-DE": "Seuchensturz"
+    }
+  },
+  "sldungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Mists of Tirna Scithe",
+      "de-DE": "Die Nebel von Tirna Scithe"
+    }
+  },
+  "sldungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Atonement",
+      "de-DE": "Hallen der Sühne"
+    }
+  },
+  "sldungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Theater of Pain",
+      "de-DE": "Theater der Schmerzen"
+    }
+  },
+  "sldungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "De Other Side",
+      "de-DE": "Die Andre Seite"
+    }
+  },
+  "sldungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Spires of Ascension",
+      "de-DE": "Die Spitzen des Aufstiegs"
+    }
+  },
+  "sldungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Sanguine Depths",
+      "de-DE": "Die Blutigen Tiefen"
+    }
+  },
+  "sltimewalking": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Timewalking",
+      "de-DE": "Timewalking"
+    }
+  },
+  "sltimewalking10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "BFA Dungeons",
+      "de-DE": "BFA Dungeons"
+    }
+  },
+  "sltimewalking6": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Legion Dungeons",
+      "de-DE": "Legion Dungeons"
+    }
+  },
+  "sltimewalking9": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Mage Tower",
+      "de-DE": "Mage Tower"
+    }
+  },
+  "sltimewalking5": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Warlords of Draenor Dungeons",
+      "de-DE": "Warlords of Draenor Dungeons"
+    }
+  },
+  "sltimewalking4": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Mists of Pandaria Dungeons",
+      "de-DE": "Mists of Pandaria Dungeons"
+    }
+  },
+  "sltimewalking3": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Cataclysm Dungeons",
+      "de-DE": "Cataclysm Dungeons"
+    }
+  },
+  "sltimewalking2": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Lich King Dungeons",
+      "de-DE": "Lich King Dungeons"
+    }
+  },
+  "sltimewalking8": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Ulduar",
+      "de-DE": "Ulduar"
+    }
+  },
+  "sltimewalking1": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Burning Crusade Dungeons",
+      "de-DE": "Burning Crusade Dungeons"
+    }
+  },
+  "sltimewalking7": {
+    "image": "timewalking.png",
+    "color": "#CD47FF",
+    "label": {
+      "en-US": "Black Temple",
+      "de-DE": "Der Schwarze Tempel"
+    }
+  },
+  "raidnyalotha": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Ny'alotha, the Waking City",
+      "de-DE": "Ny'alotha, die Erwachte Stadt"
+    }
+  },
+  "raidnyalotha1": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Wrathion the Black Emperor",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha2": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Maut",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha3": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "The Prophet Skitra",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha4": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Dark Inquisitor Xanesh",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha5": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "The Hivemind",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha6": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Shad'har the Insatiable",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha7": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Drest'agath",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha8": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Vexiona",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha9": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Ra-den the Despoiled",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha10": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Il'gynoth Corruption Reborn",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha11": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "Carapace of N'Zoth",
+      "de-DE": null
+    }
+  },
+  "raidnyalotha12": {
+    "image": "nyalotha.png",
+    "color": "#5EE1A6",
+    "label": {
+      "en-US": "N'Zoth the Corruptor",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "The Eternal Palace",
+      "de-DE": "Der Ewige Palast"
+    }
+  },
+  "raideternalpalace1": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "Abyssal Commander Sivara",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace2": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "Rage of Azshara",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace3": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "Blackwater Behemoth",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace4": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "Lady Priscilla Ashvane",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace5": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "The Hatchery",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace6": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "The Queen's Court",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace7": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "Za'qul Herald of N'zoth",
+      "de-DE": null
+    }
+  },
+  "raideternalpalace8": {
+    "image": "eternalpalace.png",
+    "color": "#FF98EC",
+    "label": {
+      "en-US": "Queen Azshara",
+      "de-DE": null
+    }
+  },
+  "raidcrucible": {
+    "image": "cruciblestorms.png",
+    "color": "#3329b3",
+    "label": {
+      "en-US": "Crucible of Storms",
+      "de-DE": "Tiegel der Stürme"
+    }
+  },
+  "raidcrucible1": {
+    "image": "cruciblestorms.png",
+    "color": "#3329b3",
+    "label": {
+      "en-US": "Zaxasj the Speaker",
+      "de-DE": null
+    }
+  },
+  "raidcrucible2": {
+    "image": "cruciblestorms.png",
+    "color": "#3329b3",
+    "label": {
+      "en-US": "Uu'nat Harbinger of the Void",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Battle of Dazar'alor",
+      "de-DE": "Schlacht von Dazar'alor"
+    }
+  },
+  "raidzuldazar1": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Frida Ironbellows",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar1b": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Ra'wani Kanae",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar2": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Grong the Jungle Lord",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar2b": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Grong the Revanant",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar3": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Flamefist and the Illuminated",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar3b": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Grimfang and Firecaller",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar4": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "High Tinker Mekkatorque",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar4b": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "King Rastakhan",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar5": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Stormwall Blockade",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar6": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Conclave of the Chosen",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar7": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Opulence",
+      "de-DE": null
+    }
+  },
+  "raidzuldazar8": {
+    "image": "zuldazar.png",
+    "color": "#4BB21F",
+    "label": {
+      "en-US": "Lady Jaina Proudmoore",
+      "de-DE": null
+    }
+  },
+  "raiduldir": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Uldir",
+      "de-DE": "Uldir"
+    }
+  },
+  "raiduldir1": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Taloc the Corrupted",
+      "de-DE": null
+    }
+  },
+  "raiduldir2": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "MOTHER",
+      "de-DE": null
+    }
+  },
+  "raiduldir3": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Fetid Devourer",
+      "de-DE": null
+    }
+  },
+  "raiduldir4": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Zek'voz Herald of N'zoth",
+      "de-DE": null
+    }
+  },
+  "raiduldir5": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Zul Reborn",
+      "de-DE": null
+    }
+  },
+  "raiduldir6": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Mythrax the Unraveler",
+      "de-DE": null
+    }
+  },
+  "raiduldir7": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "Vectis",
+      "de-DE": null
+    }
+  },
+  "raiduldir8": {
+    "image": "uldir.png",
+    "color": "#D42D20",
+    "label": {
+      "en-US": "G'huun",
+      "de-DE": null
+    }
+  },
+  "bfadungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "BFA Dungeons",
+      "de-DE": "BFA Dungeons"
+    }
+  },
+  "bfadungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Atal'Dazar",
+      "de-DE": "Atal'Dazar"
+    }
+  },
+  "bfadungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Freehold",
+      "de-DE": "Freihafen"
+    }
+  },
+  "bfadungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Kings' Rest",
+      "de-DE": "Die Königsruh"
+    }
+  },
+  "bfadungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shrine of the Storm",
+      "de-DE": "Der Schrein des Sturms"
+    }
+  },
+  "bfadungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Siege of Boralus",
+      "de-DE": "Die Belagerung von Boralus"
+    }
+  },
+  "bfadungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Temple of Sethraliss",
+      "de-DE": "Der Tempel von Sethraliss"
+    }
+  },
+  "bfadungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The MOTHERLODE!!",
+      "de-DE": "Das RIESENFLÖZ!!"
+    }
+  },
+  "bfadungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Underrot",
+      "de-DE": "Der Tiefenpfuhl"
+    }
+  },
+  "bfadungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Tol Dagor",
+      "de-DE": "Tol Dagor"
+    }
+  },
+  "bfadungeon10": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Waycrest Manor",
+      "de-DE": "Das Kronsteiganwesen"
+    }
+  },
+  "bfadungeon11": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Operation: Mechagon",
+      "de-DE": "Operation: Mechagon"
+    }
+  },
+  "raidantorus": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Antorus, the Burning Throne",
+      "de-DE": "Antorus, der Brennende Thron"
+    }
+  },
+  "raidantorus1": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Garothi Worldbreaker",
+      "de-DE": "Weltenbrecher der Garothi"
+    }
+  },
+  "raidantorus2": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Felhouds of Sargeras",
+      "de-DE": "Teufelshunde des Sargeras"
+    }
+  },
+  "raidantorus3": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Antoran High Command",
+      "de-DE": "Antorisches Oberkommando"
+    }
+  },
+  "raidantorus4": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Portal Keeper Hasabel",
+      "de-DE": "Portalhüterin Hasabel"
+    }
+  },
+  "raidantorus5": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Eonar the Lifebender",
+      "de-DE": "Eonar die Lebensbinderin"
+    }
+  },
+  "raidantorus6": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Imonar the Soulhunter",
+      "de-DE": "Imonar der Seelenjäger"
+    }
+  },
+  "raidantorus7": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Kin'garoth",
+      "de-DE": "Kin'garoth"
+    }
+  },
+  "raidantorus8": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Varimathras",
+      "de-DE": "Varimathras"
+    }
+  },
+  "raidantorus9": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "The Coven of Shivarra",
+      "de-DE": "Der Zirkel der Shivarra"
+    }
+  },
+  "raidantorus10": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Aggramar",
+      "de-DE": "Aggramar"
+    }
+  },
+  "raidantorus11": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Argus the Unmaker",
+      "de-DE": "Argus der Zerrütter"
+    }
+  },
+  "raidtomb": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Tomb of Sargeras",
+      "de-DE": "Das Grabmal des Sargeras"
+    }
+  },
+  "raidtomb1": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Goroth",
+      "de-DE": "Goroth"
+    }
+  },
+  "raidtomb2": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Demonic Inquisition",
+      "de-DE": "Dämonische Inquisition"
+    }
+  },
+  "raidtomb3": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Harjatan",
+      "de-DE": "Harjatan"
+    }
+  },
+  "raidtomb4": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Mistress Sassz'ine",
+      "de-DE": "Herrin Sassz'ine"
+    }
+  },
+  "raidtomb5": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Sisters of the Moon",
+      "de-DE": "Schwestern des Mondes"
+    }
+  },
+  "raidtomb6": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "The Desolate Host",
+      "de-DE": "Die trostlose Heerschar"
+    }
+  },
+  "raidtomb7": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Maiden of Vigilance",
+      "de-DE": "Wachsame Maid"
+    }
+  },
+  "raidtomb8": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Fallen Avatar",
+      "de-DE": "Gefallener Avatar"
+    }
+  },
+  "raidtomb9": {
+    "image": "tombofsarg.png",
+    "color": "#006d35",
+    "label": {
+      "en-US": "Kil'jaeden",
+      "de-DE": "Kil'jaeden"
+    }
+  },
+  "raidnh": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "The Nighthold",
+      "de-DE": "Die Nachtfestung"
+    }
+  },
+  "raidnh1": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Skorpyron",
+      "de-DE": "Skorpyron"
+    }
+  },
+  "raidnh2": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Chronomatic Anomaly",
+      "de-DE": "Chronomatische Anomalie"
+    }
+  },
+  "raidnh3": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Trilliax",
+      "de-DE": "Trilliax"
+    }
+  },
+  "raidnh4": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Spellblade Aluriel",
+      "de-DE": "Aluriel die Zauberklinge"
+    }
+  },
+  "raidnh5": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Tichondrius",
+      "de-DE": "Tichondrius"
+    }
+  },
+  "raidnh6": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Krosus",
+      "de-DE": "Krosus"
+    }
+  },
+  "raidnh7": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "High Botanist Tel'arn",
+      "de-DE": "Hochbotaniker Tel'arn"
+    }
+  },
+  "raidnh8": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Star Augur Etraeus",
+      "de-DE": "Sterndeuter Etraeus"
+    }
+  },
+  "raidnh9": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Grand Magistrix Elisande",
+      "de-DE": "Großmagistrix Elisande"
+    }
+  },
+  "raidnh10": {
+    "image": "nighthold.png",
+    "color": "#cb02b7",
+    "label": {
+      "en-US": "Gul'dan",
+      "de-DE": "Gul'dan"
+    }
+  },
+  "raiden": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "The Emerald Nightmare",
+      "de-DE": "Der Smaragdgrüne Alptraum"
+    }
+  },
+  "raiden1": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Nythendra",
+      "de-DE": "Nythendra"
+    }
+  },
+  "raiden2": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Il'gynoth The Heart of Corruption",
+      "de-DE": "Il'gynoth das Herz der Verderbnis"
+    }
+  },
+  "raiden4": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Elerethe Renferal",
+      "de-DE": "Elerethe Renferal"
+    }
+  },
+  "raiden5": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Ursoc",
+      "de-DE": "Ursoc"
+    }
+  },
+  "raiden6": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Dragons of Nightmare",
+      "de-DE": "Drachen des Alptraums"
+    }
+  },
+  "raiden7": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Cenarius",
+      "de-DE": "Cenarius"
+    }
+  },
+  "raiden8": {
+    "image": "emeraldnightmare.png",
+    "color": "#6b2100",
+    "label": {
+      "en-US": "Xavius",
+      "de-DE": "Xavius"
+    }
+  },
+  "dungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Legion Dungeons",
+      "de-DE": "Legion Dungeons"
+    }
+  },
+  "dungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Arcway",
+      "de-DE": "Der Arkus"
+    }
+  },
+  "dungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Assault on Violet Hold",
+      "de-DE": "Sturm auf die Violette Festung"
+    }
+  },
+  "dungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Black Rook Hold",
+      "de-DE": "Die Rabenwehr"
+    }
+  },
+  "dungeon12": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Cathedral of Eternal Night",
+      "de-DE": "Die Kathedrale der Ewigen Nacht"
+    }
+  },
+  "dungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Court of Stars",
+      "de-DE": "Der Hof der Sterne"
+    }
+  },
+  "dungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Darkheart Thicket",
+      "de-DE": "Das Finsterherzdickicht"
+    }
+  },
+  "dungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Eye of Azshara",
+      "de-DE": "Das Auge Azsharas"
+    }
+  },
+  "dungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Valor",
+      "de-DE": "Die Hallen der Tapferkeit"
+    }
+  },
+  "dungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Maw of Souls",
+      "de-DE": "Der Seelenschlund"
+    }
+  },
+  "dungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Neltharion's Lair",
+      "de-DE": "Neltharions Hort"
+    }
+  },
+  "dungeon11": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Return to Karazhan",
+      "de-DE": "Rückkehr nach Karazhan"
+    }
+  },
+  "dungeon13": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Seat of the Triumvirate",
+      "de-DE": "Sitz des Triumvirats"
+    }
+  },
+  "dungeon10": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Vault of the Wardens",
+      "de-DE": "Das Verlies der Wächterinnen"
+    }
+  },
+  "raidhfc": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Hellfire Citadel",
+      "de-DE": "Höllenfeuerzitadelle"
+    }
+  },
+  "raidhfc1": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Hellfire Assault",
+      "de-DE": "Höllenfeuerangriff"
+    }
+  },
+  "raidhfc2": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Iron Reaver",
+      "de-DE": "Eiserner Häscher"
+    }
+  },
+  "raidhfc3": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Kormrok",
+      "de-DE": "Kormrok"
+    }
+  },
+  "raidhfc4": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Kilrogg Deadeye",
+      "de-DE": "Kilrogg Totauge"
+    }
+  },
+  "raidhfc5": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Hellfire High Council",
+      "de-DE": "Hoher Rat des Höllenfeuers"
+    }
+  },
+  "raidhfc6": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Gorefiend",
+      "de-DE": "Blutschatten"
+    }
+  },
+  "raidhfc7": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Shadow-Lord Iskar",
+      "de-DE": "Schattenfürst Iskar"
+    }
+  },
+  "raidhfc8": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Socrethar the Eternal",
+      "de-DE": "Socrethar der Ewige"
+    }
+  },
+  "raidhfc9": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Tyrant Velhari",
+      "de-DE": "Tyrannin Velhari"
+    }
+  },
+  "raidhfc10": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Fel Lord Zakuun",
+      "de-DE": "Teufelslord Zakuun"
+    }
+  },
+  "raidhfc11": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Xhul'horac",
+      "de-DE": "Xhul'horac"
+    }
+  },
+  "raidhfc12": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Mannoroth",
+      "de-DE": "Mannoroth"
+    }
+  },
+  "raidhfc13": {
+    "image": "hellfirecitadel.png",
+    "color": "#689E12",
+    "label": {
+      "en-US": "Archimonde",
+      "de-DE": "Archimonde"
+    }
+  },
+  "raidtov": {
+    "image": "trialofvalor.png",
+    "color": "#8F0995",
+    "label": {
+      "en-US": "Trial of Valor",
+      "de-DE": "Die Prüfung der Tapferkeit"
+    }
+  },
+  "raidtov1": {
+    "image": "trialofvalor.png",
+    "color": "#8F0995",
+    "label": {
+      "en-US": "Odyn",
+      "de-DE": "Odyn"
+    }
+  },
+  "raidtov2": {
+    "image": "trialofvalor.png",
+    "color": "#8F0995",
+    "label": {
+      "en-US": "Guarm",
+      "de-DE": "Guarm"
+    }
+  },
+  "raidtov3": {
+    "image": "trialofvalor.png",
+    "color": "#8F0995",
+    "label": {
+      "en-US": "Odyn",
+      "de-DE": "Odyn"
+    }
+  },
+  "raidulduar": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Ulduar",
+      "de-DE": "Ulduar"
+    }
+  },
+  "raidulduar1": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Flame Leviathan",
+      "de-DE": "Flammenleviathan"
+    }
+  },
+  "raidulduar2": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Ignis the Furnace Master",
+      "de-DE": "Ignis, Meister des Eisenwerks"
+    }
+  },
+  "raidulduar3": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Razorscale",
+      "de-DE": "Klingenschuppe"
+    }
+  },
+  "raidulduar4": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "XT-002 Deconstructor",
+      "de-DE": "XT-002 Dekonstruktor"
+    }
+  },
+  "raidulduar5": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "The Assembly of Iron",
+      "de-DE": "Die Versammlung des Eisens"
+    }
+  },
+  "raidulduar6": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Kologarn",
+      "de-DE": "Kologarn"
+    }
+  },
+  "raidulduar7": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Auriaya",
+      "de-DE": "Auriaya"
+    }
+  },
+  "raidulduar8": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Hodir",
+      "de-DE": "Hodir"
+    }
+  },
+  "raidulduar9": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Thorim",
+      "de-DE": "Thorim"
+    }
+  },
+  "raidulduar10": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Freya",
+      "de-DE": "Freya"
+    }
+  },
+  "raidulduar11": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Mimiron",
+      "de-DE": "Mimiron"
+    }
+  },
+  "raidulduar12": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "General Vezax",
+      "de-DE": "General Vezax"
+    }
+  },
+  "raidulduar13": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Yogg-Saron",
+      "de-DE": "Yogg-Saron"
+    }
+  },
+  "raidulduar14": {
+    "image": "ulduar.png",
+    "color": "#0ED39F",
+    "label": {
+      "en-US": "Algalon the Observer",
+      "de-DE": "Algalon der Beobachter"
+    }
+  },
+  "raidtoc": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "Trial of the Crusader",
+      "de-DE": "Prüfung des Kreuzfahrers"
+    }
+  },
+  "raidtoc1": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "The Northrend Beasts",
+      "de-DE": "Die Bestien von Nordend"
+    }
+  },
+  "raidtoc2": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "Lord Jaraxxus",
+      "de-DE": "Lord Jaraxxus"
+    }
+  },
+  "raidtoc3": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "Champions of the Alliance",
+      "de-DE": "Champions der Allianz"
+    }
+  },
+  "raidtoc4": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "Champions of the Horde",
+      "de-DE": "Champions der Horde"
+    }
+  },
+  "raidtoc5": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "Twin Val'kyr",
+      "de-DE": "Zwillingsval'kyr"
+    }
+  },
+  "raidtoc6": {
+    "image": "toc.png",
+    "color": "#D9D124",
+    "label": {
+      "en-US": "Anub'arak",
+      "de-DE": "Anub'arak"
+    }
+  },
+  "raidicc": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Icecrown Citadel",
+      "de-DE": "Die Eiskronenzitadelle"
+    }
+  },
+  "raidicc1": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Lord Marrowgar",
+      "de-DE": "Lord Mark'gar"
+    }
+  },
+  "raidicc2": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Lady Deathwhisper",
+      "de-DE": "Lady Todeswisper"
+    }
+  },
+  "raidicc3": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Icecrown Gunship Battle",
+      "de-DE": "Kanonenschiffsschlacht von Eiskrone"
+    }
+  },
+  "raidicc4": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Deathbringer Saurfang",
+      "de-DE": "Todesbringer Saurfang"
+    }
+  },
+  "raidicc5": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Festergut",
+      "de-DE": "Fauldarm"
+    }
+  },
+  "raidicc6": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Rotface",
+      "de-DE": "Modermiene"
+    }
+  },
+  "raidicc7": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Professor Putricide",
+      "de-DE": "Professor Seuchenmord"
+    }
+  },
+  "raidicc8": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Blood Prince Council",
+      "de-DE": "Rat der Blutprinzen"
+    }
+  },
+  "raidicc9": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Blood-Queen Lana'thel",
+      "de-DE": "Blutkönigin Lana'thel"
+    }
+  },
+  "raidicc10": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Valithria Dreamwalker",
+      "de-DE": "Valithria Traumwandler"
+    }
+  },
+  "raidicc11": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "Sindragosa",
+      "de-DE": "Sindragosa"
+    }
+  },
+  "raidicc12": {
+    "image": "icc.png",
+    "color": "#7EBEF1",
+    "label": {
+      "en-US": "The Lich King",
+      "de-DE": "Der Lichkönig"
+    }
+  },
+  "raidvoa": {
+    "image": "archavon.png",
+    "color": "#A94ED9",
+    "label": {
+      "en-US": "Vault of Archavon",
+      "de-DE": "Archavons Kammer"
+    }
+  },
+  "raidvoa1": {
+    "image": "archavon.png",
+    "color": "#A94ED9",
+    "label": {
+      "en-US": "Archavon the Stone Watcher",
+      "de-DE": "Archavon der Steinwächter"
+    }
+  },
+  "raidvoa2": {
+    "image": "archavon.png",
+    "color": "#A94ED9",
+    "label": {
+      "en-US": "Emalon the Storm Watcher",
+      "de-DE": "Emalon der Sturmwächter"
+    }
+  },
+  "raidvoa3": {
+    "image": "archavon.png",
+    "color": "#A94ED9",
+    "label": {
+      "en-US": "Koralon the Flame Watcher",
+      "de-DE": "Koralon der Flammenwächter"
+    }
+  },
+  "raidvoa4": {
+    "image": "archavon.png",
+    "color": "#A94ED9",
+    "label": {
+      "en-US": "Toravon the Ice Watcher",
+      "de-DE": "Toravon der Eiswächter"
+    }
+  },
+  "raidsarth": {
+    "image": "sarth.png",
+    "color": "#B57204",
+    "label": {
+      "en-US": "The Obsidian Sanctum",
+      "de-DE": "Das Obsidiansanktum"
+    }
+  },
+  "raidsarth1": {
+    "image": "sarth.png",
+    "color": "#B57204",
+    "label": {
+      "en-US": "Sartharion",
+      "de-DE": "Sartharion"
+    }
+  },
+  "raidmalygos": {
+    "image": "malygos.png",
+    "color": "#6D5DFA",
+    "label": {
+      "en-US": "The Eye of Eternity",
+      "de-DE": "Das Auge der Ewigkeit"
+    }
+  },
+  "raidmalygos1": {
+    "image": "malygos.png",
+    "color": "#6D5DFA",
+    "label": {
+      "en-US": "Malygos",
+      "de-DE": "Malygos"
+    }
+  },
+  "raidonyxia": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Onyxia's Lair",
+      "de-DE": "Onyxias Hort"
+    }
+  },
+  "raidonyxia1": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Onyxia",
+      "de-DE": "Onyxia"
+    }
+  },
+  "raidhalion": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "The Ruby Sanctum",
+      "de-DE": "Das Rubinsanktum"
+    }
+  },
+  "raidhalion1": {
+    "image": "halion.png",
+    "color": "#FA5D60",
+    "label": {
+      "en-US": "Halion",
+      "de-DE": "Halion"
+    }
+  },
+  "wotlkdungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "WotLK Dungeons",
+      "de-DE": "WotLK Dungeons"
+    }
+  },
+  "wotlkdungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ahn'kahet: The Old Kingdom",
+      "de-DE": "Ahn'kahet: Das Alte Königreich"
+    }
+  },
+  "wotlkdungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Azjol-Nerub",
+      "de-DE": "Azjol-Nerub"
+    }
+  },
+  "wotlkdungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Drak'Tharon Keep",
+      "de-DE": "Feste Drak'Tharon"
+    }
+  },
+  "wotlkdungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Gundrak",
+      "de-DE": "Gundrak"
+    }
+  },
+  "wotlkdungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Lightning",
+      "de-DE": "Hallen der Blitze"
+    }
+  },
+  "wotlkdungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Stone",
+      "de-DE": "Hallen des Steins"
+    }
+  },
+  "wotlkdungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Culling of Stratholme",
+      "de-DE": "Das Ausmerzen von Stratholme"
+    }
+  },
+  "wotlkdungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Nexus",
+      "de-DE": "Der Nexus"
+    }
+  },
+  "wotlkdungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Oculus",
+      "de-DE": "Das Oculus"
+    }
+  },
+  "wotlkdungeon10": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Violet Hold",
+      "de-DE": "Die Violette Festung"
+    }
+  },
+  "wotlkdungeon11": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Utgarde Keep",
+      "de-DE": "Burg Utgarde"
+    }
+  },
+  "wotlkdungeon12": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Utgarde Pinnacle",
+      "de-DE": "Turm Utgarde"
+    }
+  },
+  "wotlkdungeon13": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Trial of the Champion",
+      "de-DE": "Prüfung des Champions"
+    }
+  },
+  "wotlkdungeon14": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Forge of Souls",
+      "de-DE": "Die Seelenschmiede"
+    }
+  },
+  "wotlkdungeon15": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Pit of Saron",
+      "de-DE": "Grube von Saron"
+    }
+  },
+  "wotlkdungeon16": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Reflection",
+      "de-DE": "Hallen der Reflexion"
+    }
+  },
+  "raidbaradinhold": {
+    "image": "tower-fall.png",
+    "color": "#BFDD2D",
+    "label": {
+      "en-US": "Baradin Hold",
+      "de-DE": "Baradinfestung"
+    }
+  },
+  "raidbaradinhold1": {
+    "image": "tower-fall.png",
+    "color": "#BFDD2D",
+    "label": {
+      "en-US": "Argaloth",
+      "de-DE": "Argaloth"
+    }
+  },
+  "raidbaradinhold2": {
+    "image": "tower-fall.png",
+    "color": "#BFDD2D",
+    "label": {
+      "en-US": "Occu'thar",
+      "de-DE": "Occu'thar"
+    }
+  },
+  "raidbaradinhold3": {
+    "image": "tower-fall.png",
+    "color": "#BFDD2D",
+    "label": {
+      "en-US": "Alizabal, Mistress of Hate",
+      "de-DE": "Alizabal, Herrin des Hasses"
+    }
+  },
+  "raidbastiontwilight": {
+    "image": "egg-eye.png",
+    "color": "#DB2DDD",
+    "label": {
+      "en-US": "The Bastion of Twilight",
+      "de-DE": "Die Bastion des Zwielichts"
+    }
+  },
+  "raidbastiontwilight1": {
+    "image": "egg-eye.png",
+    "color": "#DB2DDD",
+    "label": {
+      "en-US": "Halfus Wyrmbreaker",
+      "de-DE": "Halfus Wyrmbrecher"
+    }
+  },
+  "raidbastiontwilight2": {
+    "image": "egg-eye.png",
+    "color": "#DB2DDD",
+    "label": {
+      "en-US": "Theralion and Valiona",
+      "de-DE": "Theralion und Valiona"
+    }
+  },
+  "raidbastiontwilight3": {
+    "image": "egg-eye.png",
+    "color": "#DB2DDD",
+    "label": {
+      "en-US": "Ascendant Council",
+      "de-DE": "Rat der Aszendenten"
+    }
+  },
+  "raidbastiontwilight4": {
+    "image": "egg-eye.png",
+    "color": "#DB2DDD",
+    "label": {
+      "en-US": "Cho'gall",
+      "de-DE": "Cho'gall"
+    }
+  },
+  "raidbastiontwilight5": {
+    "image": "egg-eye.png",
+    "color": "#DB2DDD",
+    "label": {
+      "en-US": "Sinestra",
+      "de-DE": "Sinestra"
+    }
+  },
+  "raidblackwingdescent": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Blackwing Descent",
+      "de-DE": "Pechschwingenabstieg"
+    }
+  },
+  "raidblackwingdescent1": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Magmaw",
+      "de-DE": "Magmaul"
+    }
+  },
+  "raidblackwingdescent2": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Omnotron Defense System",
+      "de-DE": "Omnotron-Verteidigungssystem"
+    }
+  },
+  "raidblackwingdescent3": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Maloriak",
+      "de-DE": "Maloriak"
+    }
+  },
+  "raidblackwingdescent4": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Atramedes",
+      "de-DE": "Atramedes"
+    }
+  },
+  "raidblackwingdescent5": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Chimaeron",
+      "de-DE": "Schimaeron"
+    }
+  },
+  "raidblackwingdescent6": {
+    "image": "dragon-head.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Nefarian's End",
+      "de-DE": "Nefarians Ende"
+    }
+  },
+  "raidfourwinds": {
+    "image": "tornado.png",
+    "color": "#2DC4DD",
+    "label": {
+      "en-US": "Throne of the Four Winds",
+      "de-DE": "Thron der Vier Winde"
+    }
+  },
+  "raidfourwinds1": {
+    "image": "tornado.png",
+    "color": "#2DC4DD",
+    "label": {
+      "en-US": "The Conclave of Wind",
+      "de-DE": "Das Konklave des Windes"
+    }
+  },
+  "raidfourwinds2": {
+    "image": "tornado.png",
+    "color": "#2DC4DD",
+    "label": {
+      "en-US": "Al'Akir",
+      "de-DE": "Al'Akir"
+    }
+  },
+  "raidfirelands": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Firelands",
+      "de-DE": "Feuerlande"
+    }
+  },
+  "raidfirelands1": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Shannox",
+      "de-DE": "Shannox"
+    }
+  },
+  "raidfirelands2": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Lord Rhyolith",
+      "de-DE": "Lord Rhyolith"
+    }
+  },
+  "raidfirelands3": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Beth'tilac",
+      "de-DE": "Beth'tilac"
+    }
+  },
+  "raidfirelands4": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Alysrazor",
+      "de-DE": "Alysrazar"
+    }
+  },
+  "raidfirelands5": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Baleroc, the Gatekeeper",
+      "de-DE": "Baloroc, der Torwächter"
+    }
+  },
+  "raidfirelands6": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Majordomo Staghelm",
+      "de-DE": "Majordomus Hirschhaupt"
+    }
+  },
+  "raidfirelands7": {
+    "image": "burning-embers.png",
+    "color": "#D34A4C",
+    "label": {
+      "en-US": "Ragnaros",
+      "de-DE": "Ragnaros"
+    }
+  },
+  "raiddragonsoul": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Dragon Soul",
+      "de-DE": "Drachenseele"
+    }
+  },
+  "raiddragonsoul1": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Morchok",
+      "de-DE": "Morchok"
+    }
+  },
+  "raiddragonsoul2": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Warlord Zon'ozz",
+      "de-DE": "Kriegsherr Zon'ozz"
+    }
+  },
+  "raiddragonsoul3": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Yor'sahj the Unsleeping",
+      "de-DE": "Yor'sahj der Unermüdliche"
+    }
+  },
+  "raiddragonsoul4": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Hagara the Stormbinder",
+      "de-DE": "Hagara die Sturmbinderin"
+    }
+  },
+  "raiddragonsoul5": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Ultraxion",
+      "de-DE": "Ultraxion"
+    }
+  },
+  "raiddragonsoul6": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Warmaster Blackhorn",
+      "de-DE": "Kriegsmeister Schwarzhorn"
+    }
+  },
+  "raiddragonsoul7": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Spine of Deathwing",
+      "de-DE": "Todesschwinges Rückgrat"
+    }
+  },
+  "raiddragonsoul8": {
+    "image": "interlaced-tentacles.png",
+    "color": "#624EFC",
+    "label": {
+      "en-US": "Madness of Deathwing",
+      "de-DE": "Todesschwinges Wahnsinn"
+    }
+  },
+  "catadungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Cataclysm Dungeons",
+      "de-DE": "Cataclysm Dungeons"
+    }
+  },
+  "catadungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Throne of the Tides",
+      "de-DE": "Thron der Gezeiten"
+    }
+  },
+  "catadungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Grim Batol",
+      "de-DE": "Grim Batol"
+    }
+  },
+  "catadungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Lost City of the Tol'vir",
+      "de-DE": "Die Verlorene Stadt der Tol'vir"
+    }
+  },
+  "catadungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Vortex Pinnacle",
+      "de-DE": "Der Vortexgipfel"
+    }
+  },
+  "catadungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Blackrock Caverns",
+      "de-DE": "Schwarzfelshöhlen"
+    }
+  },
+  "catadungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Stonecore",
+      "de-DE": "Der Steinerne Kern"
+    }
+  },
+  "catadungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Halls of Origination",
+      "de-DE": "Hallen des Ursprungs"
+    }
+  },
+  "catadungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Deadmines",
+      "de-DE": "Todesminen"
+    }
+  },
+  "catadungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shadowfang Keep",
+      "de-DE": "Burg Schattenfang"
+    }
+  },
+  "catadungeon10": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Zul'Gurub",
+      "de-DE": "Zul'Gurub"
+    }
+  },
+  "catadungeon11": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Zul'Aman",
+      "de-DE": "Zul'Aman"
+    }
+  },
+  "catadungeon12": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Well of Eternity",
+      "de-DE": "Brunnen der Ewigkeit"
+    }
+  },
+  "catadungeon13": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Hour of Twilight",
+      "de-DE": "Die Stunde des Zwielichts"
+    }
+  },
+  "catadungeon14": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "End Time",
+      "de-DE": "Endzeit"
+    }
+  },
+  "raidmogushanvaults": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "Mogu'shan Vaults",
+      "de-DE": "Mogu'shangewölbe"
+    }
+  },
+  "raidmogushanvaults1": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "The Stone Guard",
+      "de-DE": "Die Steinwache"
+    }
+  },
+  "raidmogushanvaults2": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "Feng the Accursed",
+      "de-DE": "Feng der Verfluchte"
+    }
+  },
+  "raidmogushanvaults3": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "Gara'jal the Spiritbinder",
+      "de-DE": "Gara'jal der Geisterbinder"
+    }
+  },
+  "raidmogushanvaults4": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "The Spirit Kings",
+      "de-DE": "Die Geisterkönige"
+    }
+  },
+  "raidmogushanvaults5": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "Elegon",
+      "de-DE": "Elegon"
+    }
+  },
+  "raidmogushanvaults6": {
+    "image": "mogushanvaults.png",
+    "color": "#68F7C7",
+    "label": {
+      "en-US": "Will of the Emperor",
+      "de-DE": "Der Wille des Kaisers"
+    }
+  },
+  "raidheartoffear": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Heart of Fear",
+      "de-DE": "Das Herz der Angst"
+    }
+  },
+  "raidheartoffear1": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Imperial Vizier Zor'lok",
+      "de-DE": "Kaiserlicher Wesir Zor'lok"
+    }
+  },
+  "raidheartoffear2": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Blade Lord Ta'yak",
+      "de-DE": "Klingenfürst Ta'yak"
+    }
+  },
+  "raidheartoffear3": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Garalon",
+      "de-DE": "Garalon"
+    }
+  },
+  "raidheartoffear4": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Wind Lord Mel'jarak",
+      "de-DE": "Windfürst Mel'jarak"
+    }
+  },
+  "raidheartoffear5": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Amber-Shaper Un'sok",
+      "de-DE": "Bernformer Un'sok"
+    }
+  },
+  "raidheartoffear6": {
+    "image": "heartoffear.png",
+    "color": "#DB5052",
+    "label": {
+      "en-US": "Grand Empress Shek'zeer",
+      "de-DE": "Großkaiserin Shek'zeer"
+    }
+  },
+  "raidterraceofendlessspring": {
+    "image": "terraceofendlessspring.png",
+    "color": "#BD7FCC",
+    "label": {
+      "en-US": "Terrace of Endless Spring",
+      "de-DE": "Terrasse d. Endlosen Frühlings"
+    }
+  },
+  "raidterraceofendlessspring1": {
+    "image": "terraceofendlessspring.png",
+    "color": "#BD7FCC",
+    "label": {
+      "en-US": "Protectors of the Endless",
+      "de-DE": "Beschützer des Endlosen"
+    }
+  },
+  "raidterraceofendlessspring2": {
+    "image": "terraceofendlessspring.png",
+    "color": "#BD7FCC",
+    "label": {
+      "en-US": "Tsulong",
+      "de-DE": "Tsulong"
+    }
+  },
+  "raidterraceofendlessspring3": {
+    "image": "terraceofendlessspring.png",
+    "color": "#BD7FCC",
+    "label": {
+      "en-US": "Lei Shi",
+      "de-DE": "Lei Shi"
+    }
+  },
+  "raidterraceofendlessspring4": {
+    "image": "terraceofendlessspring.png",
+    "color": "#BD7FCC",
+    "label": {
+      "en-US": "Sha of Fear",
+      "de-DE": "Sha der Angst"
+    }
+  },
+  "raidthroneofthunder": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Throne of Thunder",
+      "de-DE": "Thron des Donners"
+    }
+  },
+  "raidthroneofthunder1": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Jin'rokh the Breaker",
+      "de-DE": "Jin'rokh der Zerstörer"
+    }
+  },
+  "raidthroneofthunder2": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Horridon",
+      "de-DE": "Horridon"
+    }
+  },
+  "raidthroneofthunder3": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Council of Elders",
+      "de-DE": "Rat der Ältesten"
+    }
+  },
+  "raidthroneofthunder4": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Tortos",
+      "de-DE": "Tortos"
+    }
+  },
+  "raidthroneofthunder5": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Megaera",
+      "de-DE": "Megaera"
+    }
+  },
+  "raidthroneofthunder6": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Ji-Kun",
+      "de-DE": "Ji-Kun"
+    }
+  },
+  "raidthroneofthunder7": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Durumu the Forgotten",
+      "de-DE": "Durumu der Vergessene"
+    }
+  },
+  "raidthroneofthunder8": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Primordius",
+      "de-DE": "Primordius"
+    }
+  },
+  "raidthroneofthunder9": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Dark Animus",
+      "de-DE": "Dunkler Animus"
+    }
+  },
+  "raidthroneofthunder10": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Iron Qon",
+      "de-DE": "Der eiserne Qon"
+    }
+  },
+  "raidthroneofthunder11": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Twin Empyreans",
+      "de-DE": "Zwillingsempyreanerinnen"
+    }
+  },
+  "raidthroneofthunder12": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Lei Shen",
+      "de-DE": "Lei Shen"
+    }
+  },
+  "raidthroneofthunder13": {
+    "image": "throneofthunder.png",
+    "color": "#5459F7",
+    "label": {
+      "en-US": "Ra-den",
+      "de-DE": "Ra-den"
+    }
+  },
+  "raidsiegeoforgrimmar": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Siege of Orgrimmar",
+      "de-DE": "Schlacht um Orgrimmar"
+    }
+  },
+  "raidsiegeoforgrimmar1": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Immerseus",
+      "de-DE": "Immerseus"
+    }
+  },
+  "raidsiegeoforgrimmar2": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "The Fallen Protectors",
+      "de-DE": "Die gefallenen Beschützer"
+    }
+  },
+  "raidsiegeoforgrimmar3": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Norushen",
+      "de-DE": "Norushen"
+    }
+  },
+  "raidsiegeoforgrimmar4": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Sha of Pride",
+      "de-DE": "Sha des Stolzes"
+    }
+  },
+  "raidsiegeoforgrimmar5": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Galakras",
+      "de-DE": "Galakras"
+    }
+  },
+  "raidsiegeoforgrimmar6": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Iron Juggernaut",
+      "de-DE": "Eiserner Koloss"
+    }
+  },
+  "raidsiegeoforgrimmar7": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Kor'kron Dark Shaman",
+      "de-DE": "Dunkelschamanen der Kor'kron"
+    }
+  },
+  "raidsiegeoforgrimmar8": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "General Nazgrim",
+      "de-DE": "General Nazgrim"
+    }
+  },
+  "raidsiegeoforgrimmar9": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Malkorok",
+      "de-DE": "Malkorok"
+    }
+  },
+  "raidsiegeoforgrimmar10": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Spoils of Pandaria",
+      "de-DE": "Die Schätze Pandarias"
+    }
+  },
+  "raidsiegeoforgrimmar11": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Thok the Bloodthirsty",
+      "de-DE": "Thok der Blutrünstige"
+    }
+  },
+  "raidsiegeoforgrimmar12": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Siegecrafter Blackfuse",
+      "de-DE": "Belagerungsingenieur Rußschmied"
+    }
+  },
+  "raidsiegeoforgrimmar13": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Paragons of the Klaxxi",
+      "de-DE": "Die Getreuen der Klaxxi"
+    }
+  },
+  "raidsiegeoforgrimmar14": {
+    "image": "siegeoforgrimmar.png",
+    "color": "#E65B26",
+    "label": {
+      "en-US": "Garrosh Hellscream",
+      "de-DE": "Garrosh Höllschrei"
+    }
+  },
+  "mopdungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Mists of Pandaria Dungeons",
+      "de-DE": "Mists of Pandaria Dungeons"
+    }
+  },
+  "mopdungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Gate of the Setting Sun",
+      "de-DE": "Tor der Untergehenden Sonne"
+    }
+  },
+  "mopdungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Mogu'shan Palace",
+      "de-DE": "Mogu'shanpalast"
+    }
+  },
+  "mopdungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Scarlet Halls",
+      "de-DE": "Scharlachrote Hallen"
+    }
+  },
+  "mopdungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Scarlet Monastery",
+      "de-DE": "Das Scharlachrote Kloster"
+    }
+  },
+  "mopdungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Scholomance",
+      "de-DE": "Scholomance"
+    }
+  },
+  "mopdungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shado-Pan Monastery",
+      "de-DE": "Das Shado-Pan-Kloster"
+    }
+  },
+  "mopdungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Siege of Niuzao Temple",
+      "de-DE": "Belagerung des Niuzaotempels"
+    }
+  },
+  "mopdungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Stormstout Brewery",
+      "de-DE": "Die Brauerei Sturmbräu"
+    }
+  },
+  "mopdungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Temple of the Jade Serpent",
+      "de-DE": "Tempel der Jadeschlange"
+    }
+  },
+  "raidsw": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "Sunwell Plateau",
+      "de-DE": "Sonnenbrunnenplateau"
+    }
+  },
+  "raidsw1": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "Kalecgos",
+      "de-DE": "Kalecgos"
+    }
+  },
+  "raidsw2": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "Brutallus",
+      "de-DE": "Brutallus"
+    }
+  },
+  "raidsw3": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "Felmyst",
+      "de-DE": "Teufelsruch"
+    }
+  },
+  "raidsw4": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "The Eredar Twins",
+      "de-DE": "Die Eredarzwillinge"
+    }
+  },
+  "raidsw5": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "M'uru",
+      "de-DE": "M'uru"
+    }
+  },
+  "raidsw6": {
+    "image": "sunwell.png",
+    "color": "#02FFEA",
+    "label": {
+      "en-US": "Kil'jaeden",
+      "de-DE": "Kil'jaeden"
+    }
+  },
+  "raidbt": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Black Temple",
+      "de-DE": "Der Schwarze Tempel"
+    }
+  },
+  "raidbt1": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "High Warlord Naj'entus",
+      "de-DE": "Oberster Kriegsfürst Naj'entus"
+    }
+  },
+  "raidbt2": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Supremus",
+      "de-DE": "Supremus"
+    }
+  },
+  "raidbt3": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Shade of Akama",
+      "de-DE": "Akamas Schemen"
+    }
+  },
+  "raidbt4": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Teron Gorefiend",
+      "de-DE": "Teron Blutschatten"
+    }
+  },
+  "raidbt5": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Gurtogg Bloodboil",
+      "de-DE": "Gurtogg Siedeblut"
+    }
+  },
+  "raidbt6": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Reliquary of Souls",
+      "de-DE": "Reliquiar der Seelen"
+    }
+  },
+  "raidbt7": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Mother Shahraz",
+      "de-DE": "Mutter Shahraz"
+    }
+  },
+  "raidbt8": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "The Illidari Council",
+      "de-DE": "Der Rat der Illidari"
+    }
+  },
+  "raidbt9": {
+    "image": "blacktemple.png",
+    "color": "#09AD02",
+    "label": {
+      "en-US": "Illidan Stormrage",
+      "de-DE": "Illidan Sturmgrimm"
+    }
+  },
+  "raidmthyjal": {
+    "image": "mthyjal.png",
+    "color": "#FF492D",
+    "label": {
+      "en-US": "The Battle for Mount Hyjal",
+      "de-DE": "Die Schlacht um den Hyjal"
+    }
+  },
+  "raidmthyjal1": {
+    "image": "mthyjal.png",
+    "color": "#FF492D",
+    "label": {
+      "en-US": "Rage Winterchill",
+      "de-DE": "Furor Winterfrost"
+    }
+  },
+  "raidmthyjal2": {
+    "image": "mthyjal.png",
+    "color": "#FF492D",
+    "label": {
+      "en-US": "Anetheron",
+      "de-DE": "Anetheron"
+    }
+  },
+  "raidmthyjal3": {
+    "image": "mthyjal.png",
+    "color": "#FF492D",
+    "label": {
+      "en-US": "Kaz'rogal",
+      "de-DE": "Kaz'rogal"
+    }
+  },
+  "raidmthyjal4": {
+    "image": "mthyjal.png",
+    "color": "#FF492D",
+    "label": {
+      "en-US": "Azgalor",
+      "de-DE": "Azgalor"
+    }
+  },
+  "raidmthyjal5": {
+    "image": "mthyjal.png",
+    "color": "#FF492D",
+    "label": {
+      "en-US": "Archimonde",
+      "de-DE": "Archimonde"
+    }
+  },
+  "raidzulaman": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Zul'Aman",
+      "de-DE": "Zul'Aman"
+    }
+  },
+  "raidzulaman1": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Akil'zon",
+      "de-DE": "Akil'zon"
+    }
+  },
+  "raidzulaman2": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Nalorakk",
+      "de-DE": "Nalorakk"
+    }
+  },
+  "raidzulaman3": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Jan'alai",
+      "de-DE": "Jan'alai"
+    }
+  },
+  "raidzulaman4": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Halazzi",
+      "de-DE": "Halazzi"
+    }
+  },
+  "raidzulaman5": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Hex Lord Malacrass",
+      "de-DE": "Hexlord Malacrass"
+    }
+  },
+  "raidzulaman6": {
+    "image": "zulaman.png",
+    "color": "#DEA57D",
+    "label": {
+      "en-US": "Daakara",
+      "de-DE": "Daakara"
+    }
+  },
+  "raidssc": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "Serpentshrine Cavern",
+      "de-DE": "Höhle des Schlangenschreins"
+    }
+  },
+  "raidssc1": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "Hydross the Unstable",
+      "de-DE": "Hydross der Unstete"
+    }
+  },
+  "raidssc2": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "The Lurker Below",
+      "de-DE": "Das Grauen aus der Tiefe"
+    }
+  },
+  "raidssc3": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "Leotheras the Blind",
+      "de-DE": "Leotheras der Blinde"
+    }
+  },
+  "raidssc4": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "Fathom-Lord Karathress",
+      "de-DE": "Tiefenlord Karathress"
+    }
+  },
+  "raidssc5": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "Morogrim Tidewalker",
+      "de-DE": "Morogrim Gezeitenwandler"
+    }
+  },
+  "raidssc6": {
+    "image": "serpentshrine.png",
+    "color": "#48FF98",
+    "label": {
+      "en-US": "Lady Vashj",
+      "de-DE": "Lady Vashj"
+    }
+  },
+  "raidtk": {
+    "image": "tempestkeep.png",
+    "color": "#FF2DC8",
+    "label": {
+      "en-US": "The Eye",
+      "de-DE": "Das Auge"
+    }
+  },
+  "raidtk2": {
+    "image": "tempestkeep.png",
+    "color": "#FF2DC8",
+    "label": {
+      "en-US": "Al'ar",
+      "de-DE": "Al'ar"
+    }
+  },
+  "raidtk1": {
+    "image": "tempestkeep.png",
+    "color": "#FF2DC8",
+    "label": {
+      "en-US": "Void Reaver",
+      "de-DE": "Leerhäscher"
+    }
+  },
+  "raidtk3": {
+    "image": "tempestkeep.png",
+    "color": "#FF2DC8",
+    "label": {
+      "en-US": "High Astromancer Solarian",
+      "de-DE": "Hochastromantin Solarian"
+    }
+  },
+  "raidtk4": {
+    "image": "tempestkeep.png",
+    "color": "#FF2DC8",
+    "label": {
+      "en-US": "Kael'thas Sunstrider",
+      "de-DE": "Kael'thas Sonnenwanderer"
+    }
+  },
+  "raidgruul": {
+    "image": "gruul.png",
+    "color": "#FF8748",
+    "label": {
+      "en-US": "Lairs of Giants",
+      "de-DE": null
+    }
+  },
+  "raidgruul1": {
+    "image": "gruul.png",
+    "color": "#FF8748",
+    "label": {
+      "en-US": "High King Maulgar",
+      "de-DE": "Hochkönig Maulgar"
+    }
+  },
+  "raidgruul2": {
+    "image": "gruul.png",
+    "color": "#FF8748",
+    "label": {
+      "en-US": "Gruul the Dragonkiller",
+      "de-DE": "Gruul der Drachenschlächter"
+    }
+  },
+  "raidgruul3": {
+    "image": "gruul.png",
+    "color": "#FF8748",
+    "label": {
+      "en-US": "Magtheridon",
+      "de-DE": "Magtheridon"
+    }
+  },
+  "raidkarazhan": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Karazhan",
+      "de-DE": "Karazhan"
+    }
+  },
+  "raidkarazhan1": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Attumen the Huntsman",
+      "de-DE": "Attumen der Jäger"
+    }
+  },
+  "raidkarazhan2": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Moroes",
+      "de-DE": "Moroes"
+    }
+  },
+  "raidkarazhan3": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Maiden of Virtue",
+      "de-DE": "Tugendhafte Maid"
+    }
+  },
+  "raidkarazhan4a": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Wizard of Oz",
+      "de-DE": null
+    }
+  },
+  "raidkarazhan4b": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "The Big Bad Wolf",
+      "de-DE": null
+    }
+  },
+  "raidkarazhan4c": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Romulo & Julianne",
+      "de-DE": null
+    }
+  },
+  "raidkarazhan5": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "The Curator",
+      "de-DE": "Der Kurator"
+    }
+  },
+  "raidkarazhan6": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Chess Event",
+      "de-DE": "Das Schachspiel"
+    }
+  },
+  "raidkarazhan7": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Terestian Illhoof",
+      "de-DE": "Terestian Siechhuf"
+    }
+  },
+  "raidkarazhan8": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Shade of Aran",
+      "de-DE": "Arans Schemen"
+    }
+  },
+  "raidkarazhan9": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Netherspite",
+      "de-DE": "Nethergroll"
+    }
+  },
+  "raidkarazhan10": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Nightbane",
+      "de-DE": null
+    }
+  },
+  "raidkarazhan11": {
+    "image": "karazhan.png",
+    "color": "#48BAFF",
+    "label": {
+      "en-US": "Prince Malchezaar",
+      "de-DE": "Prinz Malchezaar"
+    }
+  },
+  "tbcdungeon": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "TBC Dungeons",
+      "de-DE": "TBC Dungeons"
+    }
+  },
+  "tbcdungeon1": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Hellfire Ramparts",
+      "de-DE": "Höllenfeuerbollwerk"
+    }
+  },
+  "tbcdungeon2": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Blood Furnace",
+      "de-DE": "Der Blutkessel"
+    }
+  },
+  "tbcdungeon3": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Shattered Halls",
+      "de-DE": "Die Zerschmetterten Hallen"
+    }
+  },
+  "tbcdungeon4": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Slave Pens",
+      "de-DE": "Die Sklavenunterkünfte"
+    }
+  },
+  "tbcdungeon5": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Underbog",
+      "de-DE": "Der Tiefensumpf"
+    }
+  },
+  "tbcdungeon6": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Steamvault",
+      "de-DE": "Die Dampfkammer"
+    }
+  },
+  "tbcdungeon7": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Mana-Tombs",
+      "de-DE": "Managruft"
+    }
+  },
+  "tbcdungeon8": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Auchenai Crypts",
+      "de-DE": "Auchenaikrypta"
+    }
+  },
+  "tbcdungeon9": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Sethekk Halls",
+      "de-DE": "Sethekkhallen"
+    }
+  },
+  "tbcdungeon10": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shadow Labyrinth",
+      "de-DE": "Schattenlabyrinth"
+    }
+  },
+  "tbcdungeon11": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Mechanar",
+      "de-DE": "Die Mechanar"
+    }
+  },
+  "tbcdungeon12": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Botanica",
+      "de-DE": "Die Botanika"
+    }
+  },
+  "tbcdungeon13": {
+    "image": "dungeontbc.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Magisters' Terrace",
+      "de-DE": "Terrasse der Magister"
+    }
+  },
+  "sod": {
+    "image": "sod.png",
+    "color": "#50E3C2",
+    "label": {
+      "en-US": "Season of Discovery",
+      "de-DE": "Season of Discovery"
+    }
+  },
+  "sod-scarletenclave": {
+    "image": "sod.png",
+    "color": "#50E3C2",
+    "label": {
+      "en-US": "Scarlet Enclave",
+      "de-DE": "Scarlet Enclave"
+    }
+  },
+  "sod-runeengraving": {
+    "image": "sod.png",
+    "color": "#50E3C2",
+    "label": {
+      "en-US": "Rune Engraving",
+      "de-DE": "Rune Engraving"
+    }
+  },
+  "raidnaxxramas": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Naxxramas",
+      "de-DE": "Naxxramas"
+    }
+  },
+  "raidnaxxramas1": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Anub'Rekhan",
+      "de-DE": "Anub'Rekhan"
+    }
+  },
+  "raidnaxxramas2": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Grand Widow Faerlina",
+      "de-DE": "Großwitwe Faerlina"
+    }
+  },
+  "raidnaxxramas3": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Maexxna",
+      "de-DE": "Maexxna"
+    }
+  },
+  "raidnaxxramas4": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Noth the Plaguebringer",
+      "de-DE": "Noth der Seuchenfürst"
+    }
+  },
+  "raidnaxxramas5": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Heigan the Unclean",
+      "de-DE": "Heigan der Unreine"
+    }
+  },
+  "raidnaxxramas6": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Loatheb",
+      "de-DE": "Loatheb"
+    }
+  },
+  "raidnaxxramas7": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Patchwerk",
+      "de-DE": "Flickwerk"
+    }
+  },
+  "raidnaxxramas8": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Grobbulus",
+      "de-DE": "Grobbulus"
+    }
+  },
+  "raidnaxxramas9": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Gluth",
+      "de-DE": "Gluth"
+    }
+  },
+  "raidnaxxramas10": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Thaddius",
+      "de-DE": "Thaddius"
+    }
+  },
+  "raidnaxxramas11": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Instructor Razuvious",
+      "de-DE": "Instrukteur Razuvious"
+    }
+  },
+  "raidnaxxramas12": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Gothik the Harvester",
+      "de-DE": "Gothik der Ernter"
+    }
+  },
+  "raidnaxxramas13": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "The Four Horsemen",
+      "de-DE": "Die Vier Reiter"
+    }
+  },
+  "raidnaxxramas14": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Sapphiron",
+      "de-DE": "Saphiron"
+    }
+  },
+  "raidnaxxramas15": {
+    "image": "naxxramas.png",
+    "color": "#B3ACAC",
+    "label": {
+      "en-US": "Kel'Thuzad",
+      "de-DE": "Kel'Thuzad"
+    }
+  },
+  "raidtempleaq": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Temple of Ahn'Qiraj",
+      "de-DE": "Tempel von Ahn'Qiraj"
+    }
+  },
+  "raidtempleaq1": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "The Prophet Skeram",
+      "de-DE": "Der Prophet Skeram"
+    }
+  },
+  "raidtempleaq2": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Silithid Royalty",
+      "de-DE": "Adel der Silithiden"
+    }
+  },
+  "raidtempleaq3": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Battleguard Sartura",
+      "de-DE": "Schlachtwache Sartura"
+    }
+  },
+  "raidtempleaq4": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Fankriss the Unyielding",
+      "de-DE": "Fankriss der Unnachgiebige"
+    }
+  },
+  "raidtempleaq5": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Viscidus",
+      "de-DE": "Viscidus"
+    }
+  },
+  "raidtempleaq6": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Princess Huhuran",
+      "de-DE": "Prinzessin Huhuran"
+    }
+  },
+  "raidtempleaq7": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "The Twin Emperors",
+      "de-DE": "Die Zwillingsimperatoren"
+    }
+  },
+  "raidtempleaq8": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "Ouro",
+      "de-DE": "Ouro"
+    }
+  },
+  "raidtempleaq9": {
+    "image": "aq40.png",
+    "color": "#DF86B2",
+    "label": {
+      "en-US": "C'Thun",
+      "de-DE": "C'Thun"
+    }
+  },
+  "raidruinsaq": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "Ruins of Ahn'Qiraj",
+      "de-DE": "Ruinen von Ahn'Qiraj"
+    }
+  },
+  "raidruinsaq1": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "Kurinnaxx",
+      "de-DE": "Kurinnaxx"
+    }
+  },
+  "raidruinsaq2": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "General Rajaxx",
+      "de-DE": "General Rajaxx"
+    }
+  },
+  "raidruinsaq3": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "Moam",
+      "de-DE": "Moam"
+    }
+  },
+  "raidruinsaq4": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "Buru the Gorger",
+      "de-DE": "Buru der Verschlinger"
+    }
+  },
+  "raidruinsaq5": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "Ayamiss the Hunter",
+      "de-DE": "Ayamiss die Jägerin"
+    }
+  },
+  "raidruinsaq6": {
+    "image": "aq20.png",
+    "color": "#00EE7A",
+    "label": {
+      "en-US": "Ossirian the Unscarred",
+      "de-DE": "Ossirian der Narbenlose"
+    }
+  },
+  "raidzulgurub": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "Zul'Gurub",
+      "de-DE": "Zul'Gurub"
+    }
+  },
+  "raidzulgurub2": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "High Priestess Jeklik",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub1": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "High Priest Venoxis",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub3": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "High Priestess Mar'li",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub6": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "Bloodlord Mandokir",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub7": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "Edge of Madness",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub4": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "High Priest Thekal",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub8": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "Gahz'ranka",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub5": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "High Priestess Arlokk",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub9": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "Jin'do the Hexer",
+      "de-DE": null
+    }
+  },
+  "raidzulgurub10": {
+    "image": "zulgurub.png",
+    "color": "#B8FF25",
+    "label": {
+      "en-US": "Hakkar",
+      "de-DE": null
+    }
+  },
+  "raidblackwinglair": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Blackwing Lair",
+      "de-DE": "Pechschwingenhort"
+    }
+  },
+  "raidblackwinglair1": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Razorgore the Untamed",
+      "de-DE": "Feuerkralle der Ungezähmte"
+    }
+  },
+  "raidblackwinglair2": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Vaelastrasz the Corrupt",
+      "de-DE": "Vaelastrasz der Verdorbene"
+    }
+  },
+  "raidblackwinglair3": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Broodlord Lashlayer",
+      "de-DE": "Brutwächter Dreschbringer"
+    }
+  },
+  "raidblackwinglair4": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Firemaw",
+      "de-DE": "Feuerschwinge"
+    }
+  },
+  "raidblackwinglair5": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Ebonroc",
+      "de-DE": "Schattenschwinge"
+    }
+  },
+  "raidblackwinglair6": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Flamegor",
+      "de-DE": "Flammenmaul"
+    }
+  },
+  "raidblackwinglair7": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Chromaggus",
+      "de-DE": "Chromaggus"
+    }
+  },
+  "raidblackwinglair8": {
+    "image": "blackwinglair.png",
+    "color": "#007AEE",
+    "label": {
+      "en-US": "Nefarian",
+      "de-DE": "Nefarian"
+    }
+  },
+  "raidmoltencore": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Molten Core",
+      "de-DE": "Der Geschmolzene Kern"
+    }
+  },
+  "raidmoltencore1": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Lucifron",
+      "de-DE": "Lucifron"
+    }
+  },
+  "raidmoltencore2": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Magmadar",
+      "de-DE": "Magmadar"
+    }
+  },
+  "raidmoltencore3": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Gehennas",
+      "de-DE": "Gehennas"
+    }
+  },
+  "raidmoltencore4": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Garr",
+      "de-DE": "Garr"
+    }
+  },
+  "raidmoltencore5": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Shazzrah",
+      "de-DE": "Shazzrah"
+    }
+  },
+  "raidmoltencore6": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Baron Geddon",
+      "de-DE": "Baron Geddon"
+    }
+  },
+  "raidmoltencore7": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Golemagg the Incinerator",
+      "de-DE": "Golemagg der Verbrenner"
+    }
+  },
+  "raidmoltencore8": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Sulfuron Harbinger",
+      "de-DE": "Sulfuronherold"
+    }
+  },
+  "raidmoltencore9": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Majordomo Executus",
+      "de-DE": "Majordomus Exekutus"
+    }
+  },
+  "raidmoltencore10": {
+    "image": "moltencore.png",
+    "color": "#F6921A",
+    "label": {
+      "en-US": "Ragnaros",
+      "de-DE": "Ragnaros"
+    }
+  },
+  "raidworld": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Single Bosses",
+      "de-DE": "Single Bosses"
+    }
+  },
+  "raidworld1": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Onyxia",
+      "de-DE": "Onyxia"
+    }
+  },
+  "raidworld2": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Azuregos",
+      "de-DE": null
+    }
+  },
+  "raidworld3": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Lord Kazzak",
+      "de-DE": null
+    }
+  },
+  "raidworld4": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Lethon",
+      "de-DE": null
+    }
+  },
+  "raidworld5": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Emeriss",
+      "de-DE": null
+    }
+  },
+  "raidworld6": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Taerar",
+      "de-DE": null
+    }
+  },
+  "raidworld7": {
+    "image": "worldboss.png",
+    "color": "#CC0DBC",
+    "label": {
+      "en-US": "Ysondre",
+      "de-DE": null
+    }
+  },
+  "classicdungeon": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Classic Dungeons",
+      "de-DE": "Classic Dungeons"
+    }
+  },
+  "classicdungeon1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ragefire Chasm",
+      "de-DE": "Der Flammenschlund"
+    }
+  },
+  "classicdungeon2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Wailing Caverns",
+      "de-DE": "Höhlen des Wehklagens"
+    }
+  },
+  "classicdungeon3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Deadmines",
+      "de-DE": "Todesminen"
+    }
+  },
+  "classicdungeon4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Shadowfang Keep",
+      "de-DE": "Burg Schattenfang"
+    }
+  },
+  "classicdungeon5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Blackfathom Deeps",
+      "de-DE": "Tiefschwarze Grotte"
+    }
+  },
+  "classicdungeon6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Stockade",
+      "de-DE": "Das Verlies"
+    }
+  },
+  "classicdungeon7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Gnomeregan",
+      "de-DE": "Gnomeregan"
+    }
+  },
+  "classicdungeon8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Razorfen Kraul",
+      "de-DE": "Kral der Klingenhauer"
+    }
+  },
+  "classicdungeon9": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Scarlet Monastery",
+      "de-DE": "Das Scharlachrote Kloster"
+    }
+  },
+  "classicdungeon10": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Razorfen Downs",
+      "de-DE": "Hügel der Klingenhauer"
+    }
+  },
+  "classicdungeon11": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Uldaman",
+      "de-DE": "Uldaman"
+    }
+  },
+  "classicdungeon12": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Zul'Farrak",
+      "de-DE": "Zul'Farrak"
+    }
+  },
+  "classicdungeon13": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Maraudon",
+      "de-DE": "Maraudon"
+    }
+  },
+  "classicdungeon14": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Temple of Atal'hakkar",
+      "de-DE": "Der Tempel von Atal'Hakkar"
+    }
+  },
+  "classicdungeon15": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Blackrock Depths",
+      "de-DE": "Schwarzfelstiefen"
+    }
+  },
+  "classicdungeon16": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Blackrock Spire",
+      "de-DE": null
+    }
+  },
+  "classicdungeon17": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Dire Maul - Capital Gardens",
+      "de-DE": "Düsterbruch - Hauptstadtgärten"
+    }
+  },
+  "classicdungeon18": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Stratholme - Main Gate",
+      "de-DE": "Stratholme - Haupttor"
+    }
+  },
+  "classicdungeon19": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Scholomance",
+      "de-DE": "Scholomance"
+    }
+  },
+  "torghast": {
+    "image": "torghast.png",
+    "color": "#D80143",
+    "label": {
+      "en-US": "Torghast, Tower of the Damned",
+      "de-DE": null
+    }
+  },
+  "torghast1": {
+    "image": "torghast.png",
+    "color": "#D80143",
+    "label": {
+      "en-US": "Encounters",
+      "de-DE": "Encounters"
+    }
+  },
+  "torghast2": {
+    "image": "torghast.png",
+    "color": "#D80143",
+    "label": {
+      "en-US": "Anima",
+      "de-DE": "Anima"
+    }
+  },
+  "pvp": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "PvP",
+      "de-DE": "PvP"
+    }
+  },
+  "arena": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "Arena",
+      "de-DE": "Arena"
+    }
+  },
+  "bg": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "Battlegrounds",
+      "de-DE": "Battlegrounds"
+    }
+  },
+  "wpvp": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "World PvP",
+      "de-DE": "World PvP"
+    }
+  },
+  "wpvp1": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "Duels",
+      "de-DE": "Duels"
+    }
+  },
+  "wintergrasp": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "Wintergrasp",
+      "de-DE": "Wintergrasp"
+    }
+  },
+  "tolbarad": {
+    "image": "pvp.png",
+    "color": "#ed1b24",
+    "label": {
+      "en-US": "Tol Barad",
+      "de-DE": "Tol Barad"
+    }
+  },
+  "prof1": {
+    "image": "gathering.png",
+    "color": "#5E63B8",
+    "label": {
+      "en-US": "Gathering Professions",
+      "de-DE": "Gathering Professions"
+    }
+  },
+  "prof2": {
+    "image": "gathering.png",
+    "color": "#5E63B8",
+    "label": {
+      "en-US": "Herbalism",
+      "de-DE": "Kräuterkunde"
+    }
+  },
+  "prof3": {
+    "image": "gathering.png",
+    "color": "#5E63B8",
+    "label": {
+      "en-US": "Mining",
+      "de-DE": "Bergbau"
+    }
+  },
+  "prof4": {
+    "image": "gathering.png",
+    "color": "#5E63B8",
+    "label": {
+      "en-US": "Skinning",
+      "de-DE": "Kürschnerei"
+    }
+  },
+  "prof5": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Crafting Professions",
+      "de-DE": "Crafting Professions"
+    }
+  },
+  "prof6": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Alchemy",
+      "de-DE": "Alchemie"
+    }
+  },
+  "prof7": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Blacksmithing",
+      "de-DE": "Schmiedekunst"
+    }
+  },
+  "prof8": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Enchanting",
+      "de-DE": "Verzauberkunst"
+    }
+  },
+  "prof9": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Engineering",
+      "de-DE": "Ingenieurskunst"
+    }
+  },
+  "prof10": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Inscription",
+      "de-DE": "Inschriftenkunde"
+    }
+  },
+  "prof11": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Jewelcrafting",
+      "de-DE": "Juwelierskunst"
+    }
+  },
+  "prof12": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Leatherworking",
+      "de-DE": "Lederverarbeitung"
+    }
+  },
+  "prof13": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Tailoring",
+      "de-DE": "Schneiderei"
+    }
+  },
+  "prof14": {
+    "image": "secondaryprof.png",
+    "color": "#C4C4C4",
+    "label": {
+      "en-US": "Secondary Professions",
+      "de-DE": "Secondary Professions"
+    }
+  },
+  "prof15": {
+    "image": "secondaryprof.png",
+    "color": "#C4C4C4",
+    "label": {
+      "en-US": "Archaeology",
+      "de-DE": "Archäologie"
+    }
+  },
+  "prof16": {
+    "image": "secondaryprof.png",
+    "color": "#C4C4C4",
+    "label": {
+      "en-US": "Cooking",
+      "de-DE": "Kochkunst"
+    }
+  },
+  "prof17": {
+    "image": "secondaryprof.png",
+    "color": "#C4C4C4",
+    "label": {
+      "en-US": "First Aid",
+      "de-DE": "Erste Hilfe"
+    }
+  },
+  "prof18": {
+    "image": "secondaryprof.png",
+    "color": "#C4C4C4",
+    "label": {
+      "en-US": "Fishing",
+      "de-DE": "Angeln"
+    }
+  },
+  "gen5": {
+    "image": "development.png",
+    "color": "#D27B61",
+    "label": {
+      "en-US": "Development",
+      "de-DE": "Development"
+    }
+  },
+  "gen3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Testing",
+      "de-DE": "Testing"
+    }
+  },
+  "gen4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "WA Training",
+      "de-DE": "WA Training"
+    }
+  },
+  "mdtdun15": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Atal'Dazar",
+      "de-DE": null
+    }
+  },
+  "mdtdun16": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Freehold",
+      "de-DE": null
+    }
+  },
+  "mdtdun16-crew2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Bilge Rats Crew",
+      "de-DE": "Bilge Rats Crew"
+    }
+  },
+  "mdtdun16-crew1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Blacktooth Crew",
+      "de-DE": "Blacktooth Crew"
+    }
+  },
+  "mdtdun16-crew3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Cutwater Crew",
+      "de-DE": "Cutwater Crew"
+    }
+  },
+  "mdtdun17": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Kings' Rest",
+      "de-DE": null
+    }
+  },
+  "mdtdun18": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Shrine of the Storm",
+      "de-DE": null
+    }
+  },
+  "mdtdun19": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Siege of Boralus",
+      "de-DE": null
+    }
+  },
+  "mdtdun19-faction2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Alliance",
+      "de-DE": "Alliance"
+    }
+  },
+  "mdtdun19-faction1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Horde",
+      "de-DE": "Horde"
+    }
+  },
+  "mdtdun20": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Temple of Sethraliss",
+      "de-DE": null
+    }
+  },
+  "mdtdun21": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "The MOTHERLODE!!",
+      "de-DE": null
+    }
+  },
+  "mdtdun22": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "The Underrot",
+      "de-DE": null
+    }
+  },
+  "mdtdun23": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Tol Dagor",
+      "de-DE": null
+    }
+  },
+  "mdtdun24": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Waycrest Manor",
+      "de-DE": null
+    }
+  },
+  "mdtdun25": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Mechagon Junkyard",
+      "de-DE": null
+    }
+  },
+  "mdtdun26": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Mechagon Workshop",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun29": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "De Other Side",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun30": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Halls Of Attonement",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun31": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Mists Of Tirna Scithe",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun32": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Plaguefall",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun33": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Sanguine Depths",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun34": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Spires Of Ascension",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun35": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "The Necrotic Wake",
+      "de-DE": null
+    }
+  },
+  "mdt-sldun36": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Theater Of Pain",
+      "de-DE": null
+    }
+  },
+  "mdtaffix": {
+    "image": "affixes.png",
+    "color": "#ef2254",
+    "label": {
+      "en-US": "Affixes",
+      "de-DE": "Affixes"
+    }
+  },
+  "mdtaffix3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Volcanic",
+      "de-DE": "Vulkanisch"
+    }
+  },
+  "mdtaffix6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Raging",
+      "de-DE": "Wütend"
+    }
+  },
+  "mdtaffix7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Bolstering",
+      "de-DE": "Anstachelnd"
+    }
+  },
+  "mdtaffix8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Sanguine",
+      "de-DE": "Blutig"
+    }
+  },
+  "mdtaffix9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Tyrannical",
+      "de-DE": "Tyrannisch"
+    }
+  },
+  "mdtaffix10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Fortified",
+      "de-DE": "Fortified"
+    }
+  },
+  "mdtaffix11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Bursting",
+      "de-DE": "Platzend"
+    }
+  },
+  "mdtaffix134": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Entangling",
+      "de-DE": "Umschlingend"
+    }
+  },
+  "mdtaffix136": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Incorporeal",
+      "de-DE": "Unkörperlich"
+    }
+  },
+  "mdtaffix123": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Spiteful",
+      "de-DE": "Boshaft"
+    }
+  },
+  "mdtaffix124": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Storming",
+      "de-DE": "Stürmisch"
+    }
+  },
+  "mdtaffix-df-s3-w1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix-df-s3-w12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-]"
+    }
+  },
+  "mdtaffix2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Skittish",
+      "de-DE": "Skittish"
+    }
+  },
+  "mdtaffix4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Necrotic",
+      "de-DE": "Necrotic"
+    }
+  },
+  "mdtaffix5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Teeming",
+      "de-DE": "Teeming"
+    }
+  },
+  "mdtaffix12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Grievous",
+      "de-DE": "Grievous"
+    }
+  },
+  "mdtaffix13": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Explosive",
+      "de-DE": "Explosive"
+    }
+  },
+  "mdtaffix14": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Quaking",
+      "de-DE": "Quaking"
+    }
+  },
+  "mdtaffix16": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Infested",
+      "de-DE": "Infested"
+    }
+  },
+  "mdtaffix117": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Reaping",
+      "de-DE": "Reaping"
+    }
+  },
+  "mdtaffix119": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Beguiling",
+      "de-DE": "Beguiling"
+    }
+  },
+  "mdtaffix120": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Awakened",
+      "de-DE": "Awakened"
+    }
+  },
+  "mdtaffix121": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Prideful",
+      "de-DE": "Prideful"
+    }
+  },
+  "mdtaffix122": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Inspiring",
+      "de-DE": "Inspiring"
+    }
+  },
+  "mdtaffix-bfa-s1-w1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s1-w12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s2-w12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s3-w12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-bfa-s4-w12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w4": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w5": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w6": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w7": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w8": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w9": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w10": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w11": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtaffix-sl-s1-w12": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]",
+      "de-DE": "[-affix1-], [-affix2-], [-affix3-], [-affix4-]"
+    }
+  },
+  "mdtspeed": {
+    "image": "speed.png",
+    "color": "#42bce4",
+    "label": {
+      "en-US": "Speed",
+      "de-DE": "Speed"
+    }
+  },
+  "mdtspeed1": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Easy Going",
+      "de-DE": "Easy Going"
+    }
+  },
+  "mdtspeed2": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Gotta Go Fast",
+      "de-DE": "Gotta Go Fast"
+    }
+  },
+  "mdtspeed3": {
+    "image": null,
+    "color": null,
+    "label": {
+      "en-US": "Racing for #1",
+      "de-DE": "Racing for #1"
+    }
+  },
+  "mdtcl6": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Death Knight",
+      "de-DE": "Todesritter"
+    }
+  },
+  "mdtcl6-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Blood",
+      "de-DE": "Blut"
+    }
+  },
+  "mdtcl6-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Frost",
+      "de-DE": "Frost"
+    }
+  },
+  "mdtcl6-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Unholy",
+      "de-DE": "Unheilig"
+    }
+  },
+  "mdtcl12": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Demon Hunter",
+      "de-DE": "Dämonenjäger"
+    }
+  },
+  "mdtcl12-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Havoc",
+      "de-DE": "Verwüstung"
+    }
+  },
+  "mdtcl12-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Vengeance",
+      "de-DE": "Rachsucht"
+    }
+  },
+  "mdtcl11": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Druid",
+      "de-DE": "Druide"
+    }
+  },
+  "mdtcl11-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Balance",
+      "de-DE": "Gleichgewicht"
+    }
+  },
+  "mdtcl11-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Feral",
+      "de-DE": "Wildheit"
+    }
+  },
+  "mdtcl11-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Guardian",
+      "de-DE": "Wächter"
+    }
+  },
+  "mdtcl11-4": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Restoration",
+      "de-DE": "Wiederherstellung"
+    }
+  },
+  "mdtcl3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Hunter",
+      "de-DE": "Jäger"
+    }
+  },
+  "mdtcl3-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Beast Mastery",
+      "de-DE": "Tierherrschaft"
+    }
+  },
+  "mdtcl3-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Marksmanship",
+      "de-DE": "Treffsicherheit"
+    }
+  },
+  "mdtcl3-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Survival",
+      "de-DE": "Überleben"
+    }
+  },
+  "mdtcl8": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Mage",
+      "de-DE": "Magier"
+    }
+  },
+  "mdtcl8-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Arcane",
+      "de-DE": "Arkan"
+    }
+  },
+  "mdtcl8-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Fire",
+      "de-DE": "Feuer"
+    }
+  },
+  "mdtcl8-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Frost",
+      "de-DE": "Frost"
+    }
+  },
+  "mdtcl10": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Monk",
+      "de-DE": "Mönch"
+    }
+  },
+  "mdtcl10-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Brewmaster",
+      "de-DE": "Braumeister"
+    }
+  },
+  "mdtcl10-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Mistweaver",
+      "de-DE": "Nebelwirker"
+    }
+  },
+  "mdtcl10-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Windwalker",
+      "de-DE": "Windläufer"
+    }
+  },
+  "mdtcl2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Paladin",
+      "de-DE": "Paladin"
+    }
+  },
+  "mdtcl2-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Holy",
+      "de-DE": "Heilig"
+    }
+  },
+  "mdtcl2-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Protection",
+      "de-DE": "Schutz"
+    }
+  },
+  "mdtcl2-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Retribution",
+      "de-DE": "Vergeltung"
+    }
+  },
+  "mdtcl5": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Priest",
+      "de-DE": "Priester"
+    }
+  },
+  "mdtcl5-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Discipline",
+      "de-DE": "Disziplin"
+    }
+  },
+  "mdtcl5-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Holy",
+      "de-DE": "Heilig"
+    }
+  },
+  "mdtcl5-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Shadow",
+      "de-DE": "Schatten"
+    }
+  },
+  "mdtcl4": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Rogue",
+      "de-DE": "Schurke"
+    }
+  },
+  "mdtcl4-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Assassination",
+      "de-DE": "Meucheln"
+    }
+  },
+  "mdtcl4-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Outlaw",
+      "de-DE": "Gesetzlosigkeit"
+    }
+  },
+  "mdtcl4-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Subtlety",
+      "de-DE": "Täuschung"
+    }
+  },
+  "mdtcl7": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Shaman",
+      "de-DE": "Schamane"
+    }
+  },
+  "mdtcl7-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Elemental",
+      "de-DE": "Elementar"
+    }
+  },
+  "mdtcl7-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Enhancement",
+      "de-DE": "Verstärkung"
+    }
+  },
+  "mdtcl7-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Restoration",
+      "de-DE": "Wiederherstellung"
+    }
+  },
+  "mdtcl9": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Warlock",
+      "de-DE": "Hexenmeister"
+    }
+  },
+  "mdtcl9-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Affliction",
+      "de-DE": "Gebrechen"
+    }
+  },
+  "mdtcl9-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Demonology",
+      "de-DE": "Dämonologie"
+    }
+  },
+  "mdtcl9-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Destruction",
+      "de-DE": "Zerstörung"
+    }
+  },
+  "mdtcl1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Warrior",
+      "de-DE": "Krieger"
+    }
+  },
+  "mdtcl1-1": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Arms",
+      "de-DE": "Waffen"
+    }
+  },
+  "mdtcl1-2": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Fury",
+      "de-DE": "Furor"
+    }
+  },
+  "mdtcl1-3": {
+    "image": null,
+    "color": "#123456",
+    "label": {
+      "en-US": "Protection",
+      "de-DE": "Schutz"
+    }
+  },
+  "snip0": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Code Snippets",
+      "de-DE": "Code Snippets"
+    }
+  },
+  "snip1": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Libraries",
+      "de-DE": "Libraries"
+    }
+  },
+  "snip2": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Tutorials",
+      "de-DE": "Tutorials"
+    }
+  },
+  "opie1": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "Group Buffs",
+      "de-DE": "Group Buffs"
+    }
+  },
+  "opie2": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "Consumables",
+      "de-DE": "Consumables"
+    }
+  },
+  "opie3": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "Vehicles",
+      "de-DE": "Vehicles"
+    }
+  },
+  "opie4": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "Equipment",
+      "de-DE": "Equipment"
+    }
+  },
+  "opie5": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "Trinkets",
+      "de-DE": "Trinkets"
+    }
+  },
+  "opie6": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "Utility",
+      "de-DE": "Utility"
+    }
+  },
+  "macro0": {
+    "image": "macro.png",
+    "color": "#BA25BF",
+    "label": {
+      "en-US": "Utility",
+      "de-DE": "Utility"
+    }
+  },
+  "macro1": {
+    "image": "macro.png",
+    "color": "#BA25BF",
+    "label": {
+      "en-US": "Consumables",
+      "de-DE": "Consumables"
+    }
+  },
+  "macro2": {
+    "image": "macro.png",
+    "color": "#BA25BF",
+    "label": {
+      "en-US": "Vehicles",
+      "de-DE": "Vehicles"
+    }
+  },
+  "macro3": {
+    "image": "macro.png",
+    "color": "#BA25BF",
+    "label": {
+      "en-US": "Equipment",
+      "de-DE": "Equipment"
+    }
+  },
+  "macro4": {
+    "image": "crosshair.png",
+    "color": "#E0EAB9",
+    "label": {
+      "en-US": "Targeting",
+      "de-DE": "Targeting"
+    }
+  },
+  "macro5": {
+    "image": "crosshair.png",
+    "color": "#E0EAB9",
+    "label": {
+      "en-US": "Raids",
+      "de-DE": "Raids"
+    }
+  },
+  "macro6": {
+    "image": "crosshair.png",
+    "color": "#E0EAB9",
+    "label": {
+      "en-US": "Dungeons",
+      "de-DE": "Dungeons"
+    }
+  },
+  "plater1": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater Profiles",
+      "de-DE": "Plater Profiles"
+    }
+  },
+  "plater2": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater Scripts",
+      "de-DE": "Plater Scripts"
+    }
+  },
+  "plater3": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater Mods",
+      "de-DE": "Plater Mods"
+    }
+  },
+  "plater4": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater Animations",
+      "de-DE": "Plater Animations"
+    }
+  },
+  "plater5": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater NPC Colors",
+      "de-DE": "Plater NPC Colors"
+    }
+  },
+  "plater6": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater Cast Sounds",
+      "de-DE": "Plater Cast Sounds"
+    }
+  },
+  "plater7": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater Cast Colors",
+      "de-DE": "Plater Cast Colors"
+    }
+  },
+  "platerutilities": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Utilities",
+      "de-DE": "Utilities"
+    }
+  },
+  "platerdungeons": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Dungeons",
+      "de-DE": "Dungeons"
+    }
+  },
+  "platerraids": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Raids",
+      "de-DE": "Raids"
+    }
+  },
+  "platerpvp": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "PvP",
+      "de-DE": "PvP"
+    }
+  },
+  "platertorghast": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Torghast, Tower of the Damned",
+      "de-DE": null
+    }
+  },
+  "platernathria": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Castle Nathria",
+      "de-DE": "Schloss Nathria"
+    }
+  },
+  "platersanctumdominion": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Sanctum of Domination",
+      "de-DE": "Sanktum der Herrschaft"
+    }
+  },
+  "platerraidzuldazar": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Battle of Dazar'alor",
+      "de-DE": "Schlacht von Dazar'alor"
+    }
+  },
+  "platerraidcrucible": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Crucible of Storms",
+      "de-DE": "Tiegel der Stürme"
+    }
+  },
+  "platerraiduldir": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Uldir",
+      "de-DE": "Uldir"
+    }
+  },
+  "platerraideternalpalace": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "The Eternal Palace",
+      "de-DE": "Der Ewige Palast"
+    }
+  },
+  "platerraidnyalotha": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Ny'alotha, the Waking City",
+      "de-DE": "Ny'alotha, die Erwachte Stadt"
+    }
+  },
+  "totalrp1": {
+    "image": "trpcamp.png",
+    "color": "#C3793A",
+    "label": {
+      "en-US": "Campaigns",
+      "de-DE": "Campaigns"
+    }
+  },
+  "totalrp2": {
+    "image": "trpcamp.png",
+    "color": "#C3793A",
+    "label": {
+      "en-US": "Alliance Campaigns",
+      "de-DE": "Alliance Campaigns"
+    }
+  },
+  "totalrp3": {
+    "image": "trpcamp.png",
+    "color": "#C3793A",
+    "label": {
+      "en-US": "Horde Campaigns",
+      "de-DE": "Horde Campaigns"
+    }
+  },
+  "totalrp4": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Items",
+      "de-DE": "Items"
+    }
+  },
+  "totalrp6": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Containers",
+      "de-DE": "Containers"
+    }
+  },
+  "totalrp7": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Documents",
+      "de-DE": "Documents"
+    }
+  },
+  "totalrp8": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Equipment",
+      "de-DE": "Equipment"
+    }
+  },
+  "totalrp9": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Expert Mode",
+      "de-DE": "Expert Mode"
+    }
+  },
+  "totalrp10": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Normal Mode",
+      "de-DE": "Normal Mode"
+    }
+  },
+  "totalrp11": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Miscellaneous",
+      "de-DE": "Miscellaneous"
+    }
+  },
+  "totalrp12": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": "Toys",
+      "de-DE": "Toys"
+    }
+  },
+  "rplang1": {
+    "image": "lang.png",
+    "color": "#269C7D",
+    "label": {
+      "en-US": "English",
+      "de-DE": "English"
+    }
+  },
+  "rplang2": {
+    "image": "lang.png",
+    "color": "#269C7D",
+    "label": {
+      "en-US": "French",
+      "de-DE": "French"
+    }
+  },
+  "rplang3": {
+    "image": "lang.png",
+    "color": "#269C7D",
+    "label": {
+      "en-US": "Spanish",
+      "de-DE": "Spanish"
+    }
+  },
+  "rplang4": {
+    "image": "lang.png",
+    "color": "#269C7D",
+    "label": {
+      "en-US": "German",
+      "de-DE": "German"
+    }
+  },
+  "vuhdo1": {
+    "image": "vuhdo.png",
+    "color": "#6BB85E",
+    "label": {
+      "en-US": "Vuhdo Profiles",
+      "de-DE": "Vuhdo Profiles"
+    }
+  },
+  "vuhdo2": {
+    "image": "vuhdo.png",
+    "color": "#6BB85E",
+    "label": {
+      "en-US": "Vuhdo Bouquets",
+      "de-DE": "Vuhdo Bouquets"
+    }
+  },
+  "vuhdo3": {
+    "image": "vuhdo.png",
+    "color": "#6BB85E",
+    "label": {
+      "en-US": "Vuhdo Key Layouts",
+      "de-DE": "Vuhdo Key Layouts"
+    }
+  },
+  "cell1": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Cell Profiles",
+      "de-DE": "Cell Profiles"
+    }
+  },
+  "cell2": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Cell Layouts",
+      "de-DE": "Cell Layouts"
+    }
+  },
+  "cell3": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Cell Indicators",
+      "de-DE": "Cell Indicators"
+    }
+  },
+  "cell4": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Click Castings",
+      "de-DE": "Click Castings"
+    }
+  },
+  "cell5": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Debuffs",
+      "de-DE": "Debuffs"
+    }
+  },
+  "cell6": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Quick Assist",
+      "de-DE": "Quick Assist"
+    }
+  },
+  "gse1": {
+    "image": "gse.png",
+    "color": "#00CCCC",
+    "label": {
+      "en-US": "GSE Sequences",
+      "de-DE": "GSE Sequences"
+    }
+  },
+  "gse2": {
+    "image": "gse.png",
+    "color": "#00CCCC",
+    "label": {
+      "en-US": "GSE Macros",
+      "de-DE": "GSE Macros"
+    }
+  },
+  "gse3": {
+    "image": "gse.png",
+    "color": "#00CCCC",
+    "label": {
+      "en-US": "GSE Variables",
+      "de-DE": "GSE Variables"
+    }
+  },
+  "gse4": {
+    "image": "gse.png",
+    "color": "#00CCCC",
+    "label": {
+      "en-US": "GSE Collections",
+      "de-DE": "GSE Collections"
+    }
+  },
+  "job-tank": {
+    "image": "equipment.png",
+    "color": "#7ED321",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-pld": {
+    "image": "ffxiv/PLD.svg",
+    "color": "#a8d2e6",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-war": {
+    "image": "ffxiv/WAR.svg",
+    "color": "#cf2621",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-drk": {
+    "image": "ffxiv/DRK.svg",
+    "color": "#d126cc",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-gnb": {
+    "image": "ffxiv/GNB.svg",
+    "color": "#998d50",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-healer": {
+    "image": "priest.png",
+    "color": "#FFFFFF",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-sch": {
+    "image": "ffxiv/SCH.svg",
+    "color": "#8657ff",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-whm": {
+    "image": "ffxiv/WHM.svg",
+    "color": "#fff0dc",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-ast": {
+    "image": "ffxiv/AST.svg",
+    "color": "#ffe74a",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-sge": {
+    "image": "ffxiv/SGE.png",
+    "color": "#80a0f0",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-melee": {
+    "image": "warrior.png",
+    "color": "#C79C6E",
+    "label": {
+      "en-US": "Melee DPS",
+      "de-DE": "Melee DPS"
+    }
+  },
+  "job-mnk": {
+    "image": "ffxiv/MNK.svg",
+    "color": "#d69c00",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-drg": {
+    "image": "ffxiv/DRG.svg",
+    "color": "#4164cd",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-nin": {
+    "image": "ffxiv/NIN.svg",
+    "color": "#af1964",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-sam": {
+    "image": "ffxiv/SAM.svg",
+    "color": "#e46d04",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-rpr": {
+    "image": "ffxiv/RPR.png",
+    "color": "#965a90",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-magic": {
+    "image": "mage.png",
+    "color": "#69CCF0",
+    "label": {
+      "en-US": "Ranged Magical DPS",
+      "de-DE": "Ranged Magical DPS"
+    }
+  },
+  "job-blm": {
+    "image": "ffxiv/BLM.svg",
+    "color": "#a579d6",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-smn": {
+    "image": "ffxiv/SMN.svg",
+    "color": "#2d9b78",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-rdm": {
+    "image": "ffxiv/RDM.svg",
+    "color": "#e87b7b",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-blu": {
+    "image": "ffxiv/BLU.svg",
+    "color": "#2459ff",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-ranged": {
+    "image": "hunter.png",
+    "color": "#ABD473",
+    "label": {
+      "en-US": "Ranged Physical DPS",
+      "de-DE": "Ranged Physical DPS"
+    }
+  },
+  "job-brd": {
+    "image": "ffxiv/BRD.svg",
+    "color": "#91ba5e",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-mch": {
+    "image": "ffxiv/MCH.svg",
+    "color": "#6ee1d6",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-dnc": {
+    "image": "ffxiv/DNC.svg",
+    "color": "#e2b0af",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-craft": {
+    "image": "crafting.png",
+    "color": "#B85E5F",
+    "label": {
+      "en-US": "Crafting",
+      "de-DE": "Crafting"
+    }
+  },
+  "job-alc": {
+    "image": "ffxiv/ALC.svg",
+    "color": "#AF6F9E",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-arm": {
+    "image": "ffxiv/ARM.svg",
+    "color": "#AD8A56",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-bsm": {
+    "image": "ffxiv/BSM.svg",
+    "color": "#475673",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-crp": {
+    "image": "ffxiv/CRP.svg",
+    "color": "#E8CF8C",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-cul": {
+    "image": "ffxiv/CUL.svg",
+    "color": "#677135",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-gsm": {
+    "image": "ffxiv/GSM.svg",
+    "color": "#D5B23D",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-ltw": {
+    "image": "ffxiv/LTW.svg",
+    "color": "#3165A2",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-wvr": {
+    "image": "ffxiv/WVR.svg",
+    "color": "#C7420C",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-gather": {
+    "image": "gathering.png",
+    "color": "#5E63B8",
+    "label": {
+      "en-US": "Gathering",
+      "de-DE": "Gathering"
+    }
+  },
+  "job-btn": {
+    "image": "ffxiv/BTN.svg",
+    "color": "#EAF7D4",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-fsh": {
+    "image": "ffxiv/FSH.svg",
+    "color": "#49D3E7",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "job-min": {
+    "image": "ffxiv/MIN.svg",
+    "color": "#AF1964",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "xiv-misc": {
+    "image": "miscellaneous.png",
+    "color": "#D0B58B",
+    "label": {
+      "en-US": "Miscellaneous",
+      "de-DE": "Miscellaneous"
+    }
+  },
+  "xiv-rp": {
+    "image": "trpcamp.png",
+    "color": "#C3793A",
+    "label": {
+      "en-US": "Roleplaying",
+      "de-DE": "Roleplaying"
+    }
+  },
+  "delvui1": {
+    "image": "ffxiv/delvui.png",
+    "color": "#FDFDFD",
+    "label": {
+      "en-US": "DelvUI Profile",
+      "de-DE": "DelvUI Profile"
+    }
+  },
+  "delvui2": {
+    "image": "ffxiv/delvui.png",
+    "color": "#FDFDFD",
+    "label": {
+      "en-US": "Single Config",
+      "de-DE": "Single Config"
+    }
+  }
+}

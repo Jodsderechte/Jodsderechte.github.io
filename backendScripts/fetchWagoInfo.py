@@ -8,7 +8,8 @@ LOGOS_DIR = Path('logos')
 def download_file(url: str, save_dir: Path, filename: str):
     save_dir.mkdir(parents=True, exist_ok=True)
     path = save_dir / filename
-    r = requests.get(url, stream=True); r.raise_for_status()
+    r = requests.get(url, stream=True) 
+    r.raise_for_status()
     with open(path, "wb") as f:
         for chunk in r.iter_content(8192):
             f.write(chunk)
@@ -113,22 +114,47 @@ def main():
         install_count     = lookup.get("installCount", item.get("installs", 0))
         favorite_count    = lookup.get("favoriteCount", 0)
         modified          = lookup.get("date", {}).get("modified")
+        html_description = lookup.get("description", {}).get("html", "")
+        versions = lookup.get("versions", [])
+        if versions and versions.get("versions"):
+            changelog = versions.get("versions", [])[0].get("changelog", {}).get("text", "")
+        else:
+            changelog = ""
+        categories = lookup.get("categories", [])
+        if lookup.get("screens"):
+            for img in lookup.get("screens", []):
+                url = img.get("src")
+                id = img.get("_id")
+                ext       = os.path.splitext(url)[1] or ".png"
+                download_file(url, LOGOS_DIR, id + ext)
+                img["path"] = id + ext
+        else:
+            lookup["screens"] = []
 
         wago_meta.append({
             "name":           item["name"],
             "slug":           slug,
             "installs":       install_count,
-            "stars":          item.get("stars", 0),
+            "stars":          item.get("stars", favorite_count),
             "views":          view_count,
             "hasThumbnail":   bool(thumb_url),
-            "versionString":  item.get("versionString", ""),
+            "latestVersion":  item.get("versionString", ""),
             "versionsTotal":  versions_total,
             "commentCount":   comment_count,
-            "favoriteCount":  favorite_count,
             "dateModified":   modified,
+            "description": html_description,
+            "categories": categories,
+            "changelog": changelog,
+            "url": lookup.get("url", f"https://wago.io/{slug}"),
+            "screens" : [
+                {
+                    "path": img.get("path"),
+                }
+                for img in lookup.get("screens", [])
+            ],
         })
         
-    with open(os.path.join('Data', 'wago_metadata.json'), "w", encoding="utf-8") as f:
+    with open(os.path.join('data', 'wago_metadata.json'), "w", encoding="utf-8") as f:
         json.dump(wago_meta, f, indent=2, ensure_ascii=False)
     print(f"Fetched {len(wago_meta)} Wago imports and downloaded thumbnails")
 

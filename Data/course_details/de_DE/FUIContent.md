@@ -1,0 +1,13 @@
+- **Historische Entwicklung der Benutzerschnittstellen**
+- **Grundlagen der Benutzerschnittstellen**
+- **Anforderungen und Normen**
+- **Technische Aspekte**
+    - **Technologien**
+    - **Interaktionstechniken**
+- **Entwicklungsmethoden**
+- **Architekturen und Konzepte interaktiver Anwendungen**
+    - **Konzepte:** WIMP, MVC, MVP u. a.
+    - **Beschreibungssprachen**
+- **Frameworks und Toolkits für Benutzerschnittstellen**
+    - Historie, Klassifizierung, Beispiele
+- **Testen von Benutzerschnittstellen**

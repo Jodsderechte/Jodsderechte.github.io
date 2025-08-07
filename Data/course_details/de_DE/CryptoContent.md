@@ -1,0 +1,21 @@
+- **Bitcoin, Einführung & Protokoll**
+
+- **Blockchain & Distributed Ledger**
+
+- **Mathematische Modelle / Protokolle / Verbesserungsansätze**
+
+- **Cryptocurrency Mining / Bitcoin Mining Profitability**
+
+- **Ethereum, Smart Contracts & Decentralized Applications**
+
+- **Investing in Bitcoin, Altcoins, Ökonomie, Exchanges & Wallets**
+
+- **Rechtliche Aspekte & Besteuerung**
+
+- **Risiken, Regulierung, Volatilität & Diebstahl**
+
+- **ICO (Initial Coin Offering) & Historie**
+
+- **Blockchain-basierte Services, Fortschritte & Anwendungsfälle**
+
+- **Blockchain in Healthcare & Fitness / Vitaldatenhandel**

@@ -1,0 +1,8 @@
+- **Architekturen für die nebenläufige Programmierung**
+- **Basiskonzepte der nebenläufigen Programmierung**
+- **Performance-Betrachtungen**
+- **Design Patterns**
+- **Thread-Programmiermodell**
+- **Synchronisationskonzepte**
+- **Parallele Datenstrukturen**
+- **Parallele Algorithmen**

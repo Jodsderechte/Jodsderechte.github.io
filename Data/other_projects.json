@@ -1,0 +1,50 @@
+[
+    {
+        "title": "datascience",
+        "projects": [
+            {
+                "name": "Mythistone",
+                "url": "https://mythistone.github.io/pages/dashboard",
+                "shortDesc": "MythistoneDesc",
+                "description_md": "Mythistone",
+                "thumbnail": "/images/portfolio/mythistone/Dashboard.png",
+                "screens": [
+                    {"path": "/images/portfolio/mythistone/Dashboard.png"},
+                    {"path": "/images/portfolio/mythistone/ClassDetails1.png"},
+                    {"path": "/images/portfolio/mythistone/ClassDetails2.png"},
+                    {"path": "/images/portfolio/mythistone/Database.png"}
+                ]
+            },
+                        {
+                "name": "Rivalsstats",
+                "url": "https://rivalsstats.github.io/Rivalsstats",
+                "shortDesc": "RivalsstatsDesc",
+                "description_md": "Rivalsstats",
+                "thumbnail": "/images/portfolio/rivalsstats/Tierlist.png",
+                "screens": [
+                    {"path": "/images/portfolio/rivalsstats/Tierlist.png"},
+                    {"path": "/images/portfolio/rivalsstats/Heroes.png"},
+                    {"path": "/images/portfolio/rivalsstats/Matches.png"},
+                    {"path": "/images/portfolio/rivalsstats/Teamcomps.png"}
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Other",
+        "projects": [
+            {
+                "name": "WACreator",
+                "url": "https://weakaurascreator.github.io/Create/",
+                "shortDesc": "WACreatorDesc",
+                "description_md": "WACreator",
+                "thumbnail": "/images/portfolio/wacreator/Thumbnail.png",
+                "screens": [
+                    {"path": "/images/portfolio/wacreator/Thumbnail.png"},
+                    {"path": "/images/portfolio/wacreator/PiCreator.png"},
+                    {"path": "/images/portfolio/wacreator/wizard.png"}
+                ]
+            }
+        ]
+    }
+]
