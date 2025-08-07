@@ -121,6 +121,12 @@ jobs:
             en_US
             portfolio
             projects
+            404.html
+            index.html
+            credits.html
+            Impressum.html
+            imprint.html
+
       
       - name: Upload static files as artifact
         id: deployment
