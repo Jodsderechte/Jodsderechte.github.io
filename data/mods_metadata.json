@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2196024,
+    "downloadCount": 2197263,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 62.zip",
     "dateModified": "2025-07-12T23:26:53.433Z",
     "installs": 14553,
-    "stars": 4843,
+    "stars": 4851,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,7 +24,7 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 76278,
+    "downloadCount": 76320,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
@@ -51,17 +51,17 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3145,
+    "downloadCount": 3277,
     "summary": "A simple lib adding the option for Name Variations to addons",
-    "latestVersion": "v1.1.21",
-    "dateModified": "2025-06-18T06:44:41.643Z",
-    "installs": 87,
+    "latestVersion": "v1.1.22",
+    "dateModified": "2025-08-06T08:34:41.387Z",
+    "installs": 125,
     "stars": 0,
     "game": 1,
     "categories": [
       "libraries"
     ],
-    "changelog": "<h1>CustomNames</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames/tree/v1.1.21\" rel=\"nofollow\">v1.1.21</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames/compare/v1.1.20...v1.1.21\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc<h1>Conflicts:</h1>\n<h1>CustomNames.toc</h1>\n</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames/tree/v1.1.22\" rel=\"nofollow\">v1.1.22</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames/compare/v1.1.21...v1.1.22\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>update for 11.2</li>\n<li>Update README.md</li>\n<li>add way to get all character names that are linked to a given btag or character name</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/libcustomnames",
     "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://patreon.com/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"https://www.twitch.tv/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Catch_Me_Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a> <a href=\"https://github.com/Jods-GH/CustomNames/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://badgen.net/github/release/Jods-GH/CustomNames?style=flat-square\" alt=\"Release\"></a></p>\n<p>&nbsp;</p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures, CustomNames provides Addon Developers with the tools to do so. CustomNames gives you the ability of mapping character names to Nicknames of your choosing e.G. SuperSaiyanDK to \"Nick\" or Nickspriest-Draenor to \"Nick\". Begone are the times you need to remember everyones alt names.</p>\n<p>Current official Implementations:</p>\n<ul>\n<li><a href=\"https://legacy.curseforge.com/wow/addons/customnames_elvui\" target=\"_blank\" rel=\"nofollow\">ElvUI</a></li>\n<li><a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fCustomNames\" target=\"_blank\" rel=\"nofollow\">Plater</a></li>\n<li><a href=\"https://legacy.curseforge.com/wow/addons/customnames_mrt\" target=\"_blank\" rel=\"nofollow\">MRT</a></li>\n<li><a href=\"https://www.curseforge.com/wow/addons/customnames_chat\" target=\"_blank\" rel=\"nofollow\">Chat</a> Chat support</li>\n<li><a href=\"https://www.curseforge.com/wow/addons/customname-guild\" target=\"_blank\" rel=\"nofollow\">Guild</a> Guild tab support</li>\n<li><a href=\"https://www.curseforge.com/wow/addons/deadly-boss-mods\" target=\"_blank\" rel=\"nofollow\">Dbm</a> works out of the box</li>\n<li><a href=\"https://www.curseforge.com/wow/addons/weakauras-2\" target=\"_blank\" rel=\"nofollow\">WeakAuras</a> works out of the box</li>\n</ul>\n<p>for details go to Bars text custom text and add</p>\n<pre><code>{data1}. {data3}{func local player, combat = ...; local Lib = LibStub(\"CustomNames\");local trans=LibStub(\"LibTranslit-1.0\");return trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\"))):find(\"-\") and player.transliteratedName or trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\")));}</code></pre>\n<p>this should replace data2 (player name) which in total would look like</p>\n<pre><code>{data1}. {data3}{func local player, combat = ...; local Lib = LibStub(\"CustomNames\");return Lib.Get(player.nome);}</code></pre>\n<p>It also provides some easy to use slash command to let users add their own custom names if they choose to do so.</p>\n<p>CustomNames example usage: Adding a new name: /cn add Name to CustomName Editing name: /cn edit Name to CustomName Deleting old name: /cn del Name Listing every name: /cn l(ist)</p>\n<p>Standalone this doesn't do anything if the addon displaying the Name doesn't implement the usage of the provided functions.</p>\n<p>For developers short how to added below for the long version check on <a href=\"https://github.com/Jods-GH/CustomNames\" target=\"_blank\" rel=\"nofollow\">Github</a>:</p>\n<pre><code>local Lib = LibStub(\"CustomNames\")\n-- Setting Names both accept units aswell as Names in the format of Name-Realm (for players) or just Name (for npcs) and Btag in format \"BattleTag#12345\"\nlocal success = Lib.Set(name, customName) -- for adding/editing \nlocal success = Lib.Set(name) -- for deleting \n-- Getting Names\nlocal customName = Lib.Get(name) -- this works both for Get(Charname) and Get(Btag)\nlocal customName = Lib.UnitName(unit) -- behaves equivalent to normal UnitName()\nlocal customName = Lib.UnitFullName(unit) -- behaves equivalent to normal UnitFullName()\nlocal customName = Lib.UnitNameUnmodified(unit) -- behaves equivalent to normal UnitNameUnmodified()\nlocal customName = Lib.GetUnitName(unit,showServerName) -- behaves equivalent to normal GetUnitName()\nlocal NameList = Lib.GetList() -- returns a list with all Database entrys\n-- NameList Format\nNameList = {\n    [\"Name-Realm1\"] = \"CustomName1\",\n    [\"Name-Realm2\"] = \"CustomName2\",\n}\n-- Bnet api\nlocal isInDatabase = Lib.isCharInBnetDatabase(name) -- returns true if the charname is already linked to a bnet account (nil otherwise) \nlocal success = Lib.addCharToBtag(charname,btag) -- links a char to a Given Btag. Btag should be in format \"BattleTag#12345\"</code></pre>\n<h1>Callbacks</h1>\n<p>event names: Name_Removed , Name_Update, Name_Added</p>\n<p>Name_Removed (Name) -- will return the name in the database that got removed ; Name_Updated (Name, newCustomName, oldCustomName) -- will return the name in the database, the new CustomName the database was updated to and the old CustomName as it was previously returned by the Getter functions Name_Added (Name, customName) -- will return the name in the database aswell as the CustomName that was added Name is always in the format Name-Realm for all player characters and Name for npc's as returned by UnitName()</p>\n<pre><code>Lib.RegisterCallback(self, \"eventName\"[, method, [arg]])\nLib.UnregisterCallback(self, \"eventname\")\nLib.UnregisterAllCallbacks(self)</code></pre>\n<h1>Example:</h1>\n<pre><code>Lib:RegisterCallback(\"Name_Added\", function(event, name, customName)\n    print(\"Added: \" .. name .. \" is now Renamed to \" .. customName) -- this will print whenever a new Name is added \nend)</code></pre>\n<p>Check CustomNames.lua for more code examples.</p>"
@@ -69,17 +69,17 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 227,
+    "downloadCount": 256,
     "summary": "Adds Guild support for Customnames",
-    "latestVersion": "v1.0.5",
-    "dateModified": "2025-06-18T06:45:54.203Z",
-    "installs": 26,
+    "latestVersion": "v1.0.6",
+    "dateModified": "2025-08-06T08:35:48.99Z",
+    "installs": 27,
     "stars": 0,
     "game": 1,
     "categories": [
       "guild"
     ],
-    "changelog": "<h1>CustomNames_Guild</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Guild/tree/v1.0.5\" rel=\"nofollow\">v1.0.5</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Guild/compare/v1.0.4...v1.0.5\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Guild/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc<h1>Conflicts:</h1>\n<h1>CustomNames_Guild.toc</h1>\n</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames_Guild</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Guild/tree/v1.0.6\" rel=\"nofollow\">v1.0.6</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Guild/compare/v1.0.5...v1.0.6\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Guild/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/customname-guild",
     "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> \n<a href=\"https://patreon.com/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a> \n<a href=\"https://www.twitch.tv/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch me Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a>&nbsp;<a href=\"https://github.com/Jods-GH/CustomNames_Chat/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://badgen.net/github/release/Jods-GH/CustomNames_Chat?style=flat-square\" alt=\"Release\"></a>&nbsp;</p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures. This Addon is a SubSet and requires <a href=\"https://legacy.curseforge.com/wow/addons/libcustomnames\" target=\"_blank\" rel=\"nofollow\">CustomNames</a> in order to work. It adds Guild support to Custom Names.&nbsp;<br>\nUsage: Simply install the addon and have CustomNames installed aswell it will work out of the box and replace char names in your chat with the custom names you have set!<br>\nCustomNames gives you the ability of mapping character names to Nicknames of your choosing.<br>\ne.G. SuperSaiyanDK to -&gt; \"Nick\" or Nickspriest-Draenor to -&gt; \"Nick\". Begone are the times you need to remember everyones alt names.</p>"
@@ -87,17 +87,17 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 500,
+    "downloadCount": 550,
     "summary": "Adds Chat support for Customnames",
-    "latestVersion": "v1.0.7",
-    "dateModified": "2025-06-18T06:46:11.593Z",
-    "installs": 40,
+    "latestVersion": "v1.0.8",
+    "dateModified": "2025-08-06T08:35:57.093Z",
+    "installs": 49,
     "stars": 0,
     "game": 1,
     "categories": [
       "chat-communication"
     ],
-    "changelog": "<h1>CustomNames_Chat</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Chat/tree/v1.0.7\" rel=\"nofollow\">v1.0.7</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Chat/compare/v1.0.6...v1.0.7\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Chat/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc<h1>Conflicts:</h1>\n<h1>CustomNames_Chat.toc</h1>\n</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames_Chat</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Chat/tree/v1.0.8\" rel=\"nofollow\">v1.0.8</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Chat/compare/v1.0.7...v1.0.8\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Chat/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/customnames-chat",
     "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://patreon.com/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"https://www.twitch.tv/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Catch_Me_Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a> <a href=\"https://github.com/Jods-GH/CustomNames/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://badgen.net/github/release/Jods-GH/CustomNames?style=flat-square\" alt=\"Release\"></a></p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures.</p>\n<p>This Addon is a SubSet and requires <a href=\"https://legacy.curseforge.com/wow/addons/libcustomnames\" target=\"_blank\" rel=\"nofollow\">CustomNames</a> in order to work. It adds Chat support to Custom Names.&nbsp;<br>\nUsage:</p>\n<p>Simply install the addon and have CustomNames installed aswell it will work out of the box and replace char names in your chat with the custom names you have set!<br>\n&nbsp; CustomNames gives you the ability of mapping character names to Nicknames of your choosing.<br>\ne.G. SuperSaiyanDK to -&gt; \"Nick\" or Nickspriest-Draenor to -&gt; \"Nick\". Begone are the times you need to remember everyones alt names.</p>"
@@ -105,17 +105,17 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 1703,
+    "downloadCount": 1778,
     "summary": "Adds ElvUI Tags for CustomNames.",
-    "latestVersion": "v1.1.6",
-    "dateModified": "2025-06-18T06:45:42.657Z",
-    "installs": 53,
+    "latestVersion": "v1.1.7",
+    "dateModified": "2025-08-06T08:34:33.407Z",
+    "installs": 72,
     "stars": 0,
     "game": 1,
     "categories": [
       "unit-frames"
     ],
-    "changelog": "<h1>CustomNames_ElvUI</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_ElvUI/tree/v1.1.6\" rel=\"nofollow\">v1.1.6</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_ElvUI/compare/v1.1.5...v1.1.6\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_ElvUI/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc<h1>Conflicts:</h1>\n<h1>CustomNames_ElvUI.toc</h1>\n</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames_ElvUI</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_ElvUI/tree/v1.1.7\" rel=\"nofollow\">v1.1.7</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_ElvUI/compare/v1.1.6...v1.1.7\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_ElvUI/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>update for 11.2</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/customnames-elvui",
     "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://patreon.com/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"https://www.twitch.tv/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Catch_Me_Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a> <a href=\"https://github.com/Jods-GH/CustomNames/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://badgen.net/github/release/Jods-GH/CustomNames?style=flat-square\" alt=\"Release\"></a></p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures.</p>\n<p>This Addon is a SubSet and requires <a href=\"https://legacy.curseforge.com/wow/addons/libcustomnames\" target=\"_blank\" rel=\"nofollow\">CustomNames</a>&nbsp;in order to work. It adds Tags to use Custom Names from within ElvUI.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Usage:</p>\n<p>To Add CustomNames to your UnitFrame simply navigate to the \"UnitFrames\" tab and use one of the available tags in the \"Name\" Textformat field. Navigate to the \"Available Tags\" tab within ElvUI to see all Available Tags.</p>\n<p>&nbsp;</p>\n<p>CustomNames gives you the ability of mapping character names to Nicknames of your choosing. e.G. SuperSaiyanDK to -&gt; \"Nick\" or Nickspriest-Draenor to -&gt; \"Nick\". Begone are the times you need to remember everyones alt names.</p>"
@@ -123,17 +123,17 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1223,
+    "downloadCount": 1293,
     "summary": "Adds MRT support for CustomNames.",
-    "latestVersion": "v1.1.2",
-    "dateModified": "2025-06-18T06:45:19.853Z",
-    "installs": 50,
+    "latestVersion": "v1.1.3",
+    "dateModified": "2025-08-06T08:34:02.803Z",
+    "installs": 67,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>CustomNames_MRT</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_MRT/tree/v1.1.2\" rel=\"nofollow\">v1.1.2</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_MRT/compare/v1.1.1...v1.1.2\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_MRT/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc<h1>Conflicts:</h1>\n<h1>CustomNames_MRT.toc</h1>\n</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames_MRT</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_MRT/tree/v1.1.3\" rel=\"nofollow\">v1.1.3</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_MRT/compare/v1.1.2...v1.1.3\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_MRT/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>update for 11.2</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/customnames-mrt",
     "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> \n<a href=\"https://patreon.com/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a> \n<a href=\"https://www.twitch.tv/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch me Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a>\n<a href=\"https://github.com/Jods-GH/CustomNames_MRT/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://badgen.net/github/release/Jods-GH/CustomNames_MRT?style=flat-square\" alt=\"Release\"></a></p>\n<p>&nbsp;</p>\n<p>[SVG-Discord]: <a href=\"/linkout?remoteUrl=https%253a%252f%252fimg.shields.io%252fbadge%252fDiscord-7289da%253flogo%253ddiscord%2526logoColor%253dfff%2526style%253dflat-square\" target=\"_blank\" rel=\"nofollow\">https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=flat-square</a>\n[SVG-PayPal]: <a href=\"/linkout?remoteUrl=https%253a%252f%252fcustom-icon-badges.demolab.com%252fbadge%252f-Donate-lightgrey%253fstyle%253dflat-square%2526logo%253dpaypal%2526color%253d007CB1\" target=\"_blank\" rel=\"nofollow\">https://custom-icon-badges.demolab.com/badge/-Donate-lightgrey?style=flat-square&logo=paypal&color=007CB1</a>\n[SVG-Wago]: <a href=\"/linkout?remoteUrl=https%253a%252f%252fcustom-icon-badges.demolab.com%252fbadge%252f-WeakAuras-lightgrey%253fstyle%253dflat-square%2526logo%253dweakauras%2526color%253d22283D\" target=\"_blank\" rel=\"nofollow\">https://custom-icon-badges.demolab.com/badge/-WeakAuras-lightgrey?style=flat-square&logo=weakauras&color=22283D</a>\n&nbsp;</p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures.</p>\n<p>This Addon is a SubSet and requires <a href=\"https://legacy.curseforge.com/wow/addons/libcustomnames\" target=\"_blank\" rel=\"nofollow\">CustomNames</a>&nbsp;in order to work.\nIt adds support for Custom Names to RaidCooldowns and Note within Method Raid Tools&nbsp;</p>\n<p>&nbsp;</p>\n<p>Usage:</p>\n<p>To Add CustomNames to your MRT you don't need to do anything. Simply download this addon and ur good to go!</p>\n<p>&nbsp;</p>\n<p>CustomNames gives you the ability of mapping character names to Nicknames of your choosing.\ne.G. SuperSaiyanDK to -&gt; \"Nick\" or Nickspriest-Draenor to -&gt; \"Nick\". Begone are the times you need to remember everyones alt names.</p>"
@@ -141,20 +141,20 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 221363,
+    "downloadCount": 222519,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
-    "latestVersion": "v2.3.6",
-    "dateModified": "2025-06-18T06:53:14.007Z",
-    "installs": 858,
+    "latestVersion": "v2.3.7",
+    "dateModified": "2025-08-06T08:35:02.817Z",
+    "installs": 1128,
     "stars": 0,
     "game": 1,
     "categories": [
-      "boss-encounters",
       "buffs-debuffs",
       "miscellaneous",
+      "boss-encounters",
       "combat"
     ],
-    "changelog": "<h1>DungeonAuraTools</h1>\n<h2><a href=\"https://github.com/Jods-GH/DungeonAuraTools/tree/v2.3.6\" rel=\"nofollow\">v2.3.6</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/DungeonAuraTools/compare/v2.3.5...v2.3.6\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/DungeonAuraTools/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc</li>\n</ul>\n",
+    "changelog": "<h1>DungeonAuraTools</h1>\n<h2><a href=\"https://github.com/Jods-GH/DungeonAuraTools/tree/v2.3.7\" rel=\"nofollow\">v2.3.7</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/DungeonAuraTools/compare/v2.3.6...v2.3.7\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/DungeonAuraTools/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>initial update for 11.2</li>\n</ul>\n",
     "screens": [
       {
         "path": "490240.JPG"
@@ -169,18 +169,18 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 165430,
+    "downloadCount": 169741,
     "summary": "Adds Rio Score display to the GroupFinder frame",
-    "latestVersion": "v1.3.3",
-    "dateModified": "2025-06-18T06:46:22.423Z",
-    "installs": 4745,
+    "latestVersion": "v1.3.4",
+    "dateModified": "2025-08-06T08:48:00.74Z",
+    "installs": 4081,
     "stars": 0,
     "game": 1,
     "categories": [
       "miscellaneous",
       "chat-communication"
     ],
-    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.3.3\" rel=\"nofollow\">v1.3.3</a> (2025-06-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.3.2a...v1.3.3\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>bump toc</li>\n<li>remove duplicate self check</li>\n</ul>\n",
+    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.3.4\" rel=\"nofollow\">v1.3.4</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.3.3...v1.3.4\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>initial 11.2 update</li>\n<li>Rename DEde.lua to deDE.lua</li>\n</ul>\n",
     "screens": [
       {
         "path": "933560.PNG"
