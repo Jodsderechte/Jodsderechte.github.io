@@ -56,7 +56,7 @@ jobs:
 
       - name: Generate Course Details HTML page
         run: |
-          python backendScripts/generateCourseDetailsPage.py
+          python backendScripts/generateCoursesDetailsPage.py
 
       - name: Generate Basic Pages
         run: |
