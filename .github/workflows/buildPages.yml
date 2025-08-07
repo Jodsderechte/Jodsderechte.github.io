@@ -119,6 +119,8 @@ jobs:
             courses
             embeds
             en_US
+            images
+            logos
             portfolio
             projects
             404.html
