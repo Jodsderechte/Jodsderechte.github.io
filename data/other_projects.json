@@ -14,19 +14,6 @@
                     {"path": "/images/portfolio/mythistone/ClassDetails2.png"},
                     {"path": "/images/portfolio/mythistone/Database.png"}
                 ]
-            },
-                        {
-                "name": "Rivalsstats",
-                "url": "https://rivalsstats.github.io/Rivalsstats",
-                "shortDesc": "RivalsstatsDesc",
-                "description_md": "Rivalsstats",
-                "thumbnail": "/images/portfolio/rivalsstats/Tierlist.png",
-                "screens": [
-                    {"path": "/images/portfolio/rivalsstats/Tierlist.png"},
-                    {"path": "/images/portfolio/rivalsstats/Heroes.png"},
-                    {"path": "/images/portfolio/rivalsstats/Matches.png"},
-                    {"path": "/images/portfolio/rivalsstats/Teamcomps.png"}
-                ]
             }
         ]
     },
