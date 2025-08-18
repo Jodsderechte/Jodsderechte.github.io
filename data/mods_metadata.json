@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2199813,
+    "downloadCount": 2204435,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 62.zip",
     "dateModified": "2025-07-12T23:26:53.433Z",
     "installs": 14553,
-    "stars": 4870,
+    "stars": 4913,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 76378,
+    "downloadCount": 76472,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 219,
+    "stars": 221,
     "game": 83374,
     "categories": [
       "creatures",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3312,
+    "downloadCount": 3368,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.22",
     "dateModified": "2025-08-06T08:34:41.387Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 260,
+    "downloadCount": 268,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.6",
     "dateModified": "2025-08-06T08:35:48.99Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 558,
+    "downloadCount": 578,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.8",
     "dateModified": "2025-08-06T08:35:57.093Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 1796,
+    "downloadCount": 1825,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.7",
     "dateModified": "2025-08-06T08:34:33.407Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1307,
+    "downloadCount": 1333,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.3",
     "dateModified": "2025-08-06T08:34:02.803Z",
@@ -141,20 +141,20 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 222924,
+    "downloadCount": 224571,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
-    "latestVersion": "v2.3.7",
-    "dateModified": "2025-08-06T08:35:02.817Z",
-    "installs": 1306,
+    "latestVersion": "v2.3.8",
+    "dateModified": "2025-08-13T08:56:10.233Z",
+    "installs": 0,
     "stars": 0,
     "game": 1,
     "categories": [
+      "boss-encounters",
       "buffs-debuffs",
       "miscellaneous",
-      "boss-encounters",
       "combat"
     ],
-    "changelog": "<h1>DungeonAuraTools</h1>\n<h2><a href=\"https://github.com/Jods-GH/DungeonAuraTools/tree/v2.3.7\" rel=\"nofollow\">v2.3.7</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/DungeonAuraTools/compare/v2.3.6...v2.3.7\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/DungeonAuraTools/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>initial update for 11.2</li>\n</ul>\n",
+    "changelog": "<h1>DungeonAuraTools</h1>\n<h2><a href=\"https://github.com/Jods-GH/DungeonAuraTools/tree/v2.3.8\" rel=\"nofollow\">v2.3.8</a> (2025-08-13)</h2>\n<p><a href=\"https://github.com/Jods-GH/DungeonAuraTools/compare/v2.3.7...v2.3.8\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/DungeonAuraTools/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add Eco Dome Trash</li>\n<li>add HOA</li>\n<li>initial additions of hallsOfAtonement (empty) and EcoDome bosses</li>\n</ul>\n",
     "screens": [
       {
         "path": "490240.JPG"
@@ -169,18 +169,18 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 170789,
+    "downloadCount": 179318,
     "summary": "Adds Rio Score display to the GroupFinder frame",
-    "latestVersion": "v1.3.4",
-    "dateModified": "2025-08-06T08:48:00.74Z",
-    "installs": 4081,
+    "latestVersion": "v1.3.5",
+    "dateModified": "2025-08-13T09:16:00.727Z",
+    "installs": 0,
     "stars": 0,
     "game": 1,
     "categories": [
       "miscellaneous",
       "chat-communication"
     ],
-    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.3.4\" rel=\"nofollow\">v1.3.4</a> (2025-08-06)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.3.3...v1.3.4\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>initial 11.2 update</li>\n<li>Rename DEde.lua to deDE.lua</li>\n</ul>\n",
+    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.3.5\" rel=\"nofollow\">v1.3.5</a> (2025-08-13)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.3.4...v1.3.5\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add Manaforge Omega and s3 dungeons</li>\n</ul>\n",
     "screens": [
       {
         "path": "933560.PNG"
