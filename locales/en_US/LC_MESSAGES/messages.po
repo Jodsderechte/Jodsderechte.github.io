@@ -64,7 +64,7 @@ msgid "the"
 msgstr "the"
 
 msgid "SkillsDescription"
-msgstr "During my studies and in my free time, I have delved into various programming languages and other relevant topics in the field of software development. I have gained proficiency in languages such as Lua and Java allowing me to implement diverse algorithms and develop applications with different functionalities. Additionally, I have explored web development, learning HTML, CSS, and JavaScript to create interactive and visually appealing websites. <br> <br> Moreover, I have familiarized myself with essential tools like Git, enabling version control and collaborative coding. This experience has taught me the importance of teamwork in software projects and the significance of maintaining a well-organized and efficient codebase. Alongside version control, I have also honed my skills in SQL, grasping the fundamentals of database design and management. Understanding SQL has been vital in building dynamic applications that interact with databases to store and retrieve information. <br> <br> Overall, my passion for programming has driven me to continuously expand my knowledge in the field. Through both formal education and self-directed learning, I have built a strong foundation in various programming languages and relevant tools, empowering me to tackle complex software projects and contribute effectively to the world of technology. A selection of these skills can be found on the right."
+msgstr "During my studies and in my leisure time, I delved into various programming languages and other relevant topics in software development. I gained proficiency in languages such as Lua and Java. Allowing me to implement diverse algorithms and develop applications with different functionalities. Additionally, I explored web development, learned HTML, CSS, and JavaScript to create interactive and visually appealing websites. <br> <br> Moreover, I familiarized myself with essential tools like Git, enabling version control and collaborative coding. This taught me the importance of teamwork in software projects and the significance of maintaining a well-organized and efficient codebase. Alongside version control, I also honed my skills in SQL, grasping the fundamentals of database design and management. Understanding SQL has been vital in building dynamic applications that interact with databases to store and retrieve information. <br> <br> Overall, my passion for programming drove me to continuously expand my knowledge in the field. Formal education and self-directed learning built a strong foundation in various programming languages and relevant tools, empowering me to tackle complex software projects and contribute effectively to the world of technology. A selection of these skills can be found below."
   
 msgid "Skills"
 msgstr "Skills"
@@ -232,7 +232,7 @@ msgid "UnrealEngineWorkshopLinkText"
 msgstr "Link to the Workshop"
 
 msgid "UnrealEngineDesc"
-msgstr "I've used Unreal Engine for multiple Ark mods aswell as some Standalone Game Projects. Additionally for a University project I added a Voice controlled LLM based NPC with an Unreal Project. I've even created an Interactive Workshop teaching the basics of Unreal."
+msgstr "I used Unreal Engine for multiple Ark mods as well as some standalone Game Projects. Additionally for a University project I added a Voice controlled LLM based NPC with an Unreal Project. I've even created an Interactive Workshop teaching the basics of Unreal Engine."
 
 msgid "AutoDoorsCurseforgeLinkText"
 msgstr "AutoDoors Ark Mod"
@@ -244,13 +244,13 @@ msgid "AteriaGitHubLinkText"
 msgstr "Ateria Standalone Game"
 
 msgid "SQLDesc"
-msgstr "For my World of Warcraft Stat Displaying Website I used a MySQL database and had to write extensive queries to aggragate data for User Display."
+msgstr "For my World of Warcraft Stat Displaying Website I used a MySQL database and had to write extensive queries to aggregate data for User Display."
 
 msgid "SQLMythiStoneGitHubLinkText"
 msgstr "Link to the Website Repo"
 
 msgid "AndroidDesc"
-msgstr "For one of my Lectures I Wrote an simple CRUD Bookshelf App. In addition due to my food Intolerance I wrote a simple Android App which allows users to Scan Barcodes of Food and warn them if it is save to Consume."
+msgstr "For one of my lectures I wrote a simple CRUD Bookshelf App. Due to my food Intolerance I wrote a useful Android App which allows users to scan barcodes of food to warn them whether it is safe consume."
 
 msgid "IngredientsTrafficLightGitHubLinkText"
 msgstr "Link to the Intolerance App Repo"
@@ -274,19 +274,13 @@ msgid "DiscordQueryBotLinkText"
 msgstr "Link to the Bot Repository"
 
 msgid "CSharpDesc"
-msgstr "During my Student Assistant job at the University of Applied Science I used Csharp in addition to Unity for the Work on the Bycicle Simulator. In addition I used C# to create a Discord bot leveraging SteamA2S aswell as gamedig to create Game Server status embeds."
+msgstr "During my Student Assistant job at the University of Applied Science I used Csharp in addition to Unity for the Work on a Bicycle Simulator. I used C# to create a Discord bot leveraging SteamA2S as well as gamedig to create Game Server status embeds."
 
 msgid "CppLinkText"
 msgstr "Link to the Course Information"
 
 msgid "CppDesc"
-msgstr "One of the lectures during my studies were about usage of C++. 'Course participants are familiar with the C++ programming language and understand competent application of the language'. In addition i leveraged C++ during the creation of the Network and Server Code for an Unreal Engine Game i'm working on with a friend."
-
-msgid "CLinkText"
-msgstr "Link to the Course Information"
-
-msgid "CDesc"
-msgstr "One of the lectures during my studies were about Operating systems which relied heavily on C code."
+msgstr "One of the lectures during my studies were about usage of C++. 'Course participants are familiar with the C++ programming language and understand competent application of the language'. I leveraged C++ during the creation of the Network and Server Code for an Unreal Engine Game I’m creating with a friend."
 
 msgid "CustomNamesLinkText"
 msgstr "Link to the Repository for the Api Addon"
@@ -295,7 +289,7 @@ msgid "RaidAbilityTimelineLinkText"
 msgstr "Link to the Downlaod Page for the Timeline WeakAura"
 
 msgid "LuaDesc"
-msgstr "I've been highly active in the World of Warcraft modding scene heavily relying on LUA. I wrote multiple Addons aswell as creating WeakAuras which is a framework used within the game to put customizable Graphics onto your screen. An example of Addons i've worked on is Custom Names. An api which allows users to Nickname eachothers ingame Personas to easily differentiate between eachother. One of the most popular WeakAuras i've creared is RaidAbilityTimeline which turn BossMod addon timers into a vertical stacked timeline."
+msgstr "I've been highly active in the World of Warcraft modding scene heavily relying on LUA. I wrote multiple Addons as well as creating WeakAuras, a framework used within the game to put customizable Graphics onto your screen. An example of Addons I’ve created is Custom Names. An api which allows users to Nickname eachothers ingame Personas to easily differentiate between eachother. One of the most popular WeakAuras I've creared is RaidAbilityTimeline which turns BossMod addon timers into a vertical stacked timeline."
 
 msgid "JavaScriptDesc"
 msgstr "I used Javascript during some Software-Engineering courses aswell as leavegering it to power the Webapps. One example is my Stat tracking Webpage which uses Javascript to allow for Client side search since Github Pages is a static hosting provider without being able to run Serverside code. In addition I gathered experience in Chart.js aswell as React during my Student Internship and Bachelorthesis for DCON."
@@ -671,7 +665,7 @@ msgid "switchToEng"
 msgstr "Switch to English"
 
 msgid "switchToGer"
-msgstr "Auf Deutsch Wechseln"
+msgstr "Zu Deutsch wechseln"
 
 msgid "gradeHint"
 msgstr "In German Universities Grades are awarded from 1.0 to 4.0. 1.0 is the best possible grade while 4.0 is the worst. A non official Conversion to gpa score can be found here: <a target= '_blank' href='https://www.uni-frankfurt.de/116555505.pdf'>uni-frankfurt.de</a>"
