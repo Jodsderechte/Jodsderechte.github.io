@@ -30,12 +30,11 @@ def calculate_age_filter(value, fmt="%d.%m.%Y"):
         try:
             born = datetime.strptime(value, fmt).date()
         except ValueError:
-            # fallback: you might want to raise or return a placeholder
-            return "–"
+            return ""
     elif isinstance(value, date):
         born = value
     else:
-        return "–"
+        return ""
 
     today = date.today()
     years = today.year - born.year
@@ -95,26 +94,32 @@ def make_env(lang_code):
     }
 
     po_paths = glob.glob(os.path.join(locale_path, "*.po"))
+    print(f'building po files for paths: {po_paths}')
     for po_path in po_paths:
-        pool = polib.pofile(po_path)
-        for entry in pool:
-            existing = merged.find(entry.msgid)
-            if existing:
-                # override with latest msgstr if non-empty
-                if entry.msgstr:
-                    existing.msgstr = entry.msgstr
-            else:
-                merged.append(entry)
+        if not po_path.endswith("full.po"):
+            print(f'merging {po_path}')
+            pool = polib.pofile(po_path)
+            for entry in pool:
+                existing = merged.find(entry.msgid)
+                if existing:
+                    # override with latest msgstr if non-empty
+                    if entry.msgstr:
+                        existing.msgstr = entry.msgstr
+                else:
+                    merged.append(entry)
 
     # Write out the merged catalog as full.po + .mo
     merged_po = os.path.join(locale_path, "full.po")
     merged.save(merged_po)
     merged.save_as_mofile(merged_po[:-3] + ".mo")
+    print(f'Wrote merged .po to {merged_po}')
 
     # Load that .mo into StrictTranslations
     mo_file = os.path.join(locale_path, "full.mo")
     with open(mo_file, "rb") as f:
         translations = StrictTranslations(f)
+
+    print(f'Loaded translations for {lang_code} from {mo_file}')
 
     env = Environment(
         loader=FileSystemLoader(os.path.dirname(TEMPLATE_PATH)),
