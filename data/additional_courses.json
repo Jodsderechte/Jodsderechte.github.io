@@ -37,7 +37,7 @@
                 "url": "https://campusboard.hs-kl.de/portalapps/sv/Modul_20605.pdf?modulid=20605&stgid=638&sp=",
                 "grade": "1,0",
                 "icon": "bi-pc-display-horizontal",
-                "content": "FTCGContent",
+                "content_md": "FTCGContent",
                 "LearningMethod": "Practical",
                 "ExamForm": "Project",
                 "imgpath": "/images/courses/ftcg.jpg",
