@@ -2,17 +2,17 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2220315,
+    "downloadCount": 2236529,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
-    "latestVersion": "autodoors-windows 62.zip",
-    "dateModified": "2025-07-12T23:26:53.433Z",
-    "installs": 14553,
-    "stars": 5021,
+    "latestVersion": "autodoors-windows 64.zip",
+    "dateModified": "2025-09-04T02:02:40.47Z",
+    "installs": 0,
+    "stars": 5061,
     "game": 83374,
     "categories": [
       "structures"
     ],
-    "changelog": "<p>Some short and single doors were feeling excluded from the multi-use wheel options and got sad. This is now fixed and the doors should be happily show you their wheel options.</p>\n",
+    "changelog": "<p>o Fixed Garage/Barn Doors placement<br>o Fixed Garage/Barn Doors Bob&#x27;s Tall Tales Skin interactions</p>",
     "screens": [
       {
         "path": "1269053.png"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 76659,
+    "downloadCount": 76751,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 225,
+    "stars": 226,
     "game": 83374,
     "categories": [
       "creatures",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3416,
+    "downloadCount": 3434,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.22",
     "dateModified": "2025-08-06T08:34:41.387Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 278,
+    "downloadCount": 287,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.6",
     "dateModified": "2025-08-06T08:35:48.99Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 592,
+    "downloadCount": 605,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.8",
     "dateModified": "2025-08-06T08:35:57.093Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 1850,
+    "downloadCount": 1863,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.7",
     "dateModified": "2025-08-06T08:34:33.407Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1351,
+    "downloadCount": 1364,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.3",
     "dateModified": "2025-08-06T08:34:02.803Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 225037,
+    "downloadCount": 225252,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.3.8",
     "dateModified": "2025-08-13T08:56:10.233Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 189336,
+    "downloadCount": 189965,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.3.6",
     "dateModified": "2025-08-20T14:49:04.923Z",
