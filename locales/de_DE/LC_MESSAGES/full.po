@@ -150,9 +150,7 @@ msgid "ImA"
 msgstr "Ich bin ein"
 
 msgid "ImATexts"
-msgstr ""
-"Master-Student, Software-Entwickler, Modder, Addon-Entwickler, Gamer, "
-"Schlagzeuger"
+msgstr "Master-Student, Software-Entwickler, Modder, Addon-Entwickler, Gamer"
 
 msgid "Tooling"
 msgstr "Tooling"
