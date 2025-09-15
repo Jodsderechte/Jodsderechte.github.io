@@ -210,10 +210,10 @@
                     "germanNotice": "ProjectGermanNotice",
                     "screens": [
                     {
-                        "path": "FUIProject1.png"
+                        "path": "FUIProject1.PNG"
                     },
                     {
-                        "path": "FUIProject2.png"
+                        "path": "FUIProject2.PNG"
                     }
                     ]
                 },
