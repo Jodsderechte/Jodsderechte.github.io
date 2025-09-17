@@ -355,7 +355,7 @@ msgid "VideoEditingDesc"
 msgstr "Ich habe Premiere Pro und After Effects umfangreich zur Content‑Produktion genutzt. Zum Beispiel habe ich damit sowohl Anleitungsvideos als auch verschiedene Highlightzusammenschnitte erstellt."
 
 msgid "AboutText"
-msgstr "Hi, ich bin Florian ein {headline}. Freut mich dich Kennen zu lernen!"
+msgstr "Hi, ich bin Florian ein {headline}. Freut mich dich kennenzulernen!"
 
 msgid "Gaming and Software development enthusiast"
 msgstr "Videospiel- und Softwareentwicklungsenthusiast"
