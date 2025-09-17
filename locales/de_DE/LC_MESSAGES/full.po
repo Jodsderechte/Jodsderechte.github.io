@@ -484,7 +484,7 @@ msgstr ""
 "verschiedene Highlightzusammenschnitte erstellt."
 
 msgid "AboutText"
-msgstr "Hi, ich bin Florian ein {headline}. Freut mich dich Kennen zu lernen!"
+msgstr "Hi, ich bin Florian ein {headline}. Freut mich dich kennenzulernen!"
 
 msgid "Gaming and Software development enthusiast"
 msgstr "Videospiel- und Softwareentwicklungsenthusiast"
