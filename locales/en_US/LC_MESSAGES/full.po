@@ -468,8 +468,8 @@ msgstr "Hi, I'm Florian a {headline}. Nice to Meet You!"
 msgid "Gaming and Software development enthusiast"
 msgstr "Gaming and Software development enthusiast"
 
-msgid "Software Development Student, Gaming Enthusiast and full-time nerd"
-msgstr "Software Development Student, Gaming Enthusiast and full-time nerd"
+msgid "Software Development Student and Gaming Enthusiast"
+msgstr "Software Development Student and Gaming Enthusiast"
 
 msgid "Age"
 msgstr "Age"
