@@ -2,7 +2,8 @@ Die Betrachtung der Informatik als „Ingenieurwissenschaft des Geistes“ (Karl
 
 Ziel der Vorlesung ist das selbständige Herausarbeiten und Identifizieren solcher Schnittstellen.
 
-Ausgehend von den vier klassischen Fragen Kants, nämlich:
+Ausgehend von den vier klassischen Fragen Kants, nämlich
+
 
 1. Was soll ich tun?  
 2. Was darf ich hoffen?  
@@ -14,3 +15,4 @@ sollen Antworten gefunden werden, die sich der Werkzeuge „experimenteller Phil
 Darin enthalten sind die Methoden der Spieltheorie, der Evolutionsspiele, der Quantentheorie und die Analyse der Stellung des Menschen „im Fadenkreuz der Naturgesetze“.
 
 Die Teilnehmer erhalten die Kompetenz, eigene Antworten auf die gestellten Fragen zu entwickeln und begründet zu verteidigen, ohne sie verabsolutieren zu müssen.
+

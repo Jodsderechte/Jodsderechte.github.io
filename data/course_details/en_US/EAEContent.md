@@ -1,5 +1,5 @@
-- **Android process model:** Intents & Activities  
-- **Android GUI elements:** GUIs with Android Studio & layout techniques  
-- **Frame-based animation in Android**  
-- **Web apps**  
-- **REST client–server integration with Android**  
+- **Android process model:** Intents & Activities
+- **Android GUI elements:** GUIs with Android Studio & layout techniques
+- Frame-based animation in Android
+- Web apps
+- REST client–server integration with Android
