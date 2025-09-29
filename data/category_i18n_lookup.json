@@ -8646,5 +8646,101 @@
       "en-US": "Single Config",
       "de-DE": "Single Config"
     }
+  },
+  "fellowship-tank-helena": {
+    "image": "helena.png",
+    "color": "#B46932",
+    "label": {
+      "en-US": "Helena",
+      "de-DE": null
+    }
+  },
+  "fellowship-tank-meiko": {
+    "image": "meiko.png",
+    "color": "#27df5b",
+    "label": {
+      "en-US": "Meiko",
+      "de-DE": null
+    }
+  },
+  "fellowship-healer-sylvie": {
+    "image": "sylvie.png",
+    "color": "#ea4f84",
+    "label": {
+      "en-US": "Sylvie",
+      "de-DE": null
+    }
+  },
+  "fellowship-healer-vigour": {
+    "image": "vigour.png",
+    "color": "#D3DBC5",
+    "label": {
+      "en-US": "Vigour",
+      "de-DE": null
+    }
+  },
+  "fellowship-dps-ardeos": {
+    "image": "ardeos.png",
+    "color": "#eb6329",
+    "label": {
+      "en-US": "Ardeos",
+      "de-DE": null
+    }
+  },
+  "fellowship-dps-rime": {
+    "image": "rime.png",
+    "color": "#1da7f5",
+    "label": {
+      "en-US": "Rime",
+      "de-DE": null
+    }
+  },
+  "fellowship-dps-mara": {
+    "image": "mara.png",
+    "color": "#6e2df0",
+    "label": {
+      "en-US": "Mara",
+      "de-DE": null
+    }
+  },
+  "fellowship-dps-tariq": {
+    "image": "tariq.png",
+    "color": "#c859df",
+    "label": {
+      "en-US": "Tariq",
+      "de-DE": null
+    }
+  },
+  "fellowship-role0": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Group Roles",
+      "de-DE": "Group Roles"
+    }
+  },
+  "fellowship-role1": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "DPS",
+      "de-DE": null
+    }
+  },
+  "fellowship-role2": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Healer",
+      "de-DE": "Heiler"
+    }
+  },
+  "fellowship-role3": {
+    "image": "roles.png",
+    "color": "#BED0C1",
+    "label": {
+      "en-US": "Tank",
+      "de-DE": null
+    }
   }
 }
