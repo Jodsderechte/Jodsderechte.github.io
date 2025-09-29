@@ -342,31 +342,35 @@
               <p>Mythistone displays the most advantageous information players can use to guarantee their success in the video game <strong>World of Warcraft</strong>, specifically in <strong>Mythic+</strong>.</p>
 <hr />
 <h2>What is a video game</h2>
-<p>Think of a video game like an interactive TV show combined with a board game:<br />
+<p>Think of a video game like an interactive TV show combined with a board game:
 - <strong>Interactive story and challenge.</strong> Players control characters on screen and make decisions in real time.<br />
-- <strong>Skills &amp; teamwork.</strong> Success often depends on quick thinking, strategy, and working with others.<br />
-- <strong>Global competition.</strong> Millions of people play online and compare their performance.</p>
+- <strong>Skills &amp; teamwork.</strong> Success often depends on quick thinking, strategy and good team-working. 
+- <strong>Competition</strong> People play online and compare their individual performance.</p>
 <hr />
-<h2>What is World of Warcraft?</h2>
+<h2>What is World of Warcraft (WoW)?</h2>
 <ul>
-<li><strong>Genre &amp; Scale:</strong> WoW is a massive online role-playing game (MMORPG) where hundreds of thousands of players connect at once.  </li>
-<li><strong>Character Development:</strong> Each player creates a <em>character</em> (avatar) that levels up by gaining experience, learning new abilities, and collecting better equipment.  </li>
+<li><strong>Genre &amp; Scale:</strong> WoW is a massive online role-playing game (MMORPG) where hundreds of thousands of players connect at once.</li>
+<li><strong>Character Development:</strong> Each player creates a <em>character</em> (avatar) that levels up by gaining experience, learning new abilities, and collecting better equipment.</li>
 <li><strong>Collaboration &amp; Competition:</strong> Players team up to tackle tough challenges or compete against one another, not unlike cross-functional teams collaborating on a complex project.</li>
 </ul>
 <hr />
 <h2>What is Mythic+</h2>
 <ul>
-<li><strong>Dungeon Challenges:</strong> “Dungeons” are instanced, multi-stage challenges. Think of them as time-boxed hackathons or project sprints with escalating difficulty.  </li>
-<li><strong>Scaling Difficulty:</strong> Mythic+ applies a difficulty “multiplier” to each dungeon, so teams must coordinate faster and optimize every skill to meet strict time limits.  </li>
+<li><strong>Dungeon Challenges:</strong> “Dungeons” are instanced, multi-stage challenges. Think of them as time-boxed hackathons or project sprints with escalating difficulty.</li>
+<li><strong>Scaling Difficulty:</strong> Mythic+ applies a difficulty “multiplier” to each dungeon, so teams must coordinate faster and optimize every skill to meet strict time limits.</li>
 <li><strong>Leaderboards &amp; Performance Metrics:</strong> Runs are timed and scored. Higher scores reflect better teamwork, strategy, and individual performance.</li>
 </ul>
 <hr />
 <h2>What is Mythistone</h2>
 <ul>
-<li><strong>Purpose:</strong> Mythistone is a web-based analytics platform for WoW players. It collects performance data from thousands of Mythic+ runs and presents it in clear, actionable formats.  </li>
-<li><strong>Key Features:</strong><ul>
-<li><strong>Build Recommendations:</strong> Which abilities (“talents”) and skill allocations deliver the best results for a given role? Similar to recommending a candidate’s optimal skill set for a job.  </li>
-<li><strong>Gear Optimization:</strong> Which equipment pieces yield the best performance gains? Comparable to advising on certifications or tools that boost on-the-job productivity.  </li>
+<li>
+<p><strong>Purpose:</strong> Mythistone is a web-based analytics platform for WoW players. It collects performance data from thousands of Mythic+ runs and presents it in clear, actionable formats.</p>
+</li>
+<li>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li><strong>Build Recommendations:</strong> Which abilities (“talents”) and skill allocations deliver the best results for a given role? Similar to recommending a candidate’s optimal skill set for a job.</li>
+<li><strong>Gear Optimization:</strong> Which equipment pieces yield the best performance gains? Comparable to advising on certifications or tools that boost on-the-job productivity.</li>
 <li><strong>Talent Profiles &amp; Reports:</strong> Visual summaries of what top performers are choosing. Like benchmark reports showing industry best practices.</li>
 </ul>
 </li>
@@ -374,19 +378,19 @@
 <hr />
 <h2>How It Was Built</h2>
 <ol>
-<li><strong>Data Source:</strong> Blizzard provides an official API exposing Mythic+ leaderboards and character profiles (equipment, talents, performance).  </li>
+<li><strong>Data Source:</strong> Blizzard provides an official API exposing Mythic+ leaderboards and character profiles (equipment, talents, performance).</li>
 <li><strong>Collection Pipeline:</strong><ul>
-<li>A Python script (“runner”) runs continuously on a Windows server, polling Blizzard’s API for updated leaderboard and character data.  </li>
-<li>Retrieved data is inserted into a MySQL database hosted on an Ubuntu server.  </li>
+<li>A Python script (“runner”) runs continuously on a Windows server, polling Blizzard’s API for updated leaderboard and character data.</li>
+<li>Retrieved data is inserted into a MySQL database hosted on an Ubuntu server. </li>
 </ul>
 </li>
 <li><strong>Site Generation:</strong><ul>
-<li>GitHub Actions workflows trigger Python jobs that pull fresh data from MySQL.  </li>
+<li>GitHub Actions workflows trigger Python jobs that pull fresh data from MySQL.</li>
 <li>Using Jinja templates, these jobs render fully static HTML pages (builds, gear guides, leaderboards).  </li>
 </ul>
 </li>
 <li><strong>Deployment:</strong><ul>
-<li>Static pages are pushed to a GitHub Pages branch, instantly publishing the updated site with zero-downtime.  </li>
+<li>Static pages are pushed to a GitHub Pages branch, instantly publishing the updated site with zero-downtime.</li>
 </ul>
 </li>
 </ol>
