@@ -5339,3 +5339,51 @@ msgstr "DelvUI Profile"
 #. image: ffxiv/delvui.png  color: #FDFDFD
 msgid "delvui2"
 msgstr "Single Config"
+
+#. image: helena.png  color: #B46932
+msgid "fellowship-tank-helena"
+msgstr ""
+
+#. image: meiko.png  color: #27df5b
+msgid "fellowship-tank-meiko"
+msgstr ""
+
+#. image: sylvie.png  color: #ea4f84
+msgid "fellowship-healer-sylvie"
+msgstr ""
+
+#. image: vigour.png  color: #D3DBC5
+msgid "fellowship-healer-vigour"
+msgstr ""
+
+#. image: ardeos.png  color: #eb6329
+msgid "fellowship-dps-ardeos"
+msgstr ""
+
+#. image: rime.png  color: #1da7f5
+msgid "fellowship-dps-rime"
+msgstr ""
+
+#. image: mara.png  color: #6e2df0
+msgid "fellowship-dps-mara"
+msgstr ""
+
+#. image: tariq.png  color: #c859df
+msgid "fellowship-dps-tariq"
+msgstr ""
+
+#. image: roles.png  color: #BED0C1
+msgid "fellowship-role0"
+msgstr "Group Roles"
+
+#. image: roles.png  color: #BED0C1
+msgid "fellowship-role1"
+msgstr ""
+
+#. image: roles.png  color: #BED0C1
+msgid "fellowship-role2"
+msgstr "Heiler"
+
+#. image: roles.png  color: #BED0C1
+msgid "fellowship-role3"
+msgstr ""
