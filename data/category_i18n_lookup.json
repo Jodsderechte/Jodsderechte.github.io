@@ -1167,6 +1167,14 @@
       "de-DE": "Dimensius der alles Verschlingende"
     }
   },
+  "legionremix": {
+    "image": "antorus.png",
+    "color": "#1978aa",
+    "label": {
+      "en-US": "Legion Remix",
+      "de-DE": "Legion Remix"
+    }
+  },
   "twwdungeon": {
     "image": "dungeon.png",
     "color": "#F5A623",

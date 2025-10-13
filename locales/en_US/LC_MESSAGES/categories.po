@@ -4383,3 +4383,7 @@ msgstr "Healer"
 #. image: roles.png  color: #BED0C1
 msgid "fellowship-role3"
 msgstr "Tank"
+
+#. image: antorus.png  color: #1978aa
+msgid "legionremix"
+msgstr "Legion Remix"
