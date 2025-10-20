@@ -4387,3 +4387,7 @@ msgstr "Tank"
 #. image: antorus.png  color: #1978aa
 msgid "legionremix"
 msgstr "Legion Remix"
+
+#. image: elarion.png  color: #a986ff
+msgid "fellowship-dps-elarion"
+msgstr "Elarion"

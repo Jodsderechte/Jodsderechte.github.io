@@ -8695,6 +8695,14 @@
       "de-DE": null
     }
   },
+  "fellowship-dps-elarion": {
+    "image": "elarion.png",
+    "color": "#a986ff",
+    "label": {
+      "en-US": "Elarion",
+      "de-DE": null
+    }
+  },
   "fellowship-dps-rime": {
     "image": "rime.png",
     "color": "#1da7f5",
