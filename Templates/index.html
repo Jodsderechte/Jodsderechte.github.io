@@ -873,6 +873,10 @@
       <div class="container section-title" data-aos="fade-up">
         <h2>{{_("AdditionalCourses")}}</h2>
         <p>{{_("AdditionalCoursesDesc")}}</p>
+        {% if lang_code != 'de_DE' %}
+        <br>
+        <p><em>{{_('gradeHint')}}</em></p>
+        {% endif %}
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -910,11 +914,7 @@
 
         </div>
         {% endfor %}
-
       </div>
-      {% if lang_code != 'de_DE' %}
-      <em>{{_('gradeHint')}}</em>
-      {% endif %}
 
     </section><!-- /{{_('AdditionalCourses')}} Section -->
 
