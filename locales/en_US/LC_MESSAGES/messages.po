@@ -680,7 +680,7 @@ msgid "ProjectGermanNotice"
 msgstr "The Project was created in German and is not available in English."
 
 msgid "SSEProject"
-msgstr "Generative AI: Large Language Models in Software-Development und Software-Security"
+msgstr "Generative AI: Large Language Models in Software-Development and Software-Security"
 
 msgid "FUIProject"
 msgstr "New things from the FAIRD"
