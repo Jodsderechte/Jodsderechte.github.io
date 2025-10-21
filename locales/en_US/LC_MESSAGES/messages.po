@@ -376,7 +376,7 @@ msgid "Degree"
 msgstr "Degree"
 
 msgid "DegreeValue"
-msgstr "During my master's studies"
+msgstr "I'm currently enrolled in my master's studies"
 
 msgid "Email"
 msgstr "Email"
