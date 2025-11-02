@@ -43,6 +43,8 @@ jobs:
           pip install jinja2 polib python-dateutil babel beautifulsoup4 markdown
 
       - name: Generate index HTML page
+        env:
+          BIRTHDATE: ${{ secrets.BIRTHDATE }}
         run: |
           python backendScripts/generateIndexPage.py
       

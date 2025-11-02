@@ -17,6 +17,7 @@ OTHER_PROJECTS_PATH = os.path.join('data', 'other_projects.json')
 ADDITIONAL_COURSES_PATH = os.path.join('data', 'additional_courses.json')
 GITHUB_METRICS_PATH = 'github-metrics.json'
 LOCALES_DIR = 'locales'
+BIRTHDATE = os.getenv('BIRTHDATE')
 
 
 def calculate_age_filter(value, fmt="%d.%m.%Y"):
@@ -238,6 +239,7 @@ def main():
             total_comments=total_comments,
             last_updated=datetime.now(timezone.utc),
             additional_courses=additional_courses,
+            birthdate=BIRTHDATE,
         )
 
         # Write output
