@@ -17,12 +17,12 @@
             "Started On": "May 2024"
         },
         {
-            "Finished On": "Apr 2024",
+            "Finished On": "May 2024",
             "Title": "Student Internship",
             "Company Name": "DCON Software & Service AG",
             "Description": "Evaluation and prototyping of a configuration interface for creating dashboard widgets in Servity.",
             "Location": "Kaiserslautern, Rhineland-Palatinate, Germany",
-            "Started On": "Nov 2023"
+            "Started On": "Dec 2023"
         },
         {
             "Finished On": "Mar 2023",
@@ -30,7 +30,7 @@
             "Company Name": "Hochschule Kaiserslautern",
             "Description": "Student Assistant for Ui/Ux development for N-soria/shift",
             "Location": "",
-            "Started On": "Nov 2022"
+            "Started On": "Dec 2022"
         },
         {
             "Finished On": "Jul 2016",
@@ -38,14 +38,14 @@
             "Company Name": "R+V Versicherung",
             "Description": "Quality Assurance",
             "Location": "Wiesbaden, Hesse, Germany",
-            "Started On": "Sep 2015"
+            "Started On": "Oct 2015"
         }
     ],
     "education": [
         {
             "Activities": "Software Development",
             "Degree Name": "Master of Science - MS",
-            "Start Date": "Sep 2024",
+            "Start Date": "Oct 2024",
             "School Name": "Hochschule Kaiserslautern",
             "End Date": "2026",
             "Notes": ""
@@ -53,7 +53,7 @@
         {
             "Activities": "",
             "Degree Name": "Bachelor of Science - BS",
-            "Start Date": "Sep 2017",
+            "Start Date": "Oct 2017",
             "School Name": "Hochschule Kaiserslautern",
             "End Date": "Jul 2024",
             "Notes": "Applied Informatics"
@@ -61,9 +61,9 @@
         {
             "Activities": "",
             "Degree Name": "Technical diploma",
-            "Start Date": "Sep 2015",
+            "Start Date": "Oct 2015",
             "School Name": "Fachoberschule Nierstein",
-            "End Date": "Jun 2017",
+            "End Date": "Jul 2017",
             "Notes": ""
         }
     ],
@@ -83,6 +83,6 @@
         "Last Name": "Reichle"
     },
     "last_updated": {
-        "timestamp": "2025-10-27T01:23:16.778037+00:00"
+        "timestamp": "2025-11-03T01:21:34.043763+00:00"
     }
 }
