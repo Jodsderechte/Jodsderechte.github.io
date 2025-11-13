@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://florian-reichle.de/</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/Background.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/dungeon-aura-tools</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/dungeon-aura-tools</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/dungeon-aura-tools</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/490240.JPG</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/groupfinderrio</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/groupfinderrio</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/groupfinderrio</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/933560.PNG</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/customnames</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/customnames</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/customnames</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/customnames_elvui</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/customnames_elvui</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/customnames_elvui</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/customnames_mrt</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/customnames_mrt</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/customnames_mrt</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/customnames_chat</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/customnames_chat</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/customnames_chat</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/customname_guild</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/customname_guild</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/customname_guild</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/autodoors</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/autodoors</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/autodoors</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/1269053.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/cheat-death-(homing-pigeon-reloaded)</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/cheat-death-(homing-pigeon-reloaded)</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/cheat-death-(homing-pigeon-reloaded)</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/751348.PNG</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/sl-dungeons</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/sl-dungeons</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/sl-dungeons</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/68890c0286fb3112ebd78a88.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/raidabilitytimeline</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/raidabilitytimeline</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/raidabilitytimeline</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/6889028c00188d0ab11e0d59.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/minterrupttracker</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/minterrupttracker</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/minterrupttracker</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/6889087c86fb3112ebd77266.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/legion-dungeons</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/legion-dungeons</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/legion-dungeons</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/68891b286e7fe2ddaa86e6c1.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/runicbrandhelper</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/runicbrandhelper</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">
+            https://florian-reichle.de/portfolio/runicbrandhelper</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/68891c73669cdf551b9de7c4.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/wod-dungeons</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/wod-dungeons</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/wod-dungeons</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/68891b6388893eb011c47051.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/bfa-dungeons</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/bfa-dungeons</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/bfa-dungeons</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/6889105e3a2863d7cac6346d.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/df-dungeons</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/df-dungeons</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/df-dungeons</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/68890cc46e7fe2ddaa867b7b.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/prideful</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/prideful</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/prideful</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/6889e68cf4c535bcf43a1117.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/affixhelper</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/affixhelper</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/affixhelper</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/logos/6889e614f4c535bcf43a0de5.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/mythistone</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/mythistone</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/mythistone</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/portfolio/mythistone/ClassDetails1.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/portfolio/wacreator</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/portfolio/wacreator</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/portfolio/wacreator</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/portfolio/wacreator/PiCreator.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/SocialSkills_UnrealEngine/WebSource/Project.html</loc>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.6</priority>
+        <image:image>
+            <image:loc>
+                https://florian-reichle.de/SocialSkills_UnrealEngine/WebSource/images/UE-Icon-2023-White.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/VisualDataAnalysis_VideoGameSales/VDAProjekt.html</loc>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/ComputerVision</loc>
+        <xhtml:link rel="alternate" hreflang="en">
+            https://florian-reichle.de/en_US/courses/ComputerVision</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/ComputerVision</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/cv.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/FTCG</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/FTCG</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/FTCG</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/ftcg.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/projects/ftcg</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/projects/ftcg</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/projects/ftcg</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/FTCGProject1.PNG</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/SSE</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/SSE</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/SSE</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/sse.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/projects/sse</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/projects/sse</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/projects/sse</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/SSEProject1.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/FUI</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/FUI</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/FUI</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/fui.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/projects/fui</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/projects/fui</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/projects/fui</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/FUIProject1.PNG</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/Philo</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/Philo</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/Philo</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/philo.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/VDA</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/VDA</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/VDA</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/vda.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/projects/vda</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/projects/vda</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/projects/vda</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/VDAProject1.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/EAE</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/EAE</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/EAE</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/eae.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/projects/eae</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/projects/eae</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/projects/eae</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/EAEProject1.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/NPROG</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/NPROG</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/NPROG</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/nprog.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/courses/Crypto</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/courses/crypto</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/courses/crypto</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/crypto.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://florian-reichle.de/projects/crypto</loc>
+        <xhtml:link rel="alternate" hreflang="en">https://florian-reichle.de/en_US/projects/crypto</xhtml:link>
+        <xhtml:link rel="alternate" hreflang="de">https://florian-reichle.de/projects/crypto</xhtml:link>
+        <lastmod>2025-11-13T14:55:44+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://florian-reichle.de/images/courses/CryptoProject1.jpg</image:loc>
+        </image:image>
+    </url>
+</urlset>
