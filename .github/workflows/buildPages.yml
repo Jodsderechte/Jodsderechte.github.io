@@ -9,6 +9,7 @@ on:
       - 'backendScripts/**'
       - 'assets/**'
       - 'locales/**'
+      - 'sitemap.xml'
   workflow_dispatch:
   workflow_run:
     workflows: ["Update Static Data"]
@@ -130,6 +131,7 @@ jobs:
             credits.html
             Impressum.html
             imprint.html
+            sitemap.xml
 
       
       - name: Upload static files as artifact
