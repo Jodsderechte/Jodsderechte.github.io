@@ -363,6 +363,9 @@ msgstr "Gaming and Software development enthusiast"
 msgid "Gaming and Software development enthusiast. Portfolio at: https://florian-reichle.de/"
 msgstr "Software Development Student and Gaming Enthusiast"
 
+msgid "Software Development Student and Gaming Enthusiast"
+msgstr "Software Development Student and Gaming Enthusiast"
+
 msgid "Age"
 msgstr "Age"
 
