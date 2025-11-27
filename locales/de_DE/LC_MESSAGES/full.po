@@ -495,7 +495,7 @@ msgid ""
 msgstr "Softwareentwicklungsstudent und Videospielenthusiast"
 
 msgid "Software Development Student and Gaming Enthusiast"
-msgstr "Software Development Student and Gaming Enthusiast"
+msgstr "Software-Entwicklungs Student und Gaming Enthusiast"
 
 msgid "Age"
 msgstr "Alter"
