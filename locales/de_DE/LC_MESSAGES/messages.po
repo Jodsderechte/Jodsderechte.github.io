@@ -364,7 +364,7 @@ msgid "Gaming and Software development enthusiast. Portfolio at: https://florian
 msgstr "Softwareentwicklungsstudent und Videospielenthusiast"
 
 msgid "Software Development Student and Gaming Enthusiast"
-msgstr "Software Development Student and Gaming Enthusiast"
+msgstr "Software-Entwicklungs Student und Gaming Enthusiast"
 
 msgid "Age"
 msgstr "Alter"
