@@ -2,9 +2,9 @@
   {
     "name": "Ability Timeline (Bossmods)",
     "slug": "RaidAbilityTimeline",
-    "installs": 64203,
-    "stars": 2796,
-    "views": 877776,
+    "installs": 64208,
+    "stars": 2797,
+    "views": 879317,
     "hasThumbnail": true,
     "latestVersion": "1.0.80",
     "versionsTotal": 81,
@@ -40,9 +40,9 @@
   {
     "name": "Mythic+ Interrupt Tracker",
     "slug": "MInterruptTracker",
-    "installs": 44577,
-    "stars": 1019,
-    "views": 350197,
+    "installs": 44579,
+    "stars": 1020,
+    "views": 350624,
     "hasThumbnail": true,
     "latestVersion": "1.0.96",
     "versionsTotal": 97,
@@ -69,7 +69,7 @@
     "slug": "WindsOfChange",
     "installs": 60,
     "stars": 4,
-    "views": 976,
+    "views": 978,
     "hasThumbnail": true,
     "latestVersion": "1.0.3",
     "versionsTotal": 4,
@@ -97,7 +97,7 @@
     "slug": "AutoMark",
     "installs": 11,
     "stars": 15,
-    "views": 852,
+    "views": 854,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -116,7 +116,7 @@
     "slug": "Paladin",
     "installs": 13,
     "stars": 2,
-    "views": 3971,
+    "views": 3978,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -139,23 +139,6 @@
     ]
   },
   {
-    "name": "Jods Evoker Suite - Dragonflight",
-    "slug": "AugEvoker",
-    "installs": 0,
-    "stars": 0,
-    "views": 131,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.0",
-    "versionsTotal": 1,
-    "commentCount": 0,
-    "dateModified": "2024-07-13T08:21:39.836Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-34\"></span></span></span>\nI do not plan to become a Class Aura maintainer I'm merely creating auras for my Personal use \n\nAll Class Packs:\n<ul>\n<li><a href='/DemonHunter' class='vr'><span style=\"color:#a330c9\">Havoc Demon Hunter</span></a> \n</li><li><a href='/BalanceDruid' class='vr'><span style=\"color:#ff7c0a\">Balance Druid</span></a>\n</li><li><a href='/Warlock' class='vr'><span style=\"color:#8788ee\">Warlock</span></a>\n</li><li><a href='/ElementalShaman' class='vr'><span style=\"color:#0070dd\">Elemental Shaman</span></a>\n</li><li><a href='/Paladin' class='vr'><span style=\"color:#f48cba\">Retribution Paladin</span></a>\n</li><li><a href='/ShadowPriest' class='vr'><span style=\"color:#ffffff\">Shadow Priest</span></a>\n</li><li><a href='/DeathKnight' class='vr'><span style=\"color:#c41e3a\">Frost DK</span></a>\n</li><li><a href='/AugEvoker' class='vr'><span style=\"color:#33937f\">Aug Evoker</span></a>\n\n</li></ul>\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\">\nTo get the Aura Visually the exact same you need <a target=\"_blank\" rel=\"noopener\" href=\"https://www.wowinterface.com/downloads/info25064-CleanIcons-MechagnomeEdition\">Clean Icons-MechagnomeEdition</a> and <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/omni-cc\">omnicc</a>\n</span></span>\nAuras Visually Inspired by <a href='/LuxthosDruidDragonflight' class='vr'>Luxthos</a> but with less shenanigans\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
-    "categories": [],
-    "changelog": "",
-    "url": "https://wago.io/AugEvoker",
-    "screens": []
-  },
-  {
     "name": "BLIND - FROST",
     "slug": "BlindFrost",
     "installs": 0,
@@ -173,11 +156,28 @@
     "screens": []
   },
   {
+    "name": "Jods Evoker Suite - Dragonflight",
+    "slug": "AugEvoker",
+    "installs": 0,
+    "stars": 0,
+    "views": 131,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.0",
+    "versionsTotal": 1,
+    "commentCount": 0,
+    "dateModified": "2024-07-13T08:21:39.836Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-34\"></span></span></span>\nI do not plan to become a Class Aura maintainer I'm merely creating auras for my Personal use \n\nAll Class Packs:\n<ul>\n<li><a href='/DemonHunter' class='vr'><span style=\"color:#a330c9\">Havoc Demon Hunter</span></a> \n</li><li><a href='/BalanceDruid' class='vr'><span style=\"color:#ff7c0a\">Balance Druid</span></a>\n</li><li><a href='/Warlock' class='vr'><span style=\"color:#8788ee\">Warlock</span></a>\n</li><li><a href='/ElementalShaman' class='vr'><span style=\"color:#0070dd\">Elemental Shaman</span></a>\n</li><li><a href='/Paladin' class='vr'><span style=\"color:#f48cba\">Retribution Paladin</span></a>\n</li><li><a href='/ShadowPriest' class='vr'><span style=\"color:#ffffff\">Shadow Priest</span></a>\n</li><li><a href='/DeathKnight' class='vr'><span style=\"color:#c41e3a\">Frost DK</span></a>\n</li><li><a href='/AugEvoker' class='vr'><span style=\"color:#33937f\">Aug Evoker</span></a>\n\n</li></ul>\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\">\nTo get the Aura Visually the exact same you need <a target=\"_blank\" rel=\"noopener\" href=\"https://www.wowinterface.com/downloads/info25064-CleanIcons-MechagnomeEdition\">Clean Icons-MechagnomeEdition</a> and <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/omni-cc\">omnicc</a>\n</span></span>\nAuras Visually Inspired by <a href='/LuxthosDruidDragonflight' class='vr'>Luxthos</a> but with less shenanigans\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
+    "categories": [],
+    "changelog": "",
+    "url": "https://wago.io/AugEvoker",
+    "screens": []
+  },
+  {
     "name": "Jods Class Auras - Template",
     "slug": "ClassAuras",
     "installs": 0,
     "stars": 0,
-    "views": 95,
+    "views": 96,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -194,7 +194,7 @@
     "slug": "CCTracker",
     "installs": 3015,
     "stars": 95,
-    "views": 12582,
+    "views": 12592,
     "hasThumbnail": true,
     "latestVersion": "1.0.9",
     "versionsTotal": 10,
@@ -225,7 +225,7 @@
     "slug": "Legion-Dungeons",
     "installs": 18836,
     "stars": 120,
-    "views": 78149,
+    "views": 78162,
     "hasThumbnail": true,
     "latestVersion": "1.1.38",
     "versionsTotal": 61,
@@ -260,7 +260,7 @@
     "slug": "WOD-Dungeons",
     "installs": 10839,
     "stars": 66,
-    "views": 48519,
+    "views": 48524,
     "hasThumbnail": true,
     "latestVersion": "1.0.22",
     "versionsTotal": 23,
@@ -288,44 +288,11 @@
     ]
   },
   {
-    "name": "Power Infusion Helper",
-    "slug": "PI-Helper",
-    "installs": 17,
-    "stars": 20,
-    "views": 4232,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.60",
-    "versionsTotal": 45,
-    "commentCount": 8,
-    "dateModified": "2025-10-29T06:04:41.643Z",
-    "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&amp;logoColor=fff&amp;style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&amp;style=for-the-badge\" alt=\"Ko-fi\"></a> <a href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&amp;logo=Twitch&amp;color=22283D\" alt=\"Twitch\"></a></p>\n<h1>Power Infusion Optimizer</h1>\n<p>This WeakAura intelligently assists Priests in optimizing the use of Power Infusion by identifying the most beneficial targets within your group or raid. Leveraging real-time data and simulations, it ensures that your PI casts contribute maximally to your team’s performance.</p>\n<hr>\n<h2>How It Works</h2>\n<h3>1. Data Collection</h3>\n<ul>\n<li><strong>Talent Analysis:</strong> For each class and specialization, the system retrieves the most prevalent talent builds from Warcraft Logs. Raid logs inform single-target setups, while Mythic+ logs guide multi-target configurations, reflecting the current meta.</li>\n</ul>\n<hr>\n<h3>2. Simulation Runs</h3>\n<ul>\n<li><strong>Baseline Simulation:</strong> Executes a profile without Power Infusion to establish a control DPS value.</li>\n<li><strong>Buffed Simulation:</strong> Runs the same profile with Power Infusion applied once, yielding the enhanced DPS figure.</li>\n</ul>\n<hr>\n<h3>3. Gain Calculation</h3>\n<p>The difference between the buffed and baseline DPS values quantifies the exact impact of Power Infusion for each spec and build.<br>\nThis methodology ensures all variables (talents, gear, fight duration, rotation logic, and target count) remain constant, isolating the effect of Power Infusion.</p>\n<hr>\n<h3>4. Displaying when to use</h3>\n<p>The WeakAura get's the logic on when to use directly from the simulationcraft APL (the same thing powering raidbots). It will automatically highlight the group frame who is the most optimal use of PI with icon and glow whenever you should Pi them.</p>\n<hr>\n<h2>Weekly Updates</h2>\n<p>The simulation data is refreshed weekly to align with the evolving meta.</p>\n<p>For more options and information including talents and gear for each simulation, you can check and generate the WeakAura by clicking this image:<br>\n<a href=\"https://weakaurascreator.github.io/Create/#powerInfusion\"><img src=\"https://weakaurascreator.github.io/Create/favicon/web-app-manifest-512x512.png\" alt=\"Power Infusion\"></a></p>\n<hr>\n<h2>Chat Command: <code>!pi</code></h2>\n<p>Utilize the <code>!pi</code> command in chat to display the top candidates for Power Infusion based on the current simulation data.</p>\n<ul>\n<li><strong><code>!pi</code></strong><br>\nLists the top 5 PI targets with their respective gain values.</li>\n</ul>\n<p>This feature aids in real-time decision-making, especially in dynamic group compositions.</p>\n",
-    "categories": [
-      "mech",
-      "cl5"
-    ],
-    "changelog": "Automated Data update for 29/10/2025",
-    "url": "https://wago.io/PI-Helper",
-    "screens": [
-      {
-        "path": "6889002f4d66f298ce9cc81b.png"
-      },
-      {
-        "path": "68332e9aa9c7d4e44ac63bbc.png"
-      },
-      {
-        "path": "6833356572621bbe80052d5f.png"
-      },
-      {
-        "path": "68333b75a58dc4bc04b7f368.png"
-      }
-    ]
-  },
-  {
     "name": "Current Season Dungeons",
     "slug": "Current-Dungeons",
     "installs": 209,
-    "stars": 42,
-    "views": 12434,
+    "stars": 43,
+    "views": 12468,
     "hasThumbnail": true,
     "latestVersion": "1.0.7",
     "versionsTotal": 8,
@@ -356,11 +323,44 @@
     ]
   },
   {
+    "name": "Power Infusion Helper",
+    "slug": "PI-Helper",
+    "installs": 17,
+    "stars": 20,
+    "views": 4261,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.60",
+    "versionsTotal": 45,
+    "commentCount": 8,
+    "dateModified": "2025-10-29T06:04:41.643Z",
+    "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&amp;logoColor=fff&amp;style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&amp;style=for-the-badge\" alt=\"Ko-fi\"></a> <a href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&amp;logo=Twitch&amp;color=22283D\" alt=\"Twitch\"></a></p>\n<h1>Power Infusion Optimizer</h1>\n<p>This WeakAura intelligently assists Priests in optimizing the use of Power Infusion by identifying the most beneficial targets within your group or raid. Leveraging real-time data and simulations, it ensures that your PI casts contribute maximally to your team’s performance.</p>\n<hr>\n<h2>How It Works</h2>\n<h3>1. Data Collection</h3>\n<ul>\n<li><strong>Talent Analysis:</strong> For each class and specialization, the system retrieves the most prevalent talent builds from Warcraft Logs. Raid logs inform single-target setups, while Mythic+ logs guide multi-target configurations, reflecting the current meta.</li>\n</ul>\n<hr>\n<h3>2. Simulation Runs</h3>\n<ul>\n<li><strong>Baseline Simulation:</strong> Executes a profile without Power Infusion to establish a control DPS value.</li>\n<li><strong>Buffed Simulation:</strong> Runs the same profile with Power Infusion applied once, yielding the enhanced DPS figure.</li>\n</ul>\n<hr>\n<h3>3. Gain Calculation</h3>\n<p>The difference between the buffed and baseline DPS values quantifies the exact impact of Power Infusion for each spec and build.<br>\nThis methodology ensures all variables (talents, gear, fight duration, rotation logic, and target count) remain constant, isolating the effect of Power Infusion.</p>\n<hr>\n<h3>4. Displaying when to use</h3>\n<p>The WeakAura get's the logic on when to use directly from the simulationcraft APL (the same thing powering raidbots). It will automatically highlight the group frame who is the most optimal use of PI with icon and glow whenever you should Pi them.</p>\n<hr>\n<h2>Weekly Updates</h2>\n<p>The simulation data is refreshed weekly to align with the evolving meta.</p>\n<p>For more options and information including talents and gear for each simulation, you can check and generate the WeakAura by clicking this image:<br>\n<a href=\"https://weakaurascreator.github.io/Create/#powerInfusion\"><img src=\"https://weakaurascreator.github.io/Create/favicon/web-app-manifest-512x512.png\" alt=\"Power Infusion\"></a></p>\n<hr>\n<h2>Chat Command: <code>!pi</code></h2>\n<p>Utilize the <code>!pi</code> command in chat to display the top candidates for Power Infusion based on the current simulation data.</p>\n<ul>\n<li><strong><code>!pi</code></strong><br>\nLists the top 5 PI targets with their respective gain values.</li>\n</ul>\n<p>This feature aids in real-time decision-making, especially in dynamic group compositions.</p>\n",
+    "categories": [
+      "mech",
+      "cl5"
+    ],
+    "changelog": "Automated Data update for 29/10/2025",
+    "url": "https://wago.io/PI-Helper",
+    "screens": [
+      {
+        "path": "6889002f4d66f298ce9cc81b.png"
+      },
+      {
+        "path": "68332e9aa9c7d4e44ac63bbc.png"
+      },
+      {
+        "path": "6833356572621bbe80052d5f.png"
+      },
+      {
+        "path": "68333b75a58dc4bc04b7f368.png"
+      }
+    ]
+  },
+  {
     "name": "GrimBatol - Flight sim",
     "slug": "GrimBatolFlight",
     "installs": 806,
     "stars": 68,
-    "views": 12709,
+    "views": 12715,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -410,7 +410,7 @@
     "slug": "Awakened",
     "installs": 524,
     "stars": 17,
-    "views": 6151,
+    "views": 6152,
     "hasThumbnail": true,
     "latestVersion": "1.1.7",
     "versionsTotal": 22,
@@ -449,7 +449,7 @@
     "slug": "AffixHelper",
     "installs": 3382,
     "stars": 129,
-    "views": 37724,
+    "views": 37727,
     "hasThumbnail": true,
     "latestVersion": "1.0.34",
     "versionsTotal": 35,
@@ -504,31 +504,11 @@
     ]
   },
   {
-    "name": "Hide nameplates which aren't casting (when one mob is casting)",
-    "slug": "HideNonCasting",
-    "installs": 15,
-    "stars": 12,
-    "views": 1054,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.2",
-    "versionsTotal": 3,
-    "commentCount": 5,
-    "dateModified": "2023-09-01T15:14:11.375Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nHide nameplates of mobs that aren't casting if one of the mobs is casting. This doesn't cover all edge cases and doesn't work will all Nameplate addons</div>",
-    "categories": [
-      "mech",
-      "mech2"
-    ],
-    "changelog": "code cleanup",
-    "url": "https://wago.io/HideNonCasting",
-    "screens": []
-  },
-  {
     "name": "Healer Mana Bar (Druid) WORKS WITH CATFORM",
     "slug": "HealerManaBar",
     "installs": 29,
     "stars": 2,
-    "views": 1505,
+    "views": 1507,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -572,7 +552,7 @@
     "slug": "AstralPower",
     "installs": 0,
     "stars": 1,
-    "views": 313,
+    "views": 314,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -589,7 +569,7 @@
     "slug": "MageTower",
     "installs": 140,
     "stars": 3,
-    "views": 1233,
+    "views": 1235,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -623,7 +603,7 @@
     "slug": "CheckSoulbind",
     "installs": 66,
     "stars": 3,
-    "views": 541,
+    "views": 542,
     "hasThumbnail": true,
     "latestVersion": "1.0.3",
     "versionsTotal": 4,
@@ -640,7 +620,7 @@
     "slug": "Tormented",
     "installs": 74,
     "stars": 3,
-    "views": 1811,
+    "views": 1812,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -660,11 +640,41 @@
     ]
   },
   {
+    "name": "Shadowlands-Dungeons",
+    "slug": "SL-Dungeons",
+    "installs": 81832,
+    "stars": 1872,
+    "views": 529639,
+    "hasThumbnail": true,
+    "latestVersion": "1.1.30",
+    "versionsTotal": 161,
+    "commentCount": 425,
+    "dateModified": "2024-06-10T17:54:48.958Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a><a target=\"_blank\" rel=\"noopener\" href=\"https://legacy.curseforge.com/wow/addons/dungeon-aura-tools/localization\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Help_Translate-lightgrey?style=for-the-badge&logo=translate&color=ffbda3\" /></a><a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/Jodsderechte/DungeonAuraTools/releases/latest\"><img src=\"https://badgen.net/github/release/Jodsderechte/DungeonAuraTools?style=for-the-badge\" /></a>\n\n\nI'm mainly a dps player so I might not realise if sth for Tank/Heal isn't working as it's supposed to if you find anything missing/buggy let me know!\n\n\n\nThis is still a big Work in Progress and Auras are being generated by <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/dungeon-aura-tools\">My Addon</a> so head over there to be best prepared for The War Within. alternativly you can import them seperatly at the following urls:\n<ul>\n<li><a href='/Current-Dungeons' class='vr'>https://wago.io/Current-Dungeons </a>\n</li><li><a href='/TWW-Dungeons' class='vr'>https://wago.io/TWW-Dungeons </a>\n</li><li><a href='/DF-Dungeons' class='vr'>https://wago.io/DF-Dungeons </a>\n</li><li><a href='/SL-Dungeons' class='vr'>https://wago.io/SL-Dungeons </a>\n</li><li><a href='/BFA-Dungeons' class='vr'>https://wago.io/BFA-Dungeons</a>\n</li><li><a href='/Legion-Dungeons' class='vr'>https://wago.io/Legion-Dungeons</a>\n</li><li><a href='/WOD-Dungeons' class='vr'>https://wago.io/WOD-Dungeons</a>\n</li><li><a href='/MOP-Dungeons' class='vr'>https://wago.io/MOP-Dungeons </a>\n</li><li><a href='/Cataclysm-Dungeons' class='vr'>https://wago.io/Cataclysm-Dungeons</a>\n</li></ul>\n\n\n\nCurrently has: \n<ul>\n<li> Tazavesh the veiled Market (Gambit and Streets)\n</li><li> Plaguefall\n</li><li> The Necrotic Wake\n</li><li> De Other Side\n</li><li> Mists of Tirna Scithe\n</li><li> Theater of Pain\n</li><li> Sanguine Depths\n</li><li> Halls of Atonement\n</li><li> Spires of Ascension\n</li></ul>\n\nCheck out  <a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition\">Clean Icons Mechagnome Edition</a> if you want HD icon textures.\nIf you like to change the Size of the Icons, please use the \"Group Scale\" option instead of changing width/height of all Auras at the same time because that may crash your game while Group-Scale is lag-free.\nIf you want to have timers and are not using OmiCC/Elvui select the group , go to display options and tick \"show text\" below text1.\nIf you want to have some sounds, use this addon: <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/sharedmedia_causese\">SharedMedia Causese</a>\nIf you are using Causeses addon and do NOT want sounds select the group and go to Actions -&gt; on Show and untick play sound\n\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n<span class=\"xbbcode-s\"> Versioncheck </span> Debuff/Interrupt idea  stolen from causese props to him\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
+    "categories": [
+      "sldungeon",
+      "twwdungeon"
+    ],
+    "changelog": "Shadowlands Dungeons have returned for 11.0. Some small changes were made to the dungeons and the aura was updated accordingly.  Players rejoice on revisiting those dungeons.",
+    "url": "https://wago.io/SL-Dungeons",
+    "screens": [
+      {
+        "path": "68890c0286fb3112ebd78a88.png"
+      },
+      {
+        "path": "5fc4090e27b34233b47f3dd6.jpg"
+      },
+      {
+        "path": "61b87954aaf390396545b6b0.jpg"
+      }
+    ]
+  },
+  {
     "name": "MOP Dungeons",
     "slug": "MOP-Dungeons",
     "installs": 2055,
     "stars": 27,
-    "views": 8474,
+    "views": 8483,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -691,32 +701,26 @@
     ]
   },
   {
-    "name": "Shadowlands-Dungeons",
-    "slug": "SL-Dungeons",
-    "installs": 81832,
-    "stars": 1872,
-    "views": 529595,
+    "name": "City of Threads Spyfinder",
+    "slug": "SpyFinder",
+    "installs": 433,
+    "stars": 39,
+    "views": 9067,
     "hasThumbnail": true,
-    "latestVersion": "1.1.30",
-    "versionsTotal": 161,
-    "commentCount": 425,
-    "dateModified": "2024-06-10T17:54:48.958Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a><a target=\"_blank\" rel=\"noopener\" href=\"https://legacy.curseforge.com/wow/addons/dungeon-aura-tools/localization\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Help_Translate-lightgrey?style=for-the-badge&logo=translate&color=ffbda3\" /></a><a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/Jodsderechte/DungeonAuraTools/releases/latest\"><img src=\"https://badgen.net/github/release/Jodsderechte/DungeonAuraTools?style=for-the-badge\" /></a>\n\n\nI'm mainly a dps player so I might not realise if sth for Tank/Heal isn't working as it's supposed to if you find anything missing/buggy let me know!\n\n\n\nThis is still a big Work in Progress and Auras are being generated by <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/dungeon-aura-tools\">My Addon</a> so head over there to be best prepared for The War Within. alternativly you can import them seperatly at the following urls:\n<ul>\n<li><a href='/Current-Dungeons' class='vr'>https://wago.io/Current-Dungeons </a>\n</li><li><a href='/TWW-Dungeons' class='vr'>https://wago.io/TWW-Dungeons </a>\n</li><li><a href='/DF-Dungeons' class='vr'>https://wago.io/DF-Dungeons </a>\n</li><li><a href='/SL-Dungeons' class='vr'>https://wago.io/SL-Dungeons </a>\n</li><li><a href='/BFA-Dungeons' class='vr'>https://wago.io/BFA-Dungeons</a>\n</li><li><a href='/Legion-Dungeons' class='vr'>https://wago.io/Legion-Dungeons</a>\n</li><li><a href='/WOD-Dungeons' class='vr'>https://wago.io/WOD-Dungeons</a>\n</li><li><a href='/MOP-Dungeons' class='vr'>https://wago.io/MOP-Dungeons </a>\n</li><li><a href='/Cataclysm-Dungeons' class='vr'>https://wago.io/Cataclysm-Dungeons</a>\n</li></ul>\n\n\n\nCurrently has: \n<ul>\n<li> Tazavesh the veiled Market (Gambit and Streets)\n</li><li> Plaguefall\n</li><li> The Necrotic Wake\n</li><li> De Other Side\n</li><li> Mists of Tirna Scithe\n</li><li> Theater of Pain\n</li><li> Sanguine Depths\n</li><li> Halls of Atonement\n</li><li> Spires of Ascension\n</li></ul>\n\nCheck out  <a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition\">Clean Icons Mechagnome Edition</a> if you want HD icon textures.\nIf you like to change the Size of the Icons, please use the \"Group Scale\" option instead of changing width/height of all Auras at the same time because that may crash your game while Group-Scale is lag-free.\nIf you want to have timers and are not using OmiCC/Elvui select the group , go to display options and tick \"show text\" below text1.\nIf you want to have some sounds, use this addon: <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/sharedmedia_causese\">SharedMedia Causese</a>\nIf you are using Causeses addon and do NOT want sounds select the group and go to Actions -&gt; on Show and untick play sound\n\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n<span class=\"xbbcode-s\"> Versioncheck </span> Debuff/Interrupt idea  stolen from causese props to him\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
-    "categories": [
-      "sldungeon",
-      "twwdungeon"
-    ],
-    "changelog": "Shadowlands Dungeons have returned for 11.0. Some small changes were made to the dungeons and the aura was updated accordingly.  Players rejoice on revisiting those dungeons.",
-    "url": "https://wago.io/SL-Dungeons",
+    "latestVersion": "1.0.2",
+    "versionsTotal": 3,
+    "commentCount": 5,
+    "dateModified": "2024-09-03T08:31:02.925Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-36\"> The functionality of this aura that was super helpful got removed. Now it only triggers as soon as you can use the Reveal! spell and can't automark anymore </span></span></span>\n\nSimilar to the Cos aura <a href='/COSInteractables' class='vr'>https://wago.io/COSInteractables</a> this is a liittle Helper for the Spyevent in City of Threads.\nWhen mouseovering over the spy they will be automarked and anounced in chat (both if and how they are marked/announced can be adjusted via custom options).</div>",
+    "categories": [],
+    "changelog": "trigger on getting in range of the extra spell instead. Not rly very useful but might be helpful for some",
+    "url": "https://wago.io/SpyFinder",
     "screens": [
       {
-        "path": "68890c0286fb3112ebd78a88.png"
+        "path": "688912d33200e700ed0ed94c.png"
       },
       {
-        "path": "5fc4090e27b34233b47f3dd6.jpg"
-      },
-      {
-        "path": "61b87954aaf390396545b6b0.jpg"
+        "path": "66bdad97fe7c2e18f2b0140a.png"
       }
     ]
   },
@@ -725,7 +729,7 @@
     "slug": "RunicBrandHelper",
     "installs": 12524,
     "stars": 111,
-    "views": 32493,
+    "views": 32496,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -749,35 +753,11 @@
     ]
   },
   {
-    "name": "City of Threads Spyfinder",
-    "slug": "SpyFinder",
-    "installs": 433,
-    "stars": 39,
-    "views": 9063,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.2",
-    "versionsTotal": 3,
-    "commentCount": 5,
-    "dateModified": "2024-09-03T08:31:02.925Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-36\"> The functionality of this aura that was super helpful got removed. Now it only triggers as soon as you can use the Reveal! spell and can't automark anymore </span></span></span>\n\nSimilar to the Cos aura <a href='/COSInteractables' class='vr'>https://wago.io/COSInteractables</a> this is a liittle Helper for the Spyevent in City of Threads.\nWhen mouseovering over the spy they will be automarked and anounced in chat (both if and how they are marked/announced can be adjusted via custom options).</div>",
-    "categories": [],
-    "changelog": "trigger on getting in range of the extra spell instead. Not rly very useful but might be helpful for some",
-    "url": "https://wago.io/SpyFinder",
-    "screens": [
-      {
-        "path": "688912d33200e700ed0ed94c.png"
-      },
-      {
-        "path": "66bdad97fe7c2e18f2b0140a.png"
-      }
-    ]
-  },
-  {
     "name": "COS - Interactables",
     "slug": "COSInteractables",
     "installs": 496,
     "stars": 13,
-    "views": 4036,
+    "views": 4037,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -802,7 +782,7 @@
     "slug": "Prideful",
     "installs": 6121,
     "stars": 56,
-    "views": 11776,
+    "views": 11780,
     "hasThumbnail": true,
     "latestVersion": "1.0.7",
     "versionsTotal": 8,
@@ -829,7 +809,7 @@
     "slug": "Spiteful",
     "installs": 2793,
     "stars": 18,
-    "views": 7861,
+    "views": 7863,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -849,11 +829,41 @@
     ]
   },
   {
+    "name": "WoW Anniversary",
+    "slug": "Anniversary",
+    "installs": 198,
+    "stars": 25,
+    "views": 10998,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.4",
+    "versionsTotal": 5,
+    "commentCount": 10,
+    "dateModified": "2024-10-29T13:54:12.636Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\nShows Timers for the Events and Does a visual and auditory warning when a spell becomes available on the storytime event that you can use.\n\n\nEvent timer is heavily based upon Putros <a href='/yTAen2Nvj' class='vr'>TWW event tracker</a></div>",
+    "categories": [
+      "gen0",
+      "gen12"
+    ],
+    "changelog": "added missing spell id",
+    "url": "https://wago.io/Anniversary",
+    "screens": [
+      {
+        "path": "6889116400188d0ab11e8a01.png"
+      },
+      {
+        "path": "671b6903f86120e1ccea2134.png"
+      },
+      {
+        "path": "671b6cbb360e99354b841f8b.png"
+      }
+    ]
+  },
+  {
     "name": "Dragonflight Dungeons",
     "slug": "DF-Dungeons",
     "installs": 8701,
     "stars": 164,
-    "views": 83736,
+    "views": 83744,
     "hasThumbnail": true,
     "latestVersion": "1.0.24",
     "versionsTotal": 25,
@@ -882,7 +892,7 @@
     "slug": "ultimate-mplus-imer",
     "installs": 0,
     "stars": 6,
-    "views": 615,
+    "views": 619,
     "hasThumbnail": true,
     "latestVersion": "1.0.6",
     "versionsTotal": 7,
@@ -908,7 +918,7 @@
     "slug": "BFA-Dungeons",
     "installs": 10165,
     "stars": 72,
-    "views": 50574,
+    "views": 50579,
     "hasThumbnail": true,
     "latestVersion": "1.0.21",
     "versionsTotal": 22,
@@ -935,41 +945,11 @@
     ]
   },
   {
-    "name": "WoW Anniversary",
-    "slug": "Anniversary",
-    "installs": 198,
-    "stars": 25,
-    "views": 10968,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.4",
-    "versionsTotal": 5,
-    "commentCount": 10,
-    "dateModified": "2024-10-29T13:54:12.636Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\nShows Timers for the Events and Does a visual and auditory warning when a spell becomes available on the storytime event that you can use.\n\n\nEvent timer is heavily based upon Putros <a href='/yTAen2Nvj' class='vr'>TWW event tracker</a></div>",
-    "categories": [
-      "gen0",
-      "gen12"
-    ],
-    "changelog": "added missing spell id",
-    "url": "https://wago.io/Anniversary",
-    "screens": [
-      {
-        "path": "6889116400188d0ab11e8a01.png"
-      },
-      {
-        "path": "671b6903f86120e1ccea2134.png"
-      },
-      {
-        "path": "671b6cbb360e99354b841f8b.png"
-      }
-    ]
-  },
-  {
     "name": "Anti Elitism Helper",
     "slug": "AntiElitism",
     "installs": 189,
     "stars": 26,
-    "views": 9622,
+    "views": 9624,
     "hasThumbnail": true,
     "latestVersion": "1.0.11",
     "versionsTotal": 12,
@@ -1009,28 +989,11 @@
     "screens": []
   },
   {
-    "name": "M+ Affixes",
-    "slug": "MplusAffixes",
-    "installs": 25,
-    "stars": 2,
-    "views": 733,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.0",
-    "versionsTotal": 1,
-    "commentCount": 0,
-    "dateModified": "2022-12-25T16:10:59.719Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nI'm mainly a dps player so I might not realise if sth for Tank/Heal isn't working as it's supposed to if you find anything missing/buggy let me know!\n\n\n\nThis is still a big Work in Progress and Auras are being generated by <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/dungeon-aura-tools\">My Addon</a> so head over there to be best prepared for Dragonflight. alternativly you can import them seperatly at\n<ul>\n<li><a href='/DF-Dungeons' class='vr'>https://wago.io/DF-Dungeons </a>\n</li><li><a href='/SL-Dungeons' class='vr'>https://wago.io/SL-Dungeons </a>\n</li><li><a href='/BFA-Dungeons' class='vr'>https://wago.io/BFA-Dungeons</a>\n</li><li><a href='/Legion-Dungeons' class='vr'>https://wago.io/Legion-Dungeons</a>\n</li><li><a href='/WOD-Dungeons' class='vr'>https://wago.io/WOD-Dungeons</a>\n</li><li><a href='/MOP-Dungeons' class='vr'>https://wago.io/MOP-Dungeons </a>\n</li></ul>\nrespectivly\n\n\n\nIf you like to change the Size of the Icons, please use the \"Group Scale\" option instead of changing width/height of all Auras at the same time because that may crash your game while Group-Scale is lag-free.\nIf you want to have timers and are not using OmiCC/Elvui select the group , go to display options and tick \"show text\" below text1.\nIf you want to have some sounds, use this addon: <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/sharedmedia_causese\">SharedMedia Causese</a>\nIf you are using Causeses addon and do NOT want sounds select the group and go to Actions -&gt; on Show and untick play sound\n\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n<span class=\"xbbcode-s\"> Versioncheck </span> Debuff/Interrupt idea stolen from causese props to him\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
-    "categories": [],
-    "changelog": "",
-    "url": "https://wago.io/MplusAffixes",
-    "screens": []
-  },
-  {
     "name": "The War Within Dungeons",
     "slug": "TWW-Dungeons",
     "installs": 166,
     "stars": 24,
-    "views": 20558,
+    "views": 20579,
     "hasThumbnail": true,
     "latestVersion": "1.0.5",
     "versionsTotal": 6,
@@ -1064,7 +1027,7 @@
     "slug": "Cataclysm-Dungeons",
     "installs": 336,
     "stars": 10,
-    "views": 7892,
+    "views": 7896,
     "hasThumbnail": true,
     "latestVersion": "1.0.6",
     "versionsTotal": 7,
@@ -1094,7 +1057,7 @@
     "slug": "MemberDied",
     "installs": 209,
     "stars": 11,
-    "views": 3144,
+    "views": 3145,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1121,7 +1084,7 @@
     "slug": "CharacterStats",
     "installs": 62,
     "stars": 24,
-    "views": 3102,
+    "views": 3107,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1147,7 +1110,7 @@
     "slug": "Warlock",
     "installs": 104,
     "stars": 4,
-    "views": 2443,
+    "views": 2445,
     "hasThumbnail": true,
     "latestVersion": "1.0.8",
     "versionsTotal": 9,
@@ -1176,7 +1139,7 @@
     "slug": "DemonHunter",
     "installs": 53,
     "stars": 3,
-    "views": 2387,
+    "views": 2389,
     "hasThumbnail": true,
     "latestVersion": "1.0.6",
     "versionsTotal": 7,
@@ -1206,7 +1169,7 @@
     "slug": "BalanceDruid",
     "installs": 32,
     "stars": 3,
-    "views": 1442,
+    "views": 1443,
     "hasThumbnail": true,
     "latestVersion": "1.0.8",
     "versionsTotal": 9,
@@ -1263,7 +1226,7 @@
     "slug": "Dispelled",
     "installs": 7,
     "stars": 4,
-    "views": 489,
+    "views": 491,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -1289,7 +1252,7 @@
     "slug": "DeathKnight",
     "installs": 8,
     "stars": 2,
-    "views": 926,
+    "views": 928,
     "hasThumbnail": true,
     "latestVersion": "1.0.3",
     "versionsTotal": 4,
@@ -1316,7 +1279,7 @@
     "slug": "ElementalShaman",
     "installs": 4,
     "stars": 0,
-    "views": 447,
+    "views": 448,
     "hasThumbnail": true,
     "latestVersion": "1.0.5",
     "versionsTotal": 6,
@@ -1369,26 +1332,6 @@
     "categories": [],
     "changelog": "",
     "url": "https://wago.io/AspectOfHarmony",
-    "screens": []
-  },
-  {
-    "name": "WeakAuras Q&A Stream - creating a list that counts on spellcast suceeded",
-    "slug": "WA-Q&A-1",
-    "installs": 0,
-    "stars": 2,
-    "views": 308,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.0",
-    "versionsTotal": 1,
-    "commentCount": 0,
-    "dateModified": "2024-06-22T09:35:24.264Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nCreated during the Q&A Stream over on <a href='https://www.twitch.tv/jodsderechte' target='_blank'>https://www.twitch.tv/jodsderechte</a>  Vod link is here: <a href='https://www.twitch.tv/videos/2178544336' target='_blank'>https://www.twitch.tv/videos/2178544336</a></div>",
-    "categories": [
-      "raidnerubarpalace",
-      "raidnerubarpalace1"
-    ],
-    "changelog": "",
-    "url": "https://wago.io/WA-Q&A-1",
     "screens": []
   },
   {
@@ -1470,7 +1413,7 @@
     "slug": "ColoredMobs",
     "installs": 7,
     "stars": 13,
-    "views": 3909,
+    "views": 3910,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1540,20 +1483,23 @@
     ]
   },
   {
-    "name": "JodsUI - ElvUI",
-    "slug": "JodsUi_ElvUI",
+    "name": "Theater of Pain - Default",
+    "slug": "TheaterOfPain",
     "installs": 0,
     "stars": 0,
-    "views": 276,
+    "views": 20,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
     "commentCount": 0,
-    "dateModified": "2024-07-13T08:39:36.868Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nMy ElvUi Profile\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-36\">\nRequires <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/libcustomnames\">CustomNames</a> and the <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/customnames_elvui\">ElvUi plugin</a> in order to work\n</span></span></span>\n\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
-    "categories": [],
-    "changelog": "update for TWW",
-    "url": "https://wago.io/JodsUi_ElvUI",
+    "dateModified": "2025-07-27T14:23:03.709Z",
+    "description": "",
+    "categories": [
+      "tww-mdt-s2-7",
+      "MDT-121"
+    ],
+    "changelog": "",
+    "url": "https://wago.io/TheaterOfPain",
     "screens": []
   },
   {
@@ -1574,23 +1520,20 @@
     "screens": []
   },
   {
-    "name": "Theater of Pain - Default",
-    "slug": "TheaterOfPain",
+    "name": "JodsUI - ElvUI",
+    "slug": "JodsUi_ElvUI",
     "installs": 0,
     "stars": 0,
-    "views": 20,
+    "views": 276,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
     "commentCount": 0,
-    "dateModified": "2025-07-27T14:23:03.709Z",
-    "description": "",
-    "categories": [
-      "tww-mdt-s2-7",
-      "MDT-121"
-    ],
-    "changelog": "",
-    "url": "https://wago.io/TheaterOfPain",
+    "dateModified": "2024-07-13T08:39:36.868Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nMy ElvUi Profile\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-36\">\nRequires <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/libcustomnames\">CustomNames</a> and the <a target=\"_blank\" rel=\"noopener\" href=\"https://www.curseforge.com/wow/addons/customnames_elvui\">ElvUi plugin</a> in order to work\n</span></span></span>\n\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
+    "categories": [],
+    "changelog": "update for TWW",
+    "url": "https://wago.io/JodsUi_ElvUI",
     "screens": []
   }
 ]
