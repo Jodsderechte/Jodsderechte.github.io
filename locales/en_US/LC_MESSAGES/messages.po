@@ -432,6 +432,9 @@ msgstr "Boss Encounter"
 msgid "buffs-debuffs"
 msgstr "Buffs & Debuffs"
 
+msgid "battle-pets"
+msgstr "Battlepets"
+
 msgid "miscellaneous"
 msgstr "Miscellaneous"
 
