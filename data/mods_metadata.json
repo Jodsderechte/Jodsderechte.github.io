@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2299629,
+    "downloadCount": 2302776,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 5463,
+    "stars": 5485,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 78033,
+    "downloadCount": 78157,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 249,
+    "stars": 250,
     "game": 83374,
     "categories": [
       "rebalancing",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3878,
+    "downloadCount": 3896,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.24",
     "dateModified": "2025-12-03T07:41:48.71Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 382,
+    "downloadCount": 386,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.8",
     "dateModified": "2025-12-03T07:44:25.02Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 770,
+    "downloadCount": 773,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.10",
     "dateModified": "2025-12-03T07:44:32.673Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2091,
+    "downloadCount": 2098,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.9",
     "dateModified": "2025-12-03T07:43:51.537Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1589,
+    "downloadCount": 1597,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 231691,
+    "downloadCount": 231875,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 225574,
+    "downloadCount": 225933,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.3.9a",
     "dateModified": "2025-11-13T08:03:38.097Z",
@@ -197,5 +197,50 @@
     ],
     "url": "https://www.curseforge.com/wow/addons/groupfinderrio",
     "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> \n<a href=\"https://patreon.com/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a> \n<a href=\"https://www.twitch.tv/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch me Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a>\n<a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases/latest\" rel=\"nofollow\"><img src=\"https://badgen.net/github/release/Jods-GH/GroupFinderRio?style=flat-square\" alt=\"Release\"></a></p>\n<h1>GroupFinderRIO</h1>\n<p>Enhance your World of Warcraft group finding experience with GroupFinderRio! This addon adds score-dependent sorting to the Search and Application windows, making it easier to find and join groups that match your skill level, and to find the perfect candidates for your group. GroupFinderRio also automatically removes timed-out or canceled requests from your view, keeping the application view clean and up-to-date. Improve your group finding efficiency and focus on the adventures that matter with GroupFinderRio!</p>\n<p>Open the options by typing /gfio</p>\n<p>For Feature suggestions or Bug reports please use <a href=\"https://github.com/Jods-GH/GroupFinderRIO/issues/new/choose\" rel=\"nofollow\">Github</a> or join the <a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" rel=\"nofollow\">Discord</a></p>"
+  },
+  {
+    "id": 1365171,
+    "name": "Better Timeline",
+    "downloadCount": 1665,
+    "summary": "Improves upon blizzards Timeline",
+    "latestVersion": "v0.0.7",
+    "dateModified": "2025-12-09T20:44:31.533Z",
+    "installs": 292,
+    "stars": 0,
+    "game": 1,
+    "categories": [
+      "boss-encounters"
+    ],
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.0.7\" rel=\"nofollow\">v0.0.7</a> (2025-12-09)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.0.6...v0.0.7\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add multiple options for icons\n<ul>\n<li>icon size</li>\n<li>icon zoom</li>\n<li>Text color</li>\n<li>Cooldown Text color changes on certain threshholds</li>\n<li>Glow effects on certain time threshholds</li>\n</ul>\n</li>\n<li>make cooldown settings configurable</li>\n<li>adjust cooldown handling to allow for coloring</li>\n<li>add font and fontsize setting to icon editor</li>\n<li>start work on icon editor</li>\n<li>only add reroll timer when key was actually timed</li>\n<li>add reroll timer when completing a key</li>\n<li>adding setting of the timeline texture</li>\n</ul>\n",
+    "screens": [
+      {
+        "path": "1409398.gif"
+      }
+    ],
+    "url": "https://www.curseforge.com/wow/addons/better-timeline",
+    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge&labelColor=#22090E\" alt=\"Patreon\"></a> <a href=\"https://github.com/Jods-GH/AbilityTImeline/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/AbilityTimeline?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to the <a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline\" target=\"_blank\" rel=\"nofollow\">RaidAbilityTimeline WeakAura</a> as possible.</p>\n<h2>Including:</h2>\n<ul>\n<li>Timeline in the previous look.</li>\n<li>Ticks every 5 seconds with a visual highlight.</li>\n<li>BigIcon that appears during the last 5 seconds of a bar.</li>\n<li>Auditory countdown from 5 for timers.</li>\n<li>Text highlight in the center of the screen.</li>\n<li>Positioning via edit mode</li>\n<li>toggles for BigIcon and text</li>\n<li>adjustable timeline size.</li>\n<li>changing text anchors</li>\n<li>changing the travel direction</li>\n<li>adding of pulltimer and readycheck to the timeline</li>\n<li>adding of smart /pull feature automagically deciding on duration depending if you are in a dungeon or raid</li>\n</ul>\n<p>And much more. This is currently in very active development so keep an eye out for new versions.</p>\n<p>To get started simply log into the game. You can see a preview in the edit mode or by running /at test in the chat</p>"
+  },
+  {
+    "id": 1364755,
+    "name": "Pet Summoner",
+    "downloadCount": 281,
+    "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
+    "latestVersion": "v1.14c",
+    "dateModified": "2025-11-08T10:56:24.78Z",
+    "installs": 32,
+    "stars": 0,
+    "game": 1,
+    "categories": [
+      "battle-pets",
+      "miscellaneous"
+    ],
+    "changelog": "<h1>Pet Summoner</h1>\n<h2><a href=\"https://github.com/Jods-GH/PetSummoner/tree/v1.14c\" rel=\"nofollow\">v1.14c</a> (2025-11-08)</h2>\n<p><a href=\"https://github.com/Jods-GH/PetSummoner/compare/v1.1.4b...v1.14c\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/PetSummoner/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>fix embeding of acegui and aceconsole</li>\n</ul>\n",
+    "screens": [
+      {
+        "path": "1356620.PNG"
+      }
+    ],
+    "url": "https://www.curseforge.com/wow/addons/pet-summoner",
+    "description": "<p><a href=\"https://discord.gg/v3gYmYamGJ\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a>\n<a href=\"https://patreon.com/Jodsderechte\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge\" alt=\"Patreon\"></a>\n<a href=\"https://www.twitch.tv/Jodsderechte\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch me Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" alt=\"Twitch\"></a></p>\n<h3>Overview</h3>\n<p>Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active. No buttons, no setup, just your companions always by your side.</p>\n<h3>Features</h3>\n<ul>\n<li>Automatically summons a random pet from your selected favorites</li>\n<li>Uses your in-game Favorites by default</li>\n<li>Optionally override the pet list globally or per character</li>\n<li>Works seamlessly across zones, instances, and character swaps</li>\n</ul>\n<p>Open the options by typing /ps</p>\n<p>For Feature suggestions or Bug reports please use Github or join the Discord</p>\n"
   }
 ]
