@@ -979,6 +979,9 @@ msgstr ""
 msgid "ImageBy"
 msgstr "Image By"
 
+msgid "Improves upon blizzards Timeline"
+msgstr "Improves upon Blizzard's Timeline"
+
 #. image: deathknight.png  color: #C41F3B
 msgid "cl6"
 msgstr "Death Knight"

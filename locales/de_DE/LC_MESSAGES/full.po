@@ -1024,6 +1024,9 @@ msgstr ""
 msgid "ImageBy"
 msgstr "Bild bereitgestellt von"
 
+msgid "Improves upon blizzards Timeline"
+msgstr "Verbesser die Blizzard Timeline"
+
 #. image: deathknight.png  color: #C41F3B
 msgid "cl6"
 msgstr "Todesritter"
