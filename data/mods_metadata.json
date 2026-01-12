@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2321032,
+    "downloadCount": 2326908,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 5545,
+    "stars": 5571,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,7 +24,7 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 78759,
+    "downloadCount": 78934,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3925,
+    "downloadCount": 3932,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.24",
     "dateModified": "2025-12-03T07:41:48.71Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 390,
+    "downloadCount": 392,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.8",
     "dateModified": "2025-12-03T07:44:25.02Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 783,
+    "downloadCount": 786,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.10",
     "dateModified": "2025-12-03T07:44:32.673Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2115,
+    "downloadCount": 2121,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.9",
     "dateModified": "2025-12-03T07:43:51.537Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1619,
+    "downloadCount": 1624,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 232150,
+    "downloadCount": 232245,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 226837,
+    "downloadCount": 227135,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.3.9a",
     "dateModified": "2025-11-13T08:03:38.097Z",
@@ -201,17 +201,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 5879,
+    "downloadCount": 8702,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.1.0",
-    "dateModified": "2025-12-31T15:04:32.513Z",
-    "installs": 1357,
+    "latestVersion": "v0.1.2",
+    "dateModified": "2026-01-11T17:56:42.5Z",
+    "installs": 542,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.1.0\" rel=\"nofollow\">v0.1.0</a> (2025-12-31)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.0.9...v0.1.0\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>properly handle icon anchoring for horizontal timeline</li>\n<li>properly display dispell and danger icons</li>\n<li>add patreon link to github repo</li>\n<li>chore: update encounter data</li>\n<li>allow action to create prs</li>\n<li>use latest version of actions</li>\n<li>fix workflow to properly use master as main branch</li>\n<li>adjust encounter workflow to changed path</li>\n<li>only build alpha versions on relevant changes</li>\n<li>fix workflows</li>\n<li>add textures to effect selection for reminders</li>\n<li>add option to disable dispell icon and border</li>\n<li>run on master instead of incorrect main</li>\n<li>auto create alpha builds on new pushes</li>\n<li>add dispell type border and move icon inside of frame</li>\n<li>adjust trailer text</li>\n<li>adjust trailer link</li>\n<li>add missing loclisation</li>\n<li>adjust sounds to better voices</li>\n<li>adjust enabling/disabling of bigion an d highlightframe to save properly fixes #13</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.1.2\" rel=\"nofollow\">v0.1.2</a> (2026-01-11)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.1.1...v0.1.2\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add missing translations</li>\n<li>properly anchor bigicon textures so they are above the cooldown spinner</li>\n<li>add settings and Dispell type and danger icon to bigicon</li>\n<li>start work on making big icon editable</li>\n</ul>\n",
     "screens": [
       {
         "path": "1409398.gif"
@@ -226,7 +226,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 315,
+    "downloadCount": 321,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.14c",
     "dateModified": "2025-11-08T10:56:24.78Z",
