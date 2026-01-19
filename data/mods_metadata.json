@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2326908,
+    "downloadCount": 2333356,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 5571,
+    "stars": 5588,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 78934,
+    "downloadCount": 79115,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 252,
+    "stars": 257,
     "game": 83374,
     "categories": [
       "rebalancing",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 3932,
+    "downloadCount": 3938,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.24",
     "dateModified": "2025-12-03T07:41:48.71Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 392,
+    "downloadCount": 395,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.8",
     "dateModified": "2025-12-03T07:44:25.02Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 786,
+    "downloadCount": 789,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.10",
     "dateModified": "2025-12-03T07:44:32.673Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2121,
+    "downloadCount": 2131,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.9",
     "dateModified": "2025-12-03T07:43:51.537Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1624,
+    "downloadCount": 1632,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 232245,
+    "downloadCount": 232325,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 227135,
+    "downloadCount": 227463,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.3.9a",
     "dateModified": "2025-11-13T08:03:38.097Z",
@@ -201,32 +201,32 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 8702,
+    "downloadCount": 13488,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.1.2",
-    "dateModified": "2026-01-11T17:56:42.5Z",
-    "installs": 542,
+    "latestVersion": "v0.1.3",
+    "dateModified": "2026-01-16T19:19:37.443Z",
+    "installs": 2738,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.1.2\" rel=\"nofollow\">v0.1.2</a> (2026-01-11)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.1.1...v0.1.2\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add missing translations</li>\n<li>properly anchor bigicon textures so they are above the cooldown spinner</li>\n<li>add settings and Dispell type and danger icon to bigicon</li>\n<li>start work on making big icon editable</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.1.3\" rel=\"nofollow\">v0.1.3</a> (2026-01-16)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.1.2...v0.1.3\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add footer to settings frames</li>\n<li>add proper branding to frames</li>\n<li>adjust localisaiton for grow direction</li>\n<li>add multiple options for texthighlights</li>\n<li>properly use bigicon size for editmode frame preview</li>\n<li>fix text anchor setting not saving properly</li>\n<li>add Custom Names support for pulltimers and readycheck</li>\n<li>make edit mode copying properly retain frame positions<br>\nis relient on LibEditMode releasing a new version after adding <a href=\"https://github.com/p3lim-wow/LibEditMode/commit/22a0ba4a5bd5427ec8b534b769229fdd9f33ac6f\" rel=\"nofollow\">https://github.com/p3lim-wow/LibEditMode/commit/22a0ba4a5bd5427ec8b534b769229fdd9f33ac6f</a> in order to work</li>\n<li>add bigicon margin setting</li>\n</ul>\n",
     "screens": [
       {
-        "path": "1409398.gif"
+        "path": "1476729.gif"
       },
       {
         "path": "1433130.PNG"
       }
     ],
     "url": "https://www.curseforge.com/wow/addons/better-timeline",
-    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge&labelColor=#22090E\" alt=\"Patreon\"></a> <a href=\"https://github.com/Jods-GH/AbilityTImeline/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/AbilityTimeline?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to the <a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline\" target=\"_blank\" rel=\"nofollow\">RaidAbilityTimeline WeakAura</a> as possible.</p>\n<h2>Including:</h2>\n<ul>\n<li>Timeline in the previous look.</li>\n<li>Ticks every 5 seconds with a visual highlight.</li>\n<li>BigIcon that appears during the last 5 seconds of a bar.</li>\n<li>Auditory countdown from 5 for timers.</li>\n<li>Text highlight in the center of the screen.</li>\n<li>Positioning via edit mode</li>\n<li>toggles for BigIcon and text</li>\n<li>adjustable timeline size.</li>\n<li>changing text anchors</li>\n<li>changing the travel direction</li>\n<li>adding of pulltimer and readycheck to the timeline</li>\n<li>adding of smart /pull feature automagically deciding on duration depending if you are in a dungeon or raid</li>\n</ul>\n<p>And much more. This is currently in very active development so keep an eye out for new versions.</p>\n<p>To get started simply log into the game. You can see a preview in the edit mode or by running /at test in the chat</p>"
+    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=patrons&style=for-the-badge&labelColor=#22090E\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/AbilityTImeline/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/AbilityTimeline?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to my <a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline\" target=\"_blank\" rel=\"nofollow\">RaidAbilityTimeline WeakAura</a> as possible.</p>\n<h2>Some features:</h2>\n<ul>\n<li>Timeline with the previous visual style.</li>\n<li>(optional) Visual tick every 5 seconds with a highlight.</li>\n<li>(optional) BigIcon and or text appears during the last 5 seconds of a bar.</li>\n<li>(optional) Auditory 5→1 countdown for timers.</li>\n<li>Positioning via edit mode.</li>\n<li>Extensive settings for icons, BigIcon, timeline, and text.</li>\n<li>Changeable travel direction.</li>\n<li>Pull timer and readycheck added to the timeline. (includes a Smart /pull feature: automatically picks duration depending on dungeon vs. raid)</li>\n<li>Support for timeline icons (e.g., dispel type shown as icon borders).</li>\n<li>Customizable highlights for specific remaining durations (change text color, add glow).</li>\n<li>(optional) Vertical timeline (has no text).</li>\n<li>(optional) Integrated reminders that can be created directly from the Encounter Journal(importing coming soon).</li>\n</ul>\n<p>And much more. This is currently in very active development so keep an eye out for new versions.</p>\n<p>To get started simply log into the game. You can see a preview in the edit mode or by running /at test in the chat</p>"
   },
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 321,
+    "downloadCount": 331,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.14c",
     "dateModified": "2025-11-08T10:56:24.78Z",
