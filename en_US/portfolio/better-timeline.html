@@ -287,8 +287,8 @@
                 
                 <div class="swiper-slide">
 
-                  <img src="/logos/1409398.gif" style="max-height: 45vh; object-fit: contain;"
-                    alt="/logos/1409398.gif">
+                  <img src="/logos/1476729.gif" style="max-height: 45vh; object-fit: contain;"
+                    alt="/logos/1476729.gif">
                 </div>
                 
                 <div class="swiper-slide">
@@ -313,20 +313,22 @@
                 <li>
                   <strong>Favorites</strong>:&nbsp;0</li>
                 <li>
-                  <strong>Installs</strong>:&nbsp;542</li>
+                  <strong>Installs</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="2738" data-purecounter-duration="1"
+                    class="purecounter">
+                  </span></li>
                 <li>
-                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="8702" data-purecounter-duration="1"
+                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="13488" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 
 
 
                 
-                <li><strong>Latest Version</strong>: v0.1.2</li>
+                <li><strong>Latest Version</strong>: v0.1.3</li>
                 
                 
                 
-                <li><strong>Last Release on:</strong>: <time class="timeago"  datetime="2026-01-11T17:56:42.5Z"  data-locale="en"  title="2026-01-11T17:56:42.5Z">2026-01-11T17:56:42.5Z</time></li>
+                <li><strong>Last Release on:</strong>: <time class="timeago"  datetime="2026-01-16T19:19:37.443Z"  data-locale="en"  title="2026-01-16T19:19:37.443Z">2026-01-16T19:19:37.443Z</time></li>
                 
                 
                 
@@ -356,33 +358,39 @@
             <h2>Description and Changelog are directly imported from the Project</h2>
             <p><strong>Changelog of the latest Version:</strong> </p>
             <p><em><h1>AbilityTimeline</h1>
-<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v0.1.2" rel="nofollow">v0.1.2</a> (2026-01-11)</h2>
-<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v0.1.1...v0.1.2" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
+<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v0.1.3" rel="nofollow">v0.1.3</a> (2026-01-16)</h2>
+<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v0.1.2...v0.1.3" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
 <ul>
-<li>add missing translations</li>
-<li>properly anchor bigicon textures so they are above the cooldown spinner</li>
-<li>add settings and Dispell type and danger icon to bigicon</li>
-<li>start work on making big icon editable</li>
+<li>add footer to settings frames</li>
+<li>add proper branding to frames</li>
+<li>adjust localisaiton for grow direction</li>
+<li>add multiple options for texthighlights</li>
+<li>properly use bigicon size for editmode frame preview</li>
+<li>fix text anchor setting not saving properly</li>
+<li>add Custom Names support for pulltimers and readycheck</li>
+<li>make edit mode copying properly retain frame positions<br>
+is relient on LibEditMode releasing a new version after adding <a href="https://github.com/p3lim-wow/LibEditMode/commit/22a0ba4a5bd5427ec8b534b769229fdd9f33ac6f" rel="nofollow">https://github.com/p3lim-wow/LibEditMode/commit/22a0ba4a5bd5427ec8b534b769229fdd9f33ac6f</a> in order to work</li>
+<li>add bigicon margin setting</li>
 </ul>
 </em></p>
             <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
             <p><strong>Description:</strong></p>
-            <p>  </p>
-<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to the <a href="https://wago.io/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline" rel="nofollow" target="_blank">RaidAbilityTimeline WeakAura</a> as possible.</p>
-<h2>Including:</h2>
+            <p>   </p>
+<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to my <a href="https://wago.io/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline" rel="nofollow" target="_blank">RaidAbilityTimeline WeakAura</a> as possible.</p>
+<h2>Some features:</h2>
 <ul>
-<li>Timeline in the previous look.</li>
-<li>Ticks every 5 seconds with a visual highlight.</li>
-<li>BigIcon that appears during the last 5 seconds of a bar.</li>
-<li>Auditory countdown from 5 for timers.</li>
-<li>Text highlight in the center of the screen.</li>
-<li>Positioning via edit mode</li>
-<li>toggles for BigIcon and text</li>
-<li>adjustable timeline size.</li>
-<li>changing text anchors</li>
-<li>changing the travel direction</li>
-<li>adding of pulltimer and readycheck to the timeline</li>
-<li>adding of smart /pull feature automagically deciding on duration depending if you are in a dungeon or raid</li>
+<li>Timeline with the previous visual style.</li>
+<li>(optional) Visual tick every 5 seconds with a highlight.</li>
+<li>(optional) BigIcon and or text appears during the last 5 seconds of a bar.</li>
+<li>(optional) Auditory 5→1 countdown for timers.</li>
+<li>Positioning via edit mode.</li>
+<li>Extensive settings for icons, BigIcon, timeline, and text.</li>
+<li>Changeable travel direction.</li>
+<li>Pull timer and readycheck added to the timeline. (includes a Smart /pull feature: automatically picks duration depending on dungeon vs. raid)</li>
+<li>Support for timeline icons (e.g., dispel type shown as icon borders).</li>
+<li>Customizable highlights for specific remaining durations (change text color, add glow).</li>
+<li>(optional) Vertical timeline (has no text).</li>
+<li>(optional) Integrated reminders that can be created directly from the Encounter Journal(importing coming soon).</li>
 </ul>
 <p>And much more. This is currently in very active development so keep an eye out for new versions.</p>
 <p>To get started simply log into the game. You can see a preview in the edit mode or by running /at test in the chat</p>
