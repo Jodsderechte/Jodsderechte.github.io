@@ -1367,12 +1367,76 @@
       "de-DE": "Grim Batol"
     }
   },
-  "twwdungeon-other": {
+  "midnight-mdt-s1": {
     "image": "dungeon.png",
     "color": "#F5A623",
     "label": {
-      "en-US": "Other Dungeons",
-      "de-DE": "Other Dungeons"
+      "en-US": "Season 1 Dungeons",
+      "de-DE": "Season 1 Dungeons"
+    }
+  },
+  "midnight-mdt-s1-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Algeth'ar Academy",
+      "de-DE": "Akademie von Algeth'ar"
+    }
+  },
+  "midnight-mdt-s1-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Magisters' Terrace",
+      "de-DE": "Terrasse der Magister"
+    }
+  },
+  "midnight-mdt-s1-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "midnight-mdt-s1-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "midnight-mdt-s1-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Pit of Saron",
+      "de-DE": "Grube von Saron"
+    }
+  },
+  "midnight-mdt-s1-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Seat of the Triumvirate",
+      "de-DE": "Sitz des Triumvirats"
+    }
+  },
+  "midnight-mdt-s1-7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Skyreach",
+      "de-DE": "Himmelsnadel"
+    }
+  },
+  "midnight-mdt-s1-8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": null,
+      "de-DE": null
     }
   },
   "tww-mdt-s1": {
