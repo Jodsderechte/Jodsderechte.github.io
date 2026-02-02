@@ -5406,3 +5406,39 @@ msgstr "Legion Remix"
 #. image: elarion.png  color: #a986ff
 msgid "fellowship-dps-elarion"
 msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1"
+msgstr "Season 1 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-1"
+msgstr "Akademie von Algeth'ar"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-2"
+msgstr "Terrasse der Magister"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-3"
+msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-4"
+msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-5"
+msgstr "Grube von Saron"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-6"
+msgstr "Sitz des Triumvirats"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-7"
+msgstr "Himmelsnadel"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s1-8"
+msgstr ""
