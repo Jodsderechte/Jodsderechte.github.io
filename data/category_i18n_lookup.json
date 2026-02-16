@@ -1395,16 +1395,16 @@
     "image": "dungeon.png",
     "color": "#F5A623",
     "label": {
-      "en-US": null,
-      "de-DE": null
+      "en-US": "Maisara Caverns",
+      "de-DE": "Maisarakavernen"
     }
   },
   "midnight-mdt-s1-4": {
     "image": "dungeon.png",
     "color": "#F5A623",
     "label": {
-      "en-US": null,
-      "de-DE": null
+      "en-US": "Nexus-Point Xenas",
+      "de-DE": "Nexuspunkt Xenas"
     }
   },
   "midnight-mdt-s1-5": {
@@ -1435,8 +1435,8 @@
     "image": "dungeon.png",
     "color": "#F5A623",
     "label": {
-      "en-US": null,
-      "de-DE": null
+      "en-US": "Windrunner Spire",
+      "de-DE": "Windläuferturm"
     }
   },
   "tww-mdt-s1": {
@@ -7903,6 +7903,14 @@
       "de-DE": "Tutorials"
     }
   },
+  "opie0": {
+    "image": "opie.png",
+    "color": "#2595E6",
+    "label": {
+      "en-US": "OPie",
+      "de-DE": "OPie"
+    }
+  },
   "opie1": {
     "image": "opie.png",
     "color": "#2595E6",
@@ -7951,6 +7959,14 @@
       "de-DE": "Utility"
     }
   },
+  "macroutility": {
+    "image": "macro.png",
+    "color": "#BA25BF",
+    "label": {
+      "en-US": "Utility",
+      "de-DE": "Utility"
+    }
+  },
   "macro0": {
     "image": "macro.png",
     "color": "#BA25BF",
@@ -7983,6 +7999,14 @@
       "de-DE": "Equipment"
     }
   },
+  "macrotargeting": {
+    "image": "crosshair.png",
+    "color": "#E0EAB9",
+    "label": {
+      "en-US": "Targeting",
+      "de-DE": "Targeting"
+    }
+  },
   "macro4": {
     "image": "crosshair.png",
     "color": "#E0EAB9",
@@ -8005,6 +8029,14 @@
     "label": {
       "en-US": "Dungeons",
       "de-DE": "Dungeons"
+    }
+  },
+  "platersys": {
+    "image": "plater.png",
+    "color": "#FFC972",
+    "label": {
+      "en-US": "Plater",
+      "de-DE": "Plater"
     }
   },
   "plater1": {
@@ -8061,6 +8093,14 @@
     "label": {
       "en-US": "Plater Cast Colors",
       "de-DE": "Plater Cast Colors"
+    }
+  },
+  "platercontent": {
+    "image": "snippets.png",
+    "color": "#d18cf3",
+    "label": {
+      "en-US": "Content",
+      "de-DE": "Content"
     }
   },
   "platerutilities": {
@@ -8247,6 +8287,14 @@
       "de-DE": "Toys"
     }
   },
+  "rplang0": {
+    "image": "lang.png",
+    "color": "#269C7D",
+    "label": {
+      "en-US": "Language",
+      "de-DE": "Language"
+    }
+  },
   "rplang1": {
     "image": "lang.png",
     "color": "#269C7D",
@@ -8279,6 +8327,14 @@
       "de-DE": "German"
     }
   },
+  "vuhdo0": {
+    "image": "vuhdo.png",
+    "color": "#6BB85E",
+    "label": {
+      "en-US": "Vuhdo",
+      "de-DE": "Vuhdo"
+    }
+  },
   "vuhdo1": {
     "image": "vuhdo.png",
     "color": "#6BB85E",
@@ -8301,6 +8357,14 @@
     "label": {
       "en-US": "Vuhdo Key Layouts",
       "de-DE": "Vuhdo Key Layouts"
+    }
+  },
+  "cell0": {
+    "image": "cell.png",
+    "color": "#56E93E",
+    "label": {
+      "en-US": "Cell",
+      "de-DE": "Cell"
     }
   },
   "cell1": {
@@ -8351,6 +8415,14 @@
       "de-DE": "Quick Assist"
     }
   },
+  "gse0": {
+    "image": "gse.png",
+    "color": "#00CCCC",
+    "label": {
+      "en-US": "GSE",
+      "de-DE": "GSE"
+    }
+  },
   "gse1": {
     "image": "gse.png",
     "color": "#00CCCC",
@@ -8381,6 +8453,198 @@
     "label": {
       "en-US": "GSE Collections",
       "de-DE": "GSE Collections"
+    }
+  },
+  "danders0": {
+    "image": "danders.png",
+    "color": "#8354b5",
+    "label": {
+      "en-US": "Danders",
+      "de-DE": "Danders"
+    }
+  },
+  "danders1": {
+    "image": "danders.png",
+    "color": "#8354b5",
+    "label": {
+      "en-US": "Danders Profile",
+      "de-DE": "Danders Profile"
+    }
+  },
+  "danders2": {
+    "image": "danders.png",
+    "color": "#8354b5",
+    "label": {
+      "en-US": "Danders Click Casting",
+      "de-DE": "Danders Click Casting"
+    }
+  },
+  "bbf0": {
+    "image": "bbf.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Better Blizz Frames",
+      "de-DE": "Better Blizz Frames"
+    }
+  },
+  "bbf1": {
+    "image": "bbf.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Profile",
+      "de-DE": "Profile"
+    }
+  },
+  "bbf2": {
+    "image": "bbf.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Whitelist",
+      "de-DE": "Whitelist"
+    }
+  },
+  "bbf3": {
+    "image": "bbf.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Blacklist",
+      "de-DE": "Blacklist"
+    }
+  },
+  "bbp0": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Better Blizz Plates",
+      "de-DE": "Better Blizz Plates"
+    }
+  },
+  "bbp1": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Profile",
+      "de-DE": "Profile"
+    }
+  },
+  "bbp2": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Aura Whitelist",
+      "de-DE": "Aura Whitelist"
+    }
+  },
+  "bbp3": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Aura Blacklist",
+      "de-DE": "Aura Blacklist"
+    }
+  },
+  "bbp4": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Totem Indicator List",
+      "de-DE": "Totem Indicator List"
+    }
+  },
+  "bbp5": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Fade NPC List",
+      "de-DE": "Fade NPC List"
+    }
+  },
+  "bbp6": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Hide NPC Blacklist",
+      "de-DE": "Hide NPC Blacklist"
+    }
+  },
+  "bbp7": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Hide NPC Whitelist",
+      "de-DE": "Hide NPC Whitelist"
+    }
+  },
+  "bbp8": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Cast Emphasis List",
+      "de-DE": "Cast Emphasis List"
+    }
+  },
+  "bbp9": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Hide Castbar Blacklist",
+      "de-DE": "Hide Castbar Blacklist"
+    }
+  },
+  "bbp10": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Hide Castbar Whitelist",
+      "de-DE": "Hide Castbar Whitelist"
+    }
+  },
+  "bbp11": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Color NPC List",
+      "de-DE": "Color NPC List"
+    }
+  },
+  "bbp12": {
+    "image": "bbp.png",
+    "color": "#217DD3",
+    "label": {
+      "en-US": "Color by Aura List",
+      "de-DE": "Color by Aura List"
+    }
+  },
+  "enhanceqol0": {
+    "image": "enhanceqol.png",
+    "color": "#e0d0b3",
+    "label": {
+      "en-US": "Enhance QoL",
+      "de-DE": "Enhance QoL"
+    }
+  },
+  "enhanceqol1": {
+    "image": "enhanceqol.png",
+    "color": "#e0d0b3",
+    "label": {
+      "en-US": "Profile",
+      "de-DE": "Profile"
+    }
+  },
+  "enhanceqol2": {
+    "image": "enhanceqol.png",
+    "color": "#e0d0b3",
+    "label": {
+      "en-US": "Resource Bar",
+      "de-DE": "Resource Bar"
+    }
+  },
+  "enhanceqol3": {
+    "image": "enhanceqol.png",
+    "color": "#e0d0b3",
+    "label": {
+      "en-US": "Unit Frame",
+      "de-DE": "Unit Frame"
     }
   },
   "job-tank": {

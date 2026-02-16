@@ -4406,11 +4406,11 @@ msgstr "Magisters' Terrace"
 
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s1-3"
-msgstr ""
+msgstr "Maisara Caverns"
 
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s1-4"
-msgstr ""
+msgstr "Nexus-Point Xenas"
 
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s1-5"
@@ -4426,4 +4426,136 @@ msgstr "Skyreach"
 
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s1-8"
-msgstr ""
+msgstr "Windrunner Spire"
+
+#. image: opie.png  color: #2595E6
+msgid "opie0"
+msgstr "OPie"
+
+#. image: macro.png  color: #BA25BF
+msgid "macroutility"
+msgstr "Utility"
+
+#. image: crosshair.png  color: #E0EAB9
+msgid "macrotargeting"
+msgstr "Targeting"
+
+#. image: plater.png  color: #FFC972
+msgid "platersys"
+msgstr "Plater"
+
+#. image: snippets.png  color: #d18cf3
+msgid "platercontent"
+msgstr "Content"
+
+#. image: lang.png  color: #269C7D
+msgid "rplang0"
+msgstr "Language"
+
+#. image: vuhdo.png  color: #6BB85E
+msgid "vuhdo0"
+msgstr "Vuhdo"
+
+#. image: cell.png  color: #56E93E
+msgid "cell0"
+msgstr "Cell"
+
+#. image: gse.png  color: #00CCCC
+msgid "gse0"
+msgstr "GSE"
+
+#. image: danders.png  color: #8354b5
+msgid "danders0"
+msgstr "Danders"
+
+#. image: danders.png  color: #8354b5
+msgid "danders1"
+msgstr "Danders Profile"
+
+#. image: danders.png  color: #8354b5
+msgid "danders2"
+msgstr "Danders Click Casting"
+
+#. image: bbf.png  color: #217DD3
+msgid "bbf0"
+msgstr "Better Blizz Frames"
+
+#. image: bbf.png  color: #217DD3
+msgid "bbf1"
+msgstr "Profile"
+
+#. image: bbf.png  color: #217DD3
+msgid "bbf2"
+msgstr "Whitelist"
+
+#. image: bbf.png  color: #217DD3
+msgid "bbf3"
+msgstr "Blacklist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp0"
+msgstr "Better Blizz Plates"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp1"
+msgstr "Profile"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp2"
+msgstr "Aura Whitelist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp3"
+msgstr "Aura Blacklist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp4"
+msgstr "Totem Indicator List"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp5"
+msgstr "Fade NPC List"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp6"
+msgstr "Hide NPC Blacklist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp7"
+msgstr "Hide NPC Whitelist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp8"
+msgstr "Cast Emphasis List"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp9"
+msgstr "Hide Castbar Blacklist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp10"
+msgstr "Hide Castbar Whitelist"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp11"
+msgstr "Color NPC List"
+
+#. image: bbp.png  color: #217DD3
+msgid "bbp12"
+msgstr "Color by Aura List"
+
+#. image: enhanceqol.png  color: #e0d0b3
+msgid "enhanceqol0"
+msgstr "Enhance QoL"
+
+#. image: enhanceqol.png  color: #e0d0b3
+msgid "enhanceqol1"
+msgstr "Profile"
+
+#. image: enhanceqol.png  color: #e0d0b3
+msgid "enhanceqol2"
+msgstr "Resource Bar"
+
+#. image: enhanceqol.png  color: #e0d0b3
+msgid "enhanceqol3"
+msgstr "Unit Frame"

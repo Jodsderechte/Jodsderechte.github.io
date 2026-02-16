@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2348517,
+    "downloadCount": 2352791,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 5683,
+    "stars": 5710,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,7 +24,7 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 79546,
+    "downloadCount": 79662,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4143,
+    "downloadCount": 4161,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "1.1.25",
     "dateModified": "2026-01-27T15:50:10.543Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 411,
+    "downloadCount": 413,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.8",
     "dateModified": "2025-12-03T07:44:25.02Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 822,
+    "downloadCount": 827,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.10",
     "dateModified": "2025-12-03T07:44:32.673Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2300,
+    "downloadCount": 2325,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1659,
+    "downloadCount": 1662,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 232593,
+    "downloadCount": 232704,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 234097,
+    "downloadCount": 234450,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.4.0",
     "dateModified": "2026-01-23T17:23:49.697Z",
@@ -201,17 +201,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 76502,
+    "downloadCount": 95218,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.17",
-    "dateModified": "2026-01-29T16:07:50.273Z",
-    "installs": 19089,
+    "latestVersion": "v0.18",
+    "dateModified": "2026-02-09T18:39:00.753Z",
+    "installs": 17548,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.17\" rel=\"nofollow\">v0.17</a> (2026-01-29)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.16...v0.17\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add an option to hide &quot;blocked&quot; icons<br>\nThis adheres to the blizzard option to turn these off</li>\n<li>add option to disable login message</li>\n<li>overwrite pulltimer if one is already active</li>\n<li>nilchjeck all textures before trying to set them</li>\n<li>apply dummy settings in settings frame insead of the templates</li>\n<li>properly apply highlight text settings to colored texts</li>\n<li>add some skinning compatibility for the encounter browser</li>\n<li>lint</li>\n<li>add missing translation</li>\n<li>add highlight texts despell type text color</li>\n<li>fix adding new cooldown highlights accidentally breaking the ui</li>\n<li>add basic highlight text settings closes #24</li>\n<li>save import checkbox in between sessions</li>\n<li>only clear dnd message when one was active</li>\n<li>add reminder sharing via chat</li>\n<li>small fixes</li>\n<li>adjust import popup translation</li>\n<li>fix text copy frame sometimes not properly showing editbox</li>\n<li>remove unneccesary translations</li>\n<li>add exporting and importing of reminders</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.18\" rel=\"nofollow\">v0.18</a> (2026-02-07)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.17...v0.18\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>chore: Update toc to newest wow interface version (#33)<br>\nCo-authored-by: Jodsderechte <a href=\"mailto:39654549 Jodsderechte@users.noreply.github.com\" rel=\"nofollow\">39654549+Jodsderechte@users.noreply.github.com</a></li>\n<li>start work on being able to turn off timeline</li>\n<li>auto detect current expansion for encounterFetcher</li>\n<li>properly skin the encounter journal button when elvui is loaded</li>\n<li>properly put zoom in it's own util</li>\n<li>fix bigicon growing up not working correctly<br>\ncloses #31</li>\n<li>add auto toc workflow</li>\n<li>add option to change spacing between icons</li>\n<li>reformat edite mode setting to use expanders</li>\n</ul>\n",
     "screens": [
       {
         "path": "1476729.gif"
@@ -226,7 +226,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 413,
+    "downloadCount": 434,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.14c",
     "dateModified": "2025-11-08T10:56:24.78Z",
