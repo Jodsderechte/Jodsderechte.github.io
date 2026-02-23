@@ -7,6 +7,981 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "weekday.Monday"
+msgstr "Monday"
+
+msgid "weekday.Tuesday"
+msgstr "Tuesday"
+
+msgid "weekday.Wednesday"
+msgstr "Wednesday"
+
+msgid "weekday.Thursday"
+msgstr "Thursday"
+
+msgid "weekday.Friday"
+msgstr "Friday"
+
+msgid "weekday.Saturday"
+msgstr "Saturday"
+
+msgid "weekday.Sunday"
+msgstr "Sunday"
+
+msgid "month.January"
+msgstr "January"
+
+msgid "month.February"
+msgstr "February"
+
+msgid "month.March"
+msgstr "March"
+
+msgid "month.April"
+msgstr "April"
+
+msgid "month.May"
+msgstr "May"
+
+msgid "month.June"
+msgstr "June"
+
+msgid "month.July"
+msgstr "July"
+
+msgid "month.August"
+msgstr "August"
+
+msgid "month.September"
+msgstr "September"
+
+msgid "month.October"
+msgstr "October"
+
+msgid "month.November"
+msgstr "November"
+
+msgid "month.December"
+msgstr "December"
+
+msgid "the"
+msgstr "the"
+
+msgid "SkillsDescription"
+msgstr ""
+"During my studies and in my leisure time, I delved into various programming "
+"languages and other relevant topics in software development. I gained "
+"proficiency in languages such as Lua and Java. Allowing me to implement "
+"diverse algorithms and develop applications with different functionalities. "
+"Additionally, I explored web development, learned HTML, CSS, and JavaScript "
+"to create interactive and visually appealing websites. <br> <br> Moreover, I"
+" familiarized myself with essential tools like Git, enabling version control"
+" and collaborative coding. This taught me the importance of teamwork in "
+"software projects and the significance of maintaining a well-organized and "
+"efficient codebase. Alongside version control, I also honed my skills in "
+"SQL, grasping the fundamentals of database design and management. "
+"Understanding SQL has been vital in building dynamic applications that "
+"interact with databases to store and retrieve information. <br> <br> "
+"Overall, my passion for programming drove me to continuously expand my "
+"knowledge in the field. Formal education and self-directed learning built a "
+"strong foundation in various programming languages and relevant tools, "
+"empowering me to tackle complex software projects and contribute effectively"
+" to the world of technology. A selection of these skills can be found below."
+
+msgid "Skills"
+msgstr "Skills"
+
+msgid "Frontend"
+msgstr "Frontend"
+
+msgid "Backend"
+msgstr "Backend"
+
+msgid "DataScienceAndMachineLearning"
+msgstr "Data Science & Machine Learning"
+
+msgid "Technology"
+msgstr "Technology"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "About"
+msgstr "About"
+
+msgid "Resume"
+msgstr "Resume"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Downloads"
+msgstr "Downloads"
+
+msgid "Installs"
+msgstr "Users"
+
+msgid "PositiveReviews"
+msgstr "Positive Reviews"
+
+msgid "AnsweredComments"
+msgstr "Answered Comments"
+
+msgid "JoinedGitHubYearsAgo"
+msgstr "Joined GitHub {years} years ago"
+
+msgid "CreatedGitHubRepositories"
+msgstr "Created {amount} Repositories"
+
+msgid "GitHubFollowedBy"
+msgstr "Followed by {amount} People"
+
+msgid "RecentContributions"
+msgstr "Recent Contributions"
+
+msgid "ImA"
+msgstr "I'm a"
+
+msgid "ImATexts"
+msgstr "Master-Student, Software-Engineer, Modder, Addon Developer, Game"
+
+msgid "Tooling"
+msgstr "Tooling"
+
+msgid "Other"
+msgstr "Other"
+
+msgid "VideoEditing"
+msgstr "Video Editing"
+
+msgid "Hochschule Kaiserslautern"
+msgstr "University of Applied Science Kaiserslautern"
+
+msgid "Software Development"
+msgstr "Software Development"
+
+msgid "Master of Science - MS"
+msgstr "Master of Science - MS"
+
+msgid "Bachelor of Science - BS"
+msgstr "Bachelor of Science - BS"
+
+msgid "Applied Informatics"
+msgstr "Applied Informatics"
+
+msgid "Technical diploma"
+msgstr "Technical diploma"
+
+msgid "Fachoberschule Nierstein"
+msgstr "Technical secondary school Nierstein"
+
+msgid "Modder"
+msgstr "Modder"
+
+msgid "Now"
+msgstr "Now"
+
+msgid "Creating UI improvements for the Videogame World of Warcraft using LUA"
+msgstr ""
+"Creating UI improvements for the Videogame World of Warcraft using LUA"
+
+msgid "Creating Webapps for the Videogame World of Warcraft"
+msgstr "Creating Webapps for the Videogame World of Warcraft"
+
+msgid "Creating Modifications for the Videogame Ark using Unreal Engine"
+msgstr "Creating Modifications for the Videogame Ark using Unreal Engine"
+
+msgid "Bachelor Thesis Software Development"
+msgstr "Bachelor Thesis Software Development"
+
+msgid "Kaiserslautern, Rhineland-Palatinate, Germany"
+msgstr "Kaiserslautern, Rhineland-Palatinate, Germany"
+
+msgid ""
+"Implementation of a configuration interface for creating dashboard widgets "
+"in Servity."
+msgstr ""
+"Implementation of a configuration interface for creating dashboard widgets "
+"in Servity."
+
+msgid "Intern"
+msgstr "Intern"
+
+msgid "Quality Assurance"
+msgstr "Quality Assurance"
+
+msgid "Wiesbaden, Hesse, Germany"
+msgstr "Wiesbaden, Hesse, Germany"
+
+msgid "Student Internship"
+msgstr "Student Internship"
+
+msgid ""
+"Evaluation and prototyping of a configuration interface for creating "
+"dashboard widgets in Servity."
+msgstr ""
+"Evaluation and prototyping of a configuration interface for creating "
+"dashboard widgets in Servity."
+
+msgid "Student Assistant"
+msgstr "Student Assistant"
+
+msgid "Student Assistant for Ui/Ux development for N-soria/shift"
+msgstr "Student Assistant for Ui/Ux development for N-soria/shift"
+
+msgid "ResumeGatheringExplanation"
+msgstr ""
+"The Resume Information is automatically gathered from Linked and was last "
+"updated {timestamp}."
+
+msgid "CreatedGitHubCommits"
+msgstr "Created {amount} Commits."
+
+msgid "MergedPullRequests"
+msgstr "Merged {amount} pull requests."
+
+msgid "CreatedReleases"
+msgstr "Created {amount} releases."
+
+msgid "PreferredLicense"
+msgstr "Preferred License: {license}."
+
+msgid "GithubStats"
+msgstr "Github Stats"
+
+msgid "Education"
+msgstr "Education"
+
+msgid "ProfessionalExperience"
+msgstr "Professional Experience"
+
+msgid "LearnMore"
+msgstr "Learn More"
+
+msgid "UnrealEngineWorkshopLinkText"
+msgstr "Link to the Workshop"
+
+msgid "UnrealEngineDesc"
+msgstr ""
+"I used Unreal Engine for multiple Ark mods as well as some standalone Game "
+"Projects. Additionally for a University project I added a Voice controlled "
+"LLM based NPC with an Unreal Project. I've even created an Interactive "
+"Workshop teaching the basics of Unreal Engine."
+
+msgid "AutoDoorsCurseforgeLinkText"
+msgstr "AutoDoors Ark Mod"
+
+msgid "CheatDeathCurseforgeLinkText"
+msgstr "Dino Cheat Death Ark Mod"
+
+msgid "AteriaGitHubLinkText"
+msgstr "Ateria Standalone Game"
+
+msgid "SQLDesc"
+msgstr ""
+"For my World of Warcraft Stat Displaying Website I used a MySQL database and"
+" had to write extensive queries to aggregate data for User Display."
+
+msgid "SQLMythiStoneGitHubLinkText"
+msgstr "Link to the Website Repo"
+
+msgid "AndroidDesc"
+msgstr ""
+"For one of my lectures I wrote a simple CRUD Bookshelf App. Due to my food "
+"Intolerance I wrote a useful Android App which allows users to scan barcodes"
+" of food to warn them whether it is safe consume."
+
+msgid "IngredientsTrafficLightGitHubLinkText"
+msgstr "Link to the Intolerance App Repo"
+
+msgid "BookshelfGitHubLinkText"
+msgstr "Link to the CRUD Bookshelf App"
+
+msgid "UnityDesc"
+msgstr ""
+"During my Student Assistant job and for my Student Project I employed unity "
+"to work on a Bicycle Simulator mainly working on Ui and Ux features."
+
+msgid "NsoriaUnityPlaylistLinkText"
+msgstr "Link to some Trailer Videos"
+
+msgid "TakeMeAlongLinkText"
+msgstr "Link to the Webapp"
+
+msgid "JavaDesc"
+msgstr ""
+"Java is the main language used for all Projects during my university "
+"Studies. Specifically for one of the Courses I used Java to create a Ride "
+"along Webapplication. In addition I used Java during my Student Internship "
+"and Bachelorthesis at DCON where I wrote the Backend and Frontend "
+"architecture for a configuraiton interface to create Dashboard widgets for "
+"their software Servity."
+
+msgid "DiscordQueryBotLinkText"
+msgstr "Link to the Bot Repository"
+
+msgid "CSharpDesc"
+msgstr ""
+"During my Student Assistant job at the University of Applied Science I used "
+"Csharp in addition to Unity for the Work on a Bicycle Simulator. I used C# "
+"to create a Discord bot leveraging SteamA2S as well as gamedig to create "
+"Game Server status embeds."
+
+msgid "CppLinkText"
+msgstr "Link to the Course Information"
+
+msgid "CppDesc"
+msgstr ""
+"One of the lectures during my studies were about usage of C++. 'Course "
+"participants are familiar with the C++ programming language and understand "
+"competent application of the language'. I leveraged C++ during the creation "
+"of the Network and Server Code for an Unreal Engine Game I’m creating with a"
+" friend."
+
+msgid "CustomNamesLinkText"
+msgstr "Link to the Repository for the Api Addon"
+
+msgid "RaidAbilityTimelineLinkText"
+msgstr "Link to the Downlaod Page for the Timeline WeakAura"
+
+msgid "LuaDesc"
+msgstr ""
+"I've been highly active in the World of Warcraft modding scene heavily "
+"relying on LUA. I wrote multiple Addons as well as creating WeakAuras, a "
+"framework used within the game to put customizable Graphics onto your "
+"screen. An example of Addons I’ve created is Custom Names. An api which "
+"allows users to Nickname eachothers ingame Personas to easily differentiate "
+"between eachother. One of the most popular WeakAuras I've creared is "
+"RaidAbilityTimeline which turns BossMod addon timers into a vertical stacked"
+" timeline."
+
+msgid "JavaScriptDesc"
+msgstr ""
+"I used Javascript during some Software-Engineering courses aswell as "
+"leavegering it to power the Webapps. One example is my Stat tracking Webpage"
+" which uses Javascript to allow for Client side search since Github Pages is"
+" a static hosting provider without being able to run Serverside code. In "
+"addition I gathered experience in Chart.js aswell as React during my Student"
+" Internship and Bachelorthesis for DCON."
+
+msgid "JavaScriptLinkText"
+msgstr "Link to the Search tool on the Webpage"
+
+msgid "HTMLLinkText"
+msgstr "Link to the Stat Tracking Webpage"
+
+msgid "HTMLDesc"
+msgstr ""
+"I've used HTML to build the layout for the Webapps I've created. One example"
+" for this is my stat tracking website which uses Jinja2 Templates to built "
+"static HTML pages which are then deployed to the web. In addition the very "
+"text you are currently reading is powered by bootstrap and the same jinja "
+"workflow using i18n for localisation."
+
+msgid "CSSDesc"
+msgstr ""
+"For the various Webapps I've created I used plain CSS aswell as Bootstrap "
+"for Styling. One such example is my Stat Tracking website aswell as this "
+"portfolio page you are currently on."
+
+msgid "CSSLinkText"
+msgstr "Link to the Stat Tracking Webpage"
+
+msgid "MarkdownLinkText"
+msgstr "Link to one example repository using markdown."
+
+msgid "MarkdownDesc"
+msgstr ""
+"Most of my public github repositories use YML to define Github Actions "
+"workflows, githubs Ci/CD pipeline. Aswell as Markdown for user facing "
+"descriptions."
+
+msgid "GithubLinkText"
+msgstr "Link to my Github Page"
+
+msgid "GithubDesc"
+msgstr ""
+"For Version control of my projects I use git. Most of those Projects are "
+"hosted on Github and are publicly viewable."
+
+msgid "CICDDesc"
+msgstr ""
+"My Projects use multiple CI&CD toolchains in order to power them. From "
+"fetching data over verifying code correctness and building static HTML pages"
+" to fully automated Releases."
+
+msgid "CICDLinkText"
+msgstr "Link to my Github Page"
+
+msgid "DockerLinkText"
+msgstr "Link to my Dockerhub"
+
+msgid "DockerDesc"
+msgstr ""
+"During a bunch of University courses We used Docker to deploy various things"
+" like Databases and Webservers. In addition I created my own Docker images "
+"to run the server files for one of the Standalone Games I've created"
+
+msgid "PythonLinkText"
+msgstr "Link to the Stat Tracking Webapp"
+
+msgid "PythonDesc"
+msgstr ""
+"During my Computervision course I used python aswell as Tensorflow to train "
+"machine learning models. In addition I used python for my Stat tracking "
+"website where it was used in data fetching aggregation aswell as using "
+"jinja2 to built static html pages. The same jinja2 workflow is used to build"
+" and deploy this portfolio page."
+
+msgid "RLinkText"
+msgstr "Link to the online viewable analysis (in German)"
+
+msgid "RDesc"
+msgstr ""
+"During the Visual Data analysis course I used R to analyse a Game Release "
+"Dataset. In addition I used R and specifically a RandomForest model during "
+"the Data Science course to predict NFL play success rate."
+
+msgid "WeakAurasTutorialLinkText"
+msgstr "Link to the WeakAuras Tutorial"
+
+msgid "MontageLinkText"
+msgstr "Link to one of the Montages"
+
+msgid "VideoEditingDesc"
+msgstr ""
+"I've used Premiere Pro and After effects quite extensivly when producing "
+"content. For example I used it to create a Guide Video aswell as various "
+"Montages."
+
+msgid "AboutText"
+msgstr "Hi, I'm Florian a {headline}. Nice to Meet You!"
+
+msgid "Gaming and Software development enthusiast"
+msgstr "Gaming and Software development enthusiast"
+
+msgid ""
+"Gaming and Software development enthusiast. Portfolio at: https://florian-"
+"reichle.de/"
+msgstr "Software Development Student and Gaming Enthusiast"
+
+msgid "Software Development Student and Gaming Enthusiast"
+msgstr "Software Development Student and Gaming Enthusiast"
+
+msgid "Age"
+msgstr "Age"
+
+msgid "Location"
+msgstr "Location"
+
+msgid "Zweibrücken, Rhineland-Palatinate, Germany"
+msgstr "Zweibrücken, Rhineland-Palatinate, Germany"
+
+msgid "Degree"
+msgstr "Degree"
+
+msgid "DegreeValue"
+msgstr "I'm currently enrolled in my master's studies"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "A simple lib adding the option for Name Variations to addons"
+msgstr "A simple lib adding the option for Name Variations to addons"
+
+msgid "Dynamic Weakauras creation tool for all the Dungeon needs"
+msgstr "Dynamic Weakauras creation tool for all the Dungeon needs"
+
+msgid "Adds Rio Score display to the GroupFinder frame"
+msgstr "Adds Rio Score display to the GroupFinder frame"
+
+msgid ""
+"Adds the beloved automatic doors that we all got used to in AsE when using "
+"S+"
+msgstr ""
+"Adds the beloved automatic doors that we all got used to in AsE when using "
+"S+"
+
+msgid "This mod can save your precious Dinos from certain Death"
+msgstr "This mod can save your precious Dinos from certain Death"
+
+msgid "Adds ElvUI Tags for CustomNames."
+msgstr "Adds ElvUI Tags for CustomNames."
+
+msgid "Adds MRT support for CustomNames."
+msgstr "Adds MRT support for CustomNames."
+
+msgid "Adds Chat support for Customnames"
+msgstr "Adds Chat support for Customnames"
+
+msgid "Adds Guild support for Customnames"
+msgstr "Adds Guild support for Customnames"
+
+msgid "latestVersion"
+msgstr "Latest Version"
+
+msgid "dateModified"
+msgstr "Last Release on:"
+
+msgid "url"
+msgstr "Link"
+
+msgid "descriptionExplanation"
+msgstr "Description and Changelog are directly imported from the Project"
+
+msgid "categories"
+msgstr "Categories"
+
+msgid "boss-encounters"
+msgstr "Boss Encounter"
+
+msgid "buffs-debuffs"
+msgstr "Buffs & Debuffs"
+
+msgid "battle-pets"
+msgstr "Battlepets"
+
+msgid "miscellaneous"
+msgstr "Miscellaneous"
+
+msgid "combat"
+msgstr "Combat"
+
+msgid "chat-communication"
+msgstr "Chat & Communication"
+
+msgid "libraries"
+msgstr "Libraries"
+
+msgid "unit-frames"
+msgstr "Unit-Frames"
+
+msgid "guild"
+msgstr "Guild"
+
+msgid "structures"
+msgstr "Structures"
+
+msgid "general"
+msgstr "General"
+
+msgid "creatures"
+msgstr "Creatures"
+
+msgid "rebalancing"
+msgstr "Rebalancing"
+
+msgid "views"
+msgstr "Views"
+
+msgid "installs"
+msgstr "Installs"
+
+msgid "downloadCount"
+msgstr "Downloads"
+
+msgid "stars"
+msgstr "Favorites"
+
+msgid "commentCount"
+msgstr "Comments"
+
+msgid "addon"
+msgstr "Addon"
+
+msgid "mod"
+msgstr "Mod"
+
+msgid "weakaura"
+msgstr "WeakAura"
+
+msgid "ScrollDown"
+msgstr "Find more"
+
+msgid "PortfolioDesc"
+msgstr ""
+"During my Studies I've spent a bunch of time on private projects mostly "
+"focusing on the Videogames World of Warcraft and Ark. A couple of my most "
+"popular can be found below."
+
+msgid "datascience"
+msgstr "Datascience"
+
+msgid "description"
+msgstr "Description"
+
+msgid "MythistoneDesc"
+msgstr ""
+"Mythistone is a web platform that leverages statistical analysis to deliver "
+"personalized optimization recommendations. This helps users by transforming "
+"complex performance data into clear, actionable insights that guide users "
+"toward their goals."
+
+msgid "RivalsstatsDesc"
+msgstr ""
+"RivalsStats is a web-based analytics platform that consolidates historical "
+"performance data on characters, rankings, and team compositions. Using "
+"statistical models and interactive dashboards, it turns complex metrics into"
+" intuitive, actionable insights, empowering users to make informed "
+"decisions."
+
+msgid "WACreatorDesc"
+msgstr ""
+"WeakAurasCreator is a web application that empowers users to design, "
+"simulate, and generate custom real-time alert widgets through an intuitive "
+"wizard interface. By abstracting complex scripting and simulation logic into"
+" simple form inputs, it delivers ready-to-use snippets for seamless "
+"integration into interactive environments."
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "ContactText"
+msgstr "Get in Contact with me"
+
+msgid "LinkedInLink"
+msgstr "Contact me through Linkedin"
+
+msgid "DiscordLink"
+msgstr "Contact me through Discord"
+
+msgid "master"
+msgstr "Master"
+
+msgid "ComputerVision"
+msgstr "Computer Vision"
+
+msgid "ComputerVisionDesc"
+msgstr ""
+"The students understand the process of image creation by digital cameras and"
+" are able to perform camera calibration. They are capable of selecting and "
+"applying suitable algorithms to improve image quality. They are familiar "
+"with methods for pattern recognition in images and can apply them. They have"
+" developed an understanding of both classical and AI-based image "
+"segmentation and can select and use appropriate methods to solve concrete "
+"computer vision problems."
+
+msgid "FTCG"
+msgstr "Advanced Topics in Computer Graphics"
+
+msgid "FTCGDesc"
+msgstr ""
+"The participants are familiar with advanced techniques in computer graphics "
+"and understand how to implement the presented theory in software.They know "
+"the theoretical and mathematical foundations of global "
+"illumination—particularly the rendering equation—and can translate this "
+"theory into software.The participants understand the basics of implementing "
+"a Monte Carlo ray tracer and solving the rendering equation using techniques"
+" such as photon mapping, and they can realize these techniques in code using"
+" programming languages like Java.They know the application domains of the "
+"theory covered and can apply the knowledge in practice.The participants are "
+"aware of the state of the art and are able to follow original research "
+"publications."
+
+msgid "SSE"
+msgstr "Secure Software Engineering"
+
+msgid "SSEDesc"
+msgstr ""
+"Assessment of the importance of attack-proof software.Knowledge of the most "
+"important classes of software security vulnerabilities.Methods for "
+"considering security objectives and avoiding security vulnerabilities in all"
+" phases of the software development process (from requirements gathering to "
+"quality assurance)."
+
+msgid "FUI"
+msgstr "UI Frameworks"
+
+msgid "FUIDesc"
+msgstr ""
+"The students understand the basics and concepts of the development of modern"
+" graphical user interfaces, in theory and using modern architectures and "
+"frameworks.They have used frameworks to develop to develop examples.The "
+"students are able to read research papers and can use this knowledge in "
+"their own projects."
+
+msgid "Philo"
+msgstr "Philosophy for Computer Scientists and Engineers"
+
+msgid "VDA"
+msgstr "Visual Data Analysis"
+
+msgid "VDADesc"
+msgstr ""
+"This course focused on the visualization of data, and how to effectively "
+"communicate information through the use of visual representations.The course"
+" covered the fundamentals of data visualization, including the use of color,"
+" typography, and layout.The course also covered the use of various tools for"
+" data visualization in R, including ggplot and plotly."
+
+msgid "EAE"
+msgstr "App Development"
+
+msgid "EAEDesc"
+msgstr ""
+"This course focused on the App-Development in the Android universe.The "
+"course covered the fundamentals of Android development, including the use of"
+" Android Studio, Java, and XML.The course also covered the use of various "
+"tools for Android development, including the Android SDK and the Android "
+"Emulator."
+
+msgid "NPROG"
+msgstr "Concurrent Programming with Java: Concepts and Applications"
+
+msgid "NPROGDesc"
+msgstr ""
+"Course participants are acquainted with the relevance and most important "
+"concepts of concurrent programming.They are familiar with the different "
+"types of synchronization, in addition to their use in algorithms and their "
+"conception in data structures.The most important design archetypes for "
+"concurrency are well-known to the participants; they can carry out "
+"assessments of runtime performance and can implement simple algorithms and "
+"data structures.Thus, participants are acquainted with a variety of methods "
+"on how concepts are implemented in practice."
+
+msgid "Crypto"
+msgstr "Bitcoin, Blockchain and Smart Contracts"
+
+msgid "CryptoDesc"
+msgstr ""
+"Participants will understand the principles of Bitcoin and Blockchain, learn"
+" about mathematical and economic models, protocols, and algorithms.They are "
+"familiar with the cryptocurrencies including Bitcoin or Ethereum, understand"
+" how the Blockchain works as a distributed ledger, comprehend the principles"
+" and significance of decentralized consensus protocols and will be able to "
+"decide when to use these technologies.Participants will explore the economy "
+"of cryptocurrencies, and learn about prices, exchanges and wallets.They will"
+" identify applications and best investment practices as well as use cases in"
+" different industries."
+
+msgid "bachelor"
+msgstr "Bachelor"
+
+msgid "AdditionalCourses"
+msgstr "Additional Courses"
+
+msgid "AdditionalCoursesDesc"
+msgstr ""
+"In addition to the required lectures I also took the following courses."
+
+msgid "courseInformation"
+msgstr "Course Information"
+
+msgid "learningMethod"
+msgstr "Learning Method"
+
+msgid "LectureIntegratedPractice"
+msgstr "Lecture with integrated Practice"
+
+msgid "examForm"
+msgstr "Form of Exam"
+
+msgid "Oral"
+msgstr "Oral"
+
+msgid "professor"
+msgstr "Professor"
+
+msgid "workload"
+msgstr "Workload"
+
+msgid "Attendance"
+msgstr "Attendance"
+
+msgid "SelfStudy"
+msgstr "Self Study"
+
+msgid "Practical"
+msgstr "Practical"
+
+msgid "Project"
+msgstr "Project"
+
+msgid "Lecture"
+msgstr "Lecture"
+
+msgid "Presentation"
+msgstr "Presentation"
+
+msgid "SeminarPaper"
+msgstr "Seminar Paper"
+
+msgid "Block"
+msgstr "Blocked Lecture"
+
+msgid "practicalExam"
+msgstr "Practical Exam"
+
+msgid "hours"
+msgstr "hours"
+
+msgid "content"
+msgstr "Content"
+
+msgid "grade"
+msgstr "Grade"
+
+msgid "switchToEng"
+msgstr "Switch to English"
+
+msgid "switchToGer"
+msgstr "Zu Deutsch wechseln"
+
+msgid "gradeHint"
+msgstr ""
+"In German Universities Grades are awarded from 1.0 to 4.0. 1.0 is the best "
+"possible grade while 4.0 is the worst. A non official Conversion to gpa "
+"score can be found here: <a target= '_blank' href='https://www.uni-"
+"frankfurt.de/116555505.pdf'>uni-frankfurt.de</a>"
+
+msgid "project"
+msgstr "Graded Project"
+
+msgid "FTCGProject"
+msgstr "Creation of a Raytracer"
+
+msgid "ProjectGermanNotice"
+msgstr "The Project was created in German and is not available in English."
+
+msgid "SSEProject"
+msgstr ""
+"Generative AI: Large Language Models in Software-Development and Software-"
+"Security"
+
+msgid "FUIProject"
+msgstr "New things from the FAIRD"
+
+msgid "VDAProject"
+msgstr "Analysis: Videogame Sales"
+
+msgid "EAEProject"
+msgstr "CRUD: Bookshelf-App"
+
+msgid "VDAProjectDesc"
+msgstr ""
+"Following theses or research questions were analyzed:\n"
+"- In which years were the most games released and sold?\n"
+"- How do release and sales figures differ between 1980 and today?\n"
+"- Which were the best sales years in terms of number of sales per game? Are newer games bought more frequently?\n"
+"- Which platform has the best sales figures? Which one has the most releases?\n"
+"- Do established, older platforms have a larger game library and more sales than platforms that are newly launched?\n"
+"- Are there regional differences in user behavior for platforms? Do regional platforms regularly sell more games?\n"
+"- How do sales per platform develop over the years? Does the biggest \"hype\" with the highest sales occur shortly after release?\n"
+"- Are there concentrations in the number of games and sales among certain publishers (e.g., Nintendo, EA, Activision Blizzard)?\n"
+"- Are there regional differences in user behavior for publishers? Are regional publishers favored?\n"
+"- What is the distribution of game genres? Are there concentrations of certain genres in terms of number and sales figures? Which genres have the best/worst sales figures?\n"
+"- Are there regional differences among genres? (Are there regional differences in user or consumption behavior for specific genres?)\n"
+"- How have the genres evolved over the years?\n"
+"- Are there genres that, after high initial interest, have now become insignificant?\n"
+"- Are there publishers that preferentially offer certain genres and/or publishers that record high sales figures for games of a particular genre?\n"
+
+msgid "FTCGProjectDesc"
+msgstr ""
+"In the course, a Raytracer was designed and implemented from scratch. "
+"Afterwards it was extended by adding the ability to read in completed .obj "
+"files and render those."
+
+msgid "EAEProjectDesc"
+msgstr ""
+"In the course, a CRUD (Create, Read, Update, Delete) App was designed. This "
+"app allows users to add books to a list and mark them as read. It leverages "
+"the open library api to let users search for books by title and Author and "
+"loads in data like the cover to display."
+
+msgid "CryptoProject"
+msgstr "Crypto ETF"
+
+msgid "CryptoProjectDesc"
+msgstr ""
+"The final Project of the course was testing the feasability and creating a "
+"Riester complaicent Crypto ETF. The final result was a fully fledged out ETF"
+" realised as a Wikifolio (an online page that let's anyone create ETF like "
+"portfolios others can follow)."
+
+msgid "ShowDetails"
+msgstr "Show Details"
+
+msgid "ScrollToTop"
+msgstr "Scroll to the Top"
+
+msgid "credits"
+msgstr "Credits"
+
+msgid "CourseImagesDesignedBy"
+msgstr "Course images designed by"
+
+msgid "ApplicantIconsCreatedByProsymbolsPremium"
+msgstr "Favicon created by Prosymbols Premium"
+
+msgid "creditsDescription"
+msgstr ""
+"For the creation of this page some free resources were used. Namingly these "
+"include the following:"
+
+msgid "WebsiteTemplate"
+msgstr "Website Template"
+
+msgid "HomeImage"
+msgstr "Home Image by"
+
+msgid "imprint"
+msgstr "Imprint"
+
+msgid "changelog"
+msgstr "Changelog of the latest Version"
+
+msgid "goHome"
+msgstr "Go Home"
+
+msgid "wrongTurn"
+msgstr "Looks like you took a wrong turn"
+
+msgid "pageNotFound"
+msgstr "Page Not Found"
+
+msgid "404Page"
+msgstr "404 Page Design by"
+
+msgid "YourMessageSent"
+msgstr "Your message has been sent. Thank you!"
+
+msgid "SendMessage"
+msgstr "Send Message"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "YourEmail"
+msgstr "Your Email"
+
+msgid "YourName"
+msgstr "Your Name"
+
+msgid "Loading"
+msgstr "Loading"
+
+msgid "StatsDescription"
+msgstr ""
+"Over the Years I've created a lot of different Projects. A couple of stats "
+"from my public projects can be found below."
+
+msgid "ImageBy"
+msgstr "Image By"
+
+msgid "Improves upon blizzards Timeline"
+msgstr "Improves upon Blizzard's Timeline"
+
 #. image: deathknight.png  color: #C41F3B
 msgid "cl6"
 msgstr "Death Knight"
@@ -4555,977 +5530,6 @@ msgstr "Resource Bar"
 msgid "enhanceqol3"
 msgstr "Unit Frame"
 
-msgid ""
+#. image: demonhunter.png  color: #A330C9
+msgid "cl12-3"
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-
-msgid "weekday.Monday"
-msgstr "Monday"
-
-msgid "weekday.Tuesday"
-msgstr "Tuesday"
-
-msgid "weekday.Wednesday"
-msgstr "Wednesday"
-
-msgid "weekday.Thursday"
-msgstr "Thursday"
-
-msgid "weekday.Friday"
-msgstr "Friday"
-
-msgid "weekday.Saturday"
-msgstr "Saturday"
-
-msgid "weekday.Sunday"
-msgstr "Sunday"
-
-msgid "month.January"
-msgstr "January"
-
-msgid "month.February"
-msgstr "February"
-
-msgid "month.March"
-msgstr "March"
-
-msgid "month.April"
-msgstr "April"
-
-msgid "month.May"
-msgstr "May"
-
-msgid "month.June"
-msgstr "June"
-
-msgid "month.July"
-msgstr "July"
-
-msgid "month.August"
-msgstr "August"
-
-msgid "month.September"
-msgstr "September"
-
-msgid "month.October"
-msgstr "October"
-
-msgid "month.November"
-msgstr "November"
-
-msgid "month.December"
-msgstr "December"
-
-msgid "the"
-msgstr "the"
-
-msgid "SkillsDescription"
-msgstr ""
-"During my studies and in my leisure time, I delved into various programming "
-"languages and other relevant topics in software development. I gained "
-"proficiency in languages such as Lua and Java. Allowing me to implement "
-"diverse algorithms and develop applications with different functionalities. "
-"Additionally, I explored web development, learned HTML, CSS, and JavaScript "
-"to create interactive and visually appealing websites. <br> <br> Moreover, I"
-" familiarized myself with essential tools like Git, enabling version control"
-" and collaborative coding. This taught me the importance of teamwork in "
-"software projects and the significance of maintaining a well-organized and "
-"efficient codebase. Alongside version control, I also honed my skills in "
-"SQL, grasping the fundamentals of database design and management. "
-"Understanding SQL has been vital in building dynamic applications that "
-"interact with databases to store and retrieve information. <br> <br> "
-"Overall, my passion for programming drove me to continuously expand my "
-"knowledge in the field. Formal education and self-directed learning built a "
-"strong foundation in various programming languages and relevant tools, "
-"empowering me to tackle complex software projects and contribute effectively"
-" to the world of technology. A selection of these skills can be found below."
-
-msgid "Skills"
-msgstr "Skills"
-
-msgid "Frontend"
-msgstr "Frontend"
-
-msgid "Backend"
-msgstr "Backend"
-
-msgid "DataScienceAndMachineLearning"
-msgstr "Data Science & Machine Learning"
-
-msgid "Technology"
-msgstr "Technology"
-
-msgid "Home"
-msgstr "Home"
-
-msgid "About"
-msgstr "About"
-
-msgid "Resume"
-msgstr "Resume"
-
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgid "Services"
-msgstr "Services"
-
-msgid "Downloads"
-msgstr "Downloads"
-
-msgid "Installs"
-msgstr "Users"
-
-msgid "PositiveReviews"
-msgstr "Positive Reviews"
-
-msgid "AnsweredComments"
-msgstr "Answered Comments"
-
-msgid "JoinedGitHubYearsAgo"
-msgstr "Joined GitHub {years} years ago"
-
-msgid "CreatedGitHubRepositories"
-msgstr "Created {amount} Repositories"
-
-msgid "GitHubFollowedBy"
-msgstr "Followed by {amount} People"
-
-msgid "RecentContributions"
-msgstr "Recent Contributions"
-
-msgid "ImA"
-msgstr "I'm a"
-
-msgid "ImATexts"
-msgstr "Master-Student, Software-Engineer, Modder, Addon Developer, Game"
-
-msgid "Tooling"
-msgstr "Tooling"
-
-msgid "Other"
-msgstr "Other"
-
-msgid "VideoEditing"
-msgstr "Video Editing"
-
-msgid "Hochschule Kaiserslautern"
-msgstr "University of Applied Science Kaiserslautern"
-
-msgid "Software Development"
-msgstr "Software Development"
-
-msgid "Master of Science - MS"
-msgstr "Master of Science - MS"
-
-msgid "Bachelor of Science - BS"
-msgstr "Bachelor of Science - BS"
-
-msgid "Applied Informatics"
-msgstr "Applied Informatics"
-
-msgid "Technical diploma"
-msgstr "Technical diploma"
-
-msgid "Fachoberschule Nierstein"
-msgstr "Technical secondary school Nierstein"
-
-msgid "Modder"
-msgstr "Modder"
-
-msgid "Now"
-msgstr "Now"
-
-msgid "Creating UI improvements for the Videogame World of Warcraft using LUA"
-msgstr ""
-"Creating UI improvements for the Videogame World of Warcraft using LUA"
-
-msgid "Creating Webapps for the Videogame World of Warcraft"
-msgstr "Creating Webapps for the Videogame World of Warcraft"
-
-msgid "Creating Modifications for the Videogame Ark using Unreal Engine"
-msgstr "Creating Modifications for the Videogame Ark using Unreal Engine"
-
-msgid "Bachelor Thesis Software Development"
-msgstr "Bachelor Thesis Software Development"
-
-msgid "Kaiserslautern, Rhineland-Palatinate, Germany"
-msgstr "Kaiserslautern, Rhineland-Palatinate, Germany"
-
-msgid ""
-"Implementation of a configuration interface for creating dashboard widgets "
-"in Servity."
-msgstr ""
-"Implementation of a configuration interface for creating dashboard widgets "
-"in Servity."
-
-msgid "Intern"
-msgstr "Intern"
-
-msgid "Quality Assurance"
-msgstr "Quality Assurance"
-
-msgid "Wiesbaden, Hesse, Germany"
-msgstr "Wiesbaden, Hesse, Germany"
-
-msgid "Student Internship"
-msgstr "Student Internship"
-
-msgid ""
-"Evaluation and prototyping of a configuration interface for creating "
-"dashboard widgets in Servity."
-msgstr ""
-"Evaluation and prototyping of a configuration interface for creating "
-"dashboard widgets in Servity."
-
-msgid "Student Assistant"
-msgstr "Student Assistant"
-
-msgid "Student Assistant for Ui/Ux development for N-soria/shift"
-msgstr "Student Assistant for Ui/Ux development for N-soria/shift"
-
-msgid "ResumeGatheringExplanation"
-msgstr ""
-"The Resume Information is automatically gathered from Linked and was last "
-"updated {timestamp}."
-
-msgid "CreatedGitHubCommits"
-msgstr "Created {amount} Commits."
-
-msgid "MergedPullRequests"
-msgstr "Merged {amount} pull requests."
-
-msgid "CreatedReleases"
-msgstr "Created {amount} releases."
-
-msgid "PreferredLicense"
-msgstr "Preferred License: {license}."
-
-msgid "GithubStats"
-msgstr "Github Stats"
-
-msgid "Education"
-msgstr "Education"
-
-msgid "ProfessionalExperience"
-msgstr "Professional Experience"
-
-msgid "LearnMore"
-msgstr "Learn More"
-
-msgid "UnrealEngineWorkshopLinkText"
-msgstr "Link to the Workshop"
-
-msgid "UnrealEngineDesc"
-msgstr ""
-"I used Unreal Engine for multiple Ark mods as well as some standalone Game "
-"Projects. Additionally for a University project I added a Voice controlled "
-"LLM based NPC with an Unreal Project. I've even created an Interactive "
-"Workshop teaching the basics of Unreal Engine."
-
-msgid "AutoDoorsCurseforgeLinkText"
-msgstr "AutoDoors Ark Mod"
-
-msgid "CheatDeathCurseforgeLinkText"
-msgstr "Dino Cheat Death Ark Mod"
-
-msgid "AteriaGitHubLinkText"
-msgstr "Ateria Standalone Game"
-
-msgid "SQLDesc"
-msgstr ""
-"For my World of Warcraft Stat Displaying Website I used a MySQL database and"
-" had to write extensive queries to aggregate data for User Display."
-
-msgid "SQLMythiStoneGitHubLinkText"
-msgstr "Link to the Website Repo"
-
-msgid "AndroidDesc"
-msgstr ""
-"For one of my lectures I wrote a simple CRUD Bookshelf App. Due to my food "
-"Intolerance I wrote a useful Android App which allows users to scan barcodes"
-" of food to warn them whether it is safe consume."
-
-msgid "IngredientsTrafficLightGitHubLinkText"
-msgstr "Link to the Intolerance App Repo"
-
-msgid "BookshelfGitHubLinkText"
-msgstr "Link to the CRUD Bookshelf App"
-
-msgid "UnityDesc"
-msgstr ""
-"During my Student Assistant job and for my Student Project I employed unity "
-"to work on a Bicycle Simulator mainly working on Ui and Ux features."
-
-msgid "NsoriaUnityPlaylistLinkText"
-msgstr "Link to some Trailer Videos"
-
-msgid "TakeMeAlongLinkText"
-msgstr "Link to the Webapp"
-
-msgid "JavaDesc"
-msgstr ""
-"Java is the main language used for all Projects during my university "
-"Studies. Specifically for one of the Courses I used Java to create a Ride "
-"along Webapplication. In addition I used Java during my Student Internship "
-"and Bachelorthesis at DCON where I wrote the Backend and Frontend "
-"architecture for a configuraiton interface to create Dashboard widgets for "
-"their software Servity."
-
-msgid "DiscordQueryBotLinkText"
-msgstr "Link to the Bot Repository"
-
-msgid "CSharpDesc"
-msgstr ""
-"During my Student Assistant job at the University of Applied Science I used "
-"Csharp in addition to Unity for the Work on a Bicycle Simulator. I used C# "
-"to create a Discord bot leveraging SteamA2S as well as gamedig to create "
-"Game Server status embeds."
-
-msgid "CppLinkText"
-msgstr "Link to the Course Information"
-
-msgid "CppDesc"
-msgstr ""
-"One of the lectures during my studies were about usage of C++. 'Course "
-"participants are familiar with the C++ programming language and understand "
-"competent application of the language'. I leveraged C++ during the creation "
-"of the Network and Server Code for an Unreal Engine Game I’m creating with a"
-" friend."
-
-msgid "CustomNamesLinkText"
-msgstr "Link to the Repository for the Api Addon"
-
-msgid "RaidAbilityTimelineLinkText"
-msgstr "Link to the Downlaod Page for the Timeline WeakAura"
-
-msgid "LuaDesc"
-msgstr ""
-"I've been highly active in the World of Warcraft modding scene heavily "
-"relying on LUA. I wrote multiple Addons as well as creating WeakAuras, a "
-"framework used within the game to put customizable Graphics onto your "
-"screen. An example of Addons I’ve created is Custom Names. An api which "
-"allows users to Nickname eachothers ingame Personas to easily differentiate "
-"between eachother. One of the most popular WeakAuras I've creared is "
-"RaidAbilityTimeline which turns BossMod addon timers into a vertical stacked"
-" timeline."
-
-msgid "JavaScriptDesc"
-msgstr ""
-"I used Javascript during some Software-Engineering courses aswell as "
-"leavegering it to power the Webapps. One example is my Stat tracking Webpage"
-" which uses Javascript to allow for Client side search since Github Pages is"
-" a static hosting provider without being able to run Serverside code. In "
-"addition I gathered experience in Chart.js aswell as React during my Student"
-" Internship and Bachelorthesis for DCON."
-
-msgid "JavaScriptLinkText"
-msgstr "Link to the Search tool on the Webpage"
-
-msgid "HTMLLinkText"
-msgstr "Link to the Stat Tracking Webpage"
-
-msgid "HTMLDesc"
-msgstr ""
-"I've used HTML to build the layout for the Webapps I've created. One example"
-" for this is my stat tracking website which uses Jinja2 Templates to built "
-"static HTML pages which are then deployed to the web. In addition the very "
-"text you are currently reading is powered by bootstrap and the same jinja "
-"workflow using i18n for localisation."
-
-msgid "CSSDesc"
-msgstr ""
-"For the various Webapps I've created I used plain CSS aswell as Bootstrap "
-"for Styling. One such example is my Stat Tracking website aswell as this "
-"portfolio page you are currently on."
-
-msgid "CSSLinkText"
-msgstr "Link to the Stat Tracking Webpage"
-
-msgid "MarkdownLinkText"
-msgstr "Link to one example repository using markdown."
-
-msgid "MarkdownDesc"
-msgstr ""
-"Most of my public github repositories use YML to define Github Actions "
-"workflows, githubs Ci/CD pipeline. Aswell as Markdown for user facing "
-"descriptions."
-
-msgid "GithubLinkText"
-msgstr "Link to my Github Page"
-
-msgid "GithubDesc"
-msgstr ""
-"For Version control of my projects I use git. Most of those Projects are "
-"hosted on Github and are publicly viewable."
-
-msgid "CICDDesc"
-msgstr ""
-"My Projects use multiple CI&CD toolchains in order to power them. From "
-"fetching data over verifying code correctness and building static HTML pages"
-" to fully automated Releases."
-
-msgid "CICDLinkText"
-msgstr "Link to my Github Page"
-
-msgid "DockerLinkText"
-msgstr "Link to my Dockerhub"
-
-msgid "DockerDesc"
-msgstr ""
-"During a bunch of University courses We used Docker to deploy various things"
-" like Databases and Webservers. In addition I created my own Docker images "
-"to run the server files for one of the Standalone Games I've created"
-
-msgid "PythonLinkText"
-msgstr "Link to the Stat Tracking Webapp"
-
-msgid "PythonDesc"
-msgstr ""
-"During my Computervision course I used python aswell as Tensorflow to train "
-"machine learning models. In addition I used python for my Stat tracking "
-"website where it was used in data fetching aggregation aswell as using "
-"jinja2 to built static html pages. The same jinja2 workflow is used to build"
-" and deploy this portfolio page."
-
-msgid "RLinkText"
-msgstr "Link to the online viewable analysis (in German)"
-
-msgid "RDesc"
-msgstr ""
-"During the Visual Data analysis course I used R to analyse a Game Release "
-"Dataset. In addition I used R and specifically a RandomForest model during "
-"the Data Science course to predict NFL play success rate."
-
-msgid "WeakAurasTutorialLinkText"
-msgstr "Link to the WeakAuras Tutorial"
-
-msgid "MontageLinkText"
-msgstr "Link to one of the Montages"
-
-msgid "VideoEditingDesc"
-msgstr ""
-"I've used Premiere Pro and After effects quite extensivly when producing "
-"content. For example I used it to create a Guide Video aswell as various "
-"Montages."
-
-msgid "AboutText"
-msgstr "Hi, I'm Florian a {headline}. Nice to Meet You!"
-
-msgid "Gaming and Software development enthusiast"
-msgstr "Gaming and Software development enthusiast"
-
-msgid ""
-"Gaming and Software development enthusiast. Portfolio at: https://florian-"
-"reichle.de/"
-msgstr "Software Development Student and Gaming Enthusiast"
-
-msgid "Software Development Student and Gaming Enthusiast"
-msgstr "Software Development Student and Gaming Enthusiast"
-
-msgid "Age"
-msgstr "Age"
-
-msgid "Location"
-msgstr "Location"
-
-msgid "Zweibrücken, Rhineland-Palatinate, Germany"
-msgstr "Zweibrücken, Rhineland-Palatinate, Germany"
-
-msgid "Degree"
-msgstr "Degree"
-
-msgid "DegreeValue"
-msgstr "I'm currently enrolled in my master's studies"
-
-msgid "Email"
-msgstr "Email"
-
-msgid "A simple lib adding the option for Name Variations to addons"
-msgstr "A simple lib adding the option for Name Variations to addons"
-
-msgid "Dynamic Weakauras creation tool for all the Dungeon needs"
-msgstr "Dynamic Weakauras creation tool for all the Dungeon needs"
-
-msgid "Adds Rio Score display to the GroupFinder frame"
-msgstr "Adds Rio Score display to the GroupFinder frame"
-
-msgid ""
-"Adds the beloved automatic doors that we all got used to in AsE when using "
-"S+"
-msgstr ""
-"Adds the beloved automatic doors that we all got used to in AsE when using "
-"S+"
-
-msgid "This mod can save your precious Dinos from certain Death"
-msgstr "This mod can save your precious Dinos from certain Death"
-
-msgid "Adds ElvUI Tags for CustomNames."
-msgstr "Adds ElvUI Tags for CustomNames."
-
-msgid "Adds MRT support for CustomNames."
-msgstr "Adds MRT support for CustomNames."
-
-msgid "Adds Chat support for Customnames"
-msgstr "Adds Chat support for Customnames"
-
-msgid "Adds Guild support for Customnames"
-msgstr "Adds Guild support for Customnames"
-
-msgid "latestVersion"
-msgstr "Latest Version"
-
-msgid "dateModified"
-msgstr "Last Release on:"
-
-msgid "url"
-msgstr "Link"
-
-msgid "descriptionExplanation"
-msgstr "Description and Changelog are directly imported from the Project"
-
-msgid "categories"
-msgstr "Categories"
-
-msgid "boss-encounters"
-msgstr "Boss Encounter"
-
-msgid "buffs-debuffs"
-msgstr "Buffs & Debuffs"
-
-msgid "battle-pets"
-msgstr "Battlepets"
-
-msgid "miscellaneous"
-msgstr "Miscellaneous"
-
-msgid "combat"
-msgstr "Combat"
-
-msgid "chat-communication"
-msgstr "Chat & Communication"
-
-msgid "libraries"
-msgstr "Libraries"
-
-msgid "unit-frames"
-msgstr "Unit-Frames"
-
-msgid "guild"
-msgstr "Guild"
-
-msgid "structures"
-msgstr "Structures"
-
-msgid "general"
-msgstr "General"
-
-msgid "creatures"
-msgstr "Creatures"
-
-msgid "rebalancing"
-msgstr "Rebalancing"
-
-msgid "views"
-msgstr "Views"
-
-msgid "installs"
-msgstr "Installs"
-
-msgid "downloadCount"
-msgstr "Downloads"
-
-msgid "stars"
-msgstr "Favorites"
-
-msgid "commentCount"
-msgstr "Comments"
-
-msgid "addon"
-msgstr "Addon"
-
-msgid "mod"
-msgstr "Mod"
-
-msgid "weakaura"
-msgstr "WeakAura"
-
-msgid "ScrollDown"
-msgstr "Find more"
-
-msgid "PortfolioDesc"
-msgstr ""
-"During my Studies I've spent a bunch of time on private projects mostly "
-"focusing on the Videogames World of Warcraft and Ark. A couple of my most "
-"popular can be found below."
-
-msgid "datascience"
-msgstr "Datascience"
-
-msgid "description"
-msgstr "Description"
-
-msgid "MythistoneDesc"
-msgstr ""
-"Mythistone is a web platform that leverages statistical analysis to deliver "
-"personalized optimization recommendations. This helps users by transforming "
-"complex performance data into clear, actionable insights that guide users "
-"toward their goals."
-
-msgid "RivalsstatsDesc"
-msgstr ""
-"RivalsStats is a web-based analytics platform that consolidates historical "
-"performance data on characters, rankings, and team compositions. Using "
-"statistical models and interactive dashboards, it turns complex metrics into"
-" intuitive, actionable insights, empowering users to make informed "
-"decisions."
-
-msgid "WACreatorDesc"
-msgstr ""
-"WeakAurasCreator is a web application that empowers users to design, "
-"simulate, and generate custom real-time alert widgets through an intuitive "
-"wizard interface. By abstracting complex scripting and simulation logic into"
-" simple form inputs, it delivers ready-to-use snippets for seamless "
-"integration into interactive environments."
-
-msgid "Contact"
-msgstr "Contact"
-
-msgid "ContactText"
-msgstr "Get in Contact with me"
-
-msgid "LinkedInLink"
-msgstr "Contact me through Linkedin"
-
-msgid "DiscordLink"
-msgstr "Contact me through Discord"
-
-msgid "master"
-msgstr "Master"
-
-msgid "ComputerVision"
-msgstr "Computer Vision"
-
-msgid "ComputerVisionDesc"
-msgstr ""
-"The students understand the process of image creation by digital cameras and"
-" are able to perform camera calibration. They are capable of selecting and "
-"applying suitable algorithms to improve image quality. They are familiar "
-"with methods for pattern recognition in images and can apply them. They have"
-" developed an understanding of both classical and AI-based image "
-"segmentation and can select and use appropriate methods to solve concrete "
-"computer vision problems."
-
-msgid "FTCG"
-msgstr "Advanced Topics in Computer Graphics"
-
-msgid "FTCGDesc"
-msgstr ""
-"The participants are familiar with advanced techniques in computer graphics "
-"and understand how to implement the presented theory in software.They know "
-"the theoretical and mathematical foundations of global "
-"illumination—particularly the rendering equation—and can translate this "
-"theory into software.The participants understand the basics of implementing "
-"a Monte Carlo ray tracer and solving the rendering equation using techniques"
-" such as photon mapping, and they can realize these techniques in code using"
-" programming languages like Java.They know the application domains of the "
-"theory covered and can apply the knowledge in practice.The participants are "
-"aware of the state of the art and are able to follow original research "
-"publications."
-
-msgid "SSE"
-msgstr "Secure Software Engineering"
-
-msgid "SSEDesc"
-msgstr ""
-"Assessment of the importance of attack-proof software.Knowledge of the most "
-"important classes of software security vulnerabilities.Methods for "
-"considering security objectives and avoiding security vulnerabilities in all"
-" phases of the software development process (from requirements gathering to "
-"quality assurance)."
-
-msgid "FUI"
-msgstr "UI Frameworks"
-
-msgid "FUIDesc"
-msgstr ""
-"The students understand the basics and concepts of the development of modern"
-" graphical user interfaces, in theory and using modern architectures and "
-"frameworks.They have used frameworks to develop to develop examples.The "
-"students are able to read research papers and can use this knowledge in "
-"their own projects."
-
-msgid "Philo"
-msgstr "Philosophy for Computer Scientists and Engineers"
-
-msgid "VDA"
-msgstr "Visual Data Analysis"
-
-msgid "VDADesc"
-msgstr ""
-"This course focused on the visualization of data, and how to effectively "
-"communicate information through the use of visual representations.The course"
-" covered the fundamentals of data visualization, including the use of color,"
-" typography, and layout.The course also covered the use of various tools for"
-" data visualization in R, including ggplot and plotly."
-
-msgid "EAE"
-msgstr "App Development"
-
-msgid "EAEDesc"
-msgstr ""
-"This course focused on the App-Development in the Android universe.The "
-"course covered the fundamentals of Android development, including the use of"
-" Android Studio, Java, and XML.The course also covered the use of various "
-"tools for Android development, including the Android SDK and the Android "
-"Emulator."
-
-msgid "NPROG"
-msgstr "Concurrent Programming with Java: Concepts and Applications"
-
-msgid "NPROGDesc"
-msgstr ""
-"Course participants are acquainted with the relevance and most important "
-"concepts of concurrent programming.They are familiar with the different "
-"types of synchronization, in addition to their use in algorithms and their "
-"conception in data structures.The most important design archetypes for "
-"concurrency are well-known to the participants; they can carry out "
-"assessments of runtime performance and can implement simple algorithms and "
-"data structures.Thus, participants are acquainted with a variety of methods "
-"on how concepts are implemented in practice."
-
-msgid "Crypto"
-msgstr "Bitcoin, Blockchain and Smart Contracts"
-
-msgid "CryptoDesc"
-msgstr ""
-"Participants will understand the principles of Bitcoin and Blockchain, learn"
-" about mathematical and economic models, protocols, and algorithms.They are "
-"familiar with the cryptocurrencies including Bitcoin or Ethereum, understand"
-" how the Blockchain works as a distributed ledger, comprehend the principles"
-" and significance of decentralized consensus protocols and will be able to "
-"decide when to use these technologies.Participants will explore the economy "
-"of cryptocurrencies, and learn about prices, exchanges and wallets.They will"
-" identify applications and best investment practices as well as use cases in"
-" different industries."
-
-msgid "bachelor"
-msgstr "Bachelor"
-
-msgid "AdditionalCourses"
-msgstr "Additional Courses"
-
-msgid "AdditionalCoursesDesc"
-msgstr ""
-"In addition to the required lectures I also took the following courses."
-
-msgid "courseInformation"
-msgstr "Course Information"
-
-msgid "learningMethod"
-msgstr "Learning Method"
-
-msgid "LectureIntegratedPractice"
-msgstr "Lecture with integrated Practice"
-
-msgid "examForm"
-msgstr "Form of Exam"
-
-msgid "Oral"
-msgstr "Oral"
-
-msgid "professor"
-msgstr "Professor"
-
-msgid "workload"
-msgstr "Workload"
-
-msgid "Attendance"
-msgstr "Attendance"
-
-msgid "SelfStudy"
-msgstr "Self Study"
-
-msgid "Practical"
-msgstr "Practical"
-
-msgid "Project"
-msgstr "Project"
-
-msgid "Lecture"
-msgstr "Lecture"
-
-msgid "Presentation"
-msgstr "Presentation"
-
-msgid "SeminarPaper"
-msgstr "Seminar Paper"
-
-msgid "Block"
-msgstr "Blocked Lecture"
-
-msgid "practicalExam"
-msgstr "Practical Exam"
-
-msgid "hours"
-msgstr "hours"
-
-msgid "content"
-msgstr "Content"
-
-msgid "grade"
-msgstr "Grade"
-
-msgid "switchToEng"
-msgstr "Switch to English"
-
-msgid "switchToGer"
-msgstr "Zu Deutsch wechseln"
-
-msgid "gradeHint"
-msgstr ""
-"In German Universities Grades are awarded from 1.0 to 4.0. 1.0 is the best "
-"possible grade while 4.0 is the worst. A non official Conversion to gpa "
-"score can be found here: <a target= '_blank' href='https://www.uni-"
-"frankfurt.de/116555505.pdf'>uni-frankfurt.de</a>"
-
-msgid "project"
-msgstr "Graded Project"
-
-msgid "FTCGProject"
-msgstr "Creation of a Raytracer"
-
-msgid "ProjectGermanNotice"
-msgstr "The Project was created in German and is not available in English."
-
-msgid "SSEProject"
-msgstr ""
-"Generative AI: Large Language Models in Software-Development and Software-"
-"Security"
-
-msgid "FUIProject"
-msgstr "New things from the FAIRD"
-
-msgid "VDAProject"
-msgstr "Analysis: Videogame Sales"
-
-msgid "EAEProject"
-msgstr "CRUD: Bookshelf-App"
-
-msgid "VDAProjectDesc"
-msgstr ""
-"Following theses or research questions were analyzed:\n"
-"- In which years were the most games released and sold?\n"
-"- How do release and sales figures differ between 1980 and today?\n"
-"- Which were the best sales years in terms of number of sales per game? Are newer games bought more frequently?\n"
-"- Which platform has the best sales figures? Which one has the most releases?\n"
-"- Do established, older platforms have a larger game library and more sales than platforms that are newly launched?\n"
-"- Are there regional differences in user behavior for platforms? Do regional platforms regularly sell more games?\n"
-"- How do sales per platform develop over the years? Does the biggest \"hype\" with the highest sales occur shortly after release?\n"
-"- Are there concentrations in the number of games and sales among certain publishers (e.g., Nintendo, EA, Activision Blizzard)?\n"
-"- Are there regional differences in user behavior for publishers? Are regional publishers favored?\n"
-"- What is the distribution of game genres? Are there concentrations of certain genres in terms of number and sales figures? Which genres have the best/worst sales figures?\n"
-"- Are there regional differences among genres? (Are there regional differences in user or consumption behavior for specific genres?)\n"
-"- How have the genres evolved over the years?\n"
-"- Are there genres that, after high initial interest, have now become insignificant?\n"
-"- Are there publishers that preferentially offer certain genres and/or publishers that record high sales figures for games of a particular genre?\n"
-
-msgid "FTCGProjectDesc"
-msgstr ""
-"In the course, a Raytracer was designed and implemented from scratch. "
-"Afterwards it was extended by adding the ability to read in completed .obj "
-"files and render those."
-
-msgid "EAEProjectDesc"
-msgstr ""
-"In the course, a CRUD (Create, Read, Update, Delete) App was designed. This "
-"app allows users to add books to a list and mark them as read. It leverages "
-"the open library api to let users search for books by title and Author and "
-"loads in data like the cover to display."
-
-msgid "CryptoProject"
-msgstr "Crypto ETF"
-
-msgid "CryptoProjectDesc"
-msgstr ""
-"The final Project of the course was testing the feasability and creating a "
-"Riester complaicent Crypto ETF. The final result was a fully fledged out ETF"
-" realised as a Wikifolio (an online page that let's anyone create ETF like "
-"portfolios others can follow)."
-
-msgid "ShowDetails"
-msgstr "Show Details"
-
-msgid "ScrollToTop"
-msgstr "Scroll to the Top"
-
-msgid "credits"
-msgstr "Credits"
-
-msgid "CourseImagesDesignedBy"
-msgstr "Course images designed by"
-
-msgid "ApplicantIconsCreatedByProsymbolsPremium"
-msgstr "Favicon created by Prosymbols Premium"
-
-msgid "creditsDescription"
-msgstr ""
-"For the creation of this page some free resources were used. Namingly these "
-"include the following:"
-
-msgid "WebsiteTemplate"
-msgstr "Website Template"
-
-msgid "HomeImage"
-msgstr "Home Image by"
-
-msgid "imprint"
-msgstr "Imprint"
-
-msgid "changelog"
-msgstr "Changelog of the latest Version"
-
-msgid "goHome"
-msgstr "Go Home"
-
-msgid "wrongTurn"
-msgstr "Looks like you took a wrong turn"
-
-msgid "pageNotFound"
-msgstr "Page Not Found"
-
-msgid "404Page"
-msgstr "404 Page Design by"
-
-msgid "YourMessageSent"
-msgstr "Your message has been sent. Thank you!"
-
-msgid "SendMessage"
-msgstr "Send Message"
-
-msgid "Message"
-msgstr "Message"
-
-msgid "Subject"
-msgstr "Subject"
-
-msgid "YourEmail"
-msgstr "Your Email"
-
-msgid "YourName"
-msgstr "Your Name"
-
-msgid "Loading"
-msgstr "Loading"
-
-msgid "StatsDescription"
-msgstr ""
-"Over the Years I've created a lot of different Projects. A couple of stats "
-"from my public projects can be found below."
-
-msgid "ImageBy"
-msgstr "Image By"
-
-msgid "Improves upon blizzards Timeline"
-msgstr "Improves upon Blizzard's Timeline"
