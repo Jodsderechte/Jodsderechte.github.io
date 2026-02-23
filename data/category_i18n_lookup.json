@@ -55,6 +55,14 @@
       "de-DE": "Rachsucht"
     }
   },
+  "cl12-3": {
+    "image": "demonhunter.png",
+    "color": "#A330C9",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
   "cl11": {
     "image": "druid.png",
     "color": "#FF7D0A",

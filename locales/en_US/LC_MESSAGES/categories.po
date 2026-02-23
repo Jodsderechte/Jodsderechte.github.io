@@ -4559,3 +4559,7 @@ msgstr "Resource Bar"
 #. image: enhanceqol.png  color: #e0d0b3
 msgid "enhanceqol3"
 msgstr "Unit Frame"
+
+#. image: demonhunter.png  color: #A330C9
+msgid "cl12-3"
+msgstr ""
