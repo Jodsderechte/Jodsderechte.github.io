@@ -4562,4 +4562,52 @@ msgstr "Unit Frame"
 
 #. image: demonhunter.png  color: #A330C9
 msgid "cl12-3"
-msgstr ""
+msgstr "Devourer"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire"
+msgstr "The Voidspire"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire1"
+msgstr "Imperator Averzian"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire2"
+msgstr "Vorasius"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire3"
+msgstr "Fallen-King Salhadaar"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire4"
+msgstr "Vaelgor & Ezzorak"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire5"
+msgstr "Lightblinded Vanguard"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire6"
+msgstr "Crown of the Cosmos"
+
+#. image: dreamrift.png  color: #71E89E
+msgid "raiddreamrift"
+msgstr "The Dreamrift"
+
+#. image: dreamrift.png  color: #71E89E
+msgid "raiddreamrift1"
+msgstr "Chimaerus the Undreamt God"
+
+#. image: marchqueldanas.png  color: #E89771
+msgid "raidmarchqueldanas"
+msgstr "March on Quel'Danas"
+
+#. image: marchqueldanas.png  color: #E89771
+msgid "raidmarchqueldanas1"
+msgstr "Belo'ren, Child of Al'ar"
+
+#. image: marchqueldanas.png  color: #E89771
+msgid "raidmarchqueldanas2"
+msgstr "Midnight Falls"

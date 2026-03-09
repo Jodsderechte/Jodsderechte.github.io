@@ -59,8 +59,8 @@
     "image": "demonhunter.png",
     "color": "#A330C9",
     "label": {
-      "en-US": null,
-      "de-DE": null
+      "en-US": "Devourer",
+      "de-DE": "Verschlinger"
     }
   },
   "cl11": {
@@ -725,6 +725,102 @@
     "label": {
       "en-US": "Controls",
       "de-DE": "Controls"
+    }
+  },
+  "raidvoidspire": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "The Voidspire",
+      "de-DE": "Die Leerenspitze"
+    }
+  },
+  "raidvoidspire1": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "Imperator Averzian",
+      "de-DE": "Imperator Averzian"
+    }
+  },
+  "raidvoidspire2": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "Vorasius",
+      "de-DE": "Vorasius"
+    }
+  },
+  "raidvoidspire3": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "Fallen-King Salhadaar",
+      "de-DE": "Gefallener König Salhadaar"
+    }
+  },
+  "raidvoidspire4": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "Vaelgor & Ezzorak",
+      "de-DE": "Vaelgor & Ezzorak"
+    }
+  },
+  "raidvoidspire5": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "Lightblinded Vanguard",
+      "de-DE": "Lichtblinde Vorhut"
+    }
+  },
+  "raidvoidspire6": {
+    "image": "voidspire.png",
+    "color": "#9E71E8",
+    "label": {
+      "en-US": "Crown of the Cosmos",
+      "de-DE": "Krone des Kosmos"
+    }
+  },
+  "raiddreamrift": {
+    "image": "dreamrift.png",
+    "color": "#71E89E",
+    "label": {
+      "en-US": "The Dreamrift",
+      "de-DE": "Der Traumriss"
+    }
+  },
+  "raiddreamrift1": {
+    "image": "dreamrift.png",
+    "color": "#71E89E",
+    "label": {
+      "en-US": "Chimaerus the Undreamt God",
+      "de-DE": "Chimaerus, der ungeträumte Gott"
+    }
+  },
+  "raidmarchqueldanas": {
+    "image": "marchqueldanas.png",
+    "color": "#E89771",
+    "label": {
+      "en-US": "March on Quel'Danas",
+      "de-DE": "Marsch auf Quel'Danas"
+    }
+  },
+  "raidmarchqueldanas1": {
+    "image": "marchqueldanas.png",
+    "color": "#E89771",
+    "label": {
+      "en-US": "Belo'ren, Child of Al'ar",
+      "de-DE": "Belo'ren, Kind von Al'ar"
+    }
+  },
+  "raidmarchqueldanas2": {
+    "image": "marchqueldanas.png",
+    "color": "#E89771",
+    "label": {
+      "en-US": "Midnight Falls",
+      "de-DE": "Anbruch der Mitternacht"
     }
   },
   "raidamirdrassil": {

@@ -4562,4 +4562,52 @@ msgstr "Unit Frame"
 
 #. image: demonhunter.png  color: #A330C9
 msgid "cl12-3"
-msgstr ""
+msgstr "Verschlinger"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire"
+msgstr "Die Leerenspitze"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire1"
+msgstr "Imperator Averzian"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire2"
+msgstr "Vorasius"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire3"
+msgstr "Gefallener König Salhadaar"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire4"
+msgstr "Vaelgor & Ezzorak"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire5"
+msgstr "Lichtblinde Vorhut"
+
+#. image: voidspire.png  color: #9E71E8
+msgid "raidvoidspire6"
+msgstr "Krone des Kosmos"
+
+#. image: dreamrift.png  color: #71E89E
+msgid "raiddreamrift"
+msgstr "Der Traumriss"
+
+#. image: dreamrift.png  color: #71E89E
+msgid "raiddreamrift1"
+msgstr "Chimaerus, der ungeträumte Gott"
+
+#. image: marchqueldanas.png  color: #E89771
+msgid "raidmarchqueldanas"
+msgstr "Marsch auf Quel'Danas"
+
+#. image: marchqueldanas.png  color: #E89771
+msgid "raidmarchqueldanas1"
+msgstr "Belo'ren, Kind von Al'ar"
+
+#. image: marchqueldanas.png  color: #E89771
+msgid "raidmarchqueldanas2"
+msgstr "Anbruch der Mitternacht"
