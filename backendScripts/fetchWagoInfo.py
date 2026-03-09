@@ -16,7 +16,7 @@ def download_file(url: str, save_dir: Path, filename: str):
     return path
 
 
-def fetch_wago_lookup(slug: str, max_retries: int = 3, backoff: float = 1.0):
+def fetch_wago_lookup(slug: str, max_retries: int = 5, backoff: float = 10.0):
     """
     Fetches the detailed lookup for a given Wago slug, with simple retry on 429.
     """
@@ -29,7 +29,7 @@ def fetch_wago_lookup(slug: str, max_retries: int = 3, backoff: float = 1.0):
     print(f"Fetching Wago lookup for {slug}...")
     for attempt in range(1, max_retries + 1):
         r = requests.get(url, params=params, headers=headers)
-        if r.status_code == 429:
+        if r.status_code == 429 or r.status_code == 403:
             # Too many requests: wait and retry
             wait = backoff * attempt
             print(f"429 received for {slug}, sleeping {wait}s before retry {attempt}/{max_retries}")
@@ -107,6 +107,9 @@ def main():
             thumb_url = item["thumbnail"]
             ext       = os.path.splitext(thumb_url)[1] or ".png"
             download_file(thumb_url, LOGOS_DIR, slug + ext)
+        print(f"Sleeping 10s before fetching lookup for {slug} to avoid hitting rate limits...")
+        time.sleep(10)
+        print(f"Processing Wago item: {item['name']} (slug: {slug})")
         lookup = fetch_wago_lookup(slug)
         versions_total    = lookup.get("versions", {}).get("total", 0)
         view_count        = lookup.get("viewCount", item.get("views", 0))
