@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2377812,
+    "downloadCount": 2382103,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 5861,
+    "stars": 5897,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 80286,
+    "downloadCount": 80417,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 273,
+    "stars": 274,
     "game": 83374,
     "categories": [
       "rebalancing",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4397,
+    "downloadCount": 4415,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.25",
     "dateModified": "2026-02-24T12:15:40.08Z",
@@ -69,17 +69,17 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 436,
+    "downloadCount": 485,
     "summary": "Adds Guild support for Customnames",
-    "latestVersion": "v1.0.8",
-    "dateModified": "2025-12-03T07:44:25.02Z",
-    "installs": 30,
+    "latestVersion": "v1.0.9",
+    "dateModified": "2026-03-25T11:31:01.207Z",
+    "installs": 42,
     "stars": 0,
     "game": 1,
     "categories": [
       "guild"
     ],
-    "changelog": "<h1>CustomNames_Guild</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Guild/tree/v1.0.8\" rel=\"nofollow\">v1.0.8</a> (2025-10-15)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Guild/compare/v1.0.7...v1.0.8\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Guild/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>chore: Update toc to newest wow interface version</li>\n<li>also add beta and ptr tocs</li>\n<li>add auto toc and adjust funding</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames_Guild</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Guild/tree/v1.0.9\" rel=\"nofollow\">v1.0.9</a> (2026-03-25)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Guild/compare/v1.0.8...v1.0.9\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Guild/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure it's not exploding during m+</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/customname-guild",
     "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=pledges&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/CustomNames_Chat/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/CustomNames_Chat?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures. This Addon is a SubSet and requires <a href=\"https://legacy.curseforge.com/wow/addons/libcustomnames\" target=\"_blank\" rel=\"nofollow\">CustomNames</a> in order to work. It adds Guild support to Custom Names.&nbsp;<br>\nUsage: Simply install the addon and have CustomNames installed aswell it will work out of the box and replace char names in your chat with the custom names you have set!<br>\nCustomNames gives you the ability of mapping character names to Nicknames of your choosing.<br>\ne.G. SuperSaiyanDK to -&gt; \"Nick\" or Nickspriest-Draenor to -&gt; \"Nick\". Begone are the times you need to remember everyones alt names.</p>"
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 892,
+    "downloadCount": 904,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.11",
     "dateModified": "2026-03-20T14:11:00.437Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2397,
+    "downloadCount": 2409,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1685,
+    "downloadCount": 1692,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 233125,
+    "downloadCount": 233204,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 242103,
+    "downloadCount": 243193,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.5.0",
     "dateModified": "2026-03-18T09:02:48.44Z",
@@ -201,17 +201,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 222846,
+    "downloadCount": 273327,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.24",
-    "dateModified": "2026-03-19T20:14:13.41Z",
-    "installs": 23445,
+    "latestVersion": "V0.26",
+    "dateModified": "2026-03-27T22:55:05.317Z",
+    "installs": 17284,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.24\" rel=\"nofollow\">v0.24</a> (2026-03-19)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.23...v0.24\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>format long timers a bit more clearly</li>\n<li>format long timers as minutes closes #59</li>\n<li>make sure long timers are always shown</li>\n<li>make sure bossmods timers aren't added twice<br>\ncloses #60 and mentions #54</li>\n<li>fix bw file spelling</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/V0.26\" rel=\"nofollow\">V0.26</a> (2026-03-25)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.25...V0.26\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>fix issue when bossmods are disabled</li>\n<li>properly initialize font settings for bigicon</li>\n<li>make sure we are accesing the correct variable</li>\n<li>add an option to change fontflags e.G. OUTLINE for Spellname<br>\nmentions #64</li>\n<li>add an option to use background color from bigwigs for border coloring<br>\ncloses #56<br>\nAdditionally fixes the text color to work properly again with bossmods</li>\n</ul>\n",
     "screens": [
       {
         "path": "1476729.gif"
@@ -226,7 +226,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 914,
+    "downloadCount": 936,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.1.5b",
     "dateModified": "2026-03-06T15:23:17.327Z",
