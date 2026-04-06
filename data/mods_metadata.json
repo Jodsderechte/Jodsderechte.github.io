@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2382103,
+    "downloadCount": 2385975,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 5897,
+    "stars": 5916,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 80417,
+    "downloadCount": 80582,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 274,
+    "stars": 277,
     "game": 83374,
     "categories": [
       "rebalancing",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4415,
+    "downloadCount": 4445,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.25",
     "dateModified": "2026-02-24T12:15:40.08Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 485,
+    "downloadCount": 497,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.9",
     "dateModified": "2026-03-25T11:31:01.207Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 904,
+    "downloadCount": 913,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.11",
     "dateModified": "2026-03-20T14:11:00.437Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2409,
+    "downloadCount": 2420,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1692,
+    "downloadCount": 1704,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 233204,
+    "downloadCount": 233257,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,18 +169,18 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 243193,
+    "downloadCount": 249079,
     "summary": "Adds Rio Score display to the GroupFinder frame",
-    "latestVersion": "v1.5.0",
-    "dateModified": "2026-03-18T09:02:48.44Z",
-    "installs": 4045,
+    "latestVersion": "v1.6.0",
+    "dateModified": "2026-04-03T08:28:21.887Z",
+    "installs": 4216,
     "stars": 0,
     "game": 1,
     "categories": [
       "chat-communication",
       "miscellaneous"
     ],
-    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.5.0\" rel=\"nofollow\">v1.5.0</a> (2026-03-18)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.4.0...v1.5.0\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure comment check doesn't explode mid combat<br>\ncloses #37</li>\n<li>add midnight dungeon and raid renaming and ordering</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>handle secret values properly</li>\n<li>add devourer<h1>Conflicts:</h1>\n<h1>Data/SpecList.lua</h1>\n</li>\n<li>chore: Update toc to newest wow interface version</li>\n</ul>\n",
+    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.6.0\" rel=\"nofollow\">v1.6.0</a> (2026-04-03)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.5.0...v1.6.0\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add march of queldanas and fix dreamrift progress detection</li>\n</ul>\n",
     "screens": [
       {
         "path": "933560.PNG"
@@ -201,17 +201,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 273327,
+    "downloadCount": 304195,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "V0.26",
-    "dateModified": "2026-03-27T22:55:05.317Z",
-    "installs": 17284,
+    "latestVersion": "v0.27",
+    "dateModified": "2026-04-03T07:26:02.17Z",
+    "installs": 17470,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/V0.26\" rel=\"nofollow\">V0.26</a> (2026-03-25)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.25...V0.26\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>fix issue when bossmods are disabled</li>\n<li>properly initialize font settings for bigicon</li>\n<li>make sure we are accesing the correct variable</li>\n<li>add an option to change fontflags e.G. OUTLINE for Spellname<br>\nmentions #64</li>\n<li>add an option to use background color from bigwigs for border coloring<br>\ncloses #56<br>\nAdditionally fixes the text color to work properly again with bossmods</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.27\" rel=\"nofollow\">v0.27</a> (2026-04-02)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/V0.26...v0.27\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add dbm color support</li>\n<li>fix potential nil error<br>\nReduce the amount of debug information logged when a timer is updated.</li>\n<li>Make sure eventinfo can't be nil when being send by bigwigs</li>\n<li>make sure bigicon text is drawn above bordere<br>\nfixes #65</li>\n<li>adjust bigicon text default offset to prevent overlaps<br>\nmentions #65</li>\n<li>make sure pull timer can't cause issues when used during lockdown<br>\nfixes #66</li>\n</ul>\n",
     "screens": [
       {
         "path": "1476729.gif"
@@ -226,7 +226,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 936,
+    "downloadCount": 955,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.1.5b",
     "dateModified": "2026-03-06T15:23:17.327Z",
