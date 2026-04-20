@@ -313,22 +313,22 @@
                 <li>
                   <strong>Positive Bewertungen</strong>:&nbsp;0</li>
                 <li>
-                  <strong>Aktive Nutzer</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="17470" data-purecounter-duration="1"
+                  <strong>Aktive Nutzer</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="21173" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 <li>
-                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="304195" data-purecounter-duration="1"
+                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="340217" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 
 
 
                 
-                <li><strong>Letzte Version</strong>: v0.27</li>
+                <li><strong>Letzte Version</strong>: v0.28</li>
                 
                 
                 
-                <li><strong>Letztes Update</strong>: <time class="timeago"  datetime="2026-04-03T07:26:02.17Z"  data-locale="de"  title="2026-04-03T07:26:02.17Z">2026-04-03T07:26:02.17Z</time></li>
+                <li><strong>Letztes Update</strong>: <time class="timeago"  datetime="2026-04-16T15:28:29.183Z"  data-locale="de"  title="2026-04-16T15:28:29.183Z">2026-04-16T15:28:29.183Z</time></li>
                 
                 
                 
@@ -358,19 +358,21 @@
             <h2>Beschreibung und Änderungsprotokoll sind direkt vom Projekt importiert und daher nur in Englisch verfügbar.</h2>
             <p><strong>Änderungsprotokoll der letzten Version:</strong> </p>
             <p><em><h1>AbilityTimeline</h1>
-<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v0.27" rel="nofollow">v0.27</a> (2026-04-02)</h2>
-<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/V0.26...v0.27" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
+<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v0.28" rel="nofollow">v0.28</a> (2026-04-15)</h2>
+<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v0.27...v0.28" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
 <ul>
-<li>add dbm color support</li>
-<li>fix potential nil error<br>
-Reduce the amount of debug information logged when a timer is updated.</li>
-<li>Make sure eventinfo can't be nil when being send by bigwigs</li>
-<li>make sure bigicon text is drawn above bordere<br>
-fixes #65</li>
-<li>adjust bigicon text default offset to prevent overlaps<br>
-mentions #65</li>
-<li>make sure pull timer can't cause issues when used during lockdown<br>
-fixes #66</li>
+<li>companion update for newest bigwigs update</li>
+<li>make sure pulltimer can't be triggered in combat causing it to error</li>
+<li>make sure space between icons is properly calculated if icon size is modified</li>
+<li>add font shadow bool set (#77)</li>
+<li>make sure horizontal mode doesn't break icon editor<br>
+fixes #76</li>
+<li>clean up ordering of removing old timers<br>
+fixes #75</li>
+<li>make sure texture settings properly include all textures<br>
+closes #71</li>
+<li>make sure icon can not be nil</li>
+<li>properly handle dbm hooking</li>
 </ul>
 </em></p>
             <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
