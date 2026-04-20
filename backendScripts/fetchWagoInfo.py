@@ -107,8 +107,8 @@ def main():
             thumb_url = item["thumbnail"]
             ext       = os.path.splitext(thumb_url)[1] or ".png"
             download_file(thumb_url, LOGOS_DIR, slug + ext)
-        print(f"Sleeping 10s before fetching lookup for {slug} to avoid hitting rate limits...")
-        time.sleep(10)
+        print(f"Sleeping 20s before fetching lookup for {slug} to avoid hitting rate limits...")
+        time.sleep(20)
         print(f"Processing Wago item: {item['name']} (slug: {slug})")
         lookup = fetch_wago_lookup(slug)
         versions_total    = lookup.get("versions", {}).get("total", 0)
