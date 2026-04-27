@@ -2,42 +2,50 @@
     "positions": [
         {
             "Finished On": "",
+            "Title": "Wissenschaftliche Hilfskraft",
+            "Company Name": "Hochschule Kaiserslautern",
+            "Description": "Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, simulationsbasierter Demonstrator für erklärbare Energieautomation entwickelt. Dort Unterstütze ich Backend-, Simulations- und Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt auf der prototypischen Umsetzung und technischen Weiterentwicklung zentraler Systemkomponenten für ein lokal betriebenes, erklärbares Energiesystem.",
+            "Location": "Цвайбрюккен",
+            "Started On": "Apr 2026"
+        },
+        {
+            "Finished On": "",
             "Title": "Modder",
             "Company Name": "Freelance",
-            "Description": "- Creating UI improvements for the Videogame World of Warcraft using LUA  - Creating Webapps for the Videogame World of Warcraft  - Creating Modifications for the Videogame Ark using Unreal Engine",
+            "Description": "- Erstellung von UI-Verbesserungen für das Videospiel World of Warcraft mithilfe von LUA - Erstellung von Webapps für das Videospiel World of Warcraft - Erstellung von Modifikationen für das Videospiel Ark mithilfe von Unreal Engine",
             "Location": "",
             "Started On": "Mar 2020"
         },
         {
             "Finished On": "Jul 2024",
-            "Title": "Bachelor Thesis Software Development",
+            "Title": "Bachelorarbeit Software Entwicklung",
             "Company Name": "DCON Software & Service AG",
-            "Description": "Implementation of a configuration interface for creating dashboard widgets in Servity.",
-            "Location": "Kaiserslautern, Rhineland-Palatinate, Germany",
+            "Description": "Umsetzung einer Konfigurationsoberfläche für die Erstellung von Dashboard-Widgets in Servity",
+            "Location": "Kaiserslautern, Rheinland-Pfalz, Deutschland",
             "Started On": "May 2024"
         },
         {
             "Finished On": "Apr 2024",
-            "Title": "Student Internship",
+            "Title": "Praxissemester",
             "Company Name": "DCON Software & Service AG",
-            "Description": "Evaluation and prototyping of a configuration interface for creating dashboard widgets in Servity.",
+            "Description": "Evaluation und Erstellung eines Prototyps einer Konfigurationsoberfläche zur Erstellung von Dashboard-Widgets",
             "Location": "Kaiserslautern, Rhineland-Palatinate, Germany",
             "Started On": "Nov 2023"
         },
         {
             "Finished On": "Mar 2023",
-            "Title": "Student Assistant",
-            "Company Name": "Hochschule Kaiserslautern",
-            "Description": "Student Assistant for Ui/Ux development for N-soria/shift",
+            "Title": "Hilfswissenschaftler",
+            "Company Name": "Hochschule kaiserslautern",
+            "Description": "Hiwi für Ui/Ux development for N-soria/shift https://www.nsoria.io/",
             "Location": "",
             "Started On": "Nov 2022"
         },
         {
             "Finished On": "Jul 2016",
-            "Title": "Intern",
+            "Title": "Praktikant",
             "Company Name": "R+V Versicherung",
-            "Description": "Quality Assurance",
-            "Location": "Wiesbaden, Hesse, Germany",
+            "Description": "Qualitätssicherung im Bereich Banken.",
+            "Location": "Wiesbaden, Hessen, Deutschland",
             "Started On": "Sep 2015"
         }
     ],
@@ -47,7 +55,7 @@
             "Degree Name": "Master of Science - MS",
             "Start Date": "Sep 2024",
             "School Name": "Hochschule Kaiserslautern",
-            "End Date": "Jul 2026",
+            "End Date": "Oct 2026",
             "Notes": ""
         },
         {
@@ -56,11 +64,11 @@
             "Start Date": "Sep 2017",
             "School Name": "Hochschule Kaiserslautern",
             "End Date": "Jul 2024",
-            "Notes": "Applied Informatics"
+            "Notes": "Angewandte Informatik"
         },
         {
             "Activities": "",
-            "Degree Name": "Technical diploma",
+            "Degree Name": "Fachabi",
             "Start Date": "Sep 2015",
             "School Name": "Fachoberschule Nierstein",
             "End Date": "Jun 2017",
@@ -73,16 +81,16 @@
         "Maiden Name": "",
         "Instant Messengers": "",
         "First Name": "Florian",
-        "Geo Location": "Zweibrücken, Rhineland-Palatinate, Germany",
+        "Geo Location": "Zweibrücken, Rheinland-Pfalz, Deutschland",
         "Twitter Handles": "",
         "Industry": "Software Development",
         "Zip Code": "66482",
-        "Headline": "Software Development Student and Gaming Enthusiast",
-        "Summary": "Gaming and Software development enthusiast. Portfolio at: https://florian-reichle.de/",
+        "Headline": "Software-Entwicklungs Student und Gaming Enthusiast",
+        "Summary": "Softwareentwicklungs- und Videospielenthusiast. Portfolio: https://florian-reichle.de/",
         "Birth Date": "Jun 5",
         "Last Name": "Reichle"
     },
     "last_updated": {
-        "timestamp": "2026-04-20T07:31:34.907395+00:00"
+        "timestamp": "2026-04-27T02:53:52.444102+00:00"
     }
 }
