@@ -173,71 +173,98 @@ msgstr "Master of Science - MS"
 msgid "Bachelor of Science - BS"
 msgstr "Bachelor of Science - BS"
 
-msgid "Applied Informatics"
+msgid "Angewandte Informatik"
 msgstr "Angewandte Informatik"
 
 msgid "Fachoberschule Nierstein"
 msgstr "Fachoberschule Nierstein"
 
-msgid "Technical diploma"
+msgid "Fachabi"
 msgstr "Fach-Abitur"
 
 msgid "Modder"
 msgstr "Modder"
 
-msgid "Intern"
+msgid "Praktikant"
 msgstr "Praktikant"
 
-msgid "Quality Assurance"
-msgstr "Qualitätssicherung"
+msgid "Qualitätssicherung im Bereich Banken."
+msgstr "Qualitätssicherung im Bereich Banken."
 
 msgid "Now"
 msgstr "Jetzt"
 
-msgid "Wiesbaden, Hesse, Germany"
+msgid "Wiesbaden, Hessen, Deutschland"
 msgstr "Wiesbaden, Hessen, Deutschland"
 
-msgid "Creating UI improvements for the Videogame World of Warcraft using LUA"
+msgid ""
+"Erstellung von UI-Verbesserungen für das Videospiel World of Warcraft "
+"mithilfe von LUA"
 msgstr ""
 "Erstellung von UI-Verbesserungen für das Videospiel World of Warcraft "
 "mithilfe von LUA"
 
-msgid "Creating Webapps for the Videogame World of Warcraft"
+msgid "Erstellung von Webapps für das Videospiel World of Warcraft"
 msgstr "Erstellung von Webapps für das Videospiel World of Warcraft"
 
-msgid "Creating Modifications for the Videogame Ark using Unreal Engine"
+msgid ""
+"Erstellung von Modifikationen für das Videospiel Ark mithilfe von Unreal "
+"Engine"
 msgstr ""
 "Erstellung von Modifikationen für das Videospiel Ark mithilfe von Unreal "
 "Engine"
 
-msgid "Bachelor Thesis Software Development"
+msgid "Bachelorarbeit Software Entwicklung"
 msgstr "Bachelorarbeit im Bereich Software-Entwicklung"
+
+msgid "Kaiserslautern, Rheinland-Pfalz, Deutschland"
+msgstr "Kaiserslautern, Rheinland-Pfalz, Deutschland"
 
 msgid "Kaiserslautern, Rhineland-Palatinate, Germany"
 msgstr "Kaiserslautern, Rheinland-Pfalz, Deutschland"
 
 msgid ""
-"Implementation of a configuration interface for creating dashboard widgets "
-"in Servity."
+"Umsetzung einer Konfigurationsoberfläche für die Erstellung von Dashboard-"
+"Widgets in Servity"
 msgstr ""
 "Umsetzung einer Konfigurationsoberfläche für die Erstellung von Dashboard-"
 "Widgets in Servity."
 
-msgid "Student Internship"
+msgid "Praxissemester"
 msgstr "Praxissemester"
 
 msgid ""
-"Evaluation and prototyping of a configuration interface for creating "
-"dashboard widgets in Servity."
+"Evaluation und Erstellung eines Prototyps einer Konfigurationsoberfläche zur"
+" Erstellung von Dashboard-Widgets"
 msgstr ""
 "Evaluation und Erstellung eines Prototyps einer Konfigurationsoberfläche zur"
 " Erstellung von Dashboard-Widgets in Servity."
 
-msgid "Student Assistant"
+msgid "Hilfswissenschaftler"
 msgstr "Hilfswissenschaftler (HiWi)"
 
-msgid "Student Assistant for Ui/Ux development for N-soria/shift"
+msgid "Hiwi für Ui/Ux development for N-soria/shift https://www.nsoria.io/"
 msgstr "Hiwi für Ui-/Ux-Entwicklung für N-soria/shift"
+
+msgid "Wissenschaftliche Hilfskraft"
+msgstr "Wissenschaftliche Hilfskraft"
+
+msgid ""
+"Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, "
+"simulationsbasierter Demonstrator für erklärbare Energieautomation "
+"entwickelt. Dort Unterstütze ich Backend-, Simulations- und "
+"Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt"
+" auf der prototypischen Umsetzung und technischen Weiterentwicklung "
+"zentraler Systemkomponenten für ein lokal betriebenes, erklärbares "
+"Energiesystem."
+msgstr ""
+"Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, "
+"simulationsbasierter Demonstrator für erklärbare Energieautomation "
+"entwickelt. Dort Unterstütze ich Backend-, Simulations- und "
+"Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt"
+" auf der prototypischen Umsetzung und technischen Weiterentwicklung "
+"zentraler Systemkomponenten für ein lokal betriebenes, erklärbares "
+"Energiesystem."
 
 msgid "ResumeGatheringExplanation"
 msgstr ""
@@ -490,11 +517,11 @@ msgid "Gaming and Software development enthusiast"
 msgstr "Videospiel- und Softwareentwicklungsenthusiast"
 
 msgid ""
-"Gaming and Software development enthusiast. Portfolio at: https://florian-"
+"Softwareentwicklungs- und Videospielenthusiast. Portfolio: https://florian-"
 "reichle.de/"
 msgstr "Softwareentwicklungsstudent und Videospielenthusiast"
 
-msgid "Software Development Student and Gaming Enthusiast"
+msgid "Software-Entwicklungs Student und Gaming Enthusiast"
 msgstr "Software-Entwicklungs Student und Gaming Enthusiast"
 
 msgid "Age"
@@ -503,7 +530,7 @@ msgstr "Alter"
 msgid "Location"
 msgstr "Ort"
 
-msgid "Zweibrücken, Rhineland-Palatinate, Germany"
+msgid "Zweibrücken, Rheinland-Pfalz, Deutschland"
 msgstr "Zweibrücken, Rheinland-Pfalz Deutschland"
 
 msgid "Degree"

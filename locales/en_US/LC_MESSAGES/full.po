@@ -174,10 +174,10 @@ msgstr "Master of Science - MS"
 msgid "Bachelor of Science - BS"
 msgstr "Bachelor of Science - BS"
 
-msgid "Applied Informatics"
+msgid "Angewandte Informatik"
 msgstr "Applied Informatics"
 
-msgid "Technical diploma"
+msgid "Fachabi"
 msgstr "Technical diploma"
 
 msgid "Fachoberschule Nierstein"
@@ -189,53 +189,77 @@ msgstr "Modder"
 msgid "Now"
 msgstr "Now"
 
-msgid "Creating UI improvements for the Videogame World of Warcraft using LUA"
+msgid ""
+"Erstellung von UI-Verbesserungen für das Videospiel World of Warcraft "
+"mithilfe von LUA"
 msgstr ""
 "Creating UI improvements for the Videogame World of Warcraft using LUA"
 
-msgid "Creating Webapps for the Videogame World of Warcraft"
+msgid "Erstellung von Webapps für das Videospiel World of Warcraft"
 msgstr "Creating Webapps for the Videogame World of Warcraft"
 
-msgid "Creating Modifications for the Videogame Ark using Unreal Engine"
+msgid ""
+"Erstellung von Modifikationen für das Videospiel Ark mithilfe von Unreal "
+"Engine"
 msgstr "Creating Modifications for the Videogame Ark using Unreal Engine"
 
-msgid "Bachelor Thesis Software Development"
+msgid "Bachelorarbeit Software Entwicklung"
 msgstr "Bachelor Thesis Software Development"
+
+msgid "Kaiserslautern, Rheinland-Pfalz, Deutschland"
+msgstr "Kaiserslautern, Rhineland-Palatinate, Germany"
 
 msgid "Kaiserslautern, Rhineland-Palatinate, Germany"
 msgstr "Kaiserslautern, Rhineland-Palatinate, Germany"
 
 msgid ""
-"Implementation of a configuration interface for creating dashboard widgets "
-"in Servity."
+"Umsetzung einer Konfigurationsoberfläche für die Erstellung von Dashboard-"
+"Widgets in Servity"
 msgstr ""
 "Implementation of a configuration interface for creating dashboard widgets "
 "in Servity."
 
-msgid "Intern"
+msgid "Praktikant"
 msgstr "Intern"
 
-msgid "Quality Assurance"
-msgstr "Quality Assurance"
+msgid "Qualitätssicherung im Bereich Banken."
+msgstr "Quality Assurance "
 
-msgid "Wiesbaden, Hesse, Germany"
+msgid "Wiesbaden, Hessen, Deutschland"
 msgstr "Wiesbaden, Hesse, Germany"
 
-msgid "Student Internship"
+msgid "Praxissemester"
 msgstr "Student Internship"
 
 msgid ""
-"Evaluation and prototyping of a configuration interface for creating "
-"dashboard widgets in Servity."
+"Evaluation und Erstellung eines Prototyps einer Konfigurationsoberfläche zur"
+" Erstellung von Dashboard-Widgets"
 msgstr ""
 "Evaluation and prototyping of a configuration interface for creating "
 "dashboard widgets in Servity."
 
-msgid "Student Assistant"
+msgid "Hilfswissenschaftler"
 msgstr "Student Assistant"
 
-msgid "Student Assistant for Ui/Ux development for N-soria/shift"
+msgid "Hiwi für Ui/Ux development for N-soria/shift https://www.nsoria.io/"
 msgstr "Student Assistant for Ui/Ux development for N-soria/shift"
+
+msgid "Wissenschaftliche Hilfskraft"
+msgstr "Student Assistant"
+
+msgid ""
+"Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, "
+"simulationsbasierter Demonstrator für erklärbare Energieautomation "
+"entwickelt. Dort Unterstütze ich Backend-, Simulations- und "
+"Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt"
+" auf der prototypischen Umsetzung und technischen Weiterentwicklung "
+"zentraler Systemkomponenten für ein lokal betriebenes, erklärbares "
+"Energiesystem."
+msgstr ""
+"In the BitGridAI research project, I am supporting the development of a "
+"locally executed, simulation-based demonstrator for explainable energy "
+"automation. My work focuses on backend development, simulation, and system "
+"implementation for a planned laboratory demonstrator."
 
 msgid "ResumeGatheringExplanation"
 msgstr ""
@@ -469,11 +493,11 @@ msgid "Gaming and Software development enthusiast"
 msgstr "Gaming and Software development enthusiast"
 
 msgid ""
-"Gaming and Software development enthusiast. Portfolio at: https://florian-"
+"Softwareentwicklungs- und Videospielenthusiast. Portfolio: https://florian-"
 "reichle.de/"
 msgstr "Software Development Student and Gaming Enthusiast"
 
-msgid "Software Development Student and Gaming Enthusiast"
+msgid "Software-Entwicklungs Student und Gaming Enthusiast"
 msgstr "Software Development Student and Gaming Enthusiast"
 
 msgid "Age"
@@ -482,7 +506,7 @@ msgstr "Age"
 msgid "Location"
 msgstr "Location"
 
-msgid "Zweibrücken, Rhineland-Palatinate, Germany"
+msgid "Zweibrücken, Rheinland-Pfalz, Deutschland"
 msgstr "Zweibrücken, Rhineland-Palatinate, Germany"
 
 msgid "Degree"
