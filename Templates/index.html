@@ -731,14 +731,34 @@
                   %}</em></p>
               {% endif %}
               {% if entry['Description'] %}
-              <ul>
-                {% for line in entry['Description'].split('- ') %}
-                {% set line = line.lstrip('- ').strip() %}
-                {% if line %}
-                <li>{{ _(line) }}</li>
+                {% set desc = entry['Description'] %}
+                {% set desc_str = desc %}
+                {% if ' - ' in desc_str %}
+                  {% set norm = desc_str.strip() %}
+                  {% if norm.startswith('- ') %}
+                    {% set norm = norm[2:] %}
+                  {% endif %}
+                  <ul>
+                    {% for line in norm.split(' - ') %}
+                      {% set line = line.strip() %}
+                      {% if line %}
+                        <li>{{ _(line) }}</li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% elif desc_str.strip().startswith('-') %}
+                  {% set norm = desc_str.strip().lstrip('- ').strip() %}
+                  <ul>
+                    {% for line in norm.split('- ') %}
+                      {% set line = line.strip() %}
+                      {% if line %}
+                        <li>{{ _(line) }}</li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  <p>{{ _(desc) }}</p>
                 {% endif %}
-                {% endfor %}
-              </ul>
               {% endif %}
             </div><!-- Edn Resume Item -->
             {% endfor %}
