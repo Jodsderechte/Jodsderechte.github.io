@@ -1,57 +1,10 @@
 [
   {
-    "name": "[RLP] WInd Direction",
-    "slug": "WindsOfChange",
-    "installs": 60,
-    "stars": 4,
-    "views": 1011,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.3",
-    "versionsTotal": 4,
-    "commentCount": 0,
-    "dateModified": "2024-05-04T17:59:35.509Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nDisplays the next wind direction of Ruby lifes pools Kyrakka and Erkhart Stormvein</div>",
-    "categories": [
-      "dfdungeon",
-      "dfdungeon6",
-      "mech"
-    ],
-    "changelog": "fixed default wind direction showing east incorrectly",
-    "url": "https://wago.io/WindsOfChange",
-    "screens": [
-      {
-        "path": "688919b26e7fe2ddaa86dc2f.png"
-      },
-      {
-        "path": "663391a3906468b2f1d8079a.png"
-      }
-    ]
-  },
-  {
-    "name": "Automark Tank + Heal",
-    "slug": "AutoMark",
-    "installs": 12,
-    "stars": 15,
-    "views": 945,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.0",
-    "versionsTotal": 1,
-    "commentCount": 0,
-    "dateModified": "2024-05-04T18:09:56.904Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nOriginally part of <a href='/AffixHelper' class='vr'>https://wago.io/AffixHelper</a> this aura automatically marks Tank and Healer with options to choose the mark and if they should be marked</div>",
-    "categories": [
-      "mech"
-    ],
-    "changelog": "",
-    "url": "https://wago.io/AutoMark",
-    "screens": []
-  },
-  {
     "name": "Ability Timeline (Bossmods)",
     "slug": "RaidAbilityTimeline",
     "installs": 64241,
-    "stars": 2765,
-    "views": 894894,
+    "stars": 2764,
+    "views": 895137,
     "hasThumbnail": true,
     "latestVersion": "1.0.80",
     "versionsTotal": 81,
@@ -85,11 +38,85 @@
     ]
   },
   {
+    "name": "Mythic+ Interrupt Tracker",
+    "slug": "MInterruptTracker",
+    "installs": 44601,
+    "stars": 1008,
+    "views": 355699,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.96",
+    "versionsTotal": 97,
+    "commentCount": 447,
+    "dateModified": "2025-09-29T10:39:06.891Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nAn Interrupt Tracker does what an Interrupt Tracker does. Also shows if people are dead/out of Range.\n\n\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-36\">\nThis Aura relies on a Library that is shipped with WeakAuras Dbm and BW. If a party member doesn't have any of those addons installed their kick won't show up in the list.\n\n\nFAQ & Known Issues: read below before posting a question </span></span></span>\n\nQ: Can you add spell X?\nA: This aura was made to track interupts. If any interupt or silence is missing please do ping me about it. This Aura was NOT made to track stuns and other types of cc like blind/disorient that can be used to interrupt some mobs. If cc's would get added you would have a list of like 30 spells per key and thats not very helpful there are other auras to keep track of aoe control. See it like this: If you can interrupt a casting boss it will be considered. If you can't interrupt a boss with the spell it's not being added.\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n\nBased on the works of <a href='/InterruptTracker' class='vr'>Nnoggie</a>\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
+    "categories": [
+      "mech",
+      "mech2"
+    ],
+    "changelog": "Protection Paladins were sad that their divine toll wasn't invited to the interrupt party. A proper invitation was sent out by carrier pigeon, and they are now properly present when talented.",
+    "url": "https://wago.io/MInterruptTracker",
+    "screens": [
+      {
+        "path": "6889087c86fb3112ebd77266.png"
+      },
+      {
+        "path": "5f981da190510c3920815958.jpg"
+      }
+    ]
+  },
+  {
+    "name": "[RLP] WInd Direction",
+    "slug": "WindsOfChange",
+    "installs": 60,
+    "stars": 4,
+    "views": 1014,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.3",
+    "versionsTotal": 4,
+    "commentCount": 0,
+    "dateModified": "2024-05-04T17:59:35.509Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nDisplays the next wind direction of Ruby lifes pools Kyrakka and Erkhart Stormvein</div>",
+    "categories": [
+      "dfdungeon",
+      "dfdungeon6",
+      "mech"
+    ],
+    "changelog": "fixed default wind direction showing east incorrectly",
+    "url": "https://wago.io/WindsOfChange",
+    "screens": [
+      {
+        "path": "688919b26e7fe2ddaa86dc2f.png"
+      },
+      {
+        "path": "663391a3906468b2f1d8079a.png"
+      }
+    ]
+  },
+  {
+    "name": "Automark Tank + Heal",
+    "slug": "AutoMark",
+    "installs": 12,
+    "stars": 15,
+    "views": 950,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.0",
+    "versionsTotal": 1,
+    "commentCount": 0,
+    "dateModified": "2024-05-04T18:09:56.904Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nOriginally part of <a href='/AffixHelper' class='vr'>https://wago.io/AffixHelper</a> this aura automatically marks Tank and Healer with options to choose the mark and if they should be marked</div>",
+    "categories": [
+      "mech"
+    ],
+    "changelog": "",
+    "url": "https://wago.io/AutoMark",
+    "screens": []
+  },
+  {
     "name": "Jods Retribution Paladin Suite - Dragonflight",
     "slug": "Paladin",
     "installs": 13,
     "stars": 2,
-    "views": 4178,
+    "views": 4184,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -150,7 +177,7 @@
     "slug": "AugEvoker",
     "installs": 0,
     "stars": 0,
-    "views": 160,
+    "views": 161,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -167,7 +194,7 @@
     "slug": "CCTracker",
     "installs": 3016,
     "stars": 95,
-    "views": 12743,
+    "views": 12752,
     "hasThumbnail": true,
     "latestVersion": "1.0.9",
     "versionsTotal": 10,
@@ -198,7 +225,7 @@
     "slug": "Legion-Dungeons",
     "installs": 18837,
     "stars": 120,
-    "views": 78350,
+    "views": 78358,
     "hasThumbnail": true,
     "latestVersion": "1.1.38",
     "versionsTotal": 61,
@@ -233,7 +260,7 @@
     "slug": "WOD-Dungeons",
     "installs": 10840,
     "stars": 66,
-    "views": 48629,
+    "views": 48632,
     "hasThumbnail": true,
     "latestVersion": "1.0.22",
     "versionsTotal": 23,
@@ -261,38 +288,11 @@
     ]
   },
   {
-    "name": "Mythic+ Interrupt Tracker",
-    "slug": "MInterruptTracker",
-    "installs": 44600,
-    "stars": 1009,
-    "views": 355580,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.96",
-    "versionsTotal": 97,
-    "commentCount": 447,
-    "dateModified": "2025-09-29T10:39:06.891Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nAn Interrupt Tracker does what an Interrupt Tracker does. Also shows if people are dead/out of Range.\n\n\n<span class=\"xbbcode-b\"><span style=\"color:#ff0000\"><span class=\"xbbcode-size-36\">\nThis Aura relies on a Library that is shipped with WeakAuras Dbm and BW. If a party member doesn't have any of those addons installed their kick won't show up in the list.\n\n\nFAQ & Known Issues: read below before posting a question </span></span></span>\n\nQ: Can you add spell X?\nA: This aura was made to track interupts. If any interupt or silence is missing please do ping me about it. This Aura was NOT made to track stuns and other types of cc like blind/disorient that can be used to interrupt some mobs. If cc's would get added you would have a list of like 30 spells per key and thats not very helpful there are other auras to keep track of aoe control. See it like this: If you can interrupt a casting boss it will be considered. If you can't interrupt a boss with the spell it's not being added.\n\nEvery feedback/help is greatly appreciated feel free to contact me by joining my <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\">Discord</a>.\n\nBased on the works of <a href='/InterruptTracker' class='vr'>Nnoggie</a>\n\nIf you like my work and want to support me you can <a target=\"_blank\" rel=\"noopener\" href=\"https://www.paypal.com/donate/?hosted_button_id=PSQ4D3HXNZKMG\">donate</a></div>",
-    "categories": [
-      "mech",
-      "mech2"
-    ],
-    "changelog": "Protection Paladins were sad that their divine toll wasn't invited to the interrupt party. A proper invitation was sent out by carrier pigeon, and they are now properly present when talented.",
-    "url": "https://wago.io/MInterruptTracker",
-    "screens": [
-      {
-        "path": "6889087c86fb3112ebd77266.png"
-      },
-      {
-        "path": "5f981da190510c3920815958.jpg"
-      }
-    ]
-  },
-  {
     "name": "Power Infusion Helper",
     "slug": "PI-Helper",
     "installs": 19,
     "stars": 20,
-    "views": 4896,
+    "views": 4924,
     "hasThumbnail": true,
     "latestVersion": "1.0.60",
     "versionsTotal": 45,
@@ -384,7 +384,7 @@
     "slug": "AffixHelper",
     "installs": 3384,
     "stars": 129,
-    "views": 37854,
+    "views": 37858,
     "hasThumbnail": true,
     "latestVersion": "1.0.34",
     "versionsTotal": 35,
@@ -416,7 +416,7 @@
     "slug": "PrototypeHpDifference",
     "installs": 128,
     "stars": 3,
-    "views": 908,
+    "views": 909,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -443,7 +443,7 @@
     "slug": "HideNonCasting",
     "installs": 15,
     "stars": 12,
-    "views": 1094,
+    "views": 1097,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -463,7 +463,7 @@
     "slug": "HealerManaBar",
     "installs": 29,
     "stars": 2,
-    "views": 1539,
+    "views": 1540,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -485,7 +485,7 @@
     "slug": "BfaHots",
     "installs": 10,
     "stars": 2,
-    "views": 759,
+    "views": 760,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -503,28 +503,11 @@
     "screens": []
   },
   {
-    "name": "Astral Power - Bar",
-    "slug": "AstralPower",
-    "installs": 0,
-    "stars": 1,
-    "views": 338,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.0",
-    "versionsTotal": 1,
-    "commentCount": 0,
-    "dateModified": "2023-07-20T16:18:35.359Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nLightweight version of the Popular snippets that add Resource predictions to AP-Bars.\n\nUses less ancient nonsense and instead relies on the lightweight WatchedTriggere alternative the WA framework provides</div>",
-    "categories": [],
-    "changelog": "",
-    "url": "https://wago.io/AstralPower",
-    "screens": []
-  },
-  {
     "name": "Current Season Dungeons",
     "slug": "Current-Dungeons",
     "installs": 209,
     "stars": 41,
-    "views": 12844,
+    "views": 12854,
     "hasThumbnail": true,
     "latestVersion": "1.0.7",
     "versionsTotal": 8,
@@ -553,6 +536,23 @@
         "path": "669502a0f95780e576d77575.jpg"
       }
     ]
+  },
+  {
+    "name": "Astral Power - Bar",
+    "slug": "AstralPower",
+    "installs": 0,
+    "stars": 1,
+    "views": 340,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.0",
+    "versionsTotal": 1,
+    "commentCount": 0,
+    "dateModified": "2023-07-20T16:18:35.359Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\n\nLightweight version of the Popular snippets that add Resource predictions to AP-Bars.\n\nUses less ancient nonsense and instead relies on the lightweight WatchedTriggere alternative the WA framework provides</div>",
+    "categories": [],
+    "changelog": "",
+    "url": "https://wago.io/AstralPower",
+    "screens": []
   },
   {
     "name": "MageTower: The God Queens Fury",
@@ -610,7 +610,7 @@
     "slug": "Tormented",
     "installs": 74,
     "stars": 3,
-    "views": 1847,
+    "views": 1849,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -634,7 +634,7 @@
     "slug": "MOP-Dungeons",
     "installs": 2055,
     "stars": 27,
-    "views": 8625,
+    "views": 8630,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -665,7 +665,7 @@
     "slug": "SL-Dungeons",
     "installs": 81834,
     "stars": 1866,
-    "views": 530134,
+    "views": 530153,
     "hasThumbnail": true,
     "latestVersion": "1.1.30",
     "versionsTotal": 161,
@@ -695,7 +695,7 @@
     "slug": "RunicBrandHelper",
     "installs": 12526,
     "stars": 110,
-    "views": 32585,
+    "views": 32590,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -723,7 +723,7 @@
     "slug": "COSInteractables",
     "installs": 496,
     "stars": 13,
-    "views": 4059,
+    "views": 4061,
     "hasThumbnail": true,
     "latestVersion": "1.0.1",
     "versionsTotal": 2,
@@ -748,7 +748,7 @@
     "slug": "Prideful",
     "installs": 6122,
     "stars": 56,
-    "views": 11823,
+    "views": 11827,
     "hasThumbnail": true,
     "latestVersion": "1.0.7",
     "versionsTotal": 8,
@@ -775,7 +775,7 @@
     "slug": "Spiteful",
     "installs": 2793,
     "stars": 18,
-    "views": 7877,
+    "views": 7879,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -795,11 +795,41 @@
     ]
   },
   {
+    "name": "WoW Anniversary",
+    "slug": "Anniversary",
+    "installs": 198,
+    "stars": 25,
+    "views": 11604,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.4",
+    "versionsTotal": 5,
+    "commentCount": 10,
+    "dateModified": "2024-10-29T13:54:12.636Z",
+    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\nShows Timers for the Events and Does a visual and auditory warning when a spell becomes available on the storytime event that you can use.\n\n\nEvent timer is heavily based upon Putros <a href='/yTAen2Nvj' class='vr'>TWW event tracker</a></div>",
+    "categories": [
+      "gen0",
+      "gen12"
+    ],
+    "changelog": "added missing spell id",
+    "url": "https://wago.io/Anniversary",
+    "screens": [
+      {
+        "path": "6889116400188d0ab11e8a01.png"
+      },
+      {
+        "path": "671b6903f86120e1ccea2134.png"
+      },
+      {
+        "path": "671b6cbb360e99354b841f8b.png"
+      }
+    ]
+  },
+  {
     "name": "Dragonflight Dungeons",
     "slug": "DF-Dungeons",
     "installs": 8702,
     "stars": 163,
-    "views": 83951,
+    "views": 83955,
     "hasThumbnail": true,
     "latestVersion": "1.0.24",
     "versionsTotal": 25,
@@ -854,7 +884,7 @@
     "slug": "BFA-Dungeons",
     "installs": 10166,
     "stars": 72,
-    "views": 50692,
+    "views": 50697,
     "hasThumbnail": true,
     "latestVersion": "1.0.21",
     "versionsTotal": 22,
@@ -877,36 +907,6 @@
       },
       {
         "path": "62dc05a9b7b06c893064092e.jpg"
-      }
-    ]
-  },
-  {
-    "name": "WoW Anniversary",
-    "slug": "Anniversary",
-    "installs": 198,
-    "stars": 25,
-    "views": 11595,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.4",
-    "versionsTotal": 5,
-    "commentCount": 10,
-    "dateModified": "2024-10-29T13:54:12.636Z",
-    "description": "<div style=\"white-space:pre-wrap;\"><a target=\"_blank\" rel=\"noopener\" href=\"https://patreon.com/Jodsderechte\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DJodsderechte%26type%3Dpatrons&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://discord.gg/v3gYmYamGJ\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" /></a> <a target=\"_blank\" rel=\"noopener\" href=\"https://www.twitch.tv/Jodsderechte\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Catch%20me%20Live-lightgrey?style=for-the-badge&logo=Twitch&color=22283D\" /></a>\nShows Timers for the Events and Does a visual and auditory warning when a spell becomes available on the storytime event that you can use.\n\n\nEvent timer is heavily based upon Putros <a href='/yTAen2Nvj' class='vr'>TWW event tracker</a></div>",
-    "categories": [
-      "gen0",
-      "gen12"
-    ],
-    "changelog": "added missing spell id",
-    "url": "https://wago.io/Anniversary",
-    "screens": [
-      {
-        "path": "6889116400188d0ab11e8a01.png"
-      },
-      {
-        "path": "671b6903f86120e1ccea2134.png"
-      },
-      {
-        "path": "671b6cbb360e99354b841f8b.png"
       }
     ]
   },
@@ -959,7 +959,7 @@
     "slug": "GrimBatolFlight",
     "installs": 806,
     "stars": 67,
-    "views": 12815,
+    "views": 12816,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1006,7 +1006,7 @@
     "slug": "SpyFinder",
     "installs": 434,
     "stars": 38,
-    "views": 9128,
+    "views": 9130,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1030,7 +1030,7 @@
     "slug": "Cataclysm-Dungeons",
     "installs": 336,
     "stars": 10,
-    "views": 8032,
+    "views": 8038,
     "hasThumbnail": true,
     "latestVersion": "1.0.6",
     "versionsTotal": 7,
@@ -1060,7 +1060,7 @@
     "slug": "TWW-Dungeons",
     "installs": 167,
     "stars": 23,
-    "views": 20883,
+    "views": 20891,
     "hasThumbnail": true,
     "latestVersion": "1.0.5",
     "versionsTotal": 6,
@@ -1094,7 +1094,7 @@
     "slug": "MemberDied",
     "installs": 209,
     "stars": 11,
-    "views": 3365,
+    "views": 3367,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1119,9 +1119,9 @@
   {
     "name": "Character Stats - Doesn't eat your fps",
     "slug": "CharacterStats",
-    "installs": 62,
+    "installs": 63,
     "stars": 23,
-    "views": 3258,
+    "views": 3259,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1147,7 +1147,7 @@
     "slug": "Warlock",
     "installs": 104,
     "stars": 4,
-    "views": 2511,
+    "views": 2514,
     "hasThumbnail": true,
     "latestVersion": "1.0.8",
     "versionsTotal": 9,
@@ -1176,7 +1176,7 @@
     "slug": "DemonHunter",
     "installs": 53,
     "stars": 3,
-    "views": 2434,
+    "views": 2435,
     "hasThumbnail": true,
     "latestVersion": "1.0.6",
     "versionsTotal": 7,
@@ -1206,7 +1206,7 @@
     "slug": "BalanceDruid",
     "installs": 32,
     "stars": 3,
-    "views": 1489,
+    "views": 1491,
     "hasThumbnail": true,
     "latestVersion": "1.0.8",
     "versionsTotal": 9,
@@ -1236,7 +1236,7 @@
     "slug": "ShadowPriest",
     "installs": 12,
     "stars": 2,
-    "views": 952,
+    "views": 953,
     "hasThumbnail": true,
     "latestVersion": "1.0.3",
     "versionsTotal": 4,
@@ -1263,7 +1263,7 @@
     "slug": "Dispelled",
     "installs": 7,
     "stars": 4,
-    "views": 531,
+    "views": 532,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -1289,7 +1289,7 @@
     "slug": "DeathKnight",
     "installs": 8,
     "stars": 2,
-    "views": 964,
+    "views": 966,
     "hasThumbnail": true,
     "latestVersion": "1.0.3",
     "versionsTotal": 4,
@@ -1316,7 +1316,7 @@
     "slug": "ElementalShaman",
     "installs": 4,
     "stars": 0,
-    "views": 470,
+    "views": 472,
     "hasThumbnail": true,
     "latestVersion": "1.0.5",
     "versionsTotal": 6,
@@ -1359,7 +1359,7 @@
     "slug": "AspectOfHarmony",
     "installs": 1,
     "stars": 1,
-    "views": 248,
+    "views": 250,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 1,
@@ -1450,9 +1450,9 @@
     "slug": "CustomNames",
     "installs": 31,
     "stars": 2,
-    "views": 781,
+    "views": 782,
     "hasThumbnail": true,
-    "latestVersion": "1.0.4-5",
+    "latestVersion": "1.0.4",
     "versionsTotal": 5,
     "commentCount": 1,
     "dateModified": "2024-10-05T11:47:57.641Z",
@@ -1470,7 +1470,7 @@
     "slug": "ColoredMobs",
     "installs": 7,
     "stars": 13,
-    "views": 3994,
+    "views": 3999,
     "hasThumbnail": true,
     "latestVersion": "1.0.2",
     "versionsTotal": 3,
@@ -1494,7 +1494,7 @@
     "slug": "JodsUi_Plater",
     "installs": 11,
     "stars": 2,
-    "views": 651,
+    "views": 652,
     "hasThumbnail": true,
     "latestVersion": "1.0.3",
     "versionsTotal": 4,
@@ -1518,7 +1518,7 @@
     "slug": "Dungeons",
     "installs": 0,
     "stars": 1,
-    "views": 1144,
+    "views": 1146,
     "hasThumbnail": true,
     "latestVersion": "1.0.0",
     "versionsTotal": 0,
@@ -1538,26 +1538,6 @@
         "path": "666810c379e22bdd6ef3d28d.jpg"
       }
     ]
-  },
-  {
-    "name": "Theater of Pain - Default",
-    "slug": "TheaterOfPain",
-    "installs": 0,
-    "stars": 0,
-    "views": 22,
-    "hasThumbnail": true,
-    "latestVersion": "1.0.1",
-    "versionsTotal": 2,
-    "commentCount": 0,
-    "dateModified": "2025-07-27T14:23:03.709Z",
-    "description": "",
-    "categories": [
-      "tww-mdt-s2-7",
-      "MDT-121"
-    ],
-    "changelog": "",
-    "url": "https://wago.io/TheaterOfPain",
-    "screens": []
   },
   {
     "name": "JodsUI - ElvUI",
@@ -1591,6 +1571,26 @@
     "categories": [],
     "changelog": "",
     "url": "https://wago.io/Classes",
+    "screens": []
+  },
+  {
+    "name": "Theater of Pain - Default",
+    "slug": "TheaterOfPain",
+    "installs": 0,
+    "stars": 0,
+    "views": 23,
+    "hasThumbnail": true,
+    "latestVersion": "1.0.1",
+    "versionsTotal": 2,
+    "commentCount": 0,
+    "dateModified": "2025-07-27T14:23:03.709Z",
+    "description": "",
+    "categories": [
+      "tww-mdt-s2-7",
+      "MDT-121"
+    ],
+    "changelog": "",
+    "url": "https://wago.io/TheaterOfPain",
     "screens": []
   }
 ]
