@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2408897,
+    "downloadCount": 2413008,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 6120,
+    "stars": 6157,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 81370,
+    "downloadCount": 81477,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 287,
+    "stars": 293,
     "game": 83374,
     "categories": [
       "rebalancing",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4526,
+    "downloadCount": 4536,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.25",
     "dateModified": "2026-02-24T12:15:40.08Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomName_Guild",
-    "downloadCount": 526,
+    "downloadCount": 529,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.9",
     "dateModified": "2026-03-25T11:31:01.207Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 931,
+    "downloadCount": 934,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.11",
     "dateModified": "2026-03-20T14:11:00.437Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1722,
+    "downloadCount": 1729,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 233992,
+    "downloadCount": 234032,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 261578,
+    "downloadCount": 261777,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.6.1",
     "dateModified": "2026-04-12T12:23:56.907Z",
@@ -201,17 +201,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 383229,
+    "downloadCount": 404256,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.29",
-    "dateModified": "2026-05-03T06:20:36.2Z",
-    "installs": 31031,
+    "latestVersion": "v0.30",
+    "dateModified": "2026-05-28T06:40:03.97Z",
+    "installs": 14178,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.29\" rel=\"nofollow\">v0.29</a> (2026-05-01)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.28...v0.29\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>chore: Update toc to newest wow interface version (#84)<br>\nCo-authored-by: Jodsderechte <a href=\"mailto:39654549 Jodsderechte@users.noreply.github.com\" rel=\"nofollow\">39654549+Jodsderechte@users.noreply.github.com</a></li>\n<li>fix lorrgs mrt export failing to import reminders<br>\ncloses #82</li>\n<li>chore: Update toc to newest wow interface version (#81)<br>\nCo-authored-by: Jodsderechte <a href=\"mailto:39654549 Jodsderechte@users.noreply.github.com\" rel=\"nofollow\">39654549+Jodsderechte@users.noreply.github.com</a></li>\n<li>properly handled bm bar colors</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.30\" rel=\"nofollow\">v0.30</a> (2026-05-16)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.29...v0.30\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>match bossmod coloring for highlight text</li>\n<li>make sure we stop glow on releasing frames</li>\n<li>make sure reset to defaults doesn't break<br>\nfixes #85</li>\n</ul>\n",
     "screens": [
       {
         "path": "1476729.gif"

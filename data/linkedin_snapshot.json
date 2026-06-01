@@ -6,7 +6,7 @@
             "Company Name": "Hochschule Kaiserslautern",
             "Description": "Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, simulationsbasierter Demonstrator für erklärbare Energieautomation entwickelt. Dort Unterstütze ich Backend-, Simulations- und Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt auf der prototypischen Umsetzung und technischen Weiterentwicklung zentraler Systemkomponenten für ein lokal betriebenes, erklärbares Energiesystem.",
             "Location": "Zweibrücken, Rheinland-Pfalz, Deutschland",
-            "Started On": "Apr 2026"
+            "Started On": "May 2026"
         },
         {
             "Finished On": "",
@@ -25,12 +25,12 @@
             "Started On": "May 2024"
         },
         {
-            "Finished On": "Apr 2024",
+            "Finished On": "May 2024",
             "Title": "Praxissemester",
             "Company Name": "DCON Software & Service AG",
             "Description": "Evaluation und Erstellung eines Prototyps einer Konfigurationsoberfläche zur Erstellung von Dashboard-Widgets",
             "Location": "Kaiserslautern, Rhineland-Palatinate, Germany",
-            "Started On": "Nov 2023"
+            "Started On": "Dec 2023"
         },
         {
             "Finished On": "Mar 2023",
@@ -38,7 +38,7 @@
             "Company Name": "Hochschule kaiserslautern",
             "Description": "Hiwi für Ui/Ux development for N-soria/shift https://www.nsoria.io/",
             "Location": "Zweibrücken, Rheinland-Pfalz, Deutschland",
-            "Started On": "Nov 2022"
+            "Started On": "Dec 2022"
         },
         {
             "Finished On": "Jul 2016",
@@ -46,14 +46,14 @@
             "Company Name": "R+V Versicherung",
             "Description": "Qualitätssicherung im Bereich Banken.",
             "Location": "Wiesbaden, Hessen, Deutschland",
-            "Started On": "Sep 2015"
+            "Started On": "Oct 2015"
         }
     ],
     "education": [
         {
             "Activities": "Software Development",
             "Degree Name": "Master of Science - MS",
-            "Start Date": "Sep 2024",
+            "Start Date": "Oct 2024",
             "School Name": "Hochschule Kaiserslautern",
             "End Date": "Oct 2026",
             "Notes": ""
@@ -61,7 +61,7 @@
         {
             "Activities": "",
             "Degree Name": "Bachelor of Science - BS",
-            "Start Date": "Sep 2017",
+            "Start Date": "Oct 2017",
             "School Name": "Hochschule Kaiserslautern",
             "End Date": "Jul 2024",
             "Notes": "Angewandte Informatik"
@@ -69,9 +69,9 @@
         {
             "Activities": "",
             "Degree Name": "Fachabi",
-            "Start Date": "Sep 2015",
+            "Start Date": "Oct 2015",
             "School Name": "Fachoberschule Nierstein",
-            "End Date": "Jun 2017",
+            "End Date": "Jul 2017",
             "Notes": ""
         }
     ],
@@ -91,6 +91,6 @@
         "Last Name": "Reichle"
     },
     "last_updated": {
-        "timestamp": "2026-05-25T03:53:26.343021+00:00"
+        "timestamp": "2026-06-01T04:04:29.984985+00:00"
     }
 }
