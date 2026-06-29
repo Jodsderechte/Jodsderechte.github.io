@@ -8751,6 +8751,46 @@
       "de-DE": "Unit Frame"
     }
   },
+  "blueprint0": {
+    "image": "blizzard.png",
+    "color": "#009ae4",
+    "label": {
+      "en-US": "Housing Blueprints",
+      "de-DE": "Housing Blueprints"
+    }
+  },
+  "blueprint1": {
+    "image": "blizzard.png",
+    "color": "#009ae4",
+    "label": {
+      "en-US": "Full Layout",
+      "de-DE": "Full Layout"
+    }
+  },
+  "blueprint2": {
+    "image": "blizzard.png",
+    "color": "#009ae4",
+    "label": {
+      "en-US": "Single Room",
+      "de-DE": "Single Room"
+    }
+  },
+  "blueprint3": {
+    "image": "blizzard.png",
+    "color": "#009ae4",
+    "label": {
+      "en-US": "Interior",
+      "de-DE": "Interior"
+    }
+  },
+  "blueprint4": {
+    "image": "blizzard.png",
+    "color": "#009ae4",
+    "label": {
+      "en-US": "Exterior",
+      "de-DE": "Exterior"
+    }
+  },
   "job-tank": {
     "image": "equipment.png",
     "color": "#7ED321",
