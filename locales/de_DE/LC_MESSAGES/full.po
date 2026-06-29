@@ -5653,3 +5653,23 @@ msgstr "Belo'ren, Kind von Al'ar"
 #. image: marchqueldanas.png  color: #E89771
 msgid "raidmarchqueldanas2"
 msgstr "Anbruch der Mitternacht"
+
+#. image: blizzard.png  color: #009ae4
+msgid "blueprint0"
+msgstr "Housing Blueprints"
+
+#. image: blizzard.png  color: #009ae4
+msgid "blueprint1"
+msgstr "Full Layout"
+
+#. image: blizzard.png  color: #009ae4
+msgid "blueprint2"
+msgstr "Single Room"
+
+#. image: blizzard.png  color: #009ae4
+msgid "blueprint3"
+msgstr "Interior"
+
+#. image: blizzard.png  color: #009ae4
+msgid "blueprint4"
+msgstr "Exterior"
