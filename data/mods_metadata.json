@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2430241,
+    "downloadCount": 2435701,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 67.zip",
     "dateModified": "2025-09-07T17:54:58.49Z",
     "installs": 0,
-    "stars": 6336,
+    "stars": 6367,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,7 +24,7 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 82245,
+    "downloadCount": 82383,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4577,
+    "downloadCount": 4583,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.25",
     "dateModified": "2026-02-24T12:15:40.08Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomNames_Guild",
-    "downloadCount": 539,
+    "downloadCount": 541,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.9",
     "dateModified": "2026-03-25T11:31:01.207Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 950,
+    "downloadCount": 952,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.11",
     "dateModified": "2026-03-20T14:11:00.437Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2487,
+    "downloadCount": 2490,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 234760,
+    "downloadCount": 234837,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 280040,
+    "downloadCount": 280714,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.6.2b",
     "dateModified": "2026-06-26T07:58:52.413Z",
@@ -201,11 +201,11 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 464545,
+    "downloadCount": 466399,
     "summary": "Improves upon blizzards Timeline",
     "latestVersion": "v0.32",
     "dateModified": "2026-06-23T15:54:51.587Z",
-    "installs": 22656,
+    "installs": 25738,
     "stars": 0,
     "game": 1,
     "categories": [
@@ -221,12 +221,12 @@
       }
     ],
     "url": "https://www.curseforge.com/wow/addons/better-timeline",
-    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=pledges&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/AbilityTImeline/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/AbilityTimeline?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to my <a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline\" target=\"_blank\" rel=\"nofollow\">RaidAbilityTimeline WeakAura</a> as possible.</p>\n<h2>Some features:</h2>\n<ul>\n<li>Timeline with the previous visual style.</li>\n<li>(optional) Visual tick every 5 seconds with a highlight.</li>\n<li>(optional) BigIcon and or text appears during the last 5 seconds of a bar.</li>\n<li>(optional) Auditory 5→1 countdown for timers.</li>\n<li>Positioning via edit mode.</li>\n<li>Extensive settings for icons, BigIcon, timeline, and text.</li>\n<li>Changeable travel direction.</li>\n<li>Pull timer and readycheck added to the timeline. (includes a Smart /pull feature: automatically picks duration depending on dungeon vs. raid)</li>\n<li>Support for timeline icons (e.g., dispel type shown as icon borders).</li>\n<li>Customizable highlights for specific remaining durations (change text color, add glow).</li>\n<li>(optional) Vertical timeline (has no text).</li>\n<li>(optional) Integrated reminders that can be created directly from the Encounter Journal(importing coming soon).</li>\n</ul>\n<p>And much more. This is currently in very active development so keep an eye out for new versions.</p>\n<p>To get started simply log into the game. You can see a preview in the edit mode or by running /at test in the chat</p>"
+    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=pledges&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/AbilityTImeline/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/AbilityTimeline?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Offers Various improvements to blizzards default Ability timeline keeping it as close in style to my <a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fRaidAbilityTimeline\" target=\"_blank\" rel=\"nofollow\">RaidAbilityTimeline WeakAura</a> as possible.</p>\n<h2>Some features:</h2>\n<ul>\n<li>Timeline with the previous visual style.</li>\n<li>(optional) Full DBM and BW support - turn their timers into a timeline.</li>\n<li>(optional) Visual tick every 5 seconds with a highlight.</li>\n<li>(optional) BigIcon and or text appears during the last 5 seconds of a bar.</li>\n<li>(optional) Auditory 5→1 countdown for timers.</li>\n<li>Positioning via edit mode.</li>\n<li>Extensive settings for icons, BigIcon, timeline, and text.</li>\n<li>Changeable travel direction.</li>\n<li>(optional) Pull timer and readycheck added to the timeline. (includes a Smart /pull feature: automatically picks duration depending on dungeon vs. raid)</li>\n<li>(optional) Support for timeline icons (e.g., dispel type shown as icon borders).</li>\n<li>Customizable highlights for specific remaining durations (change text color, add glow).</li>\n<li>(optional) Vertical timeline (has no text).</li>\n<li>(optional) Integrated reminders that can be created directly from the Encounter Journal or imported directly from external tools like mrt or Viserio.</li>\n</ul>\n<p>And much more.</p>\n<p>To get started simply log into the game. You can see a preview in the edit mode or by running /at test in the chat</p>"
   },
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 1074,
+    "downloadCount": 1079,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.1.5b",
     "dateModified": "2026-03-06T15:23:17.327Z",
