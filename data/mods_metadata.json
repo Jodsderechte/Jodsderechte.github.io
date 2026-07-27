@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2447164,
+    "downloadCount": 2452357,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 68.zip",
     "dateModified": "2026-07-16T03:19:48.63Z",
     "installs": 1,
-    "stars": 6386,
+    "stars": 6408,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,12 +24,12 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 82583,
+    "downloadCount": 82666,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 302,
+    "stars": 304,
     "game": 83374,
     "categories": [
       "rebalancing",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4589,
+    "downloadCount": 4596,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.25",
     "dateModified": "2026-02-24T12:15:40.08Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomNames_Guild",
-    "downloadCount": 542,
+    "downloadCount": 569,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.9",
     "dateModified": "2026-03-25T11:31:01.207Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2492,
+    "downloadCount": 2497,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 234918,
+    "downloadCount": 235356,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 281314,
+    "downloadCount": 281630,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.6.2b",
     "dateModified": "2026-06-26T07:58:52.413Z",
@@ -201,7 +201,7 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 486206,
+    "downloadCount": 489509,
     "summary": "Improves upon blizzards Timeline",
     "latestVersion": "v0.33",
     "dateModified": "2026-07-13T15:17:58.143Z",
@@ -226,7 +226,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 1081,
+    "downloadCount": 1103,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.1.5b",
     "dateModified": "2026-03-06T15:23:17.327Z",
