@@ -80,19 +80,66 @@ def fetch_snapshot(domain: str) -> list:
     return all_entries
 
 
+# Human-readable instructions surfaced when the token can no longer authenticate.
+# This DMA "self-serve" app has no programmatic refresh token, so a new access
+# token must be minted by hand (roughly once a year) via LinkedIn's OAuth tool.
+REAUTH_INSTRUCTIONS = (
+    "LinkedIn access token is expired or revoked (HTTP {status}).\n"
+    "The Member Snapshot data was NOT updated; the previous snapshot has been kept.\n"
+    "\n"
+    "To fix, regenerate the token (must be done manually ~once a year) using https://www.linkedin.com/developers/tools/oauth'.\n"
+)
+
+
+def _signal_auth_failed():
+    """Set the `auth_failed` step output so the workflow can open an alert issue."""
+    output_path = os.getenv('GITHUB_OUTPUT')
+    if output_path:
+        with open(output_path, 'a', encoding='utf-8') as fh:
+            fh.write('auth_failed=true\n')
+
+
 def main():
-    # Fetch all positions and education entries
-    print('Fetching positions...')
-    positions = fetch_snapshot('POSITIONS')
-    print(f'    Retrieved {len(positions)} positions')
+    # Fetch all positions and education entries. Any failure here is non-fatal:
+    # we keep the last-good snapshot and let the rest of the pipeline continue.
+    try:
+        print('Fetching positions...')
+        positions = fetch_snapshot('POSITIONS')
+        print(f'    Retrieved {len(positions)} positions')
 
-    print('Fetching education...')
-    education = fetch_snapshot('EDUCATION')
-    print(f'    Retrieved {len(education)} education entries')
+        print('Fetching education...')
+        education = fetch_snapshot('EDUCATION')
+        print(f'    Retrieved {len(education)} education entries')
 
-    print('Fetching profile...')
-    profile = fetch_snapshot('PROFILE')
-    print(f'    Retrieved {len(profile)} PROFILE entries')
+        print('Fetching profile...')
+        profile = fetch_snapshot('PROFILE')
+        print(f'    Retrieved {len(profile)} PROFILE entries')
+    except requests.HTTPError as e:
+        status = e.response.status_code if e.response is not None else None
+        if status in (401, 403):
+            sys.stderr.write(REAUTH_INSTRUCTIONS.format(status=status))
+            print(
+                f'::warning title=LinkedIn token expired::LinkedIn access token '
+                f'expired or revoked (HTTP {status}). Snapshot not updated - '
+                f'regenerate it via the OAuth Token Generator Tool.'
+            )
+            _signal_auth_failed()
+        else:
+            sys.stderr.write(f'Transient HTTP error fetching LinkedIn data: {e}\n')
+            print(
+                f'::warning title=LinkedIn fetch failed::Could not fetch LinkedIn '
+                f'data (HTTP {status}). Snapshot not updated; will retry next run.'
+            )
+        print('Keeping previous data/linkedin_snapshot.json unchanged.')
+        sys.exit(0)
+    except requests.RequestException as e:
+        sys.stderr.write(f'Network error fetching LinkedIn data: {e}\n')
+        print(
+            '::warning title=LinkedIn fetch failed::Network error while fetching '
+            'LinkedIn data. Snapshot not updated; will retry next run.'
+        )
+        print('Keeping previous data/linkedin_snapshot.json unchanged.')
+        sys.exit(0)
 
     # Combine into output structure
     output = {

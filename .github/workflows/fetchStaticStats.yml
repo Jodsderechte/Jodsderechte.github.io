@@ -42,10 +42,27 @@ jobs:
           python backendScripts/generateWagoPoFiles.py
 
       - name: Run linkedin fetcher script
+        id: linkedin
+        continue-on-error: true   # never let a LinkedIn token issue abort the run
         env:
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
         run: |
           python backendScripts/fetchLinkedinInfo.py
+
+      - name: Alert on expired LinkedIn token
+        if: steps.linkedin.outputs.auth_failed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Dedup by title so a new issue isn't opened on every scheduled run.
+          existing=$(gh issue list --state open --search "LinkedIn access token expired in:title" --json number --jq 'length')
+          if [ "$existing" = "0" ]; then
+            gh issue create \
+              --title "LinkedIn access token expired — regenerate" \
+              --body-file .github/linkedin-token-issue.md
+          else
+            echo "An open 'LinkedIn access token expired' issue already exists; not creating a duplicate."
+          fi
 
       - name: Commit and push changes
         run: |
