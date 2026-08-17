@@ -2,19 +2,19 @@
     "positions": [
         {
             "Finished On": "",
-            "Title": "Wissenschaftliche Hilfskraft",
-            "Company Name": "Hochschule Kaiserslautern",
-            "Description": "Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, simulationsbasierter Demonstrator für erklärbare Energieautomation entwickelt. Dort Unterstütze ich Backend-, Simulations- und Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt auf der prototypischen Umsetzung und technischen Weiterentwicklung zentraler Systemkomponenten für ein lokal betriebenes, erklärbares Energiesystem.",
-            "Location": "Zweibrücken, Rheinland-Pfalz, Deutschland",
-            "Started On": "Apr 2026"
-        },
-        {
-            "Finished On": "",
             "Title": "Modder",
             "Company Name": "Freelance",
             "Description": "- Erstellung von UI-Verbesserungen für das Videospiel World of Warcraft mithilfe von LUA - Erstellung von Webapps für das Videospiel World of Warcraft - Erstellung von Modifikationen für das Videospiel Ark mithilfe von Unreal Engine",
             "Location": "",
             "Started On": "Mar 2020"
+        },
+        {
+            "Finished On": "Aug 2026",
+            "Title": "Wissenschaftliche Hilfskraft",
+            "Company Name": "Hochschule Kaiserslautern",
+            "Description": "Im Forschungsprojekt BitGridAI wird ein lokal ausgeführter, simulationsbasierter Demonstrator für erklärbare Energieautomation entwickelt. Dort Unterstütze ich Backend-, Simulations- und Systementwicklung eines geplanten Labor-Demonstrators. Der Schwerpunkt liegt auf der prototypischen Umsetzung und technischen Weiterentwicklung zentraler Systemkomponenten für ein lokal betriebenes, erklärbares Energiesystem.",
+            "Location": "Zweibrücken, Rheinland-Pfalz, Deutschland",
+            "Started On": "Apr 2026"
         },
         {
             "Finished On": "Jul 2024",
@@ -91,6 +91,6 @@
         "Last Name": "Reichle"
     },
     "last_updated": {
-        "timestamp": "2026-08-10T09:08:25.110317+00:00"
+        "timestamp": "2026-08-17T01:24:10.348723+00:00"
     }
 }
