@@ -5654,22 +5654,58 @@ msgstr "Belo'ren, Kind von Al'ar"
 msgid "raidmarchqueldanas2"
 msgstr "Anbruch der Mitternacht"
 
-#. image: blizzard.png  color: #009ae4
+#. image: homestone.png  color: #fad036
 msgid "blueprint0"
 msgstr "Housing Blueprints"
 
-#. image: blizzard.png  color: #009ae4
+#. image: homestone.png  color: #fad036
 msgid "blueprint1"
 msgstr "Full Layout"
 
-#. image: blizzard.png  color: #009ae4
+#. image: homestone.png  color: #fad036
 msgid "blueprint2"
 msgstr "Single Room"
 
-#. image: blizzard.png  color: #009ae4
+#. image: homestone.png  color: #fad036
 msgid "blueprint3"
 msgstr "Interior"
 
-#. image: blizzard.png  color: #009ae4
+#. image: homestone.png  color: #fad036
 msgid "blueprint4"
 msgstr "Exterior"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2"
+msgstr "Season 2 Dungeons"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-1"
+msgstr ""
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-2"
+msgstr "Nalorakks Bau"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-3"
+msgstr "Mördergasse"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-4"
+msgstr "Das blendende Tal"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-5"
+msgstr "Arena der Leerennarbe"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-6"
+msgstr "Die Königsruh"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-7"
+msgstr "Rubinlebensbecken"
+
+#. image: dungeon.png  color: #F5A623
+msgid "midnight-mdt-s2-8"
+msgstr "Der Tempel von Sethraliss"
