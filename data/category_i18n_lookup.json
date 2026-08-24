@@ -1543,6 +1543,78 @@
       "de-DE": "Windläuferturm"
     }
   },
+  "midnight-mdt-s2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Season 2 Dungeons",
+      "de-DE": "Season 2 Dungeons"
+    }
+  },
+  "midnight-mdt-s2-1": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": null,
+      "de-DE": null
+    }
+  },
+  "midnight-mdt-s2-2": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Den of Nalorakk",
+      "de-DE": "Nalorakks Bau"
+    }
+  },
+  "midnight-mdt-s2-3": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Murder Row",
+      "de-DE": "Mördergasse"
+    }
+  },
+  "midnight-mdt-s2-4": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "The Blinding Vale",
+      "de-DE": "Das blendende Tal"
+    }
+  },
+  "midnight-mdt-s2-5": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Voidscar Arena",
+      "de-DE": "Arena der Leerennarbe"
+    }
+  },
+  "midnight-mdt-s2-6": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Kings' Rest",
+      "de-DE": "Die Königsruh"
+    }
+  },
+  "midnight-mdt-s2-7": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Ruby Life Pools",
+      "de-DE": "Rubinlebensbecken"
+    }
+  },
+  "midnight-mdt-s2-8": {
+    "image": "dungeon.png",
+    "color": "#F5A623",
+    "label": {
+      "en-US": "Temple of Sethraliss",
+      "de-DE": "Der Tempel von Sethraliss"
+    }
+  },
   "tww-mdt-s1": {
     "image": "dungeon.png",
     "color": "#F5A623",
@@ -8752,40 +8824,40 @@
     }
   },
   "blueprint0": {
-    "image": "blizzard.png",
-    "color": "#009ae4",
+    "image": "homestone.png",
+    "color": "#fad036",
     "label": {
       "en-US": "Housing Blueprints",
       "de-DE": "Housing Blueprints"
     }
   },
   "blueprint1": {
-    "image": "blizzard.png",
-    "color": "#009ae4",
+    "image": "homestone.png",
+    "color": "#fad036",
     "label": {
       "en-US": "Full Layout",
       "de-DE": "Full Layout"
     }
   },
   "blueprint2": {
-    "image": "blizzard.png",
-    "color": "#009ae4",
+    "image": "homestone.png",
+    "color": "#fad036",
     "label": {
       "en-US": "Single Room",
       "de-DE": "Single Room"
     }
   },
   "blueprint3": {
-    "image": "blizzard.png",
-    "color": "#009ae4",
+    "image": "homestone.png",
+    "color": "#fad036",
     "label": {
       "en-US": "Interior",
       "de-DE": "Interior"
     }
   },
   "blueprint4": {
-    "image": "blizzard.png",
-    "color": "#009ae4",
+    "image": "homestone.png",
+    "color": "#fad036",
     "label": {
       "en-US": "Exterior",
       "de-DE": "Exterior"
