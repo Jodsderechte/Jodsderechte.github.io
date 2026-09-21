@@ -313,22 +313,22 @@
                 <li>
                   <strong>Favorites</strong>:&nbsp;0</li>
                 <li>
-                  <strong>Installs</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="26767" data-purecounter-duration="1"
+                  <strong>Installs</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="13066" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 <li>
-                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="571306" data-purecounter-duration="1"
+                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="592449" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 
 
 
                 
-                <li><strong>Latest Version</strong>: v0.35</li>
+                <li><strong>Latest Version</strong>: v0.36</li>
                 
                 
                 
-                <li><strong>Last Release on:</strong>: <time class="timeago"  datetime="2026-08-29T13:51:46.567Z"  data-locale="en"  title="2026-08-29T13:51:46.567Z">2026-08-29T13:51:46.567Z</time></li>
+                <li><strong>Last Release on:</strong>: <time class="timeago"  datetime="2026-09-17T10:55:17.723Z"  data-locale="en"  title="2026-09-17T10:55:17.723Z">2026-09-17T10:55:17.723Z</time></li>
                 
                 
                 
@@ -358,20 +358,20 @@
             <h2>Description and Changelog are directly imported from the Project</h2>
             <p><strong>Changelog of the latest Version:</strong> </p>
             <p><em><h1>AbilityTimeline</h1>
-<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v0.35" rel="nofollow">v0.35</a> (2026-08-29)</h2>
-<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v0.34a...v0.35" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
+<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v0.36" rel="nofollow">v0.36</a> (2026-09-09)</h2>
+<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v0.35...v0.36" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
 <ul>
-<li>make sure alpha builds work</li>
-<li>fix expiration time display on dnd message</li>
-<li>add timeline frame border settings<br>
-mentions #104</li>
-<li>assert encounter and instancename exists before creating options<br>
-closes #102</li>
-<li>make sure the reminder browser only shows valid entries</li>
-<li>remove old season 1 data</li>
-<li>make sure encounter fetcher workflow only includes main seasons<br>
-also make it work with branch rename</li>
-<li>add an option to set travel duration for timeline</li>
+<li>Make sure there is no race condition between stopping glow and removing onupdate<br>
+clsoes #100</li>
+<li>make sure glows are properly being disabled<br>
+mentions #100</li>
+<li>fix text_relative_position being nil for bigicon</li>
+<li>properly check if glowcolor matches</li>
+<li>make sure proc glow uses the correct color<br>
+Also renamen glowType variable and make sure to use remainingTime instead of the threshholdtime</li>
+<li>make sure role icons get properly moved if they are anchored at relative text positions</li>
+<li>add options to Modify role and dispellIcon size and anchors aswell as the border size</li>
+<li>chore: Update toc to newest wow interface version (#107)</li>
 </ul>
 </em></p>
             <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
