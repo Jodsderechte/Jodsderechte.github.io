@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2474078,
+    "downloadCount": 2476143,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 68.zip",
     "dateModified": "2026-07-16T03:19:48.63Z",
     "installs": 1,
-    "stars": 6517,
+    "stars": 6527,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,7 +24,7 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 83148,
+    "downloadCount": 83192,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
@@ -51,7 +51,7 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4859,
+    "downloadCount": 4870,
     "summary": "A simple lib adding the option for Name Variations to addons",
     "latestVersion": "v1.1.26",
     "dateModified": "2026-08-22T12:49:14.373Z",
@@ -69,7 +69,7 @@
   {
     "id": 1116103,
     "name": "CustomNames_Guild",
-    "downloadCount": 585,
+    "downloadCount": 587,
     "summary": "Adds Guild support for Customnames",
     "latestVersion": "v1.0.9",
     "dateModified": "2026-03-25T11:31:01.207Z",
@@ -87,7 +87,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 1001,
+    "downloadCount": 1005,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.11",
     "dateModified": "2026-03-20T14:11:00.437Z",
@@ -105,7 +105,7 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2569,
+    "downloadCount": 2574,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
@@ -123,7 +123,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1790,
+    "downloadCount": 1793,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +141,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 235717,
+    "downloadCount": 235805,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,7 +169,7 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 292566,
+    "downloadCount": 292913,
     "summary": "Adds Rio Score display to the GroupFinder frame",
     "latestVersion": "v1.6.3",
     "dateModified": "2026-08-19T07:20:33.367Z",
@@ -201,17 +201,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 571306,
+    "downloadCount": 592449,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.35",
-    "dateModified": "2026-08-29T13:51:46.567Z",
-    "installs": 26767,
+    "latestVersion": "v0.36",
+    "dateModified": "2026-09-17T10:55:17.723Z",
+    "installs": 13066,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.35\" rel=\"nofollow\">v0.35</a> (2026-08-29)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.34a...v0.35\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure alpha builds work</li>\n<li>fix expiration time display on dnd message</li>\n<li>add timeline frame border settings<br>\nmentions #104</li>\n<li>assert encounter and instancename exists before creating options<br>\ncloses #102</li>\n<li>make sure the reminder browser only shows valid entries</li>\n<li>remove old season 1 data</li>\n<li>make sure encounter fetcher workflow only includes main seasons<br>\nalso make it work with branch rename</li>\n<li>add an option to set travel duration for timeline</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.36\" rel=\"nofollow\">v0.36</a> (2026-09-09)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.35...v0.36\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>Make sure there is no race condition between stopping glow and removing onupdate<br>\nclsoes #100</li>\n<li>make sure glows are properly being disabled<br>\nmentions #100</li>\n<li>fix text_relative_position being nil for bigicon</li>\n<li>properly check if glowcolor matches</li>\n<li>make sure proc glow uses the correct color<br>\nAlso renamen glowType variable and make sure to use remainingTime instead of the threshholdtime</li>\n<li>make sure role icons get properly moved if they are anchored at relative text positions</li>\n<li>add options to Modify role and dispellIcon size and anchors aswell as the border size</li>\n<li>chore: Update toc to newest wow interface version (#107)</li>\n</ul>\n",
     "screens": [
       {
         "path": "1476729.gif"
@@ -226,7 +226,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 1190,
+    "downloadCount": 1199,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.1.5b",
     "dateModified": "2026-03-06T15:23:17.327Z",
