@@ -4638,7 +4638,7 @@ msgstr "Season 2 Dungeons"
 
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s2-1"
-msgstr ""
+msgstr "Altar of Fangs"
 
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s2-2"
