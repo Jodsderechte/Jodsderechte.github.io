@@ -66,15 +66,33 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-           if git diff --cached --quiet; then
+          if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: update Static data"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update Static data"
+          # Rebase onto any concurrent pushes and retry, so a push that lands
+          # between fetch and push doesn't abort the whole run.
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth=1 origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Rebase onto origin/main failed" >&2
+              exit 1
+            fi
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected, retrying ($attempt)..."
+            sleep $((5 * attempt))
+          done
+          echo "Push failed after retries" >&2
+          exit 1
 
       - uses: lowlighter/metrics@latest
         with:
