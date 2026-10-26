@@ -2,12 +2,12 @@
   {
     "id": 931047,
     "name": "AutoDoors",
-    "downloadCount": 2481103,
+    "downloadCount": 2487401,
     "summary": "Adds the beloved automatic doors that we all got used to in AsE when using S+",
     "latestVersion": "autodoors-windows 68.zip",
     "dateModified": "2026-07-16T03:19:48.63Z",
     "installs": 1,
-    "stars": 6544,
+    "stars": 6575,
     "game": 83374,
     "categories": [
       "structures"
@@ -24,16 +24,16 @@
   {
     "id": 928506,
     "name": "Cheat Death (Homing Pigeon reloaded)",
-    "downloadCount": 83347,
+    "downloadCount": 83570,
     "summary": "This mod can save your precious Dinos from certain Death",
     "latestVersion": "5.5-",
     "dateModified": "2025-05-26T19:12:30.307Z",
     "installs": 70,
-    "stars": 305,
+    "stars": 307,
     "game": 83374,
     "categories": [
-      "rebalancing",
       "general",
+      "rebalancing",
       "creatures"
     ],
     "changelog": "<p>Initial 5.5 cook</p>",
@@ -51,35 +51,42 @@
   {
     "id": 867373,
     "name": "CustomNames",
-    "downloadCount": 4898,
+    "downloadCount": 5111,
     "summary": "A simple lib adding the option for Name Variations to addons",
-    "latestVersion": "v1.1.26",
-    "dateModified": "2026-08-22T12:49:14.373Z",
-    "installs": 156,
+    "latestVersion": "v1.2.1",
+    "dateModified": "2026-10-25T10:21:21.47Z",
+    "installs": 45,
     "stars": 0,
     "game": 1,
     "categories": [
       "libraries"
     ],
-    "changelog": "<h1>CustomNames</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames/tree/v1.1.26\" rel=\"nofollow\">v1.1.26</a> (2026-08-22)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames/compare/v1.1.25...v1.1.26\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure btag matching works with alphanumeric characters<br>\ncloses #14</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n</ul>\n",
-    "screens": [],
+    "changelog": "<h1>CustomNames</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames/tree/v1.2.1\" rel=\"nofollow\">v1.2.1</a> (2026-10-25)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames/compare/v1.2.0...v1.2.1\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure the players btag works correctly in the api</li>\n<li>make it possible to add chars to bnet using the ui</li>\n<li>chore: Update toc to newest wow interface version</li>\n</ul>\n",
+    "screens": [
+      {
+        "path": "2059846.PNG"
+      },
+      {
+        "path": "2059847.PNG"
+      }
+    ],
     "url": "https://www.curseforge.com/wow/addons/libcustomnames",
-    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=pledges&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/CustomNames/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/CustomNames?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\r\n<p>&nbsp;</p>\r\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures, CustomNames provides Addon Developers with the tools to do so. CustomNames gives you the ability of mapping character names to Nicknames of your choosing e.G. SuperSaiyanDK to \"Nick\" or Nickspriest-Draenor to \"Nick\". Begone are the times you need to remember everyones alt names.</p>\r\n<p>Current official Implementations:</p>\r\n<ul>\r\n<li><a href=\"https://legacy.curseforge.com/wow/addons/customnames_elvui\" target=\"_blank\" rel=\"nofollow\">ElvUI</a></li>\r\n<li><a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fCustomNames\" target=\"_blank\" rel=\"nofollow\">Plater</a></li>\r\n<li><a href=\"https://legacy.curseforge.com/wow/addons/customnames_mrt\" target=\"_blank\" rel=\"nofollow\">MRT</a></li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/customnames_chat\" target=\"_blank\" rel=\"nofollow\">Chat</a> Chat support</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/customnames-guild\" target=\"_blank\" rel=\"nofollow\">Guild </a>Guild tab support</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/deadly-boss-mods\" target=\"_blank\" rel=\"nofollow\">Dbm</a> works out of the box</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/weakauras-2\" target=\"_blank\" rel=\"nofollow\">WeakAuras</a> works out of the box</li>\r\n<li><a href=\"https://authors.curseforge.com/#/projects/867373/general\" target=\"_blank\" rel=\"nofollow\">BetterFriendList</a> works out of the box</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/better-timeline\" target=\"_blank\" rel=\"nofollow\">BetterTimeline</a> works out of the box</li>\r\n</ul>\r\n<p>for details go to Bars text custom text and add</p>\r\n<pre><code>{data1}. {data3}{func local player, combat = ...; local Lib = LibStub(\"CustomNames\");local trans=LibStub(\"LibTranslit-1.0\");return trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\"))):find(\"-\") and player.transliteratedName or trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\")));}</code></pre>\r\n<p>this should replace data2 (player name) which in total would look like</p>\r\n<pre><code>{data1}. {data3}{func local player, combat = ...; local Lib = LibStub(\"CustomNames\");return Lib.Get(player.nome);}</code></pre>\r\n<p>It also provides some easy to use slash command to let users add their own custom names if they choose to do so.</p>\r\n<p>CustomNames example usage: Adding a new name: /cn add Name to CustomName Editing name: /cn edit Name to CustomName Deleting old name: /cn del Name Listing every name: /cn l(ist)</p>\r\n<p>Standalone this doesn't do anything if the addon displaying the Name doesn't implement the usage of the provided functions.</p>\r\n<p>For developers short how to added below for the long version check on <a href=\"https://github.com/Jods-GH/CustomNames\" target=\"_blank\" rel=\"nofollow\">Github</a>:</p>\r\n<pre><code>local Lib = LibStub(\"CustomNames\")\r\n-- Setting Names both accept units aswell as Names in the format of Name-Realm (for players) or just Name (for npcs) and Btag in format \"BattleTag#12345\"\r\nlocal success = Lib.Set(name, customName) -- for adding/editing \r\nlocal success = Lib.Set(name) -- for deleting \r\n-- Getting Names\r\nlocal customName = Lib.Get(name) -- this works both for Get(Charname) and Get(Btag)\r\nlocal customName = Lib.UnitName(unit) -- behaves equivalent to normal UnitName()\r\nlocal customName = Lib.UnitFullName(unit) -- behaves equivalent to normal UnitFullName()\r\nlocal customName = Lib.UnitNameUnmodified(unit) -- behaves equivalent to normal UnitNameUnmodified()\r\nlocal customName = Lib.GetUnitName(unit,showServerName) -- behaves equivalent to normal GetUnitName()\r\nlocal NameList = Lib.GetList() -- returns a list with all Database entrys\r\n-- NameList Format\r\nNameList = {\r\n    [\"Name-Realm1\"] = \"CustomName1\",\r\n    [\"Name-Realm2\"] = \"CustomName2\",\r\n}\r\n-- Bnet api\r\nlocal isInDatabase = Lib.isCharInBnetDatabase(name) -- returns true if the charname is already linked to a bnet account (nil otherwise) \r\nlocal success = Lib.addCharToBtag(charname,btag) -- links a char to a Given Btag. Btag should be in format \"BattleTag#12345\"</code></pre>\r\n<h1>Callbacks</h1>\r\n<p>event names: Name_Removed , Name_Update, Name_Added</p>\r\n<p>Name_Removed (Name) -- will return the name in the database that got removed ; Name_Updated (Name, newCustomName, oldCustomName) -- will return the name in the database, the new CustomName the database was updated to and the old CustomName as it was previously returned by the Getter functions Name_Added (Name, customName) -- will return the name in the database aswell as the CustomName that was added Name is always in the format Name-Realm for all player characters and Name for npc's as returned by UnitName()</p>\r\n<pre><code>Lib.RegisterCallback(self, \"eventName\"[, method, [arg]])\r\nLib.UnregisterCallback(self, \"eventname\")\r\nLib.UnregisterAllCallbacks(self)</code></pre>\r\n<h1>Example:</h1>\r\n<pre><code>Lib:RegisterCallback(\"Name_Added\", function(event, name, customName)\r\n    print(\"Added: \" .. name .. \" is now Renamed to \" .. customName) -- this will print whenever a new Name is added \r\nend)</code></pre>\r\n<p>Check CustomNames.lua for more code examples.</p>"
+    "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=pledges&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/CustomNames/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/CustomNames?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\r\n<p>&nbsp;</p>\r\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures, CustomNames provides Addon Developers with the tools to do so. CustomNames gives you the ability of mapping character names to Nicknames of your choosing e.G. SuperSaiyanDK to \"Nick\" or Nickspriest-Draenor to \"Nick\". Begone are the times you need to remember everyones alt names.</p>\r\n<p>Current official Implementations:</p>\r\n<ul>\r\n<li><a href=\"https://legacy.curseforge.com/wow/addons/customnames_elvui\" target=\"_blank\" rel=\"nofollow\">ElvUI</a></li>\r\n<li><a href=\"/linkout?remoteUrl=https%253a%252f%252fwago.io%252fCustomNames\" target=\"_blank\" rel=\"nofollow\">Plater</a></li>\r\n<li><a href=\"https://legacy.curseforge.com/wow/addons/customnames_mrt\" target=\"_blank\" rel=\"nofollow\">MRT</a></li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/customnames_chat\" target=\"_blank\" rel=\"nofollow\">Chat</a> Chat support</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/customnames-guild\" target=\"_blank\" rel=\"nofollow\">Guild </a>Guild tab support</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/deadly-boss-mods\" target=\"_blank\" rel=\"nofollow\">Dbm</a> works out of the box</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/weakauras-2\" target=\"_blank\" rel=\"nofollow\">WeakAuras</a> works out of the box</li>\r\n<li><a href=\"https://authors.curseforge.com/#/projects/867373/general\" target=\"_blank\" rel=\"nofollow\">BetterFriendList</a> works out of the box</li>\r\n<li><a href=\"https://www.curseforge.com/wow/addons/better-timeline\" target=\"_blank\" rel=\"nofollow\">BetterTimeline</a> works out of the box</li>\r\n</ul>\r\n<p>for details go to Bars text custom text and add</p>\r\n<pre><code>{func local player, combat = ...; local Lib = LibStub(\"CustomNames\");local trans=LibStub(\"LibTranslit-1.0\");return trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\"))):find(\"-\") and player.transliteratedName or trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\")));}</code></pre>\r\n<p>this should replace data2 (player name) which in total would look like</p>\r\n<p>{data1}. {data3}{func local player, combat = ...; local Lib = LibStub(\"CustomNames\");local trans=LibStub(\"LibTranslit-1.0\");return trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\"))):find(\"-\") and player.transliteratedName or trans:Transliterate(Lib.Get(string.gsub(player.nome, \"%-([A-Z][A-Z])$\", \"\")));}<br>Note: Details will only work in classic versions not in Midnight and Forever due to blizzard api restrictions.<br><br></p>\r\n<p>It also provides some easy to use slash command to let users add their own custom names if they choose to do so.</p>\r\n<p>CustomNames example usage: Adding a new name: /cn add Name to CustomName Editing name: /cn edit Name to CustomName Deleting old name: /cn del Name Listing every name: /cn l(ist)</p>\r\n<p>Standalone this doesn't do anything if the addon displaying the Name doesn't implement the usage of the provided functions.</p>\r\n<p>For developers short how to added below for the long version check on <a href=\"https://github.com/Jods-GH/CustomNames\" target=\"_blank\" rel=\"nofollow\">Github</a>:</p>\r\n<pre><code>local Lib = LibStub(\"CustomNames\")\r\n-- Setting Names both accept units aswell as Names in the format of Name-Realm (for players) or just Name (for npcs) and Btag in format \"BattleTag#12345\"\r\nlocal success = Lib.Set(name, customName) -- for adding/editing \r\nlocal success = Lib.Set(name) -- for deleting \r\n-- Getting Names\r\nlocal customName = Lib.Get(name) -- this works both for Get(Charname) and Get(Btag)\r\nlocal customName = Lib.UnitName(unit) -- behaves equivalent to normal UnitName()\r\nlocal customName = Lib.UnitFullName(unit) -- behaves equivalent to normal UnitFullName()\r\nlocal customName = Lib.UnitNameUnmodified(unit) -- behaves equivalent to normal UnitNameUnmodified()\r\nlocal customName = Lib.GetUnitName(unit,showServerName) -- behaves equivalent to normal GetUnitName()\r\nlocal NameList = Lib.GetList() -- returns a list with all Database entrys\r\n-- NameList Format\r\nNameList = {\r\n    [\"Name-Realm1\"] = \"CustomName1\",\r\n    [\"Name-Realm2\"] = \"CustomName2\",\r\n}\r\n-- Bnet api\r\nlocal isInDatabase = Lib.isCharInBnetDatabase(name) -- returns true if the charname is already linked to a bnet account (nil otherwise) \r\nlocal success = Lib.addCharToBtag(charname,btag) -- links a char to a Given Btag. Btag should be in format \"BattleTag#12345\"</code></pre>\r\n<h1>Callbacks</h1>\r\n<p>event names: Name_Removed , Name_Update, Name_Added</p>\r\n<p>Name_Removed (Name) -- will return the name in the database that got removed ; Name_Updated (Name, newCustomName, oldCustomName) -- will return the name in the database, the new CustomName the database was updated to and the old CustomName as it was previously returned by the Getter functions Name_Added (Name, customName) -- will return the name in the database aswell as the CustomName that was added Name is always in the format Name-Realm for all player characters and Name for npc's as returned by UnitName()</p>\r\n<pre><code>Lib.RegisterCallback(self, \"eventName\"[, method, [arg]])\r\nLib.UnregisterCallback(self, \"eventname\")\r\nLib.UnregisterAllCallbacks(self)</code></pre>\r\n<h1>Example:</h1>\r\n<pre><code>Lib:RegisterCallback(\"Name_Added\", function(event, name, customName)\r\n    print(\"Added: \" .. name .. \" is now Renamed to \" .. customName) -- this will print whenever a new Name is added \r\nend)</code></pre>\r\n<p>Check CustomNames.lua for more code examples.</p>"
   },
   {
     "id": 1116103,
     "name": "CustomNames_Guild",
-    "downloadCount": 591,
+    "downloadCount": 615,
     "summary": "Adds Guild support for Customnames",
-    "latestVersion": "v1.0.9",
-    "dateModified": "2026-03-25T11:31:01.207Z",
-    "installs": 82,
+    "latestVersion": "v1.1.0",
+    "dateModified": "2026-10-25T10:20:48.203Z",
+    "installs": 16,
     "stars": 0,
     "game": 1,
     "categories": [
       "guild"
     ],
-    "changelog": "<h1>CustomNames_Guild</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Guild/tree/v1.0.9\" rel=\"nofollow\">v1.0.9</a> (2026-03-25)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Guild/compare/v1.0.8...v1.0.9\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Guild/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure it's not exploding during m+</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n</ul>\n",
+    "changelog": "<h1>CustomNames_Guild</h1>\n<h2><a href=\"https://github.com/Jods-GH/CustomNames_Guild/tree/v1.1.0\" rel=\"nofollow\">v1.1.0</a> (2026-10-25)</h2>\n<p><a href=\"https://github.com/Jods-GH/CustomNames_Guild/compare/v1.0.9...v1.1.0\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/CustomNames_Guild/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>add guild and bnet community support</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>add support for non retail flavors</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n</ul>\n",
     "screens": [],
     "url": "https://www.curseforge.com/wow/addons/customnames-guild",
     "description": "<p><a href=\"/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fv3gYmYamGJ\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/badge/Discord-7289da?logo=discord&logoColor=fff&style=for-the-badge\" alt=\"Discord\"></a> <a href=\"https://www.patreon.com/c/Jodsderechte\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Jodsderechte&type=pledges&style=for-the-badge\" alt=\"Patreon\"></a> <a href=\"/linkout?remoteUrl=https%253a%252f%252fmythistone.com%252f\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://custom-icon-badges.demolab.com/badge/Mythistone-cb3c18?style=for-the-badge&logo=Mythistone&label=M  Meta Analysis&labelColor=#22090e\" alt=\"Mythistone\"></a> <a href=\"https://github.com/Jods-GH/CustomNames_Chat/releases/latest\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/v/release/Jods-GH/CustomNames_Chat?display_name=tag&style=for-the-badge\" alt=\"Release\"></a></p>\n<p>Unlock a realm of possibilities as you gain full control over the names of NPCs, players, pets, and more. Whether you're seeking to enhance role-playing scenarios, create thematic storylines, or simply add a touch of personalization to your adventures. This Addon is a SubSet and requires <a href=\"https://legacy.curseforge.com/wow/addons/libcustomnames\" target=\"_blank\" rel=\"nofollow\">CustomNames</a> in order to work. It adds Guild support to Custom Names.&nbsp;<br>\nUsage: Simply install the addon and have CustomNames installed aswell it will work out of the box and replace char names in your chat with the custom names you have set!<br>\nCustomNames gives you the ability of mapping character names to Nicknames of your choosing.<br>\ne.G. SuperSaiyanDK to -&gt; \"Nick\" or Nickspriest-Draenor to -&gt; \"Nick\". Begone are the times you need to remember everyones alt names.</p>"
@@ -87,7 +94,7 @@
   {
     "id": 1073608,
     "name": "CustomNames_Chat",
-    "downloadCount": 1009,
+    "downloadCount": 1017,
     "summary": "Adds Chat support for Customnames",
     "latestVersion": "v1.0.11",
     "dateModified": "2026-03-20T14:11:00.437Z",
@@ -105,11 +112,11 @@
   {
     "id": 876916,
     "name": "CustomNames_ElvUI",
-    "downloadCount": 2582,
+    "downloadCount": 2650,
     "summary": "Adds ElvUI Tags for CustomNames.",
     "latestVersion": "v1.1.10",
     "dateModified": "2026-01-27T15:50:17.76Z",
-    "installs": 341,
+    "installs": 345,
     "stars": 0,
     "game": 1,
     "categories": [
@@ -123,7 +130,7 @@
   {
     "id": 881888,
     "name": "CustomNames_MRT",
-    "downloadCount": 1795,
+    "downloadCount": 1797,
     "summary": "Adds MRT support for CustomNames.",
     "latestVersion": "v1.1.5",
     "dateModified": "2025-12-03T07:44:13.883Z",
@@ -141,7 +148,7 @@
   {
     "id": 662863,
     "name": "Dungeon Aura Tools",
-    "downloadCount": 236022,
+    "downloadCount": 236267,
     "summary": "Dynamic Weakauras creation tool for all the Dungeon needs",
     "latestVersion": "v2.4.2",
     "dateModified": "2025-12-03T07:44:07.193Z",
@@ -169,18 +176,18 @@
   {
     "id": 1066197,
     "name": "GroupFinderRio",
-    "downloadCount": 293332,
+    "downloadCount": 300482,
     "summary": "Adds Rio Score display to the GroupFinder frame",
-    "latestVersion": "v1.6.3",
-    "dateModified": "2026-08-19T07:20:33.367Z",
-    "installs": 7225,
+    "latestVersion": "v1.6.4",
+    "dateModified": "2026-10-14T13:58:04.017Z",
+    "installs": 5646,
     "stars": 0,
     "game": 1,
     "categories": [
       "chat-communication",
       "miscellaneous"
     ],
-    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.6.3\" rel=\"nofollow\">v1.6.3</a> (2026-08-12)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.6.2b...v1.6.3\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>automate generation of name shortenings</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>pause hooking during combat to prevent errors during bossfights</li>\n</ul>\n",
+    "changelog": "<h1>GroupFinderRio</h1>\n<h2><a href=\"https://github.com/Jods-GH/GroupFinderRIO/tree/v1.6.4\" rel=\"nofollow\">v1.6.4</a> (2026-10-07)</h2>\n<p><a href=\"https://github.com/Jods-GH/GroupFinderRIO/compare/v1.6.3...v1.6.4\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/GroupFinderRIO/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>chore: update instance id list from raider.io/wago</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>chore: Update toc to newest wow interface version</li>\n<li>make sure automated alpha builds work</li>\n<li>add heroic worldboss</li>\n</ul>\n",
     "screens": [
       {
         "path": "933560.PNG"
@@ -201,17 +208,17 @@
   {
     "id": 1365171,
     "name": "Better Timeline",
-    "downloadCount": 599350,
+    "downloadCount": 625205,
     "summary": "Improves upon blizzards Timeline",
-    "latestVersion": "v0.36",
-    "dateModified": "2026-09-17T10:55:17.723Z",
-    "installs": 13066,
+    "latestVersion": "v0.37",
+    "dateModified": "2026-10-14T15:07:11.28Z",
+    "installs": 19152,
     "stars": 0,
     "game": 1,
     "categories": [
       "boss-encounters"
     ],
-    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.36\" rel=\"nofollow\">v0.36</a> (2026-09-09)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.35...v0.36\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>Make sure there is no race condition between stopping glow and removing onupdate<br>\nclsoes #100</li>\n<li>make sure glows are properly being disabled<br>\nmentions #100</li>\n<li>fix text_relative_position being nil for bigicon</li>\n<li>properly check if glowcolor matches</li>\n<li>make sure proc glow uses the correct color<br>\nAlso renamen glowType variable and make sure to use remainingTime instead of the threshholdtime</li>\n<li>make sure role icons get properly moved if they are anchored at relative text positions</li>\n<li>add options to Modify role and dispellIcon size and anchors aswell as the border size</li>\n<li>chore: Update toc to newest wow interface version (#107)</li>\n</ul>\n",
+    "changelog": "<h1>AbilityTimeline</h1>\n<h2><a href=\"https://github.com/Jods-GH/AbilityTimeline/tree/v0.37\" rel=\"nofollow\">v0.37</a> (2026-10-14)</h2>\n<p><a href=\"https://github.com/Jods-GH/AbilityTimeline/compare/v0.36...v0.37\" rel=\"nofollow\">Full Changelog</a> <a href=\"https://github.com/Jods-GH/AbilityTimeline/releases\" rel=\"nofollow\">Previous Releases</a></p>\n<ul>\n<li>make sure backdrop button has the correct size</li>\n<li>chore: Update toc to newest wow interface version (#110)<br>\nCo-authored-by: Jodsderechte <a href=\"mailto:39654549 Jodsderechte@users.noreply.github.com\" rel=\"nofollow\">39654549+Jodsderechte@users.noreply.github.com</a></li>\n</ul>\n",
     "screens": [
       {
         "path": "1476729.gif"
@@ -226,7 +233,7 @@
   {
     "id": 1364755,
     "name": "Pet Summoner",
-    "downloadCount": 1219,
+    "downloadCount": 1235,
     "summary": "Pet Summoner is a lightweight addon that automatically summons one of your chosen battle pets whenever none is currently active.",
     "latestVersion": "v1.1.5b",
     "dateModified": "2026-03-06T15:23:17.327Z",
