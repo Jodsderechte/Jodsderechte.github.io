@@ -567,6 +567,9 @@ msgstr "Categories"
 msgid "boss-encounters"
 msgstr "Boss Encounter"
 
+msgid "huds"
+msgstr "huds"
+
 msgid "buffs-debuffs"
 msgstr "Buffs & Debuffs"
 
@@ -1003,8 +1006,12 @@ msgstr ""
 msgid "ImageBy"
 msgstr "Image By"
 
-msgid "Improves upon blizzards Timeline"
-msgstr "Improves upon Blizzard's Timeline"
+msgid ""
+"Provides an improved version of the legendary Timeline across all "
+"gameversions."
+msgstr ""
+"Provides an improved version of the legendary Timeline across all "
+"gameversions."
 
 #. image: deathknight.png  color: #C41F3B
 msgid "cl6"
@@ -5661,3 +5668,15 @@ msgstr "Ruby Life Pools"
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s2-8"
 msgstr "Temple of Sethraliss"
+
+#. image: kiraui.png  color: #867473
+msgid "kirauiplugin0"
+msgstr "KiraUI Plugin"
+
+#. image: kiraui.png  color: #867473
+msgid "kirauiplugin1"
+msgstr "Profiles"
+
+#. image: kiraui.png  color: #867473
+msgid "kirauiplugin2"
+msgstr "Reminders"
