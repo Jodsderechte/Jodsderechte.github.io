@@ -438,6 +438,9 @@ msgstr "Kategorien"
 msgid "boss-encounters"
 msgstr "Boss‑Begegnung"
 
+msgid "huds"
+msgstr "huds"
+
 msgid "buffs-debuffs"
 msgstr "Buffs und Debuffs"
 
