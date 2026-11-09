@@ -815,5 +815,5 @@ msgstr "Im Laufe der Jahre habe ich viele verschiedene Projekte erstellt. Einige
 msgid "ImageBy"
 msgstr "Bild bereitgestellt von"
 
-msgid "Improves upon blizzards Timeline"
-msgstr "Verbesser die Blizzard Timeline"
+msgid "Provides an improved version of the legendary Timeline across all gameversions."
+msgstr "Beingt eine verbesserte Version der Blizzard Timeline in alle Spielversionen."

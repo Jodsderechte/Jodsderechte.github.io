@@ -805,8 +805,8 @@ msgstr "Over the Years I've created a lot of different Projects. A couple of sta
 msgid "ImageBy"
 msgstr "Image By"
 
-msgid "Improves upon blizzards Timeline"
-msgstr "Improves upon Blizzard's Timeline"
+msgid "Provides an improved version of the legendary Timeline across all gameversions."
+msgstr "Provides an improved version of the legendary Timeline across all gameversions."
 
 msgid ""
 msgstr ""
