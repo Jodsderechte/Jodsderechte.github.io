@@ -4667,3 +4667,15 @@ msgstr "Rubinlebensbecken"
 #. image: dungeon.png  color: #F5A623
 msgid "midnight-mdt-s2-8"
 msgstr "Der Tempel von Sethraliss"
+
+#. image: kiraui.png  color: #867473
+msgid "kirauiplugin0"
+msgstr "KiraUI Plugin"
+
+#. image: kiraui.png  color: #867473
+msgid "kirauiplugin1"
+msgstr "Profiles"
+
+#. image: kiraui.png  color: #867473
+msgid "kirauiplugin2"
+msgstr "Reminders"

@@ -8863,6 +8863,30 @@
       "de-DE": "Exterior"
     }
   },
+  "kirauiplugin0": {
+    "image": "kiraui.png",
+    "color": "#867473",
+    "label": {
+      "en-US": "KiraUI Plugin",
+      "de-DE": "KiraUI Plugin"
+    }
+  },
+  "kirauiplugin1": {
+    "image": "kiraui.png",
+    "color": "#867473",
+    "label": {
+      "en-US": "Profiles",
+      "de-DE": "Profiles"
+    }
+  },
+  "kirauiplugin2": {
+    "image": "kiraui.png",
+    "color": "#867473",
+    "label": {
+      "en-US": "Reminders",
+      "de-DE": "Reminders"
+    }
+  },
   "job-tank": {
     "image": "equipment.png",
     "color": "#7ED321",
