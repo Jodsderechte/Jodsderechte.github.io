@@ -313,20 +313,20 @@
                 <li>
                   <strong>Positive Bewertungen</strong>:&nbsp;0</li>
                 <li>
-                  <strong>Aktive Nutzer</strong>:&nbsp;184</li>
+                  <strong>Aktive Nutzer</strong>:&nbsp;88</li>
                 <li>
-                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="5280" data-purecounter-duration="1"
+                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="5521" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 
 
 
                 
-                <li><strong>Letzte Version</strong>: v1.2.1</li>
+                <li><strong>Letzte Version</strong>: v1.2.3a</li>
                 
                 
                 
-                <li><strong>Letztes Update</strong>: <time class="timeago"  datetime="2026-10-25T10:21:21.47Z"  data-locale="de"  title="2026-10-25T10:21:21.47Z">2026-10-25T10:21:21.47Z</time></li>
+                <li><strong>Letztes Update</strong>: <time class="timeago"  datetime="2026-11-13T20:24:22.09Z"  data-locale="de"  title="2026-11-13T20:24:22.09Z">2026-11-13T20:24:22.09Z</time></li>
                 
                 
                 
@@ -356,12 +356,10 @@
             <h2>Beschreibung und Änderungsprotokoll sind direkt vom Projekt importiert und daher nur in Englisch verfügbar.</h2>
             <p><strong>Änderungsprotokoll der letzten Version:</strong> </p>
             <p><em><h1>CustomNames</h1>
-<h2><a href="https://github.com/Jods-GH/CustomNames/tree/v1.2.1" rel="nofollow">v1.2.1</a> (2026-10-25)</h2>
-<p><a href="https://github.com/Jods-GH/CustomNames/compare/v1.2.0...v1.2.1" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/CustomNames/releases" rel="nofollow">Previous Releases</a></p>
+<h2><a href="https://github.com/Jods-GH/CustomNames/tree/v1.2.3a" rel="nofollow">v1.2.3a</a> (2026-11-13)</h2>
+<p><a href="https://github.com/Jods-GH/CustomNames/compare/v1.2.3...v1.2.3a" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/CustomNames/releases" rel="nofollow">Previous Releases</a></p>
 <ul>
-<li>make sure the players btag works correctly in the api</li>
-<li>make it possible to add chars to bnet using the ui</li>
-<li>chore: Update toc to newest wow interface version</li>
+<li>make sure dbs exist before loading it</li>
 </ul>
 </em></p>
             <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
@@ -376,6 +374,8 @@
 <li><a href="https://legacy.curseforge.com/wow/addons/customnames_mrt" rel="nofollow" target="_blank">MRT</a></li>
 <li><a href="https://www.curseforge.com/wow/addons/customnames_chat" rel="nofollow" target="_blank">Chat</a> Chat support</li>
 <li><a href="https://www.curseforge.com/wow/addons/customnames-guild" rel="nofollow" target="_blank">Guild</a> Guild tab support</li>
+<li><a href="https://www.curseforge.com/wow/addons/customnames-blizzard" rel="nofollow" target="_blank">Blizzard Unitframes</a></li>
+<li><a href="https://www.curseforge.com/wow/addons/customnames-blizzardnameplates" rel="nofollow" target="_blank">Blizzard Nameplates</a></li>
 <li><a href="https://www.curseforge.com/wow/addons/deadly-boss-mods" rel="nofollow" target="_blank">Dbm</a> works out of the box</li>
 <li><a href="https://www.curseforge.com/wow/addons/weakauras-2" rel="nofollow" target="_blank">WeakAuras</a> works out of the box</li>
 <li><a href="https://authors.curseforge.com/#/projects/867373/general" rel="nofollow" target="_blank">BetterFriendList</a> works out of the box</li>
@@ -386,7 +386,7 @@
 <pre><code>{func local player, combat = ...; local Lib = LibStub("CustomNames");local trans=LibStub("LibTranslit-1.0");return trans:Transliterate(Lib.Get(string.gsub(player.nome, "%-([A-Z][A-Z])$", ""))):find("-") and player.transliteratedName or trans:Transliterate(Lib.Get(string.gsub(player.nome, "%-([A-Z][A-Z])$", "")));}</code></pre>
 <p>this should replace data2 (player name) which in total would look like</p>
 <p>{data1}. {data3}{func local player, combat = …; local Lib = LibStub("CustomNames");local trans=LibStub("LibTranslit-1.0");return trans:Transliterate(Lib.Get(string.gsub(player.nome, "%-([A-Z][A-Z])$", ""))):find("-") and player.transliteratedName or trans:Transliterate(Lib.Get(string.gsub(player.nome, "%-([A-Z][A-Z])$", "")));}<br/>
-Note: Details will only work in classic versions not in Midnight and Forever due to blizzard api restrictions.  </p>
+Note: Details will only work in classic versions not in Midnight and Forever due to blizzard api restrictions.</p>
 <p>It also provides some easy to use slash command to let users add their own custom names if they choose to do so.</p>
 <p>CustomNames example usage: Adding a new name: /cn add Name to CustomName Editing name: /cn edit Name to CustomName Deleting old name: /cn del Name Listing every name: /cn l(ist)</p>
 <p>Standalone this doesn't do anything if the addon displaying the Name doesn't implement the usage of the provided functions.</p>

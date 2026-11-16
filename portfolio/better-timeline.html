@@ -331,22 +331,22 @@
                 <li>
                   <strong>Positive Bewertungen</strong>:&nbsp;0</li>
                 <li>
-                  <strong>Aktive Nutzer</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="19037" data-purecounter-duration="1"
+                  <strong>Aktive Nutzer</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="10694" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 <li>
-                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="666123" data-purecounter-duration="1"
+                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="680712" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 
 
 
                 
-                <li><strong>Letzte Version</strong>: v1.0.0</li>
+                <li><strong>Letzte Version</strong>: v1.0.1</li>
                 
                 
                 
-                <li><strong>Letztes Update</strong>: <time class="timeago"  datetime="2026-11-04T20:25:32.17Z"  data-locale="de"  title="2026-11-04T20:25:32.17Z">2026-11-04T20:25:32.17Z</time></li>
+                <li><strong>Letztes Update</strong>: <time class="timeago"  datetime="2026-11-14T07:21:24.867Z"  data-locale="de"  title="2026-11-14T07:21:24.867Z">2026-11-14T07:21:24.867Z</time></li>
                 
                 
                 
@@ -381,37 +381,67 @@
             <h2>Beschreibung und Änderungsprotokoll sind direkt vom Projekt importiert und daher nur in Englisch verfügbar.</h2>
             <p><strong>Änderungsprotokoll der letzten Version:</strong> </p>
             <p><em><h1>AbilityTimeline</h1>
-<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v1.0.0" rel="nofollow">v1.0.0</a> (2026-11-04)</h2>
-<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v0.38...v1.0.0" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
+<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v1.0.1" rel="nofollow">v1.0.1</a> (2026-11-14)</h2>
+<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v1.0.0...v1.0.1" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
 <ul>
-<li>make sure dropdown fonts never leak into ace framepool</li>
-<li>also skin profile window instead of relying on aceconfig</li>
-<li>auto close encounter journal when opening reminders editor</li>
-<li>auto fill reminder page across all game versions</li>
-<li>make sure theme preview shows animation on bar</li>
-<li>fix test timers on classic versions</li>
-<li>modernize Reminder editor</li>
-<li>move some more options to the new settings</li>
-<li>add a guided welcome tour</li>
-<li>make sure themes properly render the font after window is shown</li>
-<li>add useTimelineModule icon</li>
-<li>make sure editmode frames only show up while bosswarnings is checked</li>
-<li>rework settings Ui to be more user friendly and have a lot better UX</li>
-<li>adjust papercraft onshow animation to show a pencil outline</li>
-<li>properly set font back to normal if it was overwritten</li>
-<li>add missing shared glint and font credits</li>
-<li>add papercraft theme</li>
-<li>add weather themes that automatically adjust for time of day</li>
-<li>add theming and masque support</li>
-<li>switch position calculation to dynamic group inspired setup<br>
-this also adds sone specific limits closes # 23</li>
-<li>make it possible to use the blizzard timeline together with highlight text and bigicon<br>
-closes #29</li>
-<li>make it possible to disable the timeline itself and modify threshhold times</li>
-<li>add forever and wrath to toc</li>
-<li>add classic support<br>
-closes #38 also mentions #109</li>
-<li>disentangle en</li>
+<li>adjust BigIcon cooldown timer multiplier to a slider</li>
+<li>adjust sliders manual input to go above the end of the slider</li>
+<li>add different ways to display cooldown<br>
+Also make it possible to choose this on a per reminder/bosstimer basis</li>
+<li>make sure we don't push invalid local versions</li>
+<li>add version checking</li>
+<li>make sure highlight text preview is correctly showing color</li>
+<li>make sure the disabled warning shows up for invidual hover entries</li>
+<li>make sure break command works independently from bossmods</li>
+<li>add some debugging for toggle rendering</li>
+<li>make it possible reminders show up in disabled sections</li>
+<li>add a better way to choose text coloring<br>
+also closes # 112</li>
+<li>chore: update encounter and cooldown data for forever</li>
+<li>add cooldown editor to tour</li>
+<li>add timerrules making it possible to edit styles depending on time of an ability</li>
+<li>remove leftover textures</li>
+<li>Move theme options to their own settings page</li>
+<li>improve weather themes</li>
+<li>make sure the 5 sec glow on bliz theme looks correctly with a border</li>
+<li>remove queued glow from bliz theme</li>
+<li>adjust 5 second pulse for multiple themes</li>
+<li>make sure blizzard theme properly styles border</li>
+<li>add queued markers to non bliz themes</li>
+<li>make sure expiring timers don't get merged with queued timers for a milisecond</li>
+<li>make sure merged timers get proper animations<br>
+also improve theme media to not show unrelated media in dropdowns</li>
+<li>make sure copyframes are properly styled</li>
+<li>style settings correctly in blizzard theme</li>
+<li>move group and dialog frames to properly using ace widgets</li>
+<li>make it possible to merge in more sections instead of only the timeline</li>
+<li>refactor theme transitions to be located inside of theme files</li>
+<li>adjust papercraft window show animation</li>
+<li>fix animations sometimes being broken when the timeline is secret</li>
+<li>move roleicons in horizontal mode</li>
+<li>make sure we properly set eventcolor for themes</li>
+<li>add blizzard style theme</li>
+<li>make sure we don't fall back to the wrong background file for themes</li>
+<li>only register gw2 textures when the addon is actually loaded</li>
+<li>make sure guided tour properly explains reminders<br>
+also closes # 115</li>
+<li>make sure dropdowns always show selected values for fonts<br>
+also add default framestrata to bigicon</li>
+<li>remove EUIMinimap dependency</li>
+<li>add ellesmereui theme</li>
+<li>switch addon texture to use backgroundless logo</li>
+<li>rename Timings Editor to be more clear</li>
+<li>make sure importing and exporting reminder windows can not open at the same time</li>
+<li>reopen windows that were open after a reload</li>
+<li>adjust bosstimers warning if no bossmods are installed</li>
+<li>improve dropdowns</li>
+<li>make sure gw2 reminder text is readable</li>
+<li>make multiselect show proper preview</li>
+<li>add gw2 ui theme</li>
+<li>add elvui theme</li>
+<li>update logo</li>
+<li>add non retail options for version to issue template</li>
+<li>make sure themes exit animation gets properly applied during preview</li>
 </ul>
 </em></p>
             <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
@@ -436,7 +466,7 @@ closes #38 also mentions #109</li>
 <li>(optional) Integrated reminders that can be created directly from the Encounter Journal or imported directly from external tools like mrt or Viserio.</li>
 </ul>
 <p>And much more.</p>
-<p>To get started simply log into the game. You can see a preview in the edit mode or by clicking show test timers the settings (enter them using /at or via the button in the blizzard settings).</p>
+<p>To get started simply log into the game which will start a guided tour. Alternatively you can start it using /at tour. You can see a preview in the edit mode or by clicking show test timers the settings (enter them using /at or via the button in the blizzard settings).</p>
 <p><img alt="image" src="https://media.forgecdn.net/attachments/description/1365171/description_b696ea90-c85d-4dd5-aa4e-a46cae773eea.PNG"/></p>
             
           </div>
