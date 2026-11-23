@@ -6,7 +6,7 @@ from babel.dates import format_date
 from operator import itemgetter
 from generateIndexPage import make_env, load_json, MODS_METADATA_PATH, WAGO_METADATA_PATH, OTHER_PROJECTS_PATH
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urljoin
 import re
 import markdown  
 
@@ -14,45 +14,30 @@ TEMPLATE_PATH = os.path.join('Templates', 'portfolio-details.html')
 CATEGORY_LOOKUP_PATH = os.path.join('data', 'category_i18n_lookup.json')
 LOCALES_DIR = 'locales'
 
-BLACKLISTED_DOMAINS = {
-    'patreon.com',
-    'twitch.tv',
-    'discord.gg',
-    'img.shields.io',
-    'custom-icon-badges.demolab.com',
-    'badgen.net',
-    'zap-hosting.com',
-}
-
 WAGO_BASE_URL = "https://wago.io"
 
-def is_bad_url(url: str) -> bool:
-        try:
-            hostname = urlparse(url).hostname or ''
-        except Exception:
-            return False
-        # check if hostname ends with one of our blacklisted domains
-        return any(hostname == d or hostname.endswith('.' + d)
-                   for d in BLACKLISTED_DOMAINS)
 
 def strip_ads_filter(html: str) -> str:
+    """Remove description images/badges, preserving prose and text links."""
     soup = BeautifulSoup(html, 'html.parser')
+    # CurseForge sometimes splits a Markdown banner across HTML links instead
+    # of rendering an image. Only remove paragraphs consisting of that image.
+    for p in soup.find_all('p'):
+        if re.fullmatch(r'!\[[^\]]*\]\(.+\)', p.get_text().strip(), re.DOTALL):
+            p.decompose()
+
+    image_links = [a for a in soup.find_all('a') if a.find('img')]
+    for img in soup.find_all('img'):
+        img.decompose()
+    for a in image_links:
+        # Keep captions/text in mixed links, but remove empty badge wrappers.
+        if not a.get_text(strip=True) and not a.find(['svg', 'video', 'audio']):
+            a.decompose()
+
     for a in soup.find_all('a', href=True):
         href = a['href']
-        # if the <a>'s href is bad, kill it
-        if is_bad_url(href):
-            a.decompose()
-            continue
-
-        # otherwise, check any <img> inside it
-        img = a.find('img', src=True)
-        if img and is_bad_url(img['src']):
-            a.decompose()
-            continue
-        # links in wago description are relative, so we need to make them absolute
         if href.startswith('/') and not href.startswith('//'):
             a['href'] = urljoin(WAGO_BASE_URL, href)
-
     return str(soup)
 
 def load_text(path):
