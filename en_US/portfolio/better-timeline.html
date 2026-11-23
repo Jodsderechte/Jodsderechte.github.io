@@ -331,22 +331,22 @@
                 <li>
                   <strong>Favorites</strong>:&nbsp;0</li>
                 <li>
-                  <strong>Installs</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="10694" data-purecounter-duration="1"
+                  <strong>Installs</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="8252" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 <li>
-                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="680712" data-purecounter-duration="1"
+                  <strong>Downloads</strong>:&nbsp;<span data-purecounter-start="0" data-purecounter-end="697176" data-purecounter-duration="1"
                     class="purecounter">
                   </span></li>
                 
 
 
                 
-                <li><strong>Latest Version</strong>: v1.0.1</li>
+                <li><strong>Latest Version</strong>: v1.0.2</li>
                 
                 
                 
-                <li><strong>Last Release on:</strong>: <time class="timeago"  datetime="2026-11-14T07:21:24.867Z"  data-locale="en"  title="2026-11-14T07:21:24.867Z">2026-11-14T07:21:24.867Z</time></li>
+                <li><strong>Last Release on:</strong>: <time class="timeago"  datetime="2026-11-21T07:07:39.583Z"  data-locale="en"  title="2026-11-21T07:07:39.583Z">2026-11-21T07:07:39.583Z</time></li>
                 
                 
                 
@@ -381,67 +381,21 @@
             <h2>Description and Changelog are directly imported from the Project</h2>
             <p><strong>Changelog of the latest Version:</strong> </p>
             <p><em><h1>AbilityTimeline</h1>
-<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v1.0.1" rel="nofollow">v1.0.1</a> (2026-11-14)</h2>
-<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v1.0.0...v1.0.1" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
+<h2><a href="https://github.com/Jods-GH/AbilityTimeline/tree/v1.0.2" rel="nofollow">v1.0.2</a> (2026-11-18)</h2>
+<p><a href="https://github.com/Jods-GH/AbilityTimeline/compare/v1.0.1...v1.0.2" rel="nofollow">Full Changelog</a> <a href="https://github.com/Jods-GH/AbilityTimeline/releases" rel="nofollow">Previous Releases</a></p>
 <ul>
-<li>adjust BigIcon cooldown timer multiplier to a slider</li>
-<li>adjust sliders manual input to go above the end of the slider</li>
-<li>add different ways to display cooldown<br>
-Also make it possible to choose this on a per reminder/bosstimer basis</li>
-<li>make sure we don't push invalid local versions</li>
-<li>add version checking</li>
-<li>make sure highlight text preview is correctly showing color</li>
-<li>make sure the disabled warning shows up for invidual hover entries</li>
-<li>make sure break command works independently from bossmods</li>
-<li>add some debugging for toggle rendering</li>
-<li>make it possible reminders show up in disabled sections</li>
-<li>add a better way to choose text coloring<br>
-also closes # 112</li>
-<li>chore: update encounter and cooldown data for forever</li>
-<li>add cooldown editor to tour</li>
-<li>add timerrules making it possible to edit styles depending on time of an ability</li>
-<li>remove leftover textures</li>
-<li>Move theme options to their own settings page</li>
-<li>improve weather themes</li>
-<li>make sure the 5 sec glow on bliz theme looks correctly with a border</li>
-<li>remove queued glow from bliz theme</li>
-<li>adjust 5 second pulse for multiple themes</li>
-<li>make sure blizzard theme properly styles border</li>
-<li>add queued markers to non bliz themes</li>
-<li>make sure expiring timers don't get merged with queued timers for a milisecond</li>
-<li>make sure merged timers get proper animations<br>
-also improve theme media to not show unrelated media in dropdowns</li>
-<li>make sure copyframes are properly styled</li>
-<li>style settings correctly in blizzard theme</li>
-<li>move group and dialog frames to properly using ace widgets</li>
-<li>make it possible to merge in more sections instead of only the timeline</li>
-<li>refactor theme transitions to be located inside of theme files</li>
-<li>adjust papercraft window show animation</li>
-<li>fix animations sometimes being broken when the timeline is secret</li>
-<li>move roleicons in horizontal mode</li>
-<li>make sure we properly set eventcolor for themes</li>
-<li>add blizzard style theme</li>
-<li>make sure we don't fall back to the wrong background file for themes</li>
-<li>only register gw2 textures when the addon is actually loaded</li>
-<li>make sure guided tour properly explains reminders<br>
-also closes # 115</li>
-<li>make sure dropdowns always show selected values for fonts<br>
-also add default framestrata to bigicon</li>
-<li>remove EUIMinimap dependency</li>
-<li>add ellesmereui theme</li>
-<li>switch addon texture to use backgroundless logo</li>
-<li>rename Timings Editor to be more clear</li>
-<li>make sure importing and exporting reminder windows can not open at the same time</li>
-<li>reopen windows that were open after a reload</li>
-<li>adjust bosstimers warning if no bossmods are installed</li>
-<li>improve dropdowns</li>
-<li>make sure gw2 reminder text is readable</li>
-<li>make multiselect show proper preview</li>
-<li>add gw2 ui theme</li>
-<li>add elvui theme</li>
-<li>update logo</li>
-<li>add non retail options for version to issue template</li>
-<li>make sure themes exit animation gets properly applied during preview</li>
+<li>chore: update encounter and cooldown data (#120)</li>
+<li>remove exact build version from cooldown and encounter data</li>
+<li>make sure we don't accidentally read secret aspects</li>
+<li>add gamepad support to settings</li>
+<li>also swap non transparent logo to png<br>
+saves another 12mb of storage</li>
+<li>switch logo to use png instead of tga<br>
+this saves about 14mb of space (lossless conversion ftw)</li>
+<li>make it possible to disable text on icons<br>
+closes #43</li>
+<li>Make reminers difficulty specific</li>
+<li>make it possible to replay reminder encounters</li>
 </ul>
 </em></p>
             <!-- This is technically a security vulnerability as there could be malicious content in the description. However since i'm controlling the descriptions and wago has sophisticated security checks on top this should not be an issue-->
