@@ -34,7 +34,11 @@ def fetch_mod_info(project_id: int, api_key: str) -> dict:
     latest_version     = main_file.get('displayName') if main_file else None
     latest_release_date= main_file.get('fileDate')    if main_file else None
     installs           = main_file.get('downloadCount') if main_file else None
-    stars = data.get('ratingDetails', {}).get('positiveRatings', 0)
+    stars = max(
+        data.get('favoriteCount') or 0,
+        data.get('thumbsUpCount') or 0,
+        (data.get('ratingDetails') or {}).get('positiveRatings') or 0,
+    )
     categories = []
     for category in data.get('categories', []):
         category = category.get('slug', category.get('name', ''))
